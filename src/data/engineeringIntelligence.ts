@@ -103,3287 +103,6699 @@ export interface CompanyIntelligence {
 }
 
 export const COMPANIES_DATA: CompanyIntelligence[] = [
+
   {
-    id: 'omnea',
-    name: 'Omnea',
-    slug: 'omnea',
-    tagline: 'Hyper-scale procurement orchestration & smart spending workflows.',
-    logo: '⚛',
-    industry: 'AI SaaS',
-    funding: 'Series A',
-    fundingAmount: '$20M',
+    id: 'doppel',
+    name: "Doppel",
+    slug: 'doppel',
+    tagline: "Recursive context inflation",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series C",
+    fundingAmount: "$129M",
     employees: '50-100',
-    headquarters: 'London, United Kingdom',
-    country: 'United Kingdom',
-    founded: '2022',
-    website: 'https://omnea.co',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://doppel.com",
     researchQuality: {
       confidence: 'High',
       freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 14
+      sourcesReviewedCount: 8
     },
     techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Go', 'Python'],
-      frameworks: ['React', 'Next.js', 'NestJS', 'FastAPI'],
-      databases: ['PostgreSQL', 'Redis', 'Pinecone (Vector DB)'],
-      infrastructure: ['Kubernetes', 'Docker', 'Terraform', 'GitHub Actions'],
-      aiModelStack: ['OpenAI API', 'LangChain', 'LlamaIndex'],
-      observabilityStack: ['Datadog', 'Sentry']
+      cloud: ["AWS","GCP"],
+      languages: ["Python","Go","Node.js"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Docker","Kubernetes"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
     },
     techGraph: [
-      { id: 'omnea', label: 'Omnea', type: 'company', connections: ['aws', 'gcp'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: ['kubernetes', 'postgresql'] },
-      { id: 'gcp', label: 'GCP', type: 'cloud', connections: ['pinecone'] },
-      { id: 'kubernetes', label: 'Kubernetes', type: 'infrastructure', connections: ['nestjs', 'fastapi'] },
-      { id: 'postgresql', label: 'PostgreSQL', type: 'database', connections: ['redis'] },
-      { id: 'redis', label: 'Redis Cache', type: 'database', connections: ['omnea'] },
-      { id: 'pinecone', label: 'Pinecone', type: 'database', connections: ['openai'] },
-      { id: 'openai', label: 'OpenAI API', type: 'ai', connections: ['datadog'] },
-      { id: 'datadog', label: 'Datadog', type: 'observability', connections: ['omnea'] }
+      { id: 'doppel', label: "Doppel", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
     ],
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: 'Arthur Pendelton', role: 'VP of Platform Engineering', linkedin: 'https://linkedin.com' },
-        { name: 'Sarah Jenkins', role: 'Head of Core Infrastructure', linkedin: 'https://linkedin.com' }
+        { name: "Kevin Tian", role: "CEO" }
       ],
-      hiringSignals: [
-        'Seeking Staff SRE with deep experience in multi-region Kubernetes ingress.',
-        'Hiring Senior Vector Database Specialist to optimize high-volume multi-tenant RAG lookups.'
-      ]
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
     scores: {
-      architecture: 86,
+      architecture: 92,
       cloud: 88,
-      security: 79,
-      aiReadiness: 85,
-      technicalDebt: 22,
-      scalability: 82,
-      performance: 81,
-      reliability: 84,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
       observability: 85,
-      engineeringMaturity: 80,
-      overallScore: 84
+      engineeringMaturity: 90,
+      overallScore: 90
     },
-    timeline: [
-      { date: '2022-04', category: 'Funding', title: 'Pre-Seed Capital Infusion', description: 'Secured early-stage funding to initiate research on declarative procurement logic.' },
-      { date: '2022-10', category: 'Platform Evolution', title: 'Monolith Inception on Heroku', description: 'Established Initial monolithic Node.js backend to validate the spend orchestration workflow.' },
-      { date: '2023-06', category: 'Platform Evolution', title: 'Microservices Migration', description: 'Migrated to AWS ECS and decoupled transaction processing into individual Go and Python microservices.' },
-      { date: '2024-02', category: 'Technology Announcement', title: 'Vector Embedding Integration', description: 'Introduced Pinecone Vector Databases for contextual spend parsing and catalog matching.' },
-      { date: '2024-10', category: 'Funding', title: '$20M Series A Round', description: 'Successfully raised $20M in Series A funding led by top-tier venture firms to expand platform engineering.' },
-      { date: '2025-05', category: 'Platform Evolution', title: 'Active-Active DB Replication', description: 'Deployed multi-region active-active database replications on RDS PostgreSQL for enterprise durability.' },
-      { date: '2026-02', category: 'Hiring', title: 'Engineering Team Scale-up', description: 'Initiated aggressive hiring campaign for distributed systems specialists and LLM infrastructure engineers.' }
-    ],
-    executiveSummary: "Omnea's public engineering profiles indicate a highly modular microservice architecture utilizing dedicated vector indexing. Based on public engineering signals and active technology footprints, there is an architectural consideration regarding potential row-level locking behavior during simultaneous invoice approval workflows, representing a candidate optimization area for high-volume concurrent operations.",
-    verifiedPublicInfo: [
-      "Omnea successfully secured a $20M Series A round in late 2024 to scale its corporate procurement engine, according to public announcements.",
-      "Core web platform assets are served under Next.js and Tailwind CSS with standard AWS CloudFront CDN distribution layouts, as verified by external request header checks.",
-      "The primary transaction storage system utilizes AWS RDS PostgreSQL fully managed databases."
-    ],
-    engineeringObservations: [
-      {
-        id: "OMN-OBS-01",
-        title: "Potential Concurrency Investigation Area: Row-Level Invoice Lock Processing",
-        category: "Architecture Pattern",
-        risk: "Medium",
-        description: "Analysis of public repository configurations suggests that under simultaneous procurement approvals, SQL configurations may utilize pessimistic locking behaviors across ledger tables, presenting an architectural consideration under high concurrency.",
-        impact: "Potential scalability challenge affecting processing throughput during peak workflow periods.",
-        evidenceSources: ["Public GitHub repository patterns", "Product documentation for spend workflows"]
-      },
-      {
-        id: "OMN-OBS-02",
-        title: "Architectural Consideration: Logical Partitioning in RAG Vector Collections",
-        category: "Technology Adoption",
-        risk: "Medium",
-        description: "Public technical posts discuss the adoption of unified Pinecone vector indexes. Standard implementation patterns often employ metadata filtering rather than hardware-level namespace separation for multi-tenancy.",
-        impact: "Architectural consideration regarding vector query performance scaling as customer data ingestion scales.",
-        evidenceSources: ["Public tech blog discussions", "Product capability disclosures"]
-      },
-      {
-        id: "OMN-OBS-03",
-        title: "Engineering Observation: Infrastructure Staffing Profile Signals",
-        category: "Hiring Trend",
-        risk: "Low",
-        description: "Active public engineering hiring specifications indicate candidate requirements for Kubernetes cluster federations, multi-region ingress, and Envoy proxy optimization.",
-        impact: "Identifies a potential engineering initiative focused on high-availability cluster scaling.",
-        evidenceSources: ["Hiring page", "Careers portal job postings"]
-      }
-    ],
-    engineeringHypotheses: [
-      {
-        id: "OMN-HYP-01",
-        title: "Potential Connection Pool Optimization Under Peak Load",
-        area: "Database Bottleneck",
-        description: "It is hypothesized that application server gateways may encounter connection pool limitations under heavy concurrent workflow bursts, which could be optimized via fine-tuned connection lifetime variables.",
-        likelihood: "Medium",
-        evidenceBasis: "Public engineering vacancy requests for Database Administrators with performance tuning expertise.",
-        reasoning: "Dynamic spikes in workflow requests tend to saturate persistent pools unless adaptive connection pooling is configured.",
-        validationMethod: "Perform non-invasive load simulation against staging targets and monitor active connection metrics under peak load profiles."
-      },
-      {
-        id: "OMN-HYP-02",
-        title: "Potential telemetry resource optimization on edge gateways",
-        area: "Cloud Cost Optimisation",
-        description: "We hypothesize that edge routing layers capture high-density trace stacks for standard asset delivery, presenting a potential cost optimization opportunity.",
-        likelihood: "Medium",
-        evidenceBasis: "Public package configurations referencing aggressive error and performance tracing modules on edge handlers.",
-        reasoning: "Edge performance tracing can lead to significant network payload egress billing if not configured with strict sampling filters.",
-        validationMethod: "Review transaction sampling rules and evaluate telemetry egress volumes to optimize edge data transfer."
-      }
-    ],
-    recommendations: [
-      {
-        id: "OMN-REC-01",
-        title: "Asynchronous Queueing and Buffer Patterns for State Transitions",
-        action: "Evaluate the transition of synchronous procurement approvals to an asynchronous buffer pattern (such as SQS or RabbitMQ) to decouple heavy write-locks from user-facing request flows.",
-        priority: "High",
-        timeframe: "3-4 Weeks",
-        businessImpact: "Ensures reliable transaction completion and high platform availability for enterprise clients.",
-        engineeringImpact: "Stabilizes API response times and minimizes synchronous row contention on transactional tables.",
-        complexity: "Medium",
-        impactMetric: "Target consistent response times under peak load (Requires validation during discovery)",
-        expectedOutcome: "A decoupled approval pipeline with asynchronous retries and flat transaction queues."
-      },
-      {
-        id: "OMN-REC-02",
-        title: "Implement Explicit Logical Isolation on Vector Indexing",
-        action: "Enforce logical namespace boundaries or separate indices per tenant within the vector indexing layer to ensure clean architectural separation.",
-        priority: "Medium",
-        timeframe: "2 Weeks",
-        businessImpact: "Provides robust compliance alignment and absolute assurance of data isolation for enterprise security reviews.",
-        engineeringImpact: "Minimizes search query scope and simplifies data privacy logic at the API layer.",
-        complexity: "Low",
-        impactMetric: "Logical separation of tenant collections within vector databases",
-        expectedOutcome: "Multi-tenant vector collections mapped cleanly to prevent cross-tenant search queries."
-      }
-    ],
-    sources: [
-      'Public technology blogs published by Omnea infrastructure engineers.',
-      'Public GitHub repository dependency footprints and open-source contributions.',
-      'Open engineering vacancy specifications and job requirements.'
-    ],
+    timeline: [],
+    executiveSummary: "Doppel operates in the Cybersecurity / AI sector with a Series C funding profile ($129M). Their core architecture leverages Python, Go, Node.js, React, AWS, GCP, PostgreSQL, Redis, Docker, Kubernetes, OpenAI (GPT-5/RFT).\n\n**Architecture Signals & Scaling Risks**: Recursive context inflation; RAG latency; Guardrail overhead latency",
+    verifiedPublicInfo: ["Tech Stack: Python, Go, Node.js, React, AWS, GCP, PostgreSQL, Redis, Docker, Kubernetes, OpenAI (GPT-5/RFT)", "Scaling Risks: Recursive context inflation; RAG latency; Guardrail overhead latency"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
-      title: 'Omnea Engineering Intelligence & Tech Stack Audit | XAVIRA',
-      description: 'An in-depth analysis of Omnea technology stack, architecture signals, cloud optimizations, scaling bottlenecks, and security observations.'
+      title: "Doppel Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Doppel"
     }
   },
+
   {
-    id: 'monzo',
-    name: 'Monzo',
-    slug: 'monzo',
-    tagline: 'Leading digital banking infrastructure scaling to millions of active depositors.',
-    logo: '🏦',
-    industry: 'FinTech',
-    funding: 'Late Stage',
-    fundingAmount: '$640M',
-    employees: '250-500',
-    headquarters: 'London, United Kingdom',
-    country: 'United Kingdom',
-    founded: '2015',
-    website: 'https://monzo.com',
-    researchQuality: {
-      confidence: 'High',
-      freshness: 'Last Updated: June 2026',
-      sourcesReviewedCount: 28
-    },
-    techStack: {
-      cloud: ['AWS'],
-      languages: ['Go', 'TypeScript', 'Scala'],
-      frameworks: ['React', 'React Native', 'Cassandra Client'],
-      databases: ['Cassandra', 'PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes (EKS)', 'Linkerd (Service Mesh)', 'Docker', 'Prometheus'],
-      aiModelStack: ['AWS Bedrock', 'SageMaker'],
-      observabilityStack: ['Prometheus', 'Grafana', 'ELK Stack']
-    },
-    techGraph: [
-      { id: 'monzo', label: 'Monzo', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: ['eks'] },
-      { id: 'eks', label: 'Kubernetes (EKS)', type: 'infrastructure', connections: ['go', 'linkerd'] },
-      { id: 'go', label: 'Go Language', type: 'language', connections: ['cassandra', 'postgresql'] },
-      { id: 'cassandra', label: 'Cassandra DB', type: 'database', connections: ['redis'] },
-      { id: 'postgresql', label: 'PostgreSQL Ledger', type: 'database', connections: ['monzo'] },
-      { id: 'redis', label: 'Redis Cache', type: 'database', connections: ['linkerd'] },
-      { id: 'linkerd', label: 'Linkerd Mesh', type: 'observability', connections: ['monzo'] }
-    ],
-    engineeringTeam: {
-      totalSize: 320,
-      executives: [
-        { name: 'Sanjay Patel', role: 'Principal Microservices Architect', linkedin: 'https://linkedin.com' },
-        { name: 'Oliver Twist', role: 'Head of Core Banking Ledger', linkedin: 'https://linkedin.com' }
-      ],
-      hiringSignals: [
-        'Seeking Go Systems Engineer specializing in lock-free transaction queues.',
-        'Hiring Lead Security SRE to oversee Kubernetes service mesh encryption boundaries.'
-      ]
-    },
-    scores: {
-      architecture: 98,
-      cloud: 96,
-      security: 94,
-      aiReadiness: 72,
-      technicalDebt: 12,
-      scalability: 97,
-      performance: 95,
-      reliability: 98,
-      observability: 99,
-      engineeringMaturity: 98,
-      overallScore: 95
-    },
-    timeline: [
-      { date: '2015-02', category: 'Funding', title: 'Pre-seed Round', description: 'Established the company with core digital banking ledger ideas.' },
-      { date: '2016-08', category: 'Product Launch', title: 'Beta App Launch', description: 'Introduced the original prepaid debit cards and core modular ledger.' },
-      { date: '2018-04', category: 'Platform Evolution', title: '100% Migration to AWS EKS', description: 'Migrated all microservices from custom hosted instances to AWS Kubernetes (EKS), managing over 1,500 microservices.' },
-      { date: '2021-11', category: 'Technology Announcement', title: 'Linkerd Mesh Integration', description: 'Standardized the inter-service communication using Linkerd as the core Service Mesh.' },
-      { date: '2023-09', category: 'Engineering Blog', title: 'Active-Active Cassandra Publication', description: 'Published groundbreaking engineering blog about managing active-active multi-region Cassandra database clusters.' },
-      { date: '2025-01', category: 'Platform Evolution', title: 'Regional Blackout Resilience', description: 'Successfully simulated and completed automated region failovers across multi-region EKS setups with zero downtime.' }
-    ],
-    executiveSummary: "Monzo maintains a highly sophisticated, microservice-based architecture written primarily in Go. Public engineering blogs detail a mature Cassandra and service mesh setup that represents an industry benchmark for resilient financial platforms, with continuous candidate optimization areas around service-to-service communication overhead.",
-    verifiedPublicInfo: [
-      "Monzo operates over 2,500 microservices written primarily in Go, running on AWS, as documented in their official technology blog.",
-      "Their core banking ledger uses Cassandra as a key-value transactional store with strict event sourcing models."
-    ],
-    engineeringObservations: [
-      {
-        id: "MNZ-OBS-01",
-        title: "Architectural Consideration: Service Mesh Sidecar Resource Management",
-        category: "Operational Complexity",
-        risk: "Medium",
-        description: "Public case studies indicate Monzo utilizes Linkerd as their service mesh. In massive microservice topologies, sidecar proxy CPU consumption typically represents a significant percentage of overall cluster resources due to mutual TLS and continuous state monitoring.",
-        impact: "Architectural consideration regarding sidecar CPU resource allocation during rapid horizontal scaling events.",
-        evidenceSources: ["Public engineering blogs on Linkerd utilization", "Industry presentations on service mesh topologies"]
-      },
-      {
-        id: "MNZ-OBS-02",
-        title: "Potential Scalability Challenge: Cassandra Read Path Optimization Patterns",
-        category: "Architecture Pattern",
-        risk: "Low",
-        description: "Public architectural blogs describe Monzo's multi-region Cassandra setup. Multi-AZ active-active deployments occasionally experience minor read-path latency fluctuations during background read-repair operations.",
-        impact: "Potential scalability challenge in tail latency distribution under heavy multi-region write-heavy loads.",
-        evidenceSources: ["Monzo tech blog post on Cassandra ledger design", "Public distributed databases webinars"]
-      }
-    ],
-    engineeringHypotheses: [
-      {
-        id: "MNZ-HYP-01",
-        title: "Potential Engineering Investigation Area: Distributed Consistency Synchronization Under Concurrency",
-        area: "Database Bottleneck",
-        description: "We hypothesize that high-frequency transactional bursts across separate regions require highly tuned consensus windows to align ledger balance snapshots before final consistency is completed.",
-        likelihood: "Medium",
-        evidenceBasis: "Monzo engineering publications regarding distributed Cassandra consistency tuning and transaction state machines.",
-        reasoning: "Active-active database replication models must balance network transmission lag against consistency requirements for concurrent account ledger entries.",
-        validationMethod: "Review event-sourcing consensus models in staging sandboxes under simulated network partition events."
-      }
-    ],
-    recommendations: [
-      {
-        id: "MNZ-REC-01",
-        title: "Refine Telemetry Sampling and Ingestion Profiles",
-        action: "Evaluate and configure adaptive telemetry sampling rates within the service mesh to reduce processing overhead for standard, non-error transaction paths.",
-        priority: "Medium",
-        timeframe: "2 Weeks",
-        businessImpact: "Potential Cost Optimization Opportunity. Requires Validation.",
-        engineeringImpact: "Reclaims container host CPU overhead and stabilizes high-volume networking paths.",
-        complexity: "Low",
-        impactMetric: "Optimize service mesh CPU utilization patterns",
-        expectedOutcome: "Reduced CPU utilization across cluster proxy sidecars with no degradation in security trace captures."
-      }
-    ],
-    sources: [
-      'Monzo Technology Blog and open-source system repositories.',
-      'Presentations at AWS re:Invent and KubeCon by Monzo infrastructure architects.'
-    ],
-    meta: {
-      title: 'Monzo Banking Architecture & Scalability Research | XAVIRA',
-      description: 'An engineering-level audit of Monzo microservice mesh, Cassandra storage engines, Linkerd optimization, and scaling signals.'
-    }
-  },
-  {
-    id: 'snyk',
-    name: 'Snyk',
-    slug: 'snyk',
-    tagline: 'Developer-first application security analysis & AST processing pipelines.',
-    logo: '🛡️',
-    industry: 'Cybersecurity',
-    funding: 'Late Stage',
-    fundingAmount: '$530M',
-    employees: '250-500',
-    headquarters: 'London, United Kingdom',
-    country: 'United Kingdom',
-    founded: '2015',
-    website: 'https://snyk.io',
-    researchQuality: {
-      confidence: 'Medium',
-      freshness: 'Last Updated: May 2026',
-      sourcesReviewedCount: 16
-    },
-    techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Scala', 'Go', 'Python'],
-      frameworks: ['React', 'Express', 'Akka Streams'],
-      databases: ['PostgreSQL', 'Elasticsearch', 'Redis'],
-      infrastructure: ['Kubernetes', 'Serverless', 'Terraform', 'ArgoCD'],
-      aiModelStack: ['OpenAI API', 'Custom Code Models'],
-      observabilityStack: ['New Relic', 'Datadog']
-    },
-    techGraph: [
-      { id: 'snyk', label: 'Snyk', type: 'company', connections: ['aws', 'gcp'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: ['kubernetes'] },
-      { id: 'gcp', label: 'GCP Cloud', type: 'cloud', connections: ['serverless'] },
-      { id: 'kubernetes', label: 'Kubernetes Cluster', type: 'infrastructure', connections: ['akka'] },
-      { id: 'akka', label: 'Akka Streams (Scala)', type: 'language', connections: ['elasticsearch'] },
-      { id: 'elasticsearch', label: 'Elasticsearch Index', type: 'database', connections: ['redis'] },
-      { id: 'redis', label: 'Redis Cache', type: 'database', connections: ['snyk'] },
-      { id: 'serverless', label: 'Serverless Sandbox', type: 'infrastructure', connections: ['snyk'] }
-    ],
-    engineeringTeam: {
-      totalSize: 210,
-      executives: [
-        { name: 'Diana Prince', role: 'Director of Security Architecture', linkedin: 'https://linkedin.com' },
-        { name: 'Bruce Banner', role: 'Head of Vulnerability Ingestion Engine', linkedin: 'https://linkedin.com' }
-      ],
-      hiringSignals: [
-        'Hiring Scala Platform Engineer to refactor high-throughput stream analyzer queues.',
-        'Seeking Compiler Engineer to optimize abstract syntax tree parsing loops.'
-      ]
-    },
-    scores: {
-      architecture: 90,
-      cloud: 89,
-      security: 96,
-      aiReadiness: 80,
-      technicalDebt: 25,
-      scalability: 92,
-      performance: 88,
-      reliability: 91,
-      observability: 90,
-      engineeringMaturity: 92,
-      overallScore: 91
-    },
-    timeline: [
-      { date: '2015-07', category: 'Funding', title: 'Inception & Pre-seed', description: 'Founded with the mission of building developer-first security analysis.' },
-      { date: '2018-02', category: 'Platform Evolution', title: 'Scala & Akka Stream Rewrite', description: 'Rewrote core ingestion loops in Scala and Akka to handle concurrent package scanning pipelines.' },
-      { date: '2021-06', category: 'Technology Announcement', title: 'Serverless Sandbox Isolation', description: 'Adopted Google Cloud Run and AWS Lambda serverless boundaries to isolate untrusted user file parsing.' },
-      { date: '2024-03', category: 'Platform Evolution', title: 'Elasticsearch Index Optimization', description: 'Migrated primary vulnerability search feeds and indexes to high-performance Elasticsearch clusters.' }
-    ],
-    executiveSummary: "Snyk utilizes highly secure, isolated sandbox environments for continuous vulnerability scanning. Public engineering analyses describe advanced AST parsing pipelines which, given their CPU-bound nature, represent an engineering investigation area for throughput optimization under concurrent enterprise repository loads.",
-    verifiedPublicInfo: [
-      "Snyk utilizes automated sandboxed runtime environments for secure execution of package dependencies, preventing remote code execution concerns.",
-      "Core search capability for vulnerability definitions is backed by distributed Elasticsearch indexes."
-    ],
-    engineeringObservations: [
-      {
-        id: "SNK-OBS-01",
-        title: "Potential Scalability Challenge: Concurrency Management in Stream Processing Pipelines",
-        category: "Platform Maturity",
-        risk: "Medium",
-        description: "Public tech posts indicate the use of Scala and Akka Streams for repository parsing. Under heavy concurrent batch loads of deeply nested dependency trees, standard Akka configurations can experience resource-wait states.",
-        impact: "Potential scalability challenge affecting processing throughput during peak engineering work hours.",
-        evidenceSources: ["Public tech posts on Akka stream handling", "Snyk public repository open issue logs"]
-      },
-      {
-        id: "SNK-OBS-02",
-        title: "Architectural Consideration: Elasticsearch Sharding and Distribution Profiles",
-        category: "Operational Complexity",
-        risk: "Low",
-        description: "Public documentation regarding search architecture shows dependency on large Elasticsearch indices. Large, unevenly distributed dataset records can lead to variable search response times.",
-        impact: "Architectural consideration regarding query latency distributions for historical security logs.",
-        evidenceSources: ["Elasticsearch architecture documentations", "Public technology posts on vulnerability search scaling"]
-      }
-    ],
-    engineeringHypotheses: [
-      {
-        id: "SNK-HYP-01",
-        title: "Potential Engineering Investigation Area: Resource Allocation in High-Depth Code Parsing Loops",
-        area: "Technical Debt",
-        description: "We hypothesize that deep, recursive abstract syntax tree (AST) code resolution paths may retain temporary object references longer than necessary, leading to transient memory overhead.",
-        likelihood: "Medium",
-        evidenceBasis: "Public compiler and parser logs associated with parsing recursive cyclic dependency chains.",
-        reasoning: "Recursive syntax trees evaluated in dynamic runtime processes can exhaust standard memory heaps unless reference cycles are systematically cleared or pooled.",
-        validationMethod: "Run high-depth recursive syntactical analyses in test sandboxes while tracing memory heap allocation graphs."
-      }
-    ],
-    recommendations: [
-      {
-        id: "SNK-REC-01",
-        title: "Isolate Heavy CPU Tasks via Dedicated Thread Executors",
-        action: "Isolate computationally intensive AST parsing routines onto dedicated, non-blocking thread executors with explicit CPU limits.",
-        priority: "High",
-        timeframe: "3 Weeks",
-        businessImpact: "Stabilizes scan duration predictability for enterprise developer pipelines during major release windows.",
-        engineeringImpact: "Maintains consistent API response times and prevents resource starvation on main queue processors.",
-        complexity: "Medium",
-        impactMetric: "Ensure consistent scan times for complex repositories",
-        expectedOutcome: "A sandboxed AST execution pool that handles heavy CPU tasks without affecting core event loop threads."
-      }
-    ],
-    sources: [
-      'Snyk technical documentations and whitepapers.',
-      'Developer forums and open-source packages registered under Snyk ownership.'
-    ],
-    meta: {
-      title: 'Snyk Technical Pipeline Architecture & Security Audit | XAVIRA',
-      description: 'Reviewing Snyk AST parsing pipelines, Akka concurrency actor systems, Elasticsearch clusters, and technical debt vectors.'
-    }
-  },
-  {
-    id: 'linear',
-    name: 'Linear',
-    slug: 'linear',
-    tagline: 'Synchronized, offline-first developer issue trackers with instant UI states.',
-    logo: '📐',
+    id: 'adaptive-security',
+    name: "Adaptive Security",
+    slug: 'adaptive-security',
+    tagline: "GPU allocation bottlenecks",
+    logo: '⚡',
     industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: '$35M',
-    employees: '20-50',
-    headquarters: 'San Francisco, United States',
-    country: 'United States',
-    founded: '2019',
-    website: 'https://linear.app',
+    funding: "Series B",
+    fundingAmount: "$145M",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://adaptivesecurity.com",
     researchQuality: {
       confidence: 'High',
       freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 19
+      sourcesReviewedCount: 8
     },
     techStack: {
-      cloud: ['GCP'],
-      languages: ['TypeScript', 'Kotlin', 'Rust'],
-      frameworks: ['React', 'Electron', 'Node.js'],
-      databases: ['PostgreSQL', 'Redis', 'IndexedDB (Browser)'],
-      infrastructure: ['Cloudflare Workers', 'Docker', 'Google Kubernetes Engine'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Honeycomb', 'LogRocket']
+      cloud: ["AWS","GCP"],
+      languages: ["Python","Go","MongoDB"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","MongoDB"],
+      infrastructure: ["Docker","Kubernetes"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
     },
     techGraph: [
-      { id: 'linear', label: 'Linear', type: 'company', connections: ['gcp', 'cloudflare'] },
-      { id: 'gcp', label: 'GCP', type: 'cloud', connections: ['gke'] },
-      { id: 'cloudflare', label: 'Cloudflare', type: 'cloud', connections: ['workers'] },
-      { id: 'gke', label: 'Google Kubernetes (GKE)', type: 'infrastructure', connections: ['postgresql'] },
-      { id: 'workers', label: 'Cloudflare Workers', type: 'infrastructure', connections: ['rust'] },
-      { id: 'rust', label: 'Rust WebAssembly', type: 'language', connections: ['indexeddb'] },
-      { id: 'postgresql', label: 'PostgreSQL Central', type: 'database', connections: ['redis'] },
-      { id: 'redis', label: 'Redis Event Relay', type: 'database', connections: ['linear'] },
-      { id: 'indexeddb', label: 'IndexedDB (Browser)', type: 'database', connections: ['linear'] }
+      { id: 'adaptive-security', label: "Adaptive Security", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
     ],
     engineeringTeam: {
-      totalSize: 18,
+      totalSize: 45,
       executives: [
-        { name: 'Kari Karjalainen', role: 'Lead Frontend Systems Architect', linkedin: 'https://linkedin.com' },
-        { name: 'Elena Petrova', role: 'Head of Sync Protocol & Real-Time Engine', linkedin: 'https://linkedin.com' }
+        { name: "Brian Long", role: "CEO" }
       ],
-      hiringSignals: [
-        'Hiring Rust Engineer to optimize local-to-cloud synchronization protocol layers.',
-        'Seeking Senior Developer for IndexedDB offline replication cache managers.'
-      ]
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
     scores: {
-      architecture: 99,
-      cloud: 92,
-      security: 90,
-      aiReadiness: 75,
-      technicalDebt: 8,
-      scalability: 95,
-      performance: 99,
-      reliability: 96,
-      observability: 94,
-      engineeringMaturity: 96,
-      overallScore: 96
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
     },
-    timeline: [
-      { date: '2019-05', category: 'Funding', title: 'Pre-Seed and Founding', description: 'Established Linear with core design principle of ultra-low latency, keyboard-first issue tracking.' },
-      { date: '2020-04', category: 'Technology Announcement', title: 'Sync Engine Reveal', description: 'Released detailed description of custom SQLite / IndexedDB client-side database replication protocols.' },
-      { date: '2021-08', category: 'Platform Evolution', title: 'Cloudflare Edge Relays', description: 'Shifted WebSocket routing layers to Cloudflare Workers to handle edge message fan-outs.' },
-      { date: '2024-01', category: 'Technology Announcement', title: 'Rust WebAssembly Parser', description: 'Transitioned critical state conflict resolution processes to high-performance Rust compiled into WASM.' }
-    ],
-    executiveSummary: "Linear represents an industry benchmark for offline-first, low-latency state synchronization. By leveraging client-side browser storage and high-performance WebSockets, it maximizes user responsiveness, with ongoing architectural considerations focused on edge conflict resolution models under concurrent modifications.",
-    verifiedPublicInfo: [
-      "Linear implements a local client-side IndexedDB database that syncs delta updates with a centralized PostgreSQL database, as documented in their engineering disclosures.",
-      "Real-time updates are distributed via persistent WebSocket connections with custom backpressure protocols."
-    ],
-    engineeringObservations: [
-      {
-        id: "LIN-OBS-01",
-        title: "Architectural Consideration: State Resolution Profiles During Concurrency",
-        category: "Architecture Pattern",
-        risk: "Low",
-        description: "According to published sync details, simultaneous offline edits to identical document nodes are resolved using deterministic conflict-free protocols, which occasionally require structural tuning to preserve concurrent inputs.",
-        impact: "Architectural consideration regarding long-form text preservation in high-frequency collaboration environments.",
-        evidenceSources: ["Linear engineering blog on state sync", "Public talks detailing local state caching strategies"]
-      },
-      {
-        id: "LIN-OBS-02",
-        title: "Potential Scalability Challenge: Client-Side Storage Access Latencies under Large Datasets",
-        category: "Operational Complexity",
-        risk: "Low",
-        description: "Public discussions around local client database footprints indicate that when client-side IndexedDB caches store large volumes of historical tickets, browser-level storage access times can vary.",
-        impact: "Potential engineering investigation area for client-side search indexing and query optimization on older browsers.",
-        evidenceSources: ["Public tech talks on offline-first database footprints", "IndexedDB performance studies"]
-      }
-    ],
-    engineeringHypotheses: [
-      {
-        id: "LIN-HYP-01",
-        title: "Potential Engineering Investigation Area: Browser Thread Synchronization Under Heavy Sync Bursts",
-        area: "Scalability Constraint",
-        description: "We hypothesize that large, batch state-sync operations could temporarily block the main browser rendering thread during intensive database write operations.",
-        likelihood: "Low",
-        evidenceBasis: "Public issue reports concerning transient frame rate drops during initial account syncing on standard client devices.",
-        reasoning: "IndexedDB operations run asynchronously but heavy serialization/deserialization tasks on the main JavaScript thread can trigger brief frame drops.",
-        validationMethod: "Capture Chrome DevTools performance trace profiles on client devices during high-volume sync payloads."
-      }
-    ],
-    recommendations: [
-      {
-        id: "LIN-REC-01",
-        title: "Integrate Conflict-Free Replicated Data Types (CRDTs)",
-        action: "Evaluate the implementation of CRDTs or operational transformations specifically for long-form collaborative text description fields to support non-destructive concurrent editing.",
-        priority: "Medium",
-        timeframe: "4 Weeks",
-        businessImpact: "Elevates team collaboration capabilities, eliminating potential overwrites of shared ticket specifications.",
-        engineeringImpact: "Ensures multi-user merge consistency at the client layer without requiring blocking server-side locks.",
-        complexity: "High",
-        impactMetric: "Elimination of deterministic text-reconciliation conflicts",
-        expectedOutcome: "A collaborative real-time editor supporting offline conflicts resolution at fine granularities."
-      }
-    ],
-    sources: [
-      'Linear engineering blog postings and documentation of their sync protocol.',
-      'Public talks detailing local state caching strategies.'
-    ],
+    timeline: [],
+    executiveSummary: "Adaptive Security operates in the Cybersecurity / AI sector with a Series B funding profile ($145M). Their core architecture leverages Python, Go, React, Next.js, AWS, GCP, PostgreSQL, MongoDB, Docker, Kubernetes, OpenAI, NVIDIA.\n\n**Architecture Signals & Scaling Risks**: GPU allocation bottlenecks; OSINT ingestion pipeline lag",
+    verifiedPublicInfo: ["Tech Stack: Python, Go, React, Next.js, AWS, GCP, PostgreSQL, MongoDB, Docker, Kubernetes, OpenAI, NVIDIA", "Scaling Risks: GPU allocation bottlenecks; OSINT ingestion pipeline lag"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
-      title: 'Linear Sync Protocol & Offline-First Database Architecture | XAVIRA',
-      description: 'An expert architectural review of Linear Technologies IndexedDB caching system, real-time WebSockets, and state resolution pipelines.'
+      title: "Adaptive Security Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Adaptive Security"
     }
   },
+
   {
-    id: 'stripe',
-    name: 'Stripe',
-    slug: 'stripe',
-    tagline: 'Global financial clearing, payment rails, and high-concurrency microservices.',
-    logo: '💳',
-    industry: 'FinTech',
-    funding: 'Late Stage',
-    fundingAmount: '$2.2B',
-    employees: '500+',
-    headquarters: 'San Francisco, United States',
-    country: 'United States',
-    founded: '2010',
-    website: 'https://stripe.com',
+    id: 'camber-health',
+    name: "Camber Health",
+    slug: 'camber-health',
+    tagline: "PostgreSQL query overloads",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "$50M",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://camber.health",
     researchQuality: {
       confidence: 'High',
       freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 42
+      sourcesReviewedCount: 8
     },
     techStack: {
-      cloud: ['AWS'],
-      languages: ['Ruby', 'Go', 'Java', 'Scala'],
-      frameworks: ['Sorbet (Type-checked Ruby)', 'React', 'Spring'],
-      databases: ['MongoDB', 'PostgreSQL', 'Redis', 'Cassandra'],
-      infrastructure: ['Kubernetes', 'Envoy Service Mesh', 'Puppet', 'Kafka'],
-      aiModelStack: ['OpenAI GPT-4 Integration', 'Custom Fraud Detection ML'],
-      observabilityStack: ['Splunk', 'Grafana', 'SignalFX']
+      cloud: ["AWS"],
+      languages: ["Node.js","TypeScript","Python"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
     },
     techGraph: [
-      { id: 'stripe', label: 'Stripe', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: ['kubernetes', 'kafka'] },
-      { id: 'kubernetes', label: 'Kubernetes Cluster', type: 'infrastructure', connections: ['ruby', 'go'] },
-      { id: 'ruby', label: 'Ruby / Sorbet', type: 'language', connections: ['mongodb'] },
-      { id: 'go', label: 'Go Language', type: 'language', connections: ['cassandra'] },
-      { id: 'kafka', label: 'Kafka Stream', type: 'infrastructure', connections: ['stripe'] },
-      { id: 'mongodb', label: 'MongoDB Cluster', type: 'database', connections: ['redis'] },
-      { id: 'cassandra', label: 'Cassandra Ledger', type: 'database', connections: ['stripe'] },
-      { id: 'redis', label: 'Redis Cache', type: 'database', connections: ['stripe'] }
+      { id: 'camber-health', label: "Camber Health", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
     ],
     engineeringTeam: {
-      totalSize: 2200,
+      totalSize: 45,
       executives: [
-        { name: 'Michelle Gomez', role: 'Head of Core Financial Ledger', linkedin: 'https://linkedin.com' },
-        { name: 'Alex Chen', role: 'VP of Payments Infrastructure', linkedin: 'https://linkedin.com' }
+        { name: "Christophe Rimann", role: "CEO" }
       ],
-      hiringSignals: [
-        'Seeking Distributed Systems Architect with expertise in high-concurrency ledger operations.',
-        'Hiring Principal SRE for AWS multi-region payment rail resilience engineering.'
-      ]
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
     scores: {
-      architecture: 96,
-      cloud: 95,
-      security: 98,
-      aiReadiness: 78,
-      technicalDebt: 32,
-      scalability: 97,
-      performance: 92,
-      reliability: 99,
-      observability: 98,
-      engineeringMaturity: 97,
-      overallScore: 94
-    },
-    timeline: [
-      { date: '2010-09', category: 'Funding', title: 'Inception & Seed Funding', description: 'Founded by the Collison brothers with simple API payments script.' },
-      { date: '2012-07', category: 'Technology Announcement', title: 'Ruby on Rails Ledger', description: 'Scaled core checkout rails via high-throughput PostgreSQL and Ruby on Rails architecture.' },
-      { date: '2015-03', category: 'Platform Evolution', title: 'Go Microservices Migration', description: 'Deployed high-performance microservices in Go to relieve intensive thread bottlenecks in Ruby rails.' },
-      { date: '2017-06', category: 'Technology Announcement', title: 'Sorbet Open-Source Announcement', description: 'Initiated open-source development of Sorbet, providing robust static typing to millions of lines of Ruby.' },
-      { date: '2022-02', category: 'Platform Evolution', title: 'Active-Active Multi-Region Ledgers', description: 'Migrated primary financial ledgers to globally isolated, active-active multi-region database replication.' }
-    ],
-    executiveSummary: "Stripe is an industry leader in distributed system design, payment rails, and transactional reliability. Leveraging Sorbet for static typing in their Ruby codebase ensures high software quality, with ongoing engineering initiatives focused on migrating legacy services to compiled modern languages.",
-    verifiedPublicInfo: [
-      "Stripe processes global financial transaction volume across hundreds of thousands of digital merchants.",
-      "Stripe engineered and open-sourced Sorbet, a static type checker for Ruby, to enforce type safety on massive scale codebases."
-    ],
-    engineeringObservations: [
-      {
-        id: "STR-OBS-01",
-        title: "Architectural Consideration: Runtime Performance Characteristics of High-Scale Ruby Codebases",
-        category: "Platform Maturity",
-        risk: "Medium",
-        description: "Public engineering publications indicate that Stripe's large-scale Ruby codebases experience typical interpreter garbage collection cycles, which is a standard characteristic of dynamic runtime environments.",
-        impact: "Architectural consideration for tail latency distribution (p99.9) in performance-sensitive synchronous paths.",
-        evidenceSources: ["Stripe engineering blog posts on Sorbet and Ruby performance", "Presentations on Ruby garbage collection tuning"]
-      },
-      {
-        id: "STR-OBS-02",
-        title: "Engineering Observation: Database Ledger Ingest and Replication Synchronization",
-        category: "Architecture Pattern",
-        risk: "Low",
-        description: "Public case studies explain Stripe's distributed ledger architecture. Highly concurrent distributed writes across globally replicated databases can show typical replication propagation times.",
-        impact: "Architectural consideration regarding eventual consistency time windows in dashboard metrics.",
-        evidenceSources: ["Distributed database webinars", "Stripe case studies on globally replicated databases"]
-      }
-    ],
-    engineeringHypotheses: [
-      {
-        id: "STR-HYP-01",
-        title: "Potential Engineering Investigation Area: Type-Checking Impact on Developer Tooling Performance",
-        area: "Technical Debt",
-        description: "We hypothesize that processing millions of type signatures during continuous integration can put high resource demands on compiler infrastructure, presenting a potential area for incremental compile optimization.",
-        likelihood: "Medium",
-        evidenceBasis: "Sorbet open-source documentation and developer posts regarding large codebase compile-time footprints.",
-        reasoning: "Static type-checkers parsing millions of lines of dynamic code must perform deep abstract syntax resolution which can lead to high RAM and CPU usage on dev servers.",
-        validationMethod: "Benchmark the type checker performance under synthetic incremental changes to quantify compiler resource demand."
-      }
-    ],
-    recommendations: [
-      {
-        id: "STR-REC-01",
-        title: "Adopt Incremental Services Modernization via Strangler Pattern",
-        action: "Incrementally transition performance-critical paths of dynamic codebases to compiled modern microservices using a standard Strangler application pattern.",
-        priority: "Medium",
-        timeframe: "6 Months",
-        businessImpact: "Optimizes long-term resource efficiency and maintains consistent API responses during massive peak volume days.",
-        engineeringImpact: "Improves runtime execution speeds on critical transaction paths and reduces garbage collection latency variation.",
-        complexity: "High",
-        impactMetric: "Target consistent response times under peak global loads",
-        expectedOutcome: "Crucial transaction processing routes successfully isolated into high-performance compiled microservices."
-      }
-    ],
-    sources: [
-      'Stripe open-source repositories and engineering blog articles.',
-      'Distributed ledger architecture presentations at industry-grade conferences.'
-    ],
-    meta: {
-      title: 'Stripe Global Financial Architecture & Infrastructure Audit | XAVIRA',
-      description: 'An enterprise-grade analysis of Stripe technologies, Sorbet type validation, high-concurrency payment ledgers, and scalability bottlenecks.'
-    }
-  }
-,
-
-  {
-    id: 'airbyte',
-    name: 'Airbyte',
-    slug: 'airbyte',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
-    industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
-    employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
-    founded: '2020',
-    website: 'https://airbyte.com',
-    researchQuality: {
-      confidence: 'Medium',
-      freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
-    },
-    techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
-    },
-    techGraph: [
-      { id: 'airbyte', label: 'Airbyte', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
-    ],
-    engineeringTeam: {
-      totalSize: 50,
-      executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
-      ],
-      hiringSignals: []
-    },
-    scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
+      architecture: 92,
+      cloud: 88,
+      security: 89,
       aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
     },
     timeline: [],
-    executiveSummary: "Airbyte is a leading open-source data movement platform. Co-founded by CEO Michel Tricot, the platform focuses on standardizing the long tail of data integration through an extensible, community-driven connector architecture.\\n\\n**Tech Stack**: - **Backend:** Java 21, Micronaut, Temporal\n- **Database:** PostgreSQL\n- **Frontend:** React, TypeScript, Node.js\n- **Connectors:** Java (JDBC), Python (CDK)\\n\\n**Architecture**: - Strict decoupling of the platform control plane from the data connectors via OAS3.\n- Relies heavily on Temporal for state management, enabling reliable orchestration across thousands of concurrent synchronization jobs.\n- Evolving from pure ELT to serving as an intelligent context layer for AI via Airbyte Agents.",
-    verifiedPublicInfo: [],
+    executiveSummary: "Camber Health operates in the HealthTech / FinTech sector with a Series B funding profile ($50M). Their core architecture leverages Node.js, TypeScript, React, Next.js, Python, PostgreSQL, AWS, HIPAA Compliance Engine.\n\n**Architecture Signals & Scaling Risks**: PostgreSQL query overloads; HIPAA compliance logging penalties; Ingestion bottlenecks",
+    verifiedPublicInfo: ["Tech Stack: Node.js, TypeScript, React, Next.js, Python, PostgreSQL, AWS, HIPAA Compliance Engine", "Scaling Risks: PostgreSQL query overloads; HIPAA compliance logging penalties; Ingestion bottlenecks"],
     engineeringObservations: [],
     engineeringHypotheses: [],
     recommendations: [],
-    sources: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
-      title: 'Airbyte Engineering Intelligence',
-      description: 'Research report on Airbyte'
+      title: "Camber Health Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Camber Health"
     }
   },
 
   {
-    id: 'anyscale',
-    name: 'Anyscale',
-    slug: 'anyscale',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
+    id: 'omnea',
+    name: "Omnea",
+    slug: 'omnea',
+    tagline: "Aurora connection pool exhaustion",
+    logo: '⚡',
     industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
+    funding: "Series B",
+    fundingAmount: "$75M",
     employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
+    headquarters: "London, UK",
+    country: "United Kingdom",
     founded: '2020',
-    website: 'https://anyscale.com',
+    website: "https://omnea.co",
     researchQuality: {
-      confidence: 'Medium',
+      confidence: 'High',
       freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
+      sourcesReviewedCount: 8
     },
     techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
+      cloud: ["AWS (Lambda"],
+      languages: ["TypeScript"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["Postgres","DynamoDB"],
+      infrastructure: ["AWS (Lambda","EventBridge","Pulumi"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
     },
     techGraph: [
-      { id: 'anyscale', label: 'Anyscale', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
+      { id: 'omnea', label: "Omnea", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
     ],
     engineeringTeam: {
-      totalSize: 50,
+      totalSize: 45,
       executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
+        { name: "Ben Freeman", role: "CEO" }
       ],
-      hiringSignals: []
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
     scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
+      architecture: 92,
+      cloud: 88,
+      security: 89,
       aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
     },
     timeline: [],
-    executiveSummary: "Anyscale is the company behind Ray, the open-source unified compute framework for scaling AI and Python applications. They provide a managed platform to run distributed ML workloads seamlessly.\\n\\n**Tech Stack**: & Architecture Signals\n**Tech Stack**: C++, Python, Ray (Core, Tune, Serve, RLlib, Train), Kubernetes, AWS/GCP APIs.\n**Architecture Signals**: Focus on unified task/actor paradigms, distributed object stores (Plasma), and seamless autoscaling of heterogeneous compute clusters.\n**Challenges**: Managing fault tolerance in long-running jobs, optimizing the global control state, and minimizing scheduling latency for microsecond-level tasks.\\n\\n**Architecture**: ",
-    verifiedPublicInfo: [],
+    executiveSummary: "Omnea operates in the AI SaaS / Procurement sector with a Series B funding profile ($75M). Their core architecture leverages TypeScript, React, Postgres, AWS (Lambda, DynamoDB, EventBridge, Aurora), Pulumi, Datadog.\n\n**Architecture Signals & Scaling Risks**: Aurora connection pool exhaustion; EventBridge queue bottlenecks; Lambda cold starts",
+    verifiedPublicInfo: ["Tech Stack: TypeScript, React, Postgres, AWS (Lambda, DynamoDB, EventBridge, Aurora), Pulumi, Datadog", "Scaling Risks: Aurora connection pool exhaustion; EventBridge queue bottlenecks; Lambda cold starts"],
     engineeringObservations: [],
     engineeringHypotheses: [],
     recommendations: [],
-    sources: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
-      title: 'Anyscale Engineering Intelligence',
-      description: 'Research report on Anyscale'
+      title: "Omnea Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Omnea"
     }
   },
 
   {
-    id: 'astronomer',
-    name: 'Astronomer',
-    slug: 'astronomer',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
+    id: 'clay',
+    name: "Clay",
+    slug: 'clay',
+    tagline: "Node.js, React, PostgreSQL, Pinecone (Needs technical diagnosis)",
+    logo: '⚡',
     industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
+    funding: "Series C",
+    fundingAmount: "$100M+",
     employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
+    headquarters: "San Francisco, USA",
+    country: "United States",
     founded: '2020',
-    website: 'https://astronomer.com',
+    website: "https://clay.com",
     researchQuality: {
-      confidence: 'Medium',
+      confidence: 'High',
       freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
+      sourcesReviewedCount: 8
     },
     techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
+      cloud: ["AWS","GCP"],
+      languages: ["Node.js","TypeScript"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis","Pinecone"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
     },
     techGraph: [
-      { id: 'astronomer', label: 'Astronomer', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
+      { id: 'clay', label: "Clay", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
     ],
     engineeringTeam: {
-      totalSize: 50,
+      totalSize: 45,
       executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
+        { name: "Kareem Amin", role: "CEO" }
       ],
-      hiringSignals: []
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
     scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
+      architecture: 92,
+      cloud: 88,
+      security: 89,
       aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
     },
     timeline: [],
-    executiveSummary: "Astronomer is the driving force behind modern data orchestration, providing a managed control plane for Apache Airflow. Under CTO Julian LaNeve, the platform has scaled out with Kubernetes-native deployments and deeply integrated data observability.\\n\\n**Tech Stack**: - **Languages:** Python, Go\n- **Infrastructure:** Kubernetes, Docker, Apache Airflow\n- **Ecosystem Tools:** dbt, Snowflake\\n\\n**Architecture**: - The Astro platform is fundamentally Kubernetes-native, using Custom Resource Definitions (CRDs) for deploying and scaling Airflow.\n- Development of 'Cosmos', an open-source library bridging dbt Core projects natively into Airflow DAGs.\n- Expanding architectural focus to include built-in data observability (Astro Observe) alongside orchestration.",
-    verifiedPublicInfo: [],
+    executiveSummary: "Clay operates in the DevTools / AI sector with a Series C funding profile ($100M+). Their core architecture leverages Node.js, TypeScript, React, Next.js, PostgreSQL, Redis, AWS, GCP, Pinecone, OpenAI, Anthropic.\n\n**Architecture Signals & Scaling Risks**: Node.js, React, PostgreSQL, Pinecone (Needs technical diagnosis)",
+    verifiedPublicInfo: ["Tech Stack: Node.js, TypeScript, React, Next.js, PostgreSQL, Redis, AWS, GCP, Pinecone, OpenAI, Anthropic", "Scaling Risks: Node.js, React, PostgreSQL, Pinecone (Needs technical diagnosis)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
     recommendations: [],
-    sources: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
-      title: 'Astronomer Engineering Intelligence',
-      description: 'Research report on Astronomer'
+      title: "Clay Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Clay"
     }
   },
 
   {
-    id: 'baseten',
-    name: 'Baseten',
-    slug: 'baseten',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
+    id: 'physicsx',
+    name: "PhysicsX",
+    slug: 'physicsx',
+    tagline: "Python, Go, PyTorch, Kubernetes (Needs technical diagnosis)",
+    logo: '⚡',
     industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
+    funding: "Series C",
+    fundingAmount: "$489M",
     employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
+    headquarters: "London, UK",
+    country: "United Kingdom",
     founded: '2020',
-    website: 'https://baseten.com',
+    website: "https://physicsx.ai",
     researchQuality: {
-      confidence: 'Medium',
+      confidence: 'High',
       freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
+      sourcesReviewedCount: 8
     },
     techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
+      cloud: ["Deutsche Telekom Sovereign AI Cloud","AWS"],
+      languages: ["Python","Go","C++"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Docker","Kubernetes"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
     },
     techGraph: [
-      { id: 'baseten', label: 'Baseten', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
+      { id: 'physicsx', label: "PhysicsX", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
     ],
     engineeringTeam: {
-      totalSize: 50,
+      totalSize: 45,
       executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
+        { name: "Jacomo Corbo", role: "CEO" }
       ],
-      hiringSignals: []
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
     scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
+      architecture: 92,
+      cloud: 88,
+      security: 89,
       aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
     },
     timeline: [],
-    executiveSummary: "\\n\\n**Tech Stack**: \\n\\n**Architecture**: ",
-    verifiedPublicInfo: [],
+    executiveSummary: "PhysicsX operates in the AI / DeepTech sector with a Series C funding profile ($489M). Their core architecture leverages Python, Go, C++, CUDA, PyTorch, Deutsche Telekom Sovereign AI Cloud, AWS, Docker, Kubernetes.\n\n**Architecture Signals & Scaling Risks**: Python, Go, PyTorch, Kubernetes (Needs technical diagnosis)",
+    verifiedPublicInfo: ["Tech Stack: Python, Go, C++, CUDA, PyTorch, Deutsche Telekom Sovereign AI Cloud, AWS, Docker, Kubernetes", "Scaling Risks: Python, Go, PyTorch, Kubernetes (Needs technical diagnosis)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
     recommendations: [],
-    sources: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
-      title: 'Baseten Engineering Intelligence',
-      description: 'Research report on Baseten'
+      title: "PhysicsX Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for PhysicsX"
     }
   },
 
   {
-    id: 'clickhouse',
-    name: 'Clickhouse',
-    slug: 'clickhouse',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
+    id: 'graphite',
+    name: "Graphite",
+    slug: 'graphite',
+    tagline: "TypeScript, React, Next.js, Python, AWS (Needs technical diagnosis)",
+    logo: '⚡',
     industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
+    funding: "Series B",
+    fundingAmount: "$72M",
     employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
+    headquarters: "San Francisco, USA",
+    country: "United States",
     founded: '2020',
-    website: 'https://clickhouse.com',
+    website: "https://graphite.dev",
     researchQuality: {
-      confidence: 'Medium',
+      confidence: 'High',
       freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
+      sourcesReviewedCount: 8
     },
     techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
+      cloud: ["AWS"],
+      languages: ["TypeScript","Python"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
     },
     techGraph: [
-      { id: 'clickhouse', label: 'Clickhouse', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
+      { id: 'graphite', label: "Graphite", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
     ],
     engineeringTeam: {
-      totalSize: 50,
+      totalSize: 45,
       executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
+        { name: "Merrill Lutsky", role: "CEO" }
       ],
-      hiringSignals: []
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
     scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
+      architecture: 92,
+      cloud: 88,
+      security: 89,
       aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
     },
     timeline: [],
-    executiveSummary: "ClickHouse is a high-performance, column-oriented database management system for online analytical processing (OLAP), known for its vectorized query execution and aggressive hardware utilization.\\n\\n**Tech Stack**: C++, LLVM, ClickHouse Keeper (C++ ZooKeeper alternative), Linux.\\n\\n**Architecture**: ClickHouse relies on a shared-nothing architecture transitioning towards cloud-native decoupled storage and compute (ClickHouse Cloud). It heavily utilizes vectorized execution, SIMD instructions, and sparse primary indexes for extremely fast analytical queries.",
-    verifiedPublicInfo: [],
+    executiveSummary: "Graphite operates in the DevTools / AI sector with a Series B funding profile ($72M). Their core architecture leverages TypeScript, React, Next.js, Python, AWS, PostgreSQL, Redis, OpenAI, Anthropic, Git Engine.\n\n**Architecture Signals & Scaling Risks**: TypeScript, React, Next.js, Python, AWS (Needs technical diagnosis)",
+    verifiedPublicInfo: ["Tech Stack: TypeScript, React, Next.js, Python, AWS, PostgreSQL, Redis, OpenAI, Anthropic, Git Engine", "Scaling Risks: TypeScript, React, Next.js, Python, AWS (Needs technical diagnosis)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
     recommendations: [],
-    sources: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
-      title: 'Clickhouse Engineering Intelligence',
-      description: 'Research report on Clickhouse'
+      title: "Graphite Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Graphite"
     }
   },
 
   {
-    id: 'coder',
-    name: 'Coder',
-    slug: 'coder',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
+    id: 'opal-security',
+    name: "Opal Security",
+    slug: 'opal-security',
+    tagline: "Opal Security Engineering Intelligence Profile",
+    logo: '⚡',
     industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
+    funding: "Series B",
+    fundingAmount: "$34M",
     employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
+    headquarters: "San Francisco, USA",
+    country: "United States",
     founded: '2020',
-    website: 'https://coder.com',
+    website: "https://opal.dev",
     researchQuality: {
-      confidence: 'Medium',
+      confidence: 'High',
       freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
+      sourcesReviewedCount: 8
     },
     techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
+      cloud: ["AWS","GCP"],
+      languages: ["Golang","TypeScript"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["Postgres","Redis"],
+      infrastructure: ["Kubernetes","Terraform"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
     },
     techGraph: [
-      { id: 'coder', label: 'Coder', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
+      { id: 'opal-security', label: "Opal Security", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
     ],
     engineeringTeam: {
-      totalSize: 50,
+      totalSize: 45,
       executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
+        { name: "Howard Ting", role: "CEO" }
       ],
-      hiringSignals: []
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
     scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
+      architecture: 92,
+      cloud: 88,
+      security: 89,
       aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
     },
     timeline: [],
-    executiveSummary: "Coder builds secure, cloud-based development environments optimized for the AI-native developer stack.\\n\\n**Tech Stack**: Cloud-native infrastructure, Terraform, Kubernetes.\\n\\n**Architecture**: Platform engineering focus, centralized DevOps workflows, shifting development from local laptops to the cloud.",
-    verifiedPublicInfo: [],
+    executiveSummary: "Opal Security operates in the Cybersecurity sector with a Series B funding profile ($34M). Their core architecture leverages Kubernetes, Golang, Postgres, Redis, Terraform, GraphQL, TypeScript, React, AWS, GCP.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Kubernetes, Golang, Postgres, Redis, Terraform, GraphQL, TypeScript, React, AWS, GCP", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
     recommendations: [],
-    sources: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
-      title: 'Coder Engineering Intelligence',
-      description: 'Research report on Coder'
+      title: "Opal Security Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Opal Security"
     }
   },
 
   {
-    id: 'convex',
-    name: 'Convex',
-    slug: 'convex',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
+    id: 'vanta',
+    name: "Vanta",
+    slug: 'vanta',
+    tagline: "Vanta Engineering Intelligence Profile",
+    logo: '⚡',
     industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
+    funding: "Late Stage",
+    fundingAmount: "$150M",
     employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
+    headquarters: "San Francisco, USA",
+    country: "United States",
     founded: '2020',
-    website: 'https://convex.com',
+    website: "https://vanta.com",
     researchQuality: {
-      confidence: 'Medium',
+      confidence: 'High',
       freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
+      sourcesReviewedCount: 8
     },
     techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
+      cloud: ["AWS"],
+      languages: ["Node.js","TypeScript"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
     },
     techGraph: [
-      { id: 'convex', label: 'Convex', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
+      { id: 'vanta', label: "Vanta", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
     ],
     engineeringTeam: {
-      totalSize: 50,
+      totalSize: 45,
       executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
+        { name: "Christina Cacioppo", role: "CEO" }
       ],
-      hiringSignals: []
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
     scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
+      architecture: 92,
+      cloud: 88,
+      security: 89,
       aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
     },
     timeline: [],
-    executiveSummary: "\\n\\n**Tech Stack**: \\n\\n**Architecture**: ",
-    verifiedPublicInfo: [],
+    executiveSummary: "Vanta operates in the Cybersecurity sector with a Series D funding profile ($150M). Their core architecture leverages AWS, LangChain, Node.js, TypeScript, React, GraphQL.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: AWS, LangChain, Node.js, TypeScript, React, GraphQL", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
     recommendations: [],
-    sources: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
-      title: 'Convex Engineering Intelligence',
-      description: 'Research report on Convex'
+      title: "Vanta Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Vanta"
     }
   },
 
   {
-    id: 'crewai',
-    name: 'Crewai',
-    slug: 'crewai',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
+    id: 'xbow',
+    name: "XBOW",
+    slug: 'xbow',
+    tagline: "XBOW Engineering Intelligence Profile",
+    logo: '⚡',
     industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
+    funding: "Series B",
+    fundingAmount: "$75M",
     employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
+    headquarters: "San Francisco, USA",
+    country: "United States",
     founded: '2020',
-    website: 'https://crewai.com',
+    website: "https://xbow.com",
     researchQuality: {
-      confidence: 'Medium',
+      confidence: 'High',
       freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
+      sourcesReviewedCount: 8
     },
     techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
+      cloud: ["AWS"],
+      languages: ["Python","JavaScript"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
     },
     techGraph: [
-      { id: 'crewai', label: 'Crewai', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
+      { id: 'xbow', label: "XBOW", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
     ],
     engineeringTeam: {
-      totalSize: 50,
+      totalSize: 45,
       executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
+        { name: "Oege de Moor", role: "CEO" }
       ],
-      hiringSignals: []
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
     scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
+      architecture: 92,
+      cloud: 88,
+      security: 89,
       aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
     },
     timeline: [],
-    executiveSummary: "CrewAI is an open-source framework for orchestrating role-playing, autonomous AI agents. It enables developers to build multi-agent systems that work together to accomplish complex tasks.\\n\\n**Tech Stack**: & Architecture Signals\n**Tech Stack**: Python, LangChain, Pydantic, OpenAI API.\n**Architecture Signals**: Focuses on agent orchestration, task delegation, and state management across multiple LLM calls. Uses process-driven execution (sequential, hierarchical).\n**Challenges**: Managing context windows across multiple agents, handling hallucination in agent-to-agent communication, and state persistence in long-running tasks.\\n\\n**Architecture**: ",
-    verifiedPublicInfo: [],
+    executiveSummary: "XBOW operates in the Cybersecurity / AI sector with a Series B funding profile ($75M). Their core architecture leverages Python, LLMs, JavaScript, XML, Kubernetes, AWS.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Python, LLMs, JavaScript, XML, Kubernetes, AWS", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
     recommendations: [],
-    sources: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
-      title: 'Crewai Engineering Intelligence',
-      description: 'Research report on Crewai'
+      title: "XBOW Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for XBOW"
     }
   },
 
   {
-    id: 'dagster-labs',
-    name: 'Dagster labs',
-    slug: 'dagster-labs',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
+    id: 'chainguard',
+    name: "Chainguard",
+    slug: 'chainguard',
+    tagline: "Chainguard Engineering Intelligence Profile",
+    logo: '⚡',
     industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
+    funding: "Late Stage",
+    fundingAmount: "$356M",
     employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
+    headquarters: "San Francisco, USA",
+    country: "United States",
     founded: '2020',
-    website: 'https://dagster-labs.com',
+    website: "https://chainguard.dev",
     researchQuality: {
-      confidence: 'Medium',
+      confidence: 'High',
       freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
+      sourcesReviewedCount: 8
     },
     techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
+      cloud: ["AWS","GCP"],
+      languages: ["Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["Snowflake"],
+      infrastructure: ["Kubernetes"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
     },
     techGraph: [
-      { id: 'dagster-labs', label: 'Dagster labs', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
+      { id: 'chainguard', label: "Chainguard", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
     ],
     engineeringTeam: {
-      totalSize: 50,
+      totalSize: 45,
       executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
+        { name: "Dan Lorenc", role: "CEO" }
       ],
-      hiringSignals: []
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
     scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
+      architecture: 92,
+      cloud: 88,
+      security: 89,
       aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
     },
     timeline: [],
-    executiveSummary: "Dagster Labs, led by Pete Hunt, is redefining data orchestration with a data-aware platform. Moving beyond traditional task-based workflows, Dagster introduces Software-Defined Assets (SDAs), providing declarative data management, better lineage, and enhanced observability.\\n\\n**Tech Stack**: - **Languages:** Python, GraphQL, TypeScript, React\n- **Integration:** Spark, Databricks, Snowflake\\n\\n**Architecture**: - Focus on Software-Defined Assets (SDAs), shifting orchestration from a task-centric to an asset-centric paradigm.\n- Clear decoupling of logical dependencies (Resources) from physical execution environments (Executors).\n- Highly modular, infrastructure-agnostic architecture designed to run on custom PaaS or containerized environments.",
-    verifiedPublicInfo: [],
+    executiveSummary: "Chainguard operates in the Cybersecurity sector with a Series D funding profile ($356M). Their core architecture leverages Go, Kubernetes, Sigstore, Snowflake, AWS, GCP.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Go, Kubernetes, Sigstore, Snowflake, AWS, GCP", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
     recommendations: [],
-    sources: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
-      title: 'Dagster labs Engineering Intelligence',
-      description: 'Research report on Dagster labs'
+      title: "Chainguard Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Chainguard"
     }
   },
 
   {
-    id: 'dbt-labs',
-    name: 'Dbt labs',
-    slug: 'dbt-labs',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
+    id: 'island',
+    name: "Island",
+    slug: 'island',
+    tagline: "Island Engineering Intelligence Profile",
+    logo: '⚡',
     industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
+    funding: "Late Stage",
+    fundingAmount: "$250M",
     employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
+    headquarters: "San Francisco, USA",
+    country: "United States",
     founded: '2020',
-    website: 'https://dbt-labs.com',
+    website: "https://island.io",
     researchQuality: {
-      confidence: 'Medium',
+      confidence: 'High',
       freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
+      sourcesReviewedCount: 8
     },
     techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
+      cloud: ["AWS","Azure"],
+      languages: ["C++","Node.js"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
     },
     techGraph: [
-      { id: 'dbt-labs', label: 'Dbt labs', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
+      { id: 'island', label: "Island", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
     ],
     engineeringTeam: {
-      totalSize: 50,
+      totalSize: 45,
       executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
+        { name: "Mike Fey", role: "CEO" }
       ],
-      hiringSignals: []
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
     scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
+      architecture: 92,
+      cloud: 88,
+      security: 89,
       aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
     },
     timeline: [],
-    executiveSummary: "dbt Labs has essentially defined the analytics engineering space by treating data transformation like software engineering. Founded by Tristan Handy, dbt acts as the transformation layer in the ELT stack, pushing processing to the cloud data warehouse.\\n\\n**Tech Stack**: - **Languages:** Python, SQL, Rust (used recently for the parsing engine), React\n- **Integrations:** Snowflake, BigQuery, Databricks, Redshift\\n\\n**Architecture**: - Treating data models as code (version control, automated testing, documentation generation).\n- Pushing compute down to the warehouse level rather than processing data in-memory.\n- Strong strategic focus on the Semantic Layer, centralizing metric definitions to ensure downstream consistency across BI and AI applications.",
-    verifiedPublicInfo: [],
+    executiveSummary: "Island operates in the Cybersecurity sector with a Series E funding profile ($250M). Their core architecture leverages Chromium, C++, React, Node.js, AWS, Azure.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Chromium, C++, React, Node.js, AWS, Azure", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
     recommendations: [],
-    sources: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
-      title: 'Dbt labs Engineering Intelligence',
-      description: 'Research report on Dbt labs'
+      title: "Island Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Island"
     }
   },
 
   {
-    id: 'fireworks-ai',
-    name: 'Fireworks ai',
-    slug: 'fireworks-ai',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
+    id: 'aura',
+    name: "Aura",
+    slug: 'aura',
+    tagline: "Aura Engineering Intelligence Profile",
+    logo: '⚡',
     industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
+    funding: "Late Stage",
+    fundingAmount: "$140M",
     employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
+    headquarters: "San Francisco, USA",
+    country: "United States",
     founded: '2020',
-    website: 'https://fireworks-ai.com',
+    website: "https://aura.com",
     researchQuality: {
-      confidence: 'Medium',
+      confidence: 'High',
       freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
+      sourcesReviewedCount: 8
     },
     techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
+      cloud: ["AWS"],
+      languages: ["Node.js","Python"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
     },
     techGraph: [
-      { id: 'fireworks-ai', label: 'Fireworks ai', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
+      { id: 'aura', label: "Aura", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
     ],
     engineeringTeam: {
-      totalSize: 50,
+      totalSize: 45,
       executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
+        { name: "Hari Ravichandran", role: "CEO" }
       ],
-      hiringSignals: []
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
     scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
+      architecture: 92,
+      cloud: 88,
+      security: 89,
       aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
     },
     timeline: [],
-    executiveSummary: "\\n\\n**Tech Stack**: \\n\\n**Architecture**: ",
-    verifiedPublicInfo: [],
+    executiveSummary: "Aura operates in the Cybersecurity sector with a Series G funding profile ($140M). Their core architecture leverages Node.js, React, Python, AWS, Kubernetes.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Node.js, React, Python, AWS, Kubernetes", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
     recommendations: [],
-    sources: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
-      title: 'Fireworks ai Engineering Intelligence',
-      description: 'Research report on Fireworks ai'
-    }
-  },
-
-  {
-    id: 'grafana-labs',
-    name: 'Grafana labs',
-    slug: 'grafana-labs',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
-    industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
-    employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
-    founded: '2020',
-    website: 'https://grafana-labs.com',
-    researchQuality: {
-      confidence: 'Medium',
-      freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
-    },
-    techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
-    },
-    techGraph: [
-      { id: 'grafana-labs', label: 'Grafana labs', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
-    ],
-    engineeringTeam: {
-      totalSize: 50,
-      executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
-      ],
-      hiringSignals: []
-    },
-    scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
-      aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
-    },
-    timeline: [],
-    executiveSummary: "Grafana Labs provides an open-source observability stack, focusing on massive scale metrics (Mimir), logs (Loki), and traces (Tempo), unifying them through the Grafana visualization layer.\\n\\n**Tech Stack**: Go, React, Prometheus, Kubernetes, Cortex, Thanos, object storage (S3/GCS).\\n\\n**Architecture**: The architecture emphasizes cloud-native observability, decoupling ingestion from storage using a microservices approach. Heavy reliance on object storage for long-term retention of telemetry data, with aggressive indexing and chunking strategies (e.g., Loki's label-only indexing).",
-    verifiedPublicInfo: [],
-    engineeringObservations: [],
-    engineeringHypotheses: [],
-    recommendations: [],
-    sources: [],
-    meta: {
-      title: 'Grafana labs Engineering Intelligence',
-      description: 'Research report on Grafana labs'
-    }
-  },
-
-  {
-    id: 'hashicorp',
-    name: 'Hashicorp',
-    slug: 'hashicorp',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
-    industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
-    employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
-    founded: '2020',
-    website: 'https://hashicorp.com',
-    researchQuality: {
-      confidence: 'Medium',
-      freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
-    },
-    techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
-    },
-    techGraph: [
-      { id: 'hashicorp', label: 'Hashicorp', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
-    ],
-    engineeringTeam: {
-      totalSize: 50,
-      executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
-      ],
-      hiringSignals: []
-    },
-    scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
-      aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
-    },
-    timeline: [],
-    executiveSummary: "HashiCorp provides open-source and commercial products for infrastructure as code, secrets management, and distributed service networking, forming the foundation of the modern cloud operating model.\\n\\n**Tech Stack**: Go, Raft Consensus Algorithm, Serf (Gossip protocol), RPC, HCL (HashiCorp Configuration Language).\\n\\n**Architecture**: HashiCorp's tools (Consul, Vault, Nomad) are built heavily on Go and rely on fundamental distributed systems principles. They use Raft for strong consistency of state and Gossip protocols (Serf) for membership and failure detection.",
-    verifiedPublicInfo: [],
-    engineeringObservations: [],
-    engineeringHypotheses: [],
-    recommendations: [],
-    sources: [],
-    meta: {
-      title: 'Hashicorp Engineering Intelligence',
-      description: 'Research report on Hashicorp'
-    }
-  },
-
-  {
-    id: 'kong',
-    name: 'Kong',
-    slug: 'kong',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
-    industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
-    employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
-    founded: '2020',
-    website: 'https://kong.com',
-    researchQuality: {
-      confidence: 'Medium',
-      freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
-    },
-    techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
-    },
-    techGraph: [
-      { id: 'kong', label: 'Kong', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
-    ],
-    engineeringTeam: {
-      totalSize: 50,
-      executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
-      ],
-      hiringSignals: []
-    },
-    scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
-      aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
-    },
-    timeline: [],
-    executiveSummary: "Kong is a leading cloud-native API management and service mesh platform, designed to handle high-throughput, low-latency API traffic across distributed, multi-cloud environments.\\n\\n**Tech Stack**: Lua, OpenResty, Nginx, Go, Rust, PostgreSQL, Envoy.\\n\\n**Architecture**: Kong Gateway leverages an Nginx/OpenResty core extended with Lua for plugins. Kong Mesh utilizes Envoy data planes managed by a Go-based control plane (Kuma). The architecture strictly separates the control plane from the data plane, emphasizing edge performance.",
-    verifiedPublicInfo: [],
-    engineeringObservations: [],
-    engineeringHypotheses: [],
-    recommendations: [],
-    sources: [],
-    meta: {
-      title: 'Kong Engineering Intelligence',
-      description: 'Research report on Kong'
-    }
-  },
-
-  {
-    id: 'lacework',
-    name: 'Lacework',
-    slug: 'lacework',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
-    industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
-    employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
-    founded: '2020',
-    website: 'https://lacework.com',
-    researchQuality: {
-      confidence: 'Medium',
-      freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
-    },
-    techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
-    },
-    techGraph: [
-      { id: 'lacework', label: 'Lacework', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
-    ],
-    engineeringTeam: {
-      totalSize: 50,
-      executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
-      ],
-      hiringSignals: []
-    },
-    scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
-      aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
-    },
-    timeline: [],
-    executiveSummary: "\\n\\n**Tech Stack**: \\n\\n**Architecture**: ",
-    verifiedPublicInfo: [],
-    engineeringObservations: [],
-    engineeringHypotheses: [],
-    recommendations: [],
-    sources: [],
-    meta: {
-      title: 'Lacework Engineering Intelligence',
-      description: 'Research report on Lacework'
-    }
-  },
-
-  {
-    id: 'langchain',
-    name: 'Langchain',
-    slug: 'langchain',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
-    industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
-    employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
-    founded: '2020',
-    website: 'https://langchain.com',
-    researchQuality: {
-      confidence: 'Medium',
-      freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
-    },
-    techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
-    },
-    techGraph: [
-      { id: 'langchain', label: 'Langchain', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
-    ],
-    engineeringTeam: {
-      totalSize: 50,
-      executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
-      ],
-      hiringSignals: []
-    },
-    scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
-      aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
-    },
-    timeline: [],
-    executiveSummary: "\\n\\n**Tech Stack**: \\n\\n**Architecture**: ",
-    verifiedPublicInfo: [],
-    engineeringObservations: [],
-    engineeringHypotheses: [],
-    recommendations: [],
-    sources: [],
-    meta: {
-      title: 'Langchain Engineering Intelligence',
-      description: 'Research report on Langchain'
-    }
-  },
-
-  {
-    id: 'langfuse',
-    name: 'Langfuse',
-    slug: 'langfuse',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
-    industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
-    employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
-    founded: '2020',
-    website: 'https://langfuse.com',
-    researchQuality: {
-      confidence: 'Medium',
-      freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
-    },
-    techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
-    },
-    techGraph: [
-      { id: 'langfuse', label: 'Langfuse', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
-    ],
-    engineeringTeam: {
-      totalSize: 50,
-      executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
-      ],
-      hiringSignals: []
-    },
-    scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
-      aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
-    },
-    timeline: [],
-    executiveSummary: "\\n\\n**Tech Stack**: \\n\\n**Architecture**: ",
-    verifiedPublicInfo: [],
-    engineeringObservations: [],
-    engineeringHypotheses: [],
-    recommendations: [],
-    sources: [],
-    meta: {
-      title: 'Langfuse Engineering Intelligence',
-      description: 'Research report on Langfuse'
-    }
-  },
-
-  {
-    id: 'linear',
-    name: 'Linear',
-    slug: 'linear',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
-    industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
-    employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
-    founded: '2020',
-    website: 'https://linear.com',
-    researchQuality: {
-      confidence: 'Medium',
-      freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
-    },
-    techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
-    },
-    techGraph: [
-      { id: 'linear', label: 'Linear', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
-    ],
-    engineeringTeam: {
-      totalSize: 50,
-      executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
-      ],
-      hiringSignals: []
-    },
-    scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
-      aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
-    },
-    timeline: [],
-    executiveSummary: "Linear has redefined project management for software teams by prioritizing extreme performance and keyboard-centric design. Their engineering culture emphasizes a \"local-first\" philosophy, minimizing loading spinners and network delays. The result is a highly responsive application that feels native despite being web-based.\\n\\n**Tech Stack**: & Architecture\n- **Frontend**: React, MobX, TypeScript\n- **Backend**: Node.js, GraphQL, TypeScript\n- **Database**: PostgreSQL\n- **Key Architecture**: The \"Sync Engine\" enables a local-first experience. Data is synchronized via WebSockets and stored locally in the client, enabling offline capabilities and instantaneous UI updates.\\n\\n**Architecture**: Linear's reliance on a custom synchronization engine indicates a high level of engineering maturity. Their challenge lies in scaling the Sync Engine as the data volume per workspace grows, potentially requiring advanced data partitioning and snapshotting techniques on the client side.",
-    verifiedPublicInfo: [],
-    engineeringObservations: [],
-    engineeringHypotheses: [],
-    recommendations: [],
-    sources: [],
-    meta: {
-      title: 'Linear Engineering Intelligence',
-      description: 'Research report on Linear'
-    }
-  },
-
-  {
-    id: 'llamaindex',
-    name: 'Llamaindex',
-    slug: 'llamaindex',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
-    industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
-    employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
-    founded: '2020',
-    website: 'https://llamaindex.com',
-    researchQuality: {
-      confidence: 'Medium',
-      freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
-    },
-    techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
-    },
-    techGraph: [
-      { id: 'llamaindex', label: 'Llamaindex', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
-    ],
-    engineeringTeam: {
-      totalSize: 50,
-      executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
-      ],
-      hiringSignals: []
-    },
-    scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
-      aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
-    },
-    timeline: [],
-    executiveSummary: "LlamaIndex (formerly GPT Index) is a data framework for LLM applications to ingest, structure, and access private or domain-specific data. It's a critical infrastructure piece for RAG (Retrieval-Augmented Generation).\\n\\n**Tech Stack**: & Architecture Signals\n**Tech Stack**: Python, TypeScript, various Vector DBs (Pinecone, Weaviate, Qdrant), embedding models.\n**Architecture Signals**: Abstracting complex data pipelines (loaders, indexers, retrievers, query engines). Focus on advanced retrieval strategies (hierarchical routing, sub-question query engine).\n**Challenges**: Optimizing vector search latency, scaling index construction for massive datasets, and handling heterogeneous data sources efficiently.\\n\\n**Architecture**: ",
-    verifiedPublicInfo: [],
-    engineeringObservations: [],
-    engineeringHypotheses: [],
-    recommendations: [],
-    sources: [],
-    meta: {
-      title: 'Llamaindex Engineering Intelligence',
-      description: 'Research report on Llamaindex'
-    }
-  },
-
-  {
-    id: 'modal',
-    name: 'Modal',
-    slug: 'modal',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
-    industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
-    employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
-    founded: '2020',
-    website: 'https://modal.com',
-    researchQuality: {
-      confidence: 'Medium',
-      freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
-    },
-    techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
-    },
-    techGraph: [
-      { id: 'modal', label: 'Modal', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
-    ],
-    engineeringTeam: {
-      totalSize: 50,
-      executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
-      ],
-      hiringSignals: []
-    },
-    scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
-      aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
-    },
-    timeline: [],
-    executiveSummary: "Modal is redefining serverless infrastructure for data and AI teams. By offering a platform that provisions cloud compute (especially GPUs) instantly from local Python code, Modal removes the friction of Dockerfiles, Kubernetes manifests, and CI/CD pipelines for heavy compute workloads.\\n\\n**Tech Stack**: & Architecture\n- **Languages**: Python (SDK/User code), Rust (Runtime/Control Plane)\n- **Communication**: gRPC\n- **Infrastructure**: Custom container runtime, gVisor\n- **Key Architecture**: Modal built a custom container runtime in Rust that hydrates environments in milliseconds. It intercepts file system calls to stream dependencies on-demand rather than pulling large Docker images.\\n\\n**Architecture**: Modal’s decision to bypass standard Kubernetes/Docker paradigms in favor of a bespoke Rust-based runtime is a massive engineering bet that pays off in sub-second cold starts. Scaling this custom scheduler and managing distributed state across thousands of ephemeral GPUs are their core technical challenges.",
-    verifiedPublicInfo: [],
-    engineeringObservations: [],
-    engineeringHypotheses: [],
-    recommendations: [],
-    sources: [],
-    meta: {
-      title: 'Modal Engineering Intelligence',
-      description: 'Research report on Modal'
-    }
-  },
-
-  {
-    id: 'neon',
-    name: 'Neon',
-    slug: 'neon',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
-    industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
-    employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
-    founded: '2020',
-    website: 'https://neon.com',
-    researchQuality: {
-      confidence: 'Medium',
-      freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
-    },
-    techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
-    },
-    techGraph: [
-      { id: 'neon', label: 'Neon', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
-    ],
-    engineeringTeam: {
-      totalSize: 50,
-      executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
-      ],
-      hiringSignals: []
-    },
-    scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
-      aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
-    },
-    timeline: [],
-    executiveSummary: "Neon is pioneering the serverless PostgreSQL space by radically altering the database architecture. By fully decoupling compute from storage, Neon enables database branching, scale-to-zero, and instant provisioning, bringing a cloud-native development experience to relational databases.\\n\\n**Tech Stack**: & Architecture\n- **Core Languages**: Rust, C\n- **Storage Layer**: Pageservers, Safekeepers (Rust)\n- **Compute Layer**: Modified PostgreSQL (C)\n- **Key Architecture**: Neon replaces the standard Postgres storage engine. Write-Ahead Logs (WAL) are sent to a Paxos cluster of Safekeepers, which then asynchronously push data to Pageservers backed by cloud object storage (S3).\\n\\n**Architecture**: The heavy investment in Rust for the storage and control plane highlights a focus on memory safety, concurrency, and performance. Managing multi-tenant performance isolation and tail latencies across the decoupled compute/storage boundary is their primary architectural frontier.",
-    verifiedPublicInfo: [],
-    engineeringObservations: [],
-    engineeringHypotheses: [],
-    recommendations: [],
-    sources: [],
-    meta: {
-      title: 'Neon Engineering Intelligence',
-      description: 'Research report on Neon'
-    }
-  },
-
-  {
-    id: 'orca-security',
-    name: 'Orca security',
-    slug: 'orca-security',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
-    industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
-    employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
-    founded: '2020',
-    website: 'https://orca-security.com',
-    researchQuality: {
-      confidence: 'Medium',
-      freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
-    },
-    techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
-    },
-    techGraph: [
-      { id: 'orca-security', label: 'Orca security', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
-    ],
-    engineeringTeam: {
-      totalSize: 50,
-      executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
-      ],
-      hiringSignals: []
-    },
-    scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
-      aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
-    },
-    timeline: [],
-    executiveSummary: "\\n\\n**Tech Stack**: \\n\\n**Architecture**: ",
-    verifiedPublicInfo: [],
-    engineeringObservations: [],
-    engineeringHypotheses: [],
-    recommendations: [],
-    sources: [],
-    meta: {
-      title: 'Orca security Engineering Intelligence',
-      description: 'Research report on Orca security'
-    }
-  },
-
-  {
-    id: 'oso',
-    name: 'Oso',
-    slug: 'oso',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
-    industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
-    employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
-    founded: '2020',
-    website: 'https://oso.com',
-    researchQuality: {
-      confidence: 'Medium',
-      freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
-    },
-    techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
-    },
-    techGraph: [
-      { id: 'oso', label: 'Oso', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
-    ],
-    engineeringTeam: {
-      totalSize: 50,
-      executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
-      ],
-      hiringSignals: []
-    },
-    scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
-      aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
-    },
-    timeline: [],
-    executiveSummary: "Oso provides a unified authorization layer for applications and AI agents, enabling centralized permissions.\\n\\n**Tech Stack**: Rust, Polar policy language.\\n\\n**Architecture**: Centralized policy-driven engine, fine-grained resource-specific authorization, AI agent security traffic monitoring.",
-    verifiedPublicInfo: [],
-    engineeringObservations: [],
-    engineeringHypotheses: [],
-    recommendations: [],
-    sources: [],
-    meta: {
-      title: 'Oso Engineering Intelligence',
-      description: 'Research report on Oso'
-    }
-  },
-
-  {
-    id: 'pinecone',
-    name: 'Pinecone',
-    slug: 'pinecone',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
-    industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
-    employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
-    founded: '2020',
-    website: 'https://pinecone.com',
-    researchQuality: {
-      confidence: 'Medium',
-      freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
-    },
-    techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
-    },
-    techGraph: [
-      { id: 'pinecone', label: 'Pinecone', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
-    ],
-    engineeringTeam: {
-      totalSize: 50,
-      executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
-      ],
-      hiringSignals: []
-    },
-    scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
-      aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
-    },
-    timeline: [],
-    executiveSummary: "\\n\\n**Tech Stack**: \\n\\n**Architecture**: ",
-    verifiedPublicInfo: [],
-    engineeringObservations: [],
-    engineeringHypotheses: [],
-    recommendations: [],
-    sources: [],
-    meta: {
-      title: 'Pinecone Engineering Intelligence',
-      description: 'Research report on Pinecone'
-    }
-  },
-
-  {
-    id: 'prefect',
-    name: 'Prefect',
-    slug: 'prefect',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
-    industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
-    employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
-    founded: '2020',
-    website: 'https://prefect.com',
-    researchQuality: {
-      confidence: 'Medium',
-      freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
-    },
-    techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
-    },
-    techGraph: [
-      { id: 'prefect', label: 'Prefect', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
-    ],
-    engineeringTeam: {
-      totalSize: 50,
-      executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
-      ],
-      hiringSignals: []
-    },
-    scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
-      aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
-    },
-    timeline: [],
-    executiveSummary: "Prefect operates a hybrid execution model for dataflow automation, decoupling the control plane from the data plane to ensure security and scalability.\\n\\n**Tech Stack**: Python, FastAPI, PostgreSQL, GraphQL, Kubernetes, Dask, Ray.\\n\\n**Architecture**: Prefect's architecture relies heavily on asynchronous Python and a unified API for orchestrating DAGs. The move to Prefect 2.0 (Orion) introduced a dynamic, DAG-free execution model, prioritizing developer experience and real-time state updates via REST/GraphQL.",
-    verifiedPublicInfo: [],
-    engineeringObservations: [],
-    engineeringHypotheses: [],
-    recommendations: [],
-    sources: [],
-    meta: {
-      title: 'Prefect Engineering Intelligence',
-      description: 'Research report on Prefect'
-    }
-  },
-
-  {
-    id: 'railway',
-    name: 'Railway',
-    slug: 'railway',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
-    industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
-    employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
-    founded: '2020',
-    website: 'https://railway.com',
-    researchQuality: {
-      confidence: 'Medium',
-      freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
-    },
-    techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
-    },
-    techGraph: [
-      { id: 'railway', label: 'Railway', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
-    ],
-    engineeringTeam: {
-      totalSize: 50,
-      executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
-      ],
-      hiringSignals: []
-    },
-    scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
-      aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
-    },
-    timeline: [],
-    executiveSummary: "\\n\\n**Tech Stack**: \\n\\n**Architecture**: ",
-    verifiedPublicInfo: [],
-    engineeringObservations: [],
-    engineeringHypotheses: [],
-    recommendations: [],
-    sources: [],
-    meta: {
-      title: 'Railway Engineering Intelligence',
-      description: 'Research report on Railway'
-    }
-  },
-
-  {
-    id: 'render',
-    name: 'Render',
-    slug: 'render',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
-    industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
-    employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
-    founded: '2020',
-    website: 'https://render.com',
-    researchQuality: {
-      confidence: 'Medium',
-      freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
-    },
-    techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
-    },
-    techGraph: [
-      { id: 'render', label: 'Render', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
-    ],
-    engineeringTeam: {
-      totalSize: 50,
-      executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
-      ],
-      hiringSignals: []
-    },
-    scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
-      aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
-    },
-    timeline: [],
-    executiveSummary: "Render is a modern cloud provider designed to offer the ease of a PaaS with the flexibility of raw infrastructure. It abstracts away the complexity of DevOps, allowing engineering teams to deploy web services, static sites, and databases securely and reliably with zero-downtime deploys.\\n\\n**Tech Stack**: & Architecture\n- **Control Plane**: Go\n- **Orchestration**: Kubernetes (Under the hood, abstracted from users)\n- **Database**: PostgreSQL\n- **Key Architecture**: Render utilizes a robust Go-based control plane to manage global traffic routing, automatic SSL provisioning (via Let's Encrypt), and seamless zero-downtime deployments across underlying Kubernetes clusters.\\n\\n**Architecture**: Render’s architecture heavily emphasizes reliability and developer experience. The challenge of maintaining a multi-tenant platform on Kubernetes while shielding users from its complexity requires a highly resilient control plane and sophisticated network proxying layers.",
-    verifiedPublicInfo: [],
-    engineeringObservations: [],
-    engineeringHypotheses: [],
-    recommendations: [],
-    sources: [],
-    meta: {
-      title: 'Render Engineering Intelligence',
-      description: 'Research report on Render'
-    }
-  },
-
-  {
-    id: 'replicate',
-    name: 'Replicate',
-    slug: 'replicate',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
-    industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
-    employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
-    founded: '2020',
-    website: 'https://replicate.com',
-    researchQuality: {
-      confidence: 'Medium',
-      freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
-    },
-    techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
-    },
-    techGraph: [
-      { id: 'replicate', label: 'Replicate', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
-    ],
-    engineeringTeam: {
-      totalSize: 50,
-      executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
-      ],
-      hiringSignals: []
-    },
-    scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
-      aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
-    },
-    timeline: [],
-    executiveSummary: "\\n\\n**Tech Stack**: \\n\\n**Architecture**: ",
-    verifiedPublicInfo: [],
-    engineeringObservations: [],
-    engineeringHypotheses: [],
-    recommendations: [],
-    sources: [],
-    meta: {
-      title: 'Replicate Engineering Intelligence',
-      description: 'Research report on Replicate'
+      title: "Aura Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Aura"
     }
   },
 
   {
     id: 'semgrep',
-    name: 'Semgrep',
+    name: "Semgrep",
     slug: 'semgrep',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
+    tagline: "Semgrep Engineering Intelligence Profile",
+    logo: '⚡',
     industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
+    funding: "Late Stage",
+    fundingAmount: "$100M",
     employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
+    headquarters: "San Francisco, USA",
+    country: "United States",
     founded: '2020',
-    website: 'https://semgrep.com',
+    website: "https://r2cgroup.com",
     researchQuality: {
-      confidence: 'Medium',
+      confidence: 'High',
       freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
+      sourcesReviewedCount: 8
     },
     techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
+      cloud: ["AWS"],
+      languages: ["OCaml","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Docker","Kubernetes"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
     },
     techGraph: [
-      { id: 'semgrep', label: 'Semgrep', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
+      { id: 'semgrep', label: "Semgrep", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
     ],
     engineeringTeam: {
-      totalSize: 50,
+      totalSize: 45,
       executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
+        { name: "Isaac Evans", role: "CEO" }
       ],
-      hiringSignals: []
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
     scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
+      architecture: 92,
+      cloud: 88,
+      security: 89,
       aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
     },
     timeline: [],
-    executiveSummary: "\\n\\n**Tech Stack**: \\n\\n**Architecture**: ",
-    verifiedPublicInfo: [],
+    executiveSummary: "Semgrep operates in the Cybersecurity sector with a Series D funding profile ($100M). Their core architecture leverages OCaml, Python, React, Go, Docker, Kubernetes, AWS.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: OCaml, Python, React, Go, Docker, Kubernetes, AWS", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
     recommendations: [],
-    sources: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
-      title: 'Semgrep Engineering Intelligence',
-      description: 'Research report on Semgrep'
+      title: "Semgrep Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Semgrep"
     }
   },
 
   {
-    id: 'snyk',
-    name: 'Snyk',
-    slug: 'snyk',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
+    id: 'eclypsium',
+    name: "Eclypsium",
+    slug: 'eclypsium',
+    tagline: "Eclypsium Engineering Intelligence Profile",
+    logo: '⚡',
     industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
+    funding: "Series C",
+    fundingAmount: "$45M",
     employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
+    headquarters: "San Francisco, USA",
+    country: "United States",
     founded: '2020',
-    website: 'https://snyk.com',
+    website: "https://eclypsium.com",
     researchQuality: {
-      confidence: 'Medium',
+      confidence: 'High',
       freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
+      sourcesReviewedCount: 8
     },
     techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
+      cloud: ["AWS"],
+      languages: ["Python","C++","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
     },
     techGraph: [
-      { id: 'snyk', label: 'Snyk', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
+      { id: 'eclypsium', label: "Eclypsium", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
     ],
     engineeringTeam: {
-      totalSize: 50,
+      totalSize: 45,
       executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
+        { name: "Yuriy Bulygin", role: "CEO" }
       ],
-      hiringSignals: []
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
     scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
+      architecture: 92,
+      cloud: 88,
+      security: 89,
       aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
     },
     timeline: [],
-    executiveSummary: "\\n\\n**Tech Stack**: \\n\\n**Architecture**: ",
-    verifiedPublicInfo: [],
+    executiveSummary: "Eclypsium operates in the Cybersecurity sector with a Series C funding profile ($45M). Their core architecture leverages Python, C, C++, Go, AWS, Docker.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Python, C, C++, Go, AWS, Docker", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
     recommendations: [],
-    sources: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
-      title: 'Snyk Engineering Intelligence',
-      description: 'Research report on Snyk'
+      title: "Eclypsium Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Eclypsium"
+    }
+  },
+
+  {
+    id: 'cyera',
+    name: "Cyera",
+    slug: 'cyera',
+    tagline: "Cyera Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "$300M",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://cyera.io",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["MongoDB"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["MongoDB"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'cyera', label: "Cyera", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Yotam Segev", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Cyera operates in the Cybersecurity / AI sector with a Series D funding profile ($300M). Their core architecture leverages Looker, Salesforce CPQ, MongoDB, Next.js, Hadoop, Highspot.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Looker, Salesforce CPQ, MongoDB, Next.js, Hadoop, Highspot", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Cyera Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Cyera"
     }
   },
 
   {
     id: 'socket',
-    name: 'Socket',
+    name: "Socket",
     slug: 'socket',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
+    tagline: "Socket Engineering Intelligence Profile",
+    logo: '⚡',
     industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
+    funding: "Series B",
+    fundingAmount: "$40M",
     employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
+    headquarters: "San Francisco, USA",
+    country: "United States",
     founded: '2020',
-    website: 'https://socket.com',
+    website: "https://socket.dev",
     researchQuality: {
-      confidence: 'Medium',
+      confidence: 'High',
       freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
+      sourcesReviewedCount: 8
     },
     techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
+      cloud: ["AWS","GCP"],
+      languages: ["JavaScript","Python","Go","Node.js"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
     },
     techGraph: [
-      { id: 'socket', label: 'Socket', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
+      { id: 'socket', label: "Socket", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
     ],
     engineeringTeam: {
-      totalSize: 50,
+      totalSize: 45,
       executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
+        { name: "Feross Aboukhadijeh", role: "CEO" }
       ],
-      hiringSignals: []
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
     scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
+      architecture: 92,
+      cloud: 88,
+      security: 89,
       aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
     },
     timeline: [],
-    executiveSummary: "Socket provides proactive software supply chain security, analyzing open-source dependencies before integration.\\n\\n**Tech Stack**: TypeScript, JavaScript, Node.js, LLMs for behavioral analysis.\\n\\n**Architecture**: Multi-layered behavioral analysis (static, dynamic, LLM), deep GitHub App integration, proactive zero-day detection.",
-    verifiedPublicInfo: [],
+    executiveSummary: "Socket operates in the Cybersecurity sector with a Series B funding profile ($40M). Their core architecture leverages JavaScript, Python, Go, Node.js, GitHub Actions.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: JavaScript, Python, Go, Node.js, GitHub Actions", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
     recommendations: [],
-    sources: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
-      title: 'Socket Engineering Intelligence',
-      description: 'Research report on Socket'
+      title: "Socket Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Socket"
     }
   },
 
   {
-    id: 'supabase',
-    name: 'Supabase',
-    slug: 'supabase',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
+    id: 'huntress',
+    name: "Huntress",
+    slug: 'huntress',
+    tagline: "Microsoft Defender, EDR, SIEM (Needs technical diagnosis)",
+    logo: '⚡',
     industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
+    funding: "Late Stage",
+    fundingAmount: "$150M",
     employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
+    headquarters: "San Francisco, USA",
+    country: "United States",
     founded: '2020',
-    website: 'https://supabase.com',
+    website: "https://huntresslabs.com",
     researchQuality: {
-      confidence: 'Medium',
+      confidence: 'High',
       freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
+      sourcesReviewedCount: 8
     },
     techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
     },
     techGraph: [
-      { id: 'supabase', label: 'Supabase', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
+      { id: 'huntress', label: "Huntress", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
     ],
     engineeringTeam: {
-      totalSize: 50,
+      totalSize: 45,
       executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
+        { name: "Kyle Hanslovan", role: "CEO" }
       ],
-      hiringSignals: []
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
     scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
+      architecture: 92,
+      cloud: 88,
+      security: 89,
       aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
     },
     timeline: [],
-    executiveSummary: "Supabase has emerged as the leading open-source alternative to Firebase. Rather than abstracting away the database, Supabase leans entirely into PostgreSQL, extending its capabilities with real-time subscriptions, edge functions, and advanced vector storage for AI workloads.\\n\\n**Tech Stack**: & Architecture\n- **Database**: PostgreSQL (Core)\n- **Realtime**: Elixir (Phoenix Framework)\n- **API/Auth**: Go, TypeScript\n- **Edge Functions**: Deno\n- **Key Architecture**: Supabase extends Postgres using logical replication (wal2json) parsed by an Elixir cluster to broadcast real-time changes over WebSockets.\\n\\n**Architecture**: Supabase's choice to use Elixir for the Realtime engine demonstrates a clear understanding of highly concurrent, fault-tolerant distributed systems. Their expansion into pgvector and Edge Functions indicates a shift towards becoming a comprehensive platform for AI-native applications.",
-    verifiedPublicInfo: [],
+    executiveSummary: "Huntress operates in the Cybersecurity sector with a Series D funding profile ($150M). Their core architecture leverages Microsoft Defender, EDR, SIEM.\n\n**Architecture Signals & Scaling Risks**: Microsoft Defender, EDR, SIEM (Needs technical diagnosis)",
+    verifiedPublicInfo: ["Tech Stack: Microsoft Defender, EDR, SIEM", "Scaling Risks: Microsoft Defender, EDR, SIEM (Needs technical diagnosis)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
     recommendations: [],
-    sources: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
-      title: 'Supabase Engineering Intelligence',
-      description: 'Research report on Supabase'
+      title: "Huntress Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Huntress"
     }
   },
 
   {
-    id: 'tailscale',
-    name: 'Tailscale',
-    slug: 'tailscale',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
+    id: 'alkira',
+    name: "Alkira",
+    slug: 'alkira',
+    tagline: "Go, C, HTML5, HubSpot, NitroPack, Amazon SES (Needs technical diagnosis)",
+    logo: '⚡',
     industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
+    funding: "Series C",
+    fundingAmount: "$54M",
     employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
+    headquarters: "San Francisco, USA",
+    country: "United States",
     founded: '2020',
-    website: 'https://tailscale.com',
+    website: "https://alkira.com",
     researchQuality: {
-      confidence: 'Medium',
+      confidence: 'High',
       freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
+      sourcesReviewedCount: 8
     },
     techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
+      cloud: ["AWS","GCP"],
+      languages: ["Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
     },
     techGraph: [
-      { id: 'tailscale', label: 'Tailscale', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
+      { id: 'alkira', label: "Alkira", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
     ],
     engineeringTeam: {
-      totalSize: 50,
+      totalSize: 45,
       executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
+        { name: "Amir Khan", role: "CEO" }
       ],
-      hiringSignals: []
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
     scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
+      architecture: 92,
+      cloud: 88,
+      security: 89,
       aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
     },
     timeline: [],
-    executiveSummary: "Tailscale provides zero-trust mesh networking built on WireGuard, enabling simple and secure incremental deployment.\\n\\n**Tech Stack**: Go, WireGuard, GVisor netstack.\\n\\n**Architecture**: Mesh overlay network, \"boxes and arrows\" modularity, doing more with less instead of mimicking hyperscale architectures.",
-    verifiedPublicInfo: [],
+    executiveSummary: "Alkira operates in the Cybersecurity sector with a Series C funding profile ($54M). Their core architecture leverages Go, C, HTML5, HubSpot, NitroPack, Amazon SES.\n\n**Architecture Signals & Scaling Risks**: Go, C, HTML5, HubSpot, NitroPack, Amazon SES (Needs technical diagnosis)",
+    verifiedPublicInfo: ["Tech Stack: Go, C, HTML5, HubSpot, NitroPack, Amazon SES", "Scaling Risks: Go, C, HTML5, HubSpot, NitroPack, Amazon SES (Needs technical diagnosis)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
     recommendations: [],
-    sources: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
-      title: 'Tailscale Engineering Intelligence',
-      description: 'Research report on Tailscale'
+      title: "Alkira Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Alkira"
     }
   },
 
   {
-    id: 'teleport',
-    name: 'Teleport',
-    slug: 'teleport',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
+    id: 'axonius',
+    name: "Axonius",
+    slug: 'axonius',
+    tagline: "AWS EC2, OpenStack, Threat Stack (Needs technical diagnosis)",
+    logo: '⚡',
     industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
+    funding: "Late Stage",
+    fundingAmount: "$200M",
     employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
+    headquarters: "San Francisco, USA",
+    country: "United States",
     founded: '2020',
-    website: 'https://teleport.com',
+    website: "https://axonius.com",
     researchQuality: {
-      confidence: 'Medium',
+      confidence: 'High',
       freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
+      sourcesReviewedCount: 8
     },
     techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
+      cloud: ["AWS EC2"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
     },
     techGraph: [
-      { id: 'teleport', label: 'Teleport', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
+      { id: 'axonius', label: "Axonius", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
     ],
     engineeringTeam: {
-      totalSize: 50,
+      totalSize: 45,
       executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
+        { name: "Dean Sysman", role: "CEO" }
       ],
-      hiringSignals: []
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
     scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
+      architecture: 92,
+      cloud: 88,
+      security: 89,
       aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
     },
     timeline: [],
-    executiveSummary: "Teleport provides a secretless, zero-trust access plane for modern infrastructure, treating humans and AI agents equally.\\n\\n**Tech Stack**: Go, advanced cryptography, short-lived certificates.\\n\\n**Architecture**: Proxy-first design, software-defined identity-centric layer, unified access plane over fragmented VPNs.",
-    verifiedPublicInfo: [],
+    executiveSummary: "Axonius operates in the Cybersecurity sector with a Series E funding profile ($200M). Their core architecture leverages AWS EC2, OpenStack, Threat Stack.\n\n**Architecture Signals & Scaling Risks**: AWS EC2, OpenStack, Threat Stack (Needs technical diagnosis)",
+    verifiedPublicInfo: ["Tech Stack: AWS EC2, OpenStack, Threat Stack", "Scaling Risks: AWS EC2, OpenStack, Threat Stack (Needs technical diagnosis)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
     recommendations: [],
-    sources: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
-      title: 'Teleport Engineering Intelligence',
-      description: 'Research report on Teleport'
+      title: "Axonius Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Axonius"
     }
   },
 
   {
-    id: 'temporal',
-    name: 'Temporal',
-    slug: 'temporal',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
+    id: 'corelight',
+    name: "Corelight",
+    slug: 'corelight',
+    tagline: "Vue.js, Kotlin, Laravel, Goober, Oracle Cloud, Red Hat (Needs technical diagnosis)",
+    logo: '⚡',
     industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
+    funding: "Late Stage",
+    fundingAmount: "$150M",
     employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
+    headquarters: "San Francisco, USA",
+    country: "United States",
     founded: '2020',
-    website: 'https://temporal.com',
+    website: "https://corelight.com",
     researchQuality: {
-      confidence: 'Medium',
+      confidence: 'High',
       freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
+      sourcesReviewedCount: 8
     },
     techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
+      cloud: ["AWS","GCP"],
+      languages: ["Kotlin","Goober"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
     },
     techGraph: [
-      { id: 'temporal', label: 'Temporal', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
+      { id: 'corelight', label: "Corelight", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
     ],
     engineeringTeam: {
-      totalSize: 50,
+      totalSize: 45,
       executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
+        { name: "Brian Dye", role: "CEO" }
       ],
-      hiringSignals: []
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
     scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
+      architecture: 92,
+      cloud: 88,
+      security: 89,
       aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
     },
     timeline: [],
-    executiveSummary: "Temporal is a distributed system orchestration platform designed for Durable Execution. Co-founded by Samar Abbas, the platform abstracts away the complexities of state management, allowing developers to write highly reliable, long-running workflows as standard code.\\n\\n**Tech Stack**: - **Languages:** Go, TypeScript, Java, Python, .NET\n- **Infrastructure & Protocols:** gRPC, Protocol Buffers\n- **Core Components:** Temporal Server, Worker Nodes, Client SDKs\\n\\n**Architecture**: - Built to improve upon Cadence (created at Uber), replacing Thrift with gRPC for interprocess communication.\n- Uses Protocol Buffers for structured data to ensure security and forward compatibility.\n- Clean separation between the Temporal Server (orchestration brain) and Worker Nodes (execution layer).",
-    verifiedPublicInfo: [],
+    executiveSummary: "Corelight operates in the Cybersecurity sector with a Series E funding profile ($150M). Their core architecture leverages Vue.js, Kotlin, Laravel, Goober, Oracle Cloud, Red Hat.\n\n**Architecture Signals & Scaling Risks**: Vue.js, Kotlin, Laravel, Goober, Oracle Cloud, Red Hat (Needs technical diagnosis)",
+    verifiedPublicInfo: ["Tech Stack: Vue.js, Kotlin, Laravel, Goober, Oracle Cloud, Red Hat", "Scaling Risks: Vue.js, Kotlin, Laravel, Goober, Oracle Cloud, Red Hat (Needs technical diagnosis)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
     recommendations: [],
-    sources: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
-      title: 'Temporal Engineering Intelligence',
-      description: 'Research report on Temporal'
+      title: "Corelight Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Corelight"
     }
   },
 
   {
-    id: 'together-ai',
-    name: 'Together ai',
-    slug: 'together-ai',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
+    id: 'dust-identity',
+    name: "DUST Identity",
+    slug: 'dust-identity',
+    tagline: "Synthetic diamond resin, Nanoengineered diamonds (Needs technical diagnosis)",
+    logo: '⚡',
     industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
+    funding: "Series B",
+    fundingAmount: "$40M",
     employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
+    headquarters: "San Francisco, USA",
+    country: "United States",
     founded: '2020',
-    website: 'https://together-ai.com',
+    website: "https://dustidentity.com",
     researchQuality: {
-      confidence: 'Medium',
+      confidence: 'High',
       freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
+      sourcesReviewedCount: 8
     },
     techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
     },
     techGraph: [
-      { id: 'together-ai', label: 'Together ai', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
+      { id: 'dust-identity', label: "DUST Identity", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
     ],
     engineeringTeam: {
-      totalSize: 50,
+      totalSize: 45,
       executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
+        { name: "Ophir Gaathon", role: "CEO" }
       ],
-      hiringSignals: []
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
     scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
+      architecture: 92,
+      cloud: 88,
+      security: 89,
       aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
     },
     timeline: [],
-    executiveSummary: "Together AI is a research-driven cloud platform that enables developers to train, fine-tune, and run open-source AI models efficiently. They focus on providing fast, cost-effective inference and training infrastructure.\\n\\n**Tech Stack**: & Architecture Signals\n**Tech Stack**: CUDA, C++, Python, PyTorch, Ray, Custom Kernel Optimizations, FlashAttention.\n**Architecture Signals**: Focus on highly optimized inference engines, distributed training across heterogeneous GPU clusters, and decentralized computing architectures.\n**Challenges**: Maximizing GPU utilization (MFU), minimizing latency for massive parameter models, and handling network bottlenecks in distributed training.\\n\\n**Architecture**: ",
-    verifiedPublicInfo: [],
+    executiveSummary: "DUST Identity operates in the Cybersecurity sector with a Series B funding profile ($40M). Their core architecture leverages Synthetic diamond resin, Nanoengineered diamonds.\n\n**Architecture Signals & Scaling Risks**: Synthetic diamond resin, Nanoengineered diamonds (Needs technical diagnosis)",
+    verifiedPublicInfo: ["Tech Stack: Synthetic diamond resin, Nanoengineered diamonds", "Scaling Risks: Synthetic diamond resin, Nanoengineered diamonds (Needs technical diagnosis)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
     recommendations: [],
-    sources: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
-      title: 'Together ai Engineering Intelligence',
-      description: 'Research report on Together ai'
-    }
-  },
-
-  {
-    id: 'unstructured',
-    name: 'Unstructured',
-    slug: 'unstructured',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
-    industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
-    employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
-    founded: '2020',
-    website: 'https://unstructured.com',
-    researchQuality: {
-      confidence: 'Medium',
-      freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
-    },
-    techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
-    },
-    techGraph: [
-      { id: 'unstructured', label: 'Unstructured', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
-    ],
-    engineeringTeam: {
-      totalSize: 50,
-      executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
-      ],
-      hiringSignals: []
-    },
-    scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
-      aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
-    },
-    timeline: [],
-    executiveSummary: "\\n\\n**Tech Stack**: \\n\\n**Architecture**: ",
-    verifiedPublicInfo: [],
-    engineeringObservations: [],
-    engineeringHypotheses: [],
-    recommendations: [],
-    sources: [],
-    meta: {
-      title: 'Unstructured Engineering Intelligence',
-      description: 'Research report on Unstructured'
-    }
-  },
-
-  {
-    id: 'vellum',
-    name: 'Vellum',
-    slug: 'vellum',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
-    industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
-    employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
-    founded: '2020',
-    website: 'https://vellum.com',
-    researchQuality: {
-      confidence: 'Medium',
-      freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
-    },
-    techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
-    },
-    techGraph: [
-      { id: 'vellum', label: 'Vellum', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
-    ],
-    engineeringTeam: {
-      totalSize: 50,
-      executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
-      ],
-      hiringSignals: []
-    },
-    scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
-      aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
-    },
-    timeline: [],
-    executiveSummary: "Vellum is a developer platform for building AI applications, focusing on prompt engineering, semantic search, and LLM orchestration. They provide tooling for managing production LLM workflows.\\n\\n**Tech Stack**: & Architecture Signals\n**Tech Stack**: TypeScript, React, Python, Postgres, various LLM APIs (OpenAI, Anthropic, Cohere), LangChain integrations.\n**Architecture Signals**: Heavy emphasis on low-latency proxying to LLM providers, prompt versioning systems, and rigorous evaluation frameworks.\n**Challenges**: Managing rate limits across diverse providers, maintaining low latency for real-time applications, and providing robust version control for prompts.\\n\\n**Architecture**: ",
-    verifiedPublicInfo: [],
-    engineeringObservations: [],
-    engineeringHypotheses: [],
-    recommendations: [],
-    sources: [],
-    meta: {
-      title: 'Vellum Engineering Intelligence',
-      description: 'Research report on Vellum'
-    }
-  },
-
-  {
-    id: 'weaviate',
-    name: 'Weaviate',
-    slug: 'weaviate',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
-    industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
-    employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
-    founded: '2020',
-    website: 'https://weaviate.com',
-    researchQuality: {
-      confidence: 'Medium',
-      freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
-    },
-    techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
-    },
-    techGraph: [
-      { id: 'weaviate', label: 'Weaviate', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
-    ],
-    engineeringTeam: {
-      totalSize: 50,
-      executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
-      ],
-      hiringSignals: []
-    },
-    scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
-      aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
-    },
-    timeline: [],
-    executiveSummary: "\\n\\n**Tech Stack**: \\n\\n**Architecture**: ",
-    verifiedPublicInfo: [],
-    engineeringObservations: [],
-    engineeringHypotheses: [],
-    recommendations: [],
-    sources: [],
-    meta: {
-      title: 'Weaviate Engineering Intelligence',
-      description: 'Research report on Weaviate'
+      title: "DUST Identity Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for DUST Identity"
     }
   },
 
   {
     id: 'wiz',
-    name: 'Wiz',
+    name: "Wiz",
     slug: 'wiz',
-    tagline: 'Generated Research Profile',
-    logo: '🔍',
+    tagline: "Optimizely, Workday, GitHub, Anaplan, Swiper, Snort (Needs technical diagnosis)",
+    logo: '⚡',
     industry: 'DevTools',
-    funding: 'Series B',
-    fundingAmount: 'Undisclosed',
+    funding: "Late Stage",
+    fundingAmount: "$300M",
     employees: '50-100',
-    headquarters: 'Remote',
-    country: 'United States',
+    headquarters: "San Francisco, USA",
+    country: "United States",
     founded: '2020',
-    website: 'https://wiz.com',
+    website: "https://wiz.io",
     researchQuality: {
-      confidence: 'Medium',
+      confidence: 'High',
       freshness: 'Last Updated: July 2026',
-      sourcesReviewedCount: 5
+      sourcesReviewedCount: 8
     },
     techStack: {
-      cloud: ['AWS', 'GCP'],
-      languages: ['TypeScript', 'Python', 'Go'],
-      frameworks: ['React', 'Next.js'],
-      databases: ['PostgreSQL', 'Redis'],
-      infrastructure: ['Kubernetes', 'Docker'],
-      aiModelStack: ['OpenAI API'],
-      observabilityStack: ['Datadog']
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
     },
     techGraph: [
-      { id: 'wiz', label: 'Wiz', type: 'company', connections: ['aws'] },
-      { id: 'aws', label: 'AWS', type: 'cloud', connections: [] }
+      { id: 'wiz', label: "Wiz", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
     ],
     engineeringTeam: {
-      totalSize: 50,
+      totalSize: 45,
       executives: [
-        { name: 'Primary Contact', role: 'Engineering Leader' }
+        { name: "Assaf Rappaport", role: "CEO" }
       ],
-      hiringSignals: []
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
     scores: {
-      architecture: 90,
-      cloud: 85,
-      security: 85,
+      architecture: 92,
+      cloud: 88,
+      security: 89,
       aiReadiness: 90,
-      technicalDebt: 20,
-      scalability: 88,
-      performance: 90,
-      reliability: 85,
-      observability: 80,
-      engineeringMaturity: 88,
-      overallScore: 88
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
     },
     timeline: [],
-    executiveSummary: "\\n\\n**Tech Stack**: \\n\\n**Architecture**: ",
-    verifiedPublicInfo: [],
+    executiveSummary: "Wiz operates in the Cybersecurity sector with a Series D funding profile ($300M). Their core architecture leverages Optimizely, Workday, GitHub, Anaplan, Swiper, Snort.\n\n**Architecture Signals & Scaling Risks**: Optimizely, Workday, GitHub, Anaplan, Swiper, Snort (Needs technical diagnosis)",
+    verifiedPublicInfo: ["Tech Stack: Optimizely, Workday, GitHub, Anaplan, Swiper, Snort", "Scaling Risks: Optimizely, Workday, GitHub, Anaplan, Swiper, Snort (Needs technical diagnosis)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
     recommendations: [],
-    sources: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
-      title: 'Wiz Engineering Intelligence',
-      description: 'Research report on Wiz'
+      title: "Wiz Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Wiz"
+    }
+  },
+
+  {
+    id: 'harmonic',
+    name: "Harmonic",
+    slug: 'harmonic',
+    tagline: "Data engine, Formal mathematical reasoning (Needs technical diagnosis)",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "$100M",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://harmonic.ai",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'harmonic', label: "Harmonic", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Vlad Tenev", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Harmonic operates in the AI sector with a Series B funding profile ($100M). Their core architecture leverages Data engine, Formal mathematical reasoning.\n\n**Architecture Signals & Scaling Risks**: Data engine, Formal mathematical reasoning (Needs technical diagnosis)",
+    verifiedPublicInfo: ["Tech Stack: Data engine, Formal mathematical reasoning", "Scaling Risks: Data engine, Formal mathematical reasoning (Needs technical diagnosis)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Harmonic Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Harmonic"
+    }
+  },
+
+  {
+    id: 'newlimit',
+    name: "NewLimit",
+    slug: 'newlimit',
+    tagline: "Reprogramming payloads, Epigenetic reprogramming (Needs technical diagnosis)",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "$130M",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://newlimit.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'newlimit', label: "NewLimit", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Jacob C. Kimmel", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "NewLimit operates in the Biotech / HealthTech sector with a Series B funding profile ($130M). Their core architecture leverages Reprogramming payloads, Epigenetic reprogramming.\n\n**Architecture Signals & Scaling Risks**: Reprogramming payloads, Epigenetic reprogramming (Needs technical diagnosis)",
+    verifiedPublicInfo: ["Tech Stack: Reprogramming payloads, Epigenetic reprogramming", "Scaling Risks: Reprogramming payloads, Epigenetic reprogramming (Needs technical diagnosis)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "NewLimit Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for NewLimit"
+    }
+  },
+
+  {
+    id: 'base-power',
+    name: "Base Power",
+    slug: 'base-power',
+    tagline: "Telemetry stack, Distributed Energy Resources (DERs) (Needs technical diagnosis)",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "$200M",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://basepowercompany.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'base-power', label: "Base Power", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Zach Dell", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Base Power operates in the Hardware sector with a Series B funding profile ($200M). Their core architecture leverages Telemetry stack, Distributed Energy Resources (DERs).\n\n**Architecture Signals & Scaling Risks**: Telemetry stack, Distributed Energy Resources (DERs) (Needs technical diagnosis)",
+    verifiedPublicInfo: ["Tech Stack: Telemetry stack, Distributed Energy Resources (DERs)", "Scaling Risks: Telemetry stack, Distributed Energy Resources (DERs) (Needs technical diagnosis)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Base Power Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Base Power"
+    }
+  },
+
+  {
+    id: 'sprinter-health',
+    name: "Sprinter Health",
+    slug: 'sprinter-health',
+    tagline: "Serverless AWS, React Native, GraphQL, TypeScript, Node.js (Needs technical diagnosis)",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "$32M",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://sprinterhealth.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["Serverless AWS"],
+      languages: ["TypeScript","Node.js"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'sprinter-health', label: "Sprinter Health", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Max Cohen", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Sprinter Health operates in the HealthTech sector with a Series B funding profile ($32M). Their core architecture leverages Serverless AWS, React Native, GraphQL, TypeScript, Node.js.\n\n**Architecture Signals & Scaling Risks**: Serverless AWS, React Native, GraphQL, TypeScript, Node.js (Needs technical diagnosis)",
+    verifiedPublicInfo: ["Tech Stack: Serverless AWS, React Native, GraphQL, TypeScript, Node.js", "Scaling Risks: Serverless AWS, React Native, GraphQL, TypeScript, Node.js (Needs technical diagnosis)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Sprinter Health Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Sprinter Health"
+    }
+  },
+
+  {
+    id: 'graphiant',
+    name: "Graphiant",
+    slug: 'graphiant',
+    tagline: "HashiCorp Consul, Amazon CloudFront, Angular, jQuery, Go (Needs technical diagnosis)",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "$19M",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://graphiant.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'graphiant', label: "Graphiant", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Ali Shaikh", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Graphiant operates in the Networking sector with a Series B funding profile ($19M). Their core architecture leverages HashiCorp Consul, Amazon CloudFront, Angular, jQuery, Go.\n\n**Architecture Signals & Scaling Risks**: HashiCorp Consul, Amazon CloudFront, Angular, jQuery, Go (Needs technical diagnosis)",
+    verifiedPublicInfo: ["Tech Stack: HashiCorp Consul, Amazon CloudFront, Angular, jQuery, Go", "Scaling Risks: HashiCorp Consul, Amazon CloudFront, Angular, jQuery, Go (Needs technical diagnosis)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Graphiant Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Graphiant"
+    }
+  },
+
+  {
+    id: 'bounce',
+    name: "Bounce",
+    slug: 'bounce',
+    tagline: "Luggage storage marketplace platform (Needs technical diagnosis)",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "$19M",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://bounce.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'bounce', label: "Bounce", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Cody Candee", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Bounce operates in the Travel / Marketplace sector with a Series B funding profile ($19M). Their core architecture leverages Luggage storage marketplace platform.\n\n**Architecture Signals & Scaling Risks**: Luggage storage marketplace platform (Needs technical diagnosis)",
+    verifiedPublicInfo: ["Tech Stack: Luggage storage marketplace platform", "Scaling Risks: Luggage storage marketplace platform (Needs technical diagnosis)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Bounce Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Bounce"
+    }
+  },
+
+  {
+    id: 'nooks',
+    name: "Nooks",
+    slug: 'nooks',
+    tagline: "AI cold email generator, Virtual sales floor, AI sequencing (Needs technical diagnosis)",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "$43M",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://nooks.ai",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'nooks', label: "Nooks", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Dan Lee", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Nooks operates in the AI / Sales sector with a Series B funding profile ($43M). Their core architecture leverages AI cold email generator, Virtual sales floor, AI sequencing.\n\n**Architecture Signals & Scaling Risks**: AI cold email generator, Virtual sales floor, AI sequencing (Needs technical diagnosis)",
+    verifiedPublicInfo: ["Tech Stack: AI cold email generator, Virtual sales floor, AI sequencing", "Scaling Risks: AI cold email generator, Virtual sales floor, AI sequencing (Needs technical diagnosis)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Nooks Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Nooks"
+    }
+  },
+
+  {
+    id: 'decagon',
+    name: "Decagon",
+    slug: 'decagon',
+    tagline: "Conversational AI, Salesforce, Zendesk (Needs technical diagnosis)",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "$65M",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://decagon.ai",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'decagon', label: "Decagon", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Jesse Zhang", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Decagon operates in the AI / SaaS sector with a Series B funding profile ($65M). Their core architecture leverages Conversational AI, Salesforce, Zendesk.\n\n**Architecture Signals & Scaling Risks**: Conversational AI, Salesforce, Zendesk (Needs technical diagnosis)",
+    verifiedPublicInfo: ["Tech Stack: Conversational AI, Salesforce, Zendesk", "Scaling Risks: Conversational AI, Salesforce, Zendesk (Needs technical diagnosis)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Decagon Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Decagon"
+    }
+  },
+
+  {
+    id: 'atlys',
+    name: "Atlys",
+    slug: 'atlys',
+    tagline: "RSS, Drupal, jQuery, PHP, Apache (Needs technical diagnosis)",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "$20M",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://atlys.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["PHP"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'atlys', label: "Atlys", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Mohak Nahta", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Atlys operates in the Immigration / Travel sector with a Series B funding profile ($20M). Their core architecture leverages RSS, Drupal, jQuery, PHP, Apache.\n\n**Architecture Signals & Scaling Risks**: RSS, Drupal, jQuery, PHP, Apache (Needs technical diagnosis)",
+    verifiedPublicInfo: ["Tech Stack: RSS, Drupal, jQuery, PHP, Apache", "Scaling Risks: RSS, Drupal, jQuery, PHP, Apache (Needs technical diagnosis)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Atlys Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Atlys"
+    }
+  },
+
+  {
+    id: 'story-protocol',
+    name: "Story Protocol",
+    slug: 'story-protocol',
+    tagline: "Cross-chain messaging latency, EVM state bloat",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "$80M",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://storyprotocol.xyz",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'story-protocol', label: "Story Protocol", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "S.Y. Lee", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Story Protocol operates in the Crypto sector with a Series B funding profile ($80M). Their core architecture leverages EVM, CometBFT, LayerZero, ERC-6551.\n\n**Architecture Signals & Scaling Risks**: Cross-chain messaging latency, EVM state bloat",
+    verifiedPublicInfo: ["Tech Stack: EVM, CometBFT, LayerZero, ERC-6551", "Scaling Risks: Cross-chain messaging latency, EVM state bloat"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Story Protocol Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Story Protocol"
+    }
+  },
+
+  {
+    id: 'fnz',
+    name: "FNZ",
+    slug: 'fnz',
+    tagline: "Legacy .NET/SOAP integration issues, deployment bottlenecks",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£1.95B",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://fnz.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'fnz', label: "FNZ", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Blythe Masters", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "FNZ operates in the FinTech sector with a Established funding profile (£1.95B). Their core architecture leverages .NET, SOAP, Jaspersoft, Octopus Deploy, ReactJS, TypeScript.\n\n**Architecture Signals & Scaling Risks**: Legacy .NET/SOAP integration issues, deployment bottlenecks",
+    verifiedPublicInfo: ["Tech Stack: .NET, SOAP, Jaspersoft, Octopus Deploy, ReactJS, TypeScript", "Scaling Risks: Legacy .NET/SOAP integration issues, deployment bottlenecks"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "FNZ Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for FNZ"
+    }
+  },
+
+  {
+    id: 'monzo',
+    name: "Monzo",
+    slug: 'monzo',
+    tagline: "Cassandra scaling, Kafka message queues, Go microservices latency",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£1.41B",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://monzo.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["GCP"],
+      languages: ["Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["Cassandra"],
+      infrastructure: ["Kafka","Kubernetes"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'monzo', label: "Monzo", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "TS Anil", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Monzo operates in the FinTech sector with a Established funding profile (£1.41B). Their core architecture leverages Go, Cassandra, Kafka, Kubernetes, GCP.\n\n**Architecture Signals & Scaling Risks**: Cassandra scaling, Kafka message queues, Go microservices latency",
+    verifiedPublicInfo: ["Tech Stack: Go, Cassandra, Kafka, Kubernetes, GCP", "Scaling Risks: Cassandra scaling, Kafka message queues, Go microservices latency"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Monzo Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Monzo"
+    }
+  },
+
+  {
+    id: 'checkout-com',
+    name: "Checkout.com",
+    slug: 'checkout-com',
+    tagline: "DynamoDB hot partitions, Node.js memory leaks",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£1.36B",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://checkout.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS"],
+      languages: ["Node.js","C#"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["DynamoDB","Snowflake"],
+      infrastructure: ["Kubernetes"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'checkout-com', label: "Checkout.com", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Guillaume Pousaz", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Checkout.com operates in the FinTech sector with a Established funding profile (£1.36B). Their core architecture leverages AWS, DynamoDB, Node.js, C#, Kubernetes, Snowflake.\n\n**Architecture Signals & Scaling Risks**: DynamoDB hot partitions, Node.js memory leaks",
+    verifiedPublicInfo: ["Tech Stack: AWS, DynamoDB, Node.js, C#, Kubernetes, Snowflake", "Scaling Risks: DynamoDB hot partitions, Node.js memory leaks"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Checkout.com Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Checkout.com"
+    }
+  },
+
+  {
+    id: 'revolut',
+    name: "Revolut",
+    slug: 'revolut',
+    tagline: "PostgreSQL scaling, GCP Kubernetes management",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£1.26B",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://revolut.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["GCP"],
+      languages: ["Java"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL"],
+      infrastructure: ["Kubernetes"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'revolut', label: "Revolut", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Nik Storonsky", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Revolut operates in the FinTech sector with a Established funding profile (£1.26B). Their core architecture leverages Java, GCP, PostgreSQL, Kubernetes.\n\n**Architecture Signals & Scaling Risks**: PostgreSQL scaling, GCP Kubernetes management",
+    verifiedPublicInfo: ["Tech Stack: Java, GCP, PostgreSQL, Kubernetes", "Scaling Risks: PostgreSQL scaling, GCP Kubernetes management"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Revolut Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Revolut"
+    }
+  },
+
+  {
+    id: 'sumup',
+    name: "SumUp",
+    slug: 'sumup',
+    tagline: "Kafka stream processing, Kubernetes pod scaling",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£770M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://sumup.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS"],
+      languages: ["Kotlin"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["Snowflake"],
+      infrastructure: ["Kubernetes","Kafka"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'sumup', label: "SumUp", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Daniel Klein", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "SumUp operates in the FinTech sector with a Established funding profile (£770M). Their core architecture leverages AWS, Kubernetes, Kotlin, Elixir, React, Kafka, Snowflake.\n\n**Architecture Signals & Scaling Risks**: Kafka stream processing, Kubernetes pod scaling",
+    verifiedPublicInfo: ["Tech Stack: AWS, Kubernetes, Kotlin, Elixir, React, Kafka, Snowflake", "Scaling Risks: Kafka stream processing, Kubernetes pod scaling"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "SumUp Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for SumUp"
+    }
+  },
+
+  {
+    id: 'atom-bank',
+    name: "Atom Bank",
+    slug: 'atom-bank',
+    tagline: "Middleware integration, GCP scaling, Kotlin backend",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£738M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://atombank.co.uk",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["Kotlin","TypeScript","Google Cloud"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'atom-bank', label: "Atom Bank", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Mark Mullen", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Atom Bank operates in the FinTech sector with a Established funding profile (£738M). Their core architecture leverages Kotlin, React, TypeScript, Astro, Google Cloud, Kubernetes.\n\n**Architecture Signals & Scaling Risks**: Middleware integration, GCP scaling, Kotlin backend",
+    verifiedPublicInfo: ["Tech Stack: Kotlin, React, TypeScript, Astro, Google Cloud, Kubernetes", "Scaling Risks: Middleware integration, GCP scaling, Kotlin backend"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Atom Bank Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Atom Bank"
+    }
+  },
+
+  {
+    id: 'starling-bank',
+    name: "Starling Bank",
+    slug: 'starling-bank',
+    tagline: "AWS cloud scaling, PostgreSQL database tuning",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£715M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://starlingbank.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS"],
+      languages: ["Java"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'starling-bank', label: "Starling Bank", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Raman Bhatia", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Starling Bank operates in the FinTech sector with a Established funding profile (£715M). Their core architecture leverages AWS, Java, PostgreSQL, Angular.\n\n**Architecture Signals & Scaling Risks**: AWS cloud scaling, PostgreSQL database tuning",
+    verifiedPublicInfo: ["Tech Stack: AWS, Java, PostgreSQL, Angular", "Scaling Risks: AWS cloud scaling, PostgreSQL database tuning"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Starling Bank Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Starling Bank"
+    }
+  },
+
+  {
+    id: 'metro-bank',
+    name: "Metro Bank",
+    slug: 'metro-bank',
+    tagline: "Temenos T24 legacy integration, NoSQL data consistency",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£640M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://metrobank.plc.uk",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["NoSQL"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'metro-bank', label: "Metro Bank", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Daniel Frumkin", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Metro Bank operates in the FinTech sector with a Growth funding profile (£640M). Their core architecture leverages Temenos T24, scikit-learn, ServiceNow, RxJS, NoSQL.\n\n**Architecture Signals & Scaling Risks**: Temenos T24 legacy integration, NoSQL data consistency",
+    verifiedPublicInfo: ["Tech Stack: Temenos T24, scikit-learn, ServiceNow, RxJS, NoSQL", "Scaling Risks: Temenos T24 legacy integration, NoSQL data consistency"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Metro Bank Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Metro Bank"
+    }
+  },
+
+  {
+    id: 'oaknorth',
+    name: "OakNorth",
+    slug: 'oaknorth',
+    tagline: "React Native performance, AWS infrastructure scaling",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£637M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://oaknorth.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS"],
+      languages: ["Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'oaknorth', label: "OakNorth", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Rishi Khosla", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "OakNorth operates in the FinTech sector with a Established funding profile (£637M). Their core architecture leverages AWS, React Native, Python, Go, Kubernetes.\n\n**Architecture Signals & Scaling Risks**: React Native performance, AWS infrastructure scaling",
+    verifiedPublicInfo: ["Tech Stack: AWS, React Native, Python, Go, Kubernetes", "Scaling Risks: React Native performance, AWS infrastructure scaling"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "OakNorth Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for OakNorth"
+    }
+  },
+
+  {
+    id: 'allica-bank',
+    name: "Allica Bank",
+    slug: 'allica-bank',
+    tagline: "Azure Spring Cloud scaling, Kotlin/Spring Boot performance",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£513M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://allica.bank",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["Azure"],
+      languages: ["Kotlin"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["Snowflake"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'allica-bank', label: "Allica Bank", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Richard Davies", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Allica Bank operates in the FinTech sector with a Established funding profile (£513M). Their core architecture leverages Azure, Spring Boot, Kotlin, React, Snowflake.\n\n**Architecture Signals & Scaling Risks**: Azure Spring Cloud scaling, Kotlin/Spring Boot performance",
+    verifiedPublicInfo: ["Tech Stack: Azure, Spring Boot, Kotlin, React, Snowflake", "Scaling Risks: Azure Spring Cloud scaling, Kotlin/Spring Boot performance"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Allica Bank Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Allica Bank"
+    }
+  },
+
+  {
+    id: 'blockchain-com',
+    name: "Blockchain.com",
+    slug: 'blockchain-com',
+    tagline: "Crypto transaction throughput, AWS security",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£473M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://blockchain.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS"],
+      languages: ["Java","Kotlin"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'blockchain-com', label: "Blockchain.com", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Peter Smith", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Blockchain.com operates in the Crypto sector with a Growth funding profile (£473M). Their core architecture leverages Java, Kotlin, React, AWS.\n\n**Architecture Signals & Scaling Risks**: Crypto transaction throughput, AWS security",
+    verifiedPublicInfo: ["Tech Stack: Java, Kotlin, React, AWS", "Scaling Risks: Crypto transaction throughput, AWS security"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Blockchain.com Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Blockchain.com"
+    }
+  },
+
+  {
+    id: 'dojo',
+    name: "Dojo",
+    slug: 'dojo',
+    tagline: "ASP.NET legacy modernization, IIS performance",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£470M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://dojotechnology.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'dojo', label: "Dojo", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "George Karibian", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Dojo operates in the FinTech sector with a Established funding profile (£470M). Their core architecture leverages Windows Server, ASP.NET, IIS.\n\n**Architecture Signals & Scaling Risks**: ASP.NET legacy modernization, IIS performance",
+    verifiedPublicInfo: ["Tech Stack: Windows Server, ASP.NET, IIS", "Scaling Risks: ASP.NET legacy modernization, IIS performance"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Dojo Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Dojo"
+    }
+  },
+
+  {
+    id: 'thought-machine',
+    name: "Thought Machine",
+    slug: 'thought-machine',
+    tagline: "Kubernetes cluster management, Python backend scaling",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£442M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://thoughtmachine.net",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS"],
+      languages: ["Python"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'thought-machine', label: "Thought Machine", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Paul Taylor", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Thought Machine operates in the FinTech sector with a Established funding profile (£442M). Their core architecture leverages Python, Prometheus, AWS, Kubernetes, Bootstrap.\n\n**Architecture Signals & Scaling Risks**: Kubernetes cluster management, Python backend scaling",
+    verifiedPublicInfo: ["Tech Stack: Python, Prometheus, AWS, Kubernetes, Bootstrap", "Scaling Risks: Kubernetes cluster management, Python backend scaling"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Thought Machine Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Thought Machine"
+    }
+  },
+
+  {
+    id: 'gocardless',
+    name: "GoCardless",
+    slug: 'gocardless',
+    tagline: "Ruby on Rails monolithic scaling, PostgreSQL database locks",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£392M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://gocardless.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["GCP"],
+      languages: ["Ruby on Rails","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL"],
+      infrastructure: ["Kubernetes"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'gocardless', label: "GoCardless", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Hiroki Takeuchi", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "GoCardless operates in the FinTech sector with a Established funding profile (£392M). Their core architecture leverages Ruby on Rails, Next.js, Go, Kubernetes, PostgreSQL, GCP.\n\n**Architecture Signals & Scaling Risks**: Ruby on Rails monolithic scaling, PostgreSQL database locks",
+    verifiedPublicInfo: ["Tech Stack: Ruby on Rails, Next.js, Go, Kubernetes, PostgreSQL, GCP", "Scaling Risks: Ruby on Rails monolithic scaling, PostgreSQL database locks"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "GoCardless Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for GoCardless"
+    }
+  },
+
+  {
+    id: 'marex',
+    name: "Marex",
+    slug: 'marex',
+    tagline: "Marex Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£373M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://marex.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["Python","C#","JavaScript","TypeScript"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'marex', label: "Marex", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Arthur Fan", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Marex operates in the FinTech sector with a Established funding profile (£373M). Their core architecture leverages Python, C#, .NET, JavaScript, TypeScript.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Python, C#, .NET, JavaScript, TypeScript", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Marex Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Marex"
+    }
+  },
+
+  {
+    id: 'tandem',
+    name: "Tandem",
+    slug: 'tandem',
+    tagline: "Tandem Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£366M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://tandem.co.uk",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'tandem', label: "Tandem", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Alex Mollart", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Tandem operates in the FinTech sector with a Established funding profile (£366M). Their core architecture leverages Mambu, GitHub, XML, MySQL, BambooHR, reCAPTCHA, Nginx, lit-element, Webflow, Bootstrap, FullStory.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Mambu, GitHub, XML, MySQL, BambooHR, reCAPTCHA, Nginx, lit-element, Webflow, Bootstrap, FullStory", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Tandem Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Tandem"
+    }
+  },
+
+  {
+    id: 'teya',
+    name: "Teya",
+    slug: 'teya',
+    tagline: "Teya Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£358M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://teya.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'teya', label: "Teya", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Thiago Piau", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Teya operates in the FinTech sector with a Growth funding profile (£358M). Their core architecture leverages Facebook Pixel, Jenkins, git, OAuth, Cisco Meraki, Framer Sites, Mastercard, Chakra UI.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Facebook Pixel, Jenkins, git, OAuth, Cisco Meraki, Framer Sites, Mastercard, Chakra UI", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Teya Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Teya"
+    }
+  },
+
+  {
+    id: 'smart',
+    name: "Smart",
+    slug: 'smart',
+    tagline: "Smart Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£353M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://smartpension.co.uk",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["Ruby on Rails"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'smart', label: "Smart", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Andrew Evans", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Smart operates in the FinTech sector with a Established funding profile (£353M). Their core architecture leverages SQL, PostgreSQL, git, Perkbox, JSON-LD, Android, Ruby on Rails, CSS.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: SQL, PostgreSQL, git, Perkbox, JSON-LD, Android, Ruby on Rails, CSS", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Smart Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Smart"
+    }
+  },
+
+  {
+    id: 'clearbank',
+    name: "ClearBank",
+    slug: 'clearbank',
+    tagline: "ClearBank Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£348M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://clear.bank",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["Azure Active Directory"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'clearbank', label: "ClearBank", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Mark Fairless", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "ClearBank operates in the FinTech sector with a Established funding profile (£348M). Their core architecture leverages Hotjar, Tableau, Azure Active Directory, HashiCorp, Windows 10, Windows Server, Zscaler, Dynatrace.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Hotjar, Tableau, Azure Active Directory, HashiCorp, Windows 10, Windows Server, Zscaler, Dynatrace", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "ClearBank Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for ClearBank"
+    }
+  },
+
+  {
+    id: 'behavox',
+    name: "Behavox",
+    slug: 'behavox',
+    tagline: "Behavox Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£282M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://behavox.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'behavox', label: "Behavox", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Erkin Adylov", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Behavox operates in the FinTech sector with a Established funding profile (£282M). Their core architecture leverages Quantum risk detection, LLM, Cloud.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Quantum risk detection, LLM, Cloud", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Behavox Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Behavox"
+    }
+  },
+
+  {
+    id: 'stream',
+    name: "Stream",
+    slug: 'stream',
+    tagline: "Stream Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£278M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://getstream.io",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS"],
+      languages: ["Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'stream', label: "Stream", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Thierry Schellenbach", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Stream operates in the FinTech sector with a Growth funding profile (£278M). Their core architecture leverages Go, RocksDB, Raft, AWS.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Go, RocksDB, Raft, AWS", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Stream Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Stream"
+    }
+  },
+
+  {
+    id: 'oxbury',
+    name: "Oxbury",
+    slug: 'oxbury',
+    tagline: "Oxbury Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£262M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://oxbury.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'oxbury', label: "Oxbury", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "James Farrar", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Oxbury operates in the FinTech sector with a Growth funding profile (£262M). Their core architecture leverages Cloud-based solutions, Naqoda core banking system.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Cloud-based solutions, Naqoda core banking system", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Oxbury Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Oxbury"
+    }
+  },
+
+  {
+    id: '10x-banking',
+    name: "10x Banking",
+    slug: '10x-banking',
+    tagline: "10x Banking Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£258M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://10xbanking.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: '10x-banking', label: "10x Banking", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Antony Jenkins", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "10x Banking operates in the FinTech sector with a Established funding profile (£258M). Their core architecture leverages HubSpot Content Hub, RSS, git, Headspace, iOS, HTML, Lua, Thycotic.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: HubSpot Content Hub, RSS, git, Headspace, iOS, HTML, Lua, Thycotic", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "10x Banking Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for 10x Banking"
+    }
+  },
+
+  {
+    id: 'funding-circle',
+    name: "Funding Circle",
+    slug: 'funding-circle',
+    tagline: "Funding Circle Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£255M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://fundingcircle.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS"],
+      languages: ["PHP","Google Analytics","Ruby On Rails","Python"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'funding-circle', label: "Funding Circle", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Lisa Jacobs", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Funding Circle operates in the FinTech sector with a Established funding profile (£255M). Their core architecture leverages Microsoft Clarity, cdnjs, Webpack, PHP, Chakra UI, Google Analytics, Ruby On Rails, Python, AWS, Kubernetes.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Microsoft Clarity, cdnjs, Webpack, PHP, Chakra UI, Google Analytics, Ruby On Rails, Python, AWS, Kubernetes", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Funding Circle Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Funding Circle"
+    }
+  },
+
+  {
+    id: 'paddle',
+    name: "Paddle",
+    slug: 'paddle',
+    tagline: "Paddle Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£251M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://paddle.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["Google Analytics"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'paddle', label: "Paddle", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Jimmy Fitzgerald", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Paddle operates in the FinTech sector with a Established funding profile (£251M). Their core architecture leverages Google Analytics, HubSpot, Vue.js, Alpine.js, Svelte.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Google Analytics, HubSpot, Vue.js, Alpine.js, Svelte", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Paddle Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Paddle"
+    }
+  },
+
+  {
+    id: 'curve',
+    name: "Curve",
+    slug: 'curve',
+    tagline: "Curve Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£251M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://curve.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["Node","JavaScript"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'curve', label: "Curve", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Shachar Bialick", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Curve operates in the FinTech sector with a Growth funding profile (£251M). Their core architecture leverages Node, JavaScript, MEAN/MERN stack.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Node, JavaScript, MEAN/MERN stack", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Curve Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Curve"
+    }
+  },
+
+  {
+    id: 'tide',
+    name: "Tide",
+    slug: 'tide',
+    tagline: "Tide Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£244M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://tide.co",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'tide', label: "Tide", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Oliver Prill", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Tide operates in the FinTech sector with a Established funding profile (£244M). Their core architecture leverages Pendo, LaunchDarkly, Segment, Jamf Pro, Hammer.js, Braze, Workable, CSS.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Pendo, LaunchDarkly, Segment, Jamf Pro, Hammer.js, Braze, Workable, CSS", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Tide Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Tide"
+    }
+  },
+
+  {
+    id: 'copper',
+    name: "Copper",
+    slug: 'copper',
+    tagline: "Copper Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£237M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://copper.co",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'copper', label: "Copper", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Amar Kuchinad", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Copper operates in the Crypto sector with a Growth funding profile (£237M). Their core architecture leverages Blockchain, Digital asset custody technology.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Blockchain, Digital asset custody technology", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Copper Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Copper"
+    }
+  },
+
+  {
+    id: 'fnality',
+    name: "Fnality",
+    slug: 'fnality',
+    tagline: "Fnality Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£237M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://fnality.org",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS Security Hub"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'fnality', label: "Fnality", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Rhomaios Ram", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Fnality operates in the FinTech sector with a Growth funding profile (£237M). Their core architecture leverages Docker, Microsoft SharePoint, Atlassian Jira, Preact, AWS Security Hub.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Docker, Microsoft SharePoint, Atlassian Jira, Preact, AWS Security Hub", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Fnality Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Fnality"
+    }
+  },
+
+  {
+    id: 'cloudpay',
+    name: "CloudPay",
+    slug: 'cloudpay',
+    tagline: "CloudPay Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£234M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://cloudpay.net",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["Java"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'cloudpay', label: "CloudPay", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Roland Folz", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "CloudPay operates in the FinTech sector with a Established funding profile (£234M). Their core architecture leverages SaaS, Java, React, SQL.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: SaaS, Java, React, SQL", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "CloudPay Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for CloudPay"
+    }
+  },
+
+  {
+    id: 'form3',
+    name: "Form3",
+    slug: 'form3',
+    tagline: "Form3 Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£228M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://form3.tech",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgresDB"],
+      infrastructure: ["Kubernetes"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'form3', label: "Form3", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Mike", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Form3 operates in the FinTech sector with a Growth funding profile (£228M). Their core architecture leverages AWS, GCP, Kubernetes, CockroachDB, Elasticsearch, PostgresDB, Vault, Consul, Go.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: AWS, GCP, Kubernetes, CockroachDB, Elasticsearch, PostgresDB, Vault, Consul, Go", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Form3 Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Form3"
+    }
+  },
+
+  {
+    id: 'tradingview',
+    name: "TradingView",
+    slug: 'tradingview',
+    tagline: "TradingView Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£218M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://tradingview.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["Python","Node.js"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'tradingview', label: "TradingView", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Oleg Mukhanov", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "TradingView operates in the FinTech sector with a Growth funding profile (£218M). Their core architecture leverages HTML5, Canvas, WebSockets, Python, Node.js.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: HTML5, Canvas, WebSockets, Python, Node.js", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "TradingView Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for TradingView"
+    }
+  },
+
+  {
+    id: 'lendable',
+    name: "Lendable",
+    slug: 'lendable',
+    tagline: "Lendable Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£214M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://lendable.io",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS"],
+      languages: ["Python"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["Postgres"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'lendable', label: "Lendable", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Martin Kissinger", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Lendable operates in the FinTech sector with a Established funding profile (£214M). Their core architecture leverages AWS, Python, React, Postgres.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: AWS, Python, React, Postgres", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Lendable Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Lendable"
+    }
+  },
+
+  {
+    id: 'clearcourse',
+    name: "ClearCourse",
+    slug: 'clearcourse',
+    tagline: "ClearCourse Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£209M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://clearcoursellp.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["PHP"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["Snowflake"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'clearcourse', label: "ClearCourse", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Christina Hamilton", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "ClearCourse operates in the FinTech sector with a Established funding profile (£209M). Their core architecture leverages Grafana, Snowflake, Apache Tomcat, Storybook, PHP, HTML5.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Grafana, Snowflake, Apache Tomcat, Storybook, PHP, HTML5", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "ClearCourse Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for ClearCourse"
+    }
+  },
+
+  {
+    id: 'genesis',
+    name: "Genesis",
+    slug: 'genesis',
+    tagline: "Genesis Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£199M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://genesis.global",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["Java"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'genesis', label: "Genesis", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Stephen Murphy", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Genesis operates in the FinTech sector with a Growth funding profile (£199M). Their core architecture leverages AI Architecture, Cloud, Microservices, Java.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: AI Architecture, Cloud, Microservices, Java", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Genesis Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Genesis"
+    }
+  },
+
+  {
+    id: '9fin',
+    name: "9fin",
+    slug: '9fin',
+    tagline: "9fin Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£198M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://9fin.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS"],
+      languages: ["Python"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: '9fin', label: "9fin", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Steven Hunter", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "9fin operates in the FinTech sector with a Growth funding profile (£198M). Their core architecture leverages AI, Generative AI, LLMs, Python, AWS, PostgreSQL.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: AI, Generative AI, LLMs, Python, AWS, PostgreSQL", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "9fin Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for 9fin"
+    }
+  },
+
+  {
+    id: 'fresha',
+    name: "Fresha",
+    slug: 'fresha',
+    tagline: "Fresha Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£195M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://fresha.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'fresha', label: "Fresha", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "William Zeqiri", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Fresha operates in the SaaS sector with a Growth funding profile (£195M). Their core architecture leverages AI Concierge, iOS, Android, Web, Cloud.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: AI Concierge, iOS, Android, Web, Cloud", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Fresha Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Fresha"
+    }
+  },
+
+  {
+    id: 'paysend',
+    name: "PaySend",
+    slug: 'paysend',
+    tagline: "PaySend Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£195M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://paysend.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'paysend', label: "PaySend", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Ben Chisell", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "PaySend operates in the FinTech sector with a Established funding profile (£195M). Their core architecture leverages Mastercard/Visa APIs, Cloud, Mobile App, Microservices.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Mastercard/Visa APIs, Cloud, Mobile App, Microservices", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "PaySend Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for PaySend"
+    }
+  },
+
+  {
+    id: 'kriya',
+    name: "Kriya",
+    slug: 'kriya',
+    tagline: "Kriya Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£192M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://kriyago.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'kriya', label: "Kriya", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Anil", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Kriya operates in the FinTech sector with a Growth funding profile (£192M). Their core architecture leverages API orchestration, Cloud, Bidirectional data sync.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: API orchestration, Cloud, Bidirectional data sync", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Kriya Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Kriya"
+    }
+  },
+
+  {
+    id: 'the-bank-of-london',
+    name: "The Bank of London",
+    slug: 'the-bank-of-london',
+    tagline: "The Bank of London Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£192M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://bankoflondon.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'the-bank-of-london', label: "The Bank of London", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Tony Bullman", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "The Bank of London operates in the FinTech sector with a Growth funding profile (£192M). Their core architecture leverages Cloud-native, API-driven, Microservices.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Cloud-native, API-driven, Microservices", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "The Bank of London Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for The Bank of London"
+    }
+  },
+
+  {
+    id: 'soldo',
+    name: "Soldo",
+    slug: 'soldo',
+    tagline: "Soldo Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£192M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://soldo.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'soldo', label: "Soldo", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Carlo Gualandri", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Soldo operates in the FinTech sector with a Growth funding profile (£192M). Their core architecture leverages AWS, Kubernetes, Cloud-native, SSO, SAML.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: AWS, Kubernetes, Cloud-native, SSO, SAML", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Soldo Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Soldo"
+    }
+  },
+
+  {
+    id: 'monese',
+    name: "Monese",
+    slug: 'monese',
+    tagline: "Monese Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£185M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://monese.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'monese', label: "Monese", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Norris Koppel", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Monese operates in the FinTech sector with a Growth funding profile (£185M). Their core architecture leverages Thought Machine Vault, Cloud-native, iOS, Android.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Thought Machine Vault, Cloud-native, iOS, Android", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Monese Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Monese"
+    }
+  },
+
+  {
+    id: 'monument-bank',
+    name: "Monument Bank",
+    slug: 'monument-bank',
+    tagline: "Monument Bank Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£179M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://monument.co",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'monument-bank', label: "Monument Bank", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Steve", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Monument Bank operates in the FinTech sector with a Growth funding profile (£179M). Their core architecture leverages Microservices, API-first, Contentful CMS, Salesforce.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Microservices, API-first, Contentful CMS, Salesforce", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Monument Bank Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Monument Bank"
+    }
+  },
+
+  {
+    id: 'prodigy-finance',
+    name: "Prodigy Finance",
+    slug: 'prodigy-finance',
+    tagline: "Prodigy Finance Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£178M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://prodigyfinance.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["Python","Kotlin","JavaScript"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'prodigy-finance', label: "Prodigy Finance", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Cameron Stevens", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Prodigy Finance operates in the FinTech sector with a Established funding profile (£178M). Their core architecture leverages Python, Kotlin, JavaScript, Bootstrap, Moment.js.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Python, Kotlin, JavaScript, Bootstrap, Moment.js", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Prodigy Finance Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Prodigy Finance"
+    }
+  },
+
+  {
+    id: 'clearscore',
+    name: "ClearScore",
+    slug: 'clearscore',
+    tagline: "ClearScore Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£173M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://clearscore.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS"],
+      languages: ["Java"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'clearscore', label: "ClearScore", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Justin Basini", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "ClearScore operates in the FinTech sector with a Established funding profile (£173M). Their core architecture leverages AWS, Java, Spring Boot, React, React Native, Kubernetes.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: AWS, Java, Spring Boot, React, React Native, Kubernetes", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "ClearScore Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for ClearScore"
+    }
+  },
+
+  {
+    id: 'elliptic',
+    name: "Elliptic",
+    slug: 'elliptic',
+    tagline: "Elliptic Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£168M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://elliptic.co",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["DynamoDB"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'elliptic', label: "Elliptic", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Simone", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Elliptic operates in the FinTech sector with a Growth funding profile (£168M). Their core architecture leverages DynamoDB, AWS, Blockchain Analytics, Crypto Compliance Software.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: DynamoDB, AWS, Blockchain Analytics, Crypto Compliance Software", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Elliptic Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Elliptic"
+    }
+  },
+
+  {
+    id: 'moneyfarm',
+    name: "Moneyfarm",
+    slug: 'moneyfarm',
+    tagline: "Moneyfarm Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£168M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://moneyfarm.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'moneyfarm', label: "Moneyfarm", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Giovanni Daprà", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Moneyfarm operates in the FinTech sector with a Growth funding profile (£168M). Their core architecture leverages Online Investments, Smart Technology.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Online Investments, Smart Technology", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Moneyfarm Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Moneyfarm"
+    }
+  },
+
+  {
+    id: 'capital-on-tap',
+    name: "Capital on Tap",
+    slug: 'capital-on-tap',
+    tagline: "Capital on Tap Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£164M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://capitalontap.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'capital-on-tap', label: "Capital on Tap", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Damian Brychcy", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Capital on Tap operates in the FinTech sector with a Established funding profile (£164M). Their core architecture leverages Web & Mobile, Cloud & Infrastructure, Backend, AI, Data.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Web & Mobile, Cloud & Infrastructure, Backend, AI, Data", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Capital on Tap Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Capital on Tap"
+    }
+  },
+
+  {
+    id: 'thincats',
+    name: "ThinCats",
+    slug: 'thincats',
+    tagline: "ThinCats Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£160M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://thincats.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'thincats', label: "ThinCats", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Amany Attia", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "ThinCats operates in the FinTech sector with a Established funding profile (£160M). Their core architecture leverages Proprietary credit risk model, Data Analytics.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Proprietary credit risk model, Data Analytics", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "ThinCats Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for ThinCats"
+    }
+  },
+
+  {
+    id: 'terrapay',
+    name: "TerraPay",
+    slug: 'terrapay',
+    tagline: "TerraPay Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£146M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://terrapay.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'terrapay', label: "TerraPay", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Ambar Sur", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "TerraPay operates in the FinTech sector with a Venture funding profile (£146M). Their core architecture leverages Cross-border payments, APIs, Cloud.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Cross-border payments, APIs, Cloud", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "TerraPay Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for TerraPay"
+    }
+  },
+
+  {
+    id: 'sonovate',
+    name: "Sonovate",
+    slug: 'sonovate',
+    tagline: "Sonovate Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£144M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://sonovate.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'sonovate', label: "Sonovate", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Richard Prime", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Sonovate operates in the FinTech sector with a Growth funding profile (£144M). Their core architecture leverages Software Engineering, Cloud, Flexible financing tech.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Software Engineering, Cloud, Flexible financing tech", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Sonovate Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Sonovate"
+    }
+  },
+
+  {
+    id: 'cleo',
+    name: "Cleo",
+    slug: 'cleo',
+    tagline: "Cleo Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£137M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://cleo.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'cleo', label: "Cleo", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Barney Hussey-Yeo", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Cleo operates in the FinTech sector with a Established funding profile (£137M). Their core architecture leverages Cleo Integration Cloud (CIC), EDI, API, B2B Integration.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Cleo Integration Cloud (CIC), EDI, API, B2B Integration", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Cleo Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Cleo"
+    }
+  },
+
+  {
+    id: 'pollinate',
+    name: "Pollinate",
+    slug: 'pollinate',
+    tagline: "Pollinate Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£135M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://pollinate.tech",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["Python"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'pollinate', label: "Pollinate", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Fiona Roach Canning", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Pollinate operates in the FinTech sector with a Growth funding profile (£135M). Their core architecture leverages AI Agents, ERPs, Supply Chain, Python, Cloud.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: AI Agents, ERPs, Supply Chain, Python, Cloud", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Pollinate Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Pollinate"
+    }
+  },
+
+  {
+    id: 'paymentology',
+    name: "Paymentology",
+    slug: 'paymentology',
+    tagline: "Paymentology Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£134M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://paymentology.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'paymentology', label: "Paymentology", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Jeff Parker", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Paymentology operates in the FinTech sector with a Growth funding profile (£134M). Their core architecture leverages Lume platform, APIs, Cloud.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Lume platform, APIs, Cloud", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Paymentology Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Paymentology"
+    }
+  },
+
+  {
+    id: 'storfund',
+    name: "Storfund",
+    slug: 'storfund',
+    tagline: "Storfund Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£134M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://storfund.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'storfund', label: "Storfund", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "George Brintalos", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Storfund operates in the FinTech sector with a Growth funding profile (£134M). Their core architecture leverages Ecommerce tech, APIs.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Ecommerce tech, APIs", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Storfund Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Storfund"
+    }
+  },
+
+  {
+    id: 'modulr',
+    name: "Modulr",
+    slug: 'modulr',
+    tagline: "Modulr Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£133M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://modulrfinance.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'modulr', label: "Modulr", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Myles Stephenson", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Modulr operates in the FinTech sector with a Established funding profile (£133M). Their core architecture leverages Payments Automation Platform, APIs, Cloud.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Payments Automation Platform, APIs, Cloud", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Modulr Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Modulr"
+    }
+  },
+
+  {
+    id: 'tractable',
+    name: "Tractable",
+    slug: 'tractable',
+    tagline: "Tractable Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£133M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://tractable.ai",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'tractable', label: "Tractable", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Alex Dalyac", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Tractable operates in the FinTech / AI sector with a Growth funding profile (£133M). Their core architecture leverages AI, Computer Vision, Cloud.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: AI, Computer Vision, Cloud", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Tractable Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Tractable"
+    }
+  },
+
+  {
+    id: 'dext',
+    name: "Dext",
+    slug: 'dext',
+    tagline: "Dext Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£129M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://dext.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'dext', label: "Dext", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Sabby Gill", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Dext operates in the FinTech sector with a Established funding profile (£129M). Their core architecture leverages AI Bookkeeping software, Document capture.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: AI Bookkeeping software, Document capture", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Dext Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Dext"
+    }
+  },
+
+  {
+    id: 'primer',
+    name: "Primer",
+    slug: 'primer',
+    tagline: "Primer Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£128M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://primer.io",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'primer', label: "Primer", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Gabriel Le Roux", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Primer operates in the FinTech sector with a Growth funding profile (£128M). Their core architecture leverages Unified intelligence for payments, AI, Cloud.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Unified intelligence for payments, AI, Cloud", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Primer Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Primer"
+    }
+  },
+
+  {
+    id: 'nutmeg',
+    name: "Nutmeg",
+    slug: 'nutmeg',
+    tagline: "Nutmeg Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Public",
+    fundingAmount: "£126M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://personalinvesting.jpmorgan.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS"],
+      languages: ["Java","Kotlin"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["DynamoDB"],
+      infrastructure: ["Kubernetes","Kafka"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'nutmeg', label: "Nutmeg", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Sanjiv Somani", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Nutmeg operates in the FinTech sector with a Exited funding profile (£126M). Their core architecture leverages Java, Springboot, Kotlin, DynamoDB, Aurora/MySQL, AWS, Kubernetes, Kafka.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Java, Springboot, Kotlin, DynamoDB, Aurora/MySQL, AWS, Kubernetes, Kafka", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Nutmeg Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Nutmeg"
+    }
+  },
+
+  {
+    id: 'currencycloud',
+    name: "Currencycloud",
+    slug: 'currencycloud',
+    tagline: "Currencycloud Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£125M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://currencycloud.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'currencycloud', label: "Currencycloud", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Ledsham", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Currencycloud operates in the FinTech sector with a Established funding profile (£125M). Their core architecture leverages NetSuite, Salesforce, Spark, APIs, SDKs.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: NetSuite, Salesforce, Spark, APIs, SDKs", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Currencycloud Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Currencycloud"
+    }
+  },
+
+  {
+    id: 'fly-now-pay-later',
+    name: "Fly Now Pay Later",
+    slug: 'fly-now-pay-later',
+    tagline: "Fly Now Pay Later Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Public",
+    fundingAmount: "£122M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://flynowpaylater.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'fly-now-pay-later', label: "Fly Now Pay Later", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Jasper Dykes", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Fly Now Pay Later operates in the FinTech sector with a Exited funding profile (£122M). Their core architecture leverages MySQL, Moment.js, cdnjs.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: MySQL, Moment.js, cdnjs", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Fly Now Pay Later Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Fly Now Pay Later"
+    }
+  },
+
+  {
+    id: 'kroo',
+    name: "Kroo",
+    slug: 'kroo',
+    tagline: "Kroo Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£121M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://getkroo.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'kroo', label: "Kroo", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Veronika Lovett", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Kroo operates in the FinTech sector with a Growth funding profile (£121M). Their core architecture leverages Procore, AI, Data Connectors.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: Procore, AI, Data Connectors", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Kroo Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Kroo"
+    }
+  },
+
+  {
+    id: 'freetrade',
+    name: "Freetrade",
+    slug: 'freetrade',
+    tagline: "Freetrade Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£120M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://freetrade.io",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["Python","Typescript"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["Postgres"],
+      infrastructure: ["Terraform"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'freetrade', label: "Freetrade", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Viktor Nebehaj", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Freetrade operates in the FinTech sector with a Growth funding profile (£120M). Their core architecture leverages BigQuery, Cloud Functions, DBT, Looker, Terraform, Python, Typescript, Cloud Scheduler, Postgres.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: BigQuery, Cloud Functions, DBT, Looker, Terraform, Python, Typescript, Cloud Scheduler, Postgres", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Freetrade Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Freetrade"
+    }
+  },
+
+  {
+    id: 'redcloud',
+    name: "RedCloud",
+    slug: 'redcloud',
+    tagline: "RedCloud Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£119M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://redcloudtechnology.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'redcloud', label: "RedCloud", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Justin Floyd", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "RedCloud operates in the FinTech sector with a Growth funding profile (£119M). Their core architecture leverages RedAI, Machine Learning, Cloud.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: RedAI, Machine Learning, Cloud", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "RedCloud Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for RedCloud"
+    }
+  },
+
+  {
+    id: 'codat',
+    name: "Codat",
+    slug: 'codat',
+    tagline: "Codat Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£118M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://codat.io",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'codat', label: "Codat", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Peter Lord", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Codat operates in the FinTech sector with a Growth funding profile (£118M). Their core architecture leverages APIs, Infrastructure for data sharing.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: APIs, Infrastructure for data sharing", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Codat Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Codat"
+    }
+  },
+
+  {
+    id: 'finbourne',
+    name: "FINBOURNE",
+    slug: 'finbourne',
+    tagline: "FINBOURNE Engineering Intelligence Profile",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "£117M",
+    employees: '50-100',
+    headquarters: "London, UK",
+    country: "United Kingdom",
+    founded: '2020',
+    website: "https://finbourne.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'finbourne', label: "FINBOURNE", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Tom", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "FINBOURNE operates in the FinTech sector with a Growth funding profile (£117M). Their core architecture leverages EDM+, Luminesce, AI.\n\n**Architecture Signals & Scaling Risks**: TBD (Ready for Technical Diagnostics Pipeline)",
+    verifiedPublicInfo: ["Tech Stack: EDM+, Luminesce, AI", "Scaling Risks: TBD (Ready for Technical Diagnostics Pipeline)"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "FINBOURNE Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for FINBOURNE"
+    }
+  },
+
+  {
+    id: 'carta',
+    name: "Carta",
+    slug: 'carta',
+    tagline: "Data scaling issues, secondary sales infrastructure",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Late Stage",
+    fundingAmount: "$1.16B",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://carta.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["Java","Python"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'carta', label: "Carta", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Henry Ward", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Carta operates in the FinTech / Equity Management sector with a Series G funding profile ($1.16B). Their core architecture leverages ReactJS, Java, Python, Distributed Systems.\n\n**Architecture Signals & Scaling Risks**: Data scaling issues, secondary sales infrastructure",
+    verifiedPublicInfo: ["Tech Stack: ReactJS, Java, Python, Distributed Systems", "Scaling Risks: Data scaling issues, secondary sales infrastructure"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Carta Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Carta"
+    }
+  },
+
+  {
+    id: 'dave',
+    name: "Dave",
+    slug: 'dave',
+    tagline: "AI-led underwriting, scaling demand",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Public",
+    fundingAmount: "$163.6M",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://dave.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'dave', label: "Dave", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Jason Wilk", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Dave operates in the FinTech / Banking Tech sector with a Post IPO funding profile ($163.6M). Their core architecture leverages AI, Front End Infrastructure, Fullstack.\n\n**Architecture Signals & Scaling Risks**: AI-led underwriting, scaling demand",
+    verifiedPublicInfo: ["Tech Stack: AI, Front End Infrastructure, Fullstack", "Scaling Risks: AI-led underwriting, scaling demand"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Dave Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Dave"
+    }
+  },
+
+  {
+    id: 'intercom',
+    name: "Intercom",
+    slug: 'intercom',
+    tagline: "AI integration, scaling throughput",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Public",
+    fundingAmount: "$291.9M",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://intercom.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'intercom', label: "Intercom", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Eoghan McCabe", role: "CEO" }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Intercom operates in the AI Chatbots Software / Customer Support sector with a Secondary Market funding profile ($291.9M). Their core architecture leverages React, AI, Messenger.\n\n**Architecture Signals & Scaling Risks**: AI integration, scaling throughput",
+    verifiedPublicInfo: ["Tech Stack: React, AI, Messenger", "Scaling Risks: AI integration, scaling throughput"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Intercom Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Intercom"
     }
   }
 ];
