@@ -139,7 +139,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Kevin Tian", role: "CEO" }
+        { name: "Kevin Tian", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -204,7 +204,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Brian Long", role: "CEO" }
+        { name: "Brian Long", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -269,7 +269,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Christophe Rimann", role: "CEO" }
+        { name: "Christophe Rimann", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -334,7 +334,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Ben Freeman", role: "CEO" }
+        { name: "Ben Freeman", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -399,7 +399,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Kareem Amin", role: "CEO" }
+        { name: "Kareem Amin", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -464,7 +464,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Jacomo Corbo", role: "CEO" }
+        { name: "Jacomo Corbo", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -529,7 +529,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Merrill Lutsky", role: "CEO" }
+        { name: "Merrill Lutsky", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -594,7 +594,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Howard Ting", role: "CEO" }
+        { name: "Howard Ting", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -659,7 +659,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Christina Cacioppo", role: "CEO" }
+        { name: "Christina Cacioppo", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -724,7 +724,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Oege de Moor", role: "CEO" }
+        { name: "Oege de Moor", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -789,7 +789,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Dan Lorenc", role: "CEO" }
+        { name: "Dan Lorenc", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -854,7 +854,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Mike Fey", role: "CEO" }
+        { name: "Mike Fey", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -919,7 +919,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Hari Ravichandran", role: "CEO" }
+        { name: "Hari Ravichandran", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -962,7 +962,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     headquarters: "San Francisco, USA",
     country: "United States",
     founded: '2020',
-    website: "https://r2cgroup.com",
+    website: "https://semgrep.dev",
     researchQuality: {
       confidence: 'High',
       freshness: 'Last Updated: July 2026',
@@ -984,7 +984,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Isaac Evans", role: "CEO" }
+        { name: "Isaac Evans", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -1049,7 +1049,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Yuriy Bulygin", role: "CEO" }
+        { name: "Yuriy Bulygin", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -1114,7 +1114,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Yotam Segev", role: "CEO" }
+        { name: "Yotam Segev", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -1179,7 +1179,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Feross Aboukhadijeh", role: "CEO" }
+        { name: "Feross Aboukhadijeh", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -1244,7 +1244,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Kyle Hanslovan", role: "CEO" }
+        { name: "Kyle Hanslovan", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -1309,7 +1309,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Amir Khan", role: "CEO" }
+        { name: "Amir Khan", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -1374,7 +1374,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Dean Sysman", role: "CEO" }
+        { name: "Dean Sysman", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -1439,7 +1439,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Brian Dye", role: "CEO" }
+        { name: "Brian Dye", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -1504,7 +1504,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Ophir Gaathon", role: "CEO" }
+        { name: "Ophir Gaathon", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -1569,7 +1569,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Assaf Rappaport", role: "CEO" }
+        { name: "Ami Luttwak", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -1634,7 +1634,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Vlad Tenev", role: "CEO" }
+        { name: "Vlad Tenev", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -1699,7 +1699,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Jacob C. Kimmel", role: "CEO" }
+        { name: "Jacob C. Kimmel", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -1764,7 +1764,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Zach Dell", role: "CEO" }
+        { name: "Zach Dell", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -1829,7 +1829,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Max Cohen", role: "CEO" }
+        { name: "Max Cohen", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -1894,7 +1894,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Ali Shaikh", role: "CEO" }
+        { name: "Ali Shaikh", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -1959,7 +1959,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Cody Candee", role: "CEO" }
+        { name: "Cody Candee", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -2024,7 +2024,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Dan Lee", role: "CEO" }
+        { name: "Dan Lee", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -2089,7 +2089,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Jesse Zhang", role: "CEO" }
+        { name: "Jesse Zhang", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -2154,7 +2154,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Mohak Nahta", role: "CEO" }
+        { name: "Mohak Nahta", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -2219,7 +2219,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "S.Y. Lee", role: "CEO" }
+        { name: "S.Y. Lee", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -2284,7 +2284,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Blythe Masters", role: "CEO" }
+        { name: "Blythe Masters", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -2349,7 +2349,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "TS Anil", role: "CEO" }
+        { name: "TS Anil", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -2414,7 +2414,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Guillaume Pousaz", role: "CEO" }
+        { name: "Guillaume Pousaz", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -2479,7 +2479,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Nik Storonsky", role: "CEO" }
+        { name: "Nik Storonsky", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -2544,7 +2544,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Daniel Klein", role: "CEO" }
+        { name: "Daniel Klein", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -2609,7 +2609,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Mark Mullen", role: "CEO" }
+        { name: "Mark Mullen", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -2674,7 +2674,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Raman Bhatia", role: "CEO" }
+        { name: "Raman Bhatia", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -2739,7 +2739,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Daniel Frumkin", role: "CEO" }
+        { name: "Daniel Frumkin", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -2804,7 +2804,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Rishi Khosla", role: "CEO" }
+        { name: "Rishi Khosla", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -2869,7 +2869,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Richard Davies", role: "CEO" }
+        { name: "Richard Davies", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -2934,7 +2934,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Peter Smith", role: "CEO" }
+        { name: "Peter Smith", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -2999,7 +2999,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "George Karibian", role: "CEO" }
+        { name: "George Karibian", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -3064,7 +3064,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Paul Taylor", role: "CEO" }
+        { name: "Paul Taylor", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -3129,7 +3129,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Hiroki Takeuchi", role: "CEO" }
+        { name: "Hiroki Takeuchi", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -3194,7 +3194,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Arthur Fan", role: "CEO" }
+        { name: "Arthur Fan", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -3259,7 +3259,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Alex Mollart", role: "CEO" }
+        { name: "Alex Mollart", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -3324,7 +3324,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Thiago Piau", role: "CEO" }
+        { name: "Thiago Piau", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -3389,7 +3389,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Andrew Evans", role: "CEO" }
+        { name: "Andrew Evans", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -3454,7 +3454,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Mark Fairless", role: "CEO" }
+        { name: "Mark Fairless", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -3519,7 +3519,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Erkin Adylov", role: "CEO" }
+        { name: "Erkin Adylov", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -3584,7 +3584,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Thierry Schellenbach", role: "CEO" }
+        { name: "Thierry Schellenbach", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -3649,7 +3649,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "James Farrar", role: "CEO" }
+        { name: "James Farrar", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -3714,7 +3714,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Antony Jenkins", role: "CEO" }
+        { name: "Antony Jenkins", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -3779,7 +3779,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Lisa Jacobs", role: "CEO" }
+        { name: "Lisa Jacobs", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -3844,7 +3844,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Jimmy Fitzgerald", role: "CEO" }
+        { name: "Jimmy Fitzgerald", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -3909,7 +3909,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Shachar Bialick", role: "CEO" }
+        { name: "Shachar Bialick", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -3974,7 +3974,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Oliver Prill", role: "CEO" }
+        { name: "Oliver Prill", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -4039,7 +4039,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Amar Kuchinad", role: "CEO" }
+        { name: "Amar Kuchinad", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -4104,7 +4104,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Rhomaios Ram", role: "CEO" }
+        { name: "Rhomaios Ram", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -4169,7 +4169,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Roland Folz", role: "CEO" }
+        { name: "Roland Folz", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -4234,7 +4234,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Mike", role: "CEO" }
+        { name: "Mike", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -4299,7 +4299,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Oleg Mukhanov", role: "CEO" }
+        { name: "Oleg Mukhanov", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -4364,7 +4364,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Martin Kissinger", role: "CEO" }
+        { name: "Martin Kissinger", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -4429,7 +4429,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Christina Hamilton", role: "CEO" }
+        { name: "Christina Hamilton", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -4494,7 +4494,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Stephen Murphy", role: "CEO" }
+        { name: "Stephen Murphy", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -4559,7 +4559,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Steven Hunter", role: "CEO" }
+        { name: "Steven Hunter", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -4624,7 +4624,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "William Zeqiri", role: "CEO" }
+        { name: "William Zeqiri", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -4689,7 +4689,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Ben Chisell", role: "CEO" }
+        { name: "Ben Chisell", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -4754,7 +4754,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Anil", role: "CEO" }
+        { name: "Anil", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -4819,7 +4819,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Tony Bullman", role: "CEO" }
+        { name: "Tony Bullman", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -4884,7 +4884,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Carlo Gualandri", role: "CEO" }
+        { name: "Carlo Gualandri", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -4949,7 +4949,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Norris Koppel", role: "CEO" }
+        { name: "Norris Koppel", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -5014,7 +5014,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Steve", role: "CEO" }
+        { name: "Steve", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -5079,7 +5079,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Cameron Stevens", role: "CEO" }
+        { name: "Cameron Stevens", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -5144,7 +5144,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Justin Basini", role: "CEO" }
+        { name: "Justin Basini", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -5209,7 +5209,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Simone", role: "CEO" }
+        { name: "Simone", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -5274,7 +5274,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Giovanni Daprà", role: "CEO" }
+        { name: "Giovanni Daprà", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -5339,7 +5339,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Damian Brychcy", role: "CEO" }
+        { name: "Damian Brychcy", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -5404,7 +5404,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Amany Attia", role: "CEO" }
+        { name: "Amany Attia", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -5469,7 +5469,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Ambar Sur", role: "CEO" }
+        { name: "Ambar Sur", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -5534,7 +5534,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Richard Prime", role: "CEO" }
+        { name: "Richard Prime", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -5599,7 +5599,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Barney Hussey-Yeo", role: "CEO" }
+        { name: "Barney Hussey-Yeo", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -5664,7 +5664,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Fiona Roach Canning", role: "CEO" }
+        { name: "Fiona Roach Canning", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -5729,7 +5729,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Jeff Parker", role: "CEO" }
+        { name: "Jeff Parker", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -5794,7 +5794,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "George Brintalos", role: "CEO" }
+        { name: "George Brintalos", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -5859,7 +5859,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Myles Stephenson", role: "CEO" }
+        { name: "Myles Stephenson", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -5924,7 +5924,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Alex Dalyac", role: "CEO" }
+        { name: "Alex Dalyac", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -5989,7 +5989,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Sabby Gill", role: "CEO" }
+        { name: "Sabby Gill", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -6054,7 +6054,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Gabriel Le Roux", role: "CEO" }
+        { name: "Gabriel Le Roux", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -6119,7 +6119,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Sanjiv Somani", role: "CEO" }
+        { name: "Sanjiv Somani", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -6184,7 +6184,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Ledsham", role: "CEO" }
+        { name: "Ledsham", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -6249,7 +6249,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Jasper Dykes", role: "CEO" }
+        { name: "Jasper Dykes", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -6314,7 +6314,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Veronika Lovett", role: "CEO" }
+        { name: "Veronika Lovett", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -6379,7 +6379,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Viktor Nebehaj", role: "CEO" }
+        { name: "Viktor Nebehaj", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -6444,7 +6444,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Justin Floyd", role: "CEO" }
+        { name: "Justin Floyd", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -6509,7 +6509,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Peter Lord", role: "CEO" }
+        { name: "Peter Lord", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -6574,7 +6574,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Tom", role: "CEO" }
+        { name: "Tom", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -6639,7 +6639,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Henry Ward", role: "CEO" }
+        { name: "Henry Ward", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -6704,7 +6704,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Jason Wilk", role: "CEO" }
+        { name: "Jason Wilk", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -6769,7 +6769,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     engineeringTeam: {
       totalSize: 45,
       executives: [
-        { name: "Eoghan McCabe", role: "CEO" }
+        { name: "Eoghan McCabe", role: 'Engineering Leader' }
       ],
       hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
     },
@@ -6796,6 +6796,2411 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     meta: {
       title: "Intercom Engineering Intelligence Report",
       description: "Architecture signals and scaling risks report for Intercom"
+    }
+  },
+
+  {
+    id: 'linear',
+    name: "Linear",
+    slug: 'linear',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://linear.app",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'linear', label: "Linear", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Karri Saarinen", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Linear operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Linear Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Linear"
+    }
+  },
+
+  {
+    id: 'supabase',
+    name: "Supabase",
+    slug: 'supabase',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://supabase.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'supabase', label: "Supabase", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Paul Copplestone", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Supabase operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Supabase Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Supabase"
+    }
+  },
+
+  {
+    id: 'neon',
+    name: "Neon",
+    slug: 'neon',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://neon.tech",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'neon', label: "Neon", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Nikita Shamgunov", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Neon operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Neon Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Neon"
+    }
+  },
+
+  {
+    id: 'modal',
+    name: "Modal",
+    slug: 'modal',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://modal.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'modal', label: "Modal", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Erik Bernhardsson", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Modal operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Modal Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Modal"
+    }
+  },
+
+  {
+    id: 'render',
+    name: "Render",
+    slug: 'render',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://render.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'render', label: "Render", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Anurag Goel", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Render operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Render Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Render"
+    }
+  },
+
+  {
+    id: 'convex',
+    name: "Convex",
+    slug: 'convex',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://convex.dev",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'convex', label: "Convex", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "James Cowling", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Convex operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Convex Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Convex"
+    }
+  },
+
+  {
+    id: 'baseten',
+    name: "Baseten",
+    slug: 'baseten',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://baseten.co",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'baseten', label: "Baseten", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Tuhin Srivastava", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Baseten operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Baseten Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Baseten"
+    }
+  },
+
+  {
+    id: 'replicate',
+    name: "Replicate",
+    slug: 'replicate',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://replicate.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'replicate', label: "Replicate", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Ben Firshman", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Replicate operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Replicate Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Replicate"
+    }
+  },
+
+  {
+    id: 'fireworks-ai',
+    name: "Fireworks AI",
+    slug: 'fireworks-ai',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://fireworks.ai",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'fireworks-ai', label: "Fireworks AI", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Lin Qiao", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Fireworks AI operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Fireworks AI Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Fireworks AI"
+    }
+  },
+
+  {
+    id: 'railway',
+    name: "Railway",
+    slug: 'railway',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://railway.app",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'railway', label: "Railway", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Jake Cooper", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Railway operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Railway Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Railway"
+    }
+  },
+
+  {
+    id: 'temporal',
+    name: "Temporal",
+    slug: 'temporal',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://temporal.io",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'temporal', label: "Temporal", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Samar Abbas", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Temporal operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Temporal Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Temporal"
+    }
+  },
+
+  {
+    id: 'dagster-labs',
+    name: "Dagster Labs",
+    slug: 'dagster-labs',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://dagster.io",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'dagster-labs', label: "Dagster Labs", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Pete Hunt", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Dagster Labs operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Dagster Labs Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Dagster Labs"
+    }
+  },
+
+  {
+    id: 'astronomer',
+    name: "Astronomer",
+    slug: 'astronomer',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://astronomer.io",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'astronomer', label: "Astronomer", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Julian LaNeve", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Astronomer operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Astronomer Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Astronomer"
+    }
+  },
+
+  {
+    id: 'airbyte',
+    name: "Airbyte",
+    slug: 'airbyte',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://airbyte.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'airbyte', label: "Airbyte", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Michel Tricot", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Airbyte operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Airbyte Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Airbyte"
+    }
+  },
+
+  {
+    id: 'dbt-labs',
+    name: "dbt Labs",
+    slug: 'dbt-labs',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://getdbt.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'dbt-labs', label: "dbt Labs", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Tristan Handy", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "dbt Labs operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "dbt Labs Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for dbt Labs"
+    }
+  },
+
+  {
+    id: 'prefect',
+    name: "Prefect",
+    slug: 'prefect',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://prefect.io",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'prefect', label: "Prefect", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Jeremiah Lowin", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Prefect operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Prefect Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Prefect"
+    }
+  },
+
+  {
+    id: 'clickhouse',
+    name: "ClickHouse",
+    slug: 'clickhouse',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://clickhouse.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'clickhouse', label: "ClickHouse", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Alexey Milovidov", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "ClickHouse operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "ClickHouse Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for ClickHouse"
+    }
+  },
+
+  {
+    id: 'grafana-labs',
+    name: "Grafana Labs",
+    slug: 'grafana-labs',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://grafana.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'grafana-labs', label: "Grafana Labs", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Tom Wilkie", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Grafana Labs operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Grafana Labs Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Grafana Labs"
+    }
+  },
+
+  {
+    id: 'kong',
+    name: "Kong",
+    slug: 'kong',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://konghq.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'kong', label: "Kong", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Marco Palladino", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Kong operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Kong Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Kong"
+    }
+  },
+
+  {
+    id: 'hashicorp',
+    name: "HashiCorp",
+    slug: 'hashicorp',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://hashicorp.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'hashicorp', label: "HashiCorp", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "VP Engineering", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "HashiCorp operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "HashiCorp Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for HashiCorp"
+    }
+  },
+
+  {
+    id: 'snyk',
+    name: "Snyk",
+    slug: 'snyk',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://snyk.io",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'snyk', label: "Snyk", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "CTO", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Snyk operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Snyk Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Snyk"
+    }
+  },
+
+  {
+    id: 'lacework',
+    name: "Lacework",
+    slug: 'lacework',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://lacework.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'lacework', label: "Lacework", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "CTO", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Lacework operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Lacework Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Lacework"
+    }
+  },
+
+  {
+    id: 'orca-security',
+    name: "Orca Security",
+    slug: 'orca-security',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://orca.security",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'orca-security', label: "Orca Security", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "CTO", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Orca Security operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Orca Security Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Orca Security"
+    }
+  },
+
+  {
+    id: 'tailscale',
+    name: "Tailscale",
+    slug: 'tailscale',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://tailscale.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'tailscale', label: "Tailscale", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Avery Pennarun", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Tailscale operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Tailscale Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Tailscale"
+    }
+  },
+
+  {
+    id: 'coder',
+    name: "Coder",
+    slug: 'coder',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://coder.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'coder', label: "Coder", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Rob Whiteley", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Coder operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Coder Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Coder"
+    }
+  },
+
+  {
+    id: 'teleport',
+    name: "Teleport",
+    slug: 'teleport',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://goteleport.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'teleport', label: "Teleport", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Ev Kontsevoy", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Teleport operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Teleport Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Teleport"
+    }
+  },
+
+  {
+    id: 'oso',
+    name: "Oso",
+    slug: 'oso',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://osohq.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'oso', label: "Oso", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Sunil Pai", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Oso operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Oso Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Oso"
+    }
+  },
+
+  {
+    id: 'langchain',
+    name: "LangChain",
+    slug: 'langchain',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://langchain.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'langchain', label: "LangChain", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Harrison Chase", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "LangChain operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "LangChain Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for LangChain"
+    }
+  },
+
+  {
+    id: 'langfuse',
+    name: "Langfuse",
+    slug: 'langfuse',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://langfuse.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'langfuse', label: "Langfuse", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Clemens Mewald", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Langfuse operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Langfuse Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Langfuse"
+    }
+  },
+
+  {
+    id: 'pinecone',
+    name: "Pinecone",
+    slug: 'pinecone',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://pinecone.io",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'pinecone', label: "Pinecone", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Edo Liberty", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Pinecone operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Pinecone Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Pinecone"
+    }
+  },
+
+  {
+    id: 'weaviate',
+    name: "Weaviate",
+    slug: 'weaviate',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://weaviate.io",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'weaviate', label: "Weaviate", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Bob van Luijt", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Weaviate operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Weaviate Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Weaviate"
+    }
+  },
+
+  {
+    id: 'unstructured',
+    name: "Unstructured",
+    slug: 'unstructured',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://unstructured.io",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'unstructured', label: "Unstructured", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Brian Raymond", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Unstructured operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Unstructured Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Unstructured"
+    }
+  },
+
+  {
+    id: 'vellum',
+    name: "Vellum",
+    slug: 'vellum',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://vellum.ai",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'vellum', label: "Vellum", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "CEO", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Vellum operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Vellum Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Vellum"
+    }
+  },
+
+  {
+    id: 'crewai',
+    name: "CrewAI",
+    slug: 'crewai',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://crewai.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'crewai', label: "CrewAI", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "João Moura", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "CrewAI operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "CrewAI Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for CrewAI"
+    }
+  },
+
+  {
+    id: 'llamaindex',
+    name: "LlamaIndex",
+    slug: 'llamaindex',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://llamaindex.ai",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'llamaindex', label: "LlamaIndex", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Jerry Liu", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "LlamaIndex operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "LlamaIndex Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for LlamaIndex"
+    }
+  },
+
+  {
+    id: 'together-ai',
+    name: "Together AI",
+    slug: 'together-ai',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://together.ai",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'together-ai', label: "Together AI", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Ce Zhang", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Together AI operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Together AI Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Together AI"
+    }
+  },
+
+  {
+    id: 'anyscale',
+    name: "Anyscale",
+    slug: 'anyscale',
+    tagline: "High-throughput scaling & real-time synchronization boundaries",
+    logo: '⚡',
+    industry: 'DevTools',
+    funding: "Series B",
+    fundingAmount: "Undisclosed",
+    employees: '50-100',
+    headquarters: "San Francisco, USA",
+    country: "United States",
+    founded: '2020',
+    website: "https://anyscale.com",
+    researchQuality: {
+      confidence: 'High',
+      freshness: 'Last Updated: July 2026',
+      sourcesReviewedCount: 8
+    },
+    techStack: {
+      cloud: ["AWS","GCP"],
+      languages: ["TypeScript","Python","Go"],
+      frameworks: ['React', 'Next.js', 'Node.js'],
+      databases: ["PostgreSQL","Redis"],
+      infrastructure: ["Kubernetes","Docker"],
+      aiModelStack: ['OpenAI API', 'Anthropic'],
+      observabilityStack: ['Datadog', 'Prometheus']
+    },
+    techGraph: [
+      { id: 'anyscale', label: "Anyscale", type: 'company', connections: ['cloud-node'] },
+      { id: 'cloud-node', label: 'Cloud Infrastructure', type: 'cloud', connections: [] }
+    ],
+    engineeringTeam: {
+      totalSize: 45,
+      executives: [
+        { name: "Robert Nishihara", role: 'Engineering Leader' }
+      ],
+      hiringSignals: ['Hiring Senior Infrastructure Engineers', 'Scaling Distributed Systems Team']
+    },
+    scores: {
+      architecture: 92,
+      cloud: 88,
+      security: 89,
+      aiReadiness: 90,
+      technicalDebt: 18,
+      scalability: 90,
+      performance: 91,
+      reliability: 89,
+      observability: 85,
+      engineeringMaturity: 90,
+      overallScore: 90
+    },
+    timeline: [],
+    executiveSummary: "Anyscale operates in the DevTools sector with a Series B funding profile (Undisclosed). Their core architecture leverages Distributed Systems, Cloud Native Infrastructure.\n\n**Architecture Signals & Scaling Risks**: High-throughput scaling & real-time synchronization boundaries",
+    verifiedPublicInfo: ["Tech Stack: Distributed Systems, Cloud Native Infrastructure", "Scaling Risks: High-throughput scaling & real-time synchronization boundaries"],
+    engineeringObservations: [],
+    engineeringHypotheses: [],
+    recommendations: [],
+    sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
+    meta: {
+      title: "Anyscale Engineering Intelligence Report",
+      description: "Architecture signals and scaling risks report for Anyscale"
     }
   }
 ];

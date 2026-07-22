@@ -350,7 +350,7 @@ I’ll keep this brief. If you or your engineering leadership are exploring arch
 
 Best,
 Vishnu","Hi Hari, I’ve been studying Aura’s public engineering footprint and technical stack (Node.js,  React,  Python). Put together an Engineering Intelligence report you might find useful. Would love to connect.","Thanks for connecting, Hari. Here is the direct link to the report on Aura's architecture: https://www.xaviratechlabs.com/research/aura. Let me know if you’d be open to a quick technical chat."
-"Semgrep","Isaac Evans","ievans@r2cgroup.com","Semgrep's Architecture & TBD (Ready for Technical Diagnostics Pipeline)","Hi Isaac,
+"Semgrep","Isaac Evans","isaac@semgrep.dev","Semgrep's Architecture & TBD (Ready for Technical Diagnostics Pipeline)","Hi Isaac,
 
 I recently spent some time studying Semgrep's public engineering footprint. Your technical architecture leveraging OCaml, Python, React, Go, Docker, Kubernetes, AWS is impressive, particularly as you scale throughput. Addresses like TBD (Ready for Technical Diagnostics Pipeline) require thoughtful system boundaries.
 
@@ -593,7 +593,7 @@ I’ll keep this brief. If you or your engineering leadership are exploring arch
 
 Best,
 Vishnu","Hi Ophir, I’ve been studying DUST Identity’s public engineering footprint and technical stack (Synthetic diamond resin,  Nanoengineered diamonds). Put together an Engineering Intelligence report you might find useful. Would love to connect.","Thanks for connecting, Ophir. Here is the direct link to the report on DUST Identity's architecture: https://www.xaviratechlabs.com/research/dust-identity. Let me know if you’d be open to a quick technical chat."
-"Wiz","Assaf Rappaport","assaf.rappaport@wiz.io","Wiz's Architecture & Optimizely, Workday, GitHub, Anaplan, Swiper, Snort (Needs technical diagnosis)","Hi Assaf,
+"Wiz","Ami Luttwak","ami@wiz.io","Wiz's Architecture & Optimizely, Workday, GitHub, Anaplan, Swiper, Snort (Needs technical diagnosis)","Hi Assaf,
 
 I recently spent some time studying Wiz's public engineering footprint. Your technical architecture leveraging Optimizely, Workday, GitHub, Anaplan, Swiper, Snort is impressive, particularly as you scale throughput. Addresses like Optimizely, Workday, GitHub, Anaplan, Swiper, Snort (Needs technical diagnosis) require thoughtful system boundaries.
 
@@ -2780,3 +2780,561 @@ I’ll keep this brief. If you or your engineering leadership are exploring arch
 
 Best,
 Vishnu","Hi Eoghan, I’ve been studying Intercom’s public engineering footprint and technical stack (React,  AI,  Messenger). Put together an Engineering Intelligence report you might find useful. Would love to connect.","Thanks for connecting, Eoghan. Here is the direct link to the report on Intercom's architecture: https://www.xaviratechlabs.com/research/intercom. Let me know if you’d be open to a quick technical chat."
+"Linear","Karri Saarinen","karri@linear.app","Linear's Sync Engine Architecture & Local-first Scaling","Hi Karri,
+
+I recently spent some time studying Linear's public engineering footprint. Your approach to building a local-first architecture with the Sync Engine, leveraging React and MobX, sets a remarkable standard for application performance and developer experience.
+
+I put together an Engineering Intelligence Report analyzing your architecture signals and potential scaling strategies: https://www.xaviratechlabs.com/research/linear
+
+Would you be open to a brief 20-minute conversation to discuss these findings?
+
+Best,
+
+Vishnu Burri
+Director & Principal Architect, XAVIRA Technologies","Hi Karri,
+
+Just floating this to the top of your inbox. I know scaling the GraphQL and Sync Engine boundaries can introduce unique bottlenecks as workspace sizes grow. Our report touches on some asynchronous patterns that might be relevant. Let me know if you have 20 minutes next week.
+
+Best,
+Vishnu","Hi Karri,
+
+I’ll keep this brief. If you or your engineering leadership are exploring architectural optimizations for the next phase of Linear's backend scale, I’d love to share our findings. If not, I'll close the loop here. 
+
+Best,
+Vishnu","Hi Karri, I’ve been studying Linear’s public engineering footprint, specifically the Sync Engine and MobX state architecture. Put together some research I thought you'd find interesting. Would love to connect.","Thanks for connecting, Karri. Here is the link to the Engineering Intelligence report I mentioned: https://www.xaviratechlabs.com/research/linear. Let me know if you’d be open to a quick chat on the architecture side."
+"Supabase","Paul Copplestone","paul@supabase.com","Supabase's Elixir Realtime Engine & Postgres Scaling","Hi Paul,
+
+I recently spent some time studying Supabase's public engineering footprint. Scaling the Realtime engine with Elixir and your strategic use of Go and Deno for Edge Functions while maintaining deep PostgreSQL integration is an impressive architectural feat.
+
+I put together an Engineering Intelligence Report analyzing your stack and potential infrastructure optimizations: https://www.xaviratechlabs.com/research/supabase
+
+Would you be open to a 20-minute conversation to discuss some of these insights?
+
+Best,
+
+Vishnu Burri
+Director & Principal Architect, XAVIRA Technologies","Hi Paul,
+
+Just bubbling this up. I know managing the WAL replication and Elixir cluster state at your current growth rate presents unique distributed systems challenges. Our report outlines a few patterns that might be highly relevant for the engineering team. Let me know if you have 20 minutes to chat.
+
+Best,
+Vishnu","Hi Paul,
+
+If scaling the core infrastructure and edge network is a priority for the engineering leadership team this quarter, I’d love to connect. If the timing isn't right, I'll close the loop here and keep watching Supabase's awesome progress.
+
+Best,
+Vishnu","Hi Paul, I’ve been studying Supabase’s public engineering footprint, specifically how you're using Elixir for the Realtime engine alongside Postgres WAL. Put together some research I thought you'd appreciate. Would love to connect.","Thanks for connecting, Paul. Here is the link to the Engineering Intelligence report I mentioned: https://www.xaviratechlabs.com/research/supabase. Let me know if you or the eng team would be open to a quick technical chat."
+"Neon","Nikita Shamgunov","nikita@neon.tech","Neon's Rust-Based Storage Architecture & Compute Decoupling","Hi Nikita,
+
+I recently spent some time studying Neon's public engineering footprint. Decoupling storage and compute for PostgreSQL using your Rust-based pageservers and safekeepers represents a massive architectural shift for serverless databases.
+
+I put together an Engineering Intelligence Report detailing these architecture signals and broader distributed systems trends: https://www.xaviratechlabs.com/research/neon
+
+Would you be open to a 20-minute conversation to talk shop on database architecture?
+
+Best,
+
+Vishnu Burri
+Director & Principal Architect, XAVIRA Technologies","Hi Nikita,
+
+Just bringing this to the top of your inbox. We've been analyzing how storage-compute decoupling impacts tail latencies in multi-tenant environments, specifically concerning Safekeeper consensus. I think our findings could be valuable to your engineering org. Let me know if you have 20 minutes next week.
+
+Best,
+Vishnu","Hi Nikita,
+
+I’ll keep this brief. If you or your engineering leadership are exploring advanced optimizations for the storage layer, I’d love to share our research. If it's not a focus right now, I'll close the loop here. Keep up the great work with Neon.
+
+Best,
+Vishnu","Hi Nikita, I’ve been studying Neon’s public engineering footprint, specifically the Rust-based safekeepers and pageserver architecture. Put together some research I thought you'd find interesting. Would love to connect.","Thanks for connecting, Nikita. Here is the link to the Engineering Intelligence report I mentioned: https://www.xaviratechlabs.com/research/neon. Let me know if you’d be open to a quick chat on distributed database architecture."
+"Modal","Erik Bernhardsson","erik@modal.com","Modal's Custom Rust Container Runtime & GPU Scaling","Hi Erik,
+
+I recently spent some time studying Modal's public engineering footprint. Building a custom container runtime in Rust to achieve sub-second cold starts for heavy Python and GPU workloads is incredibly compelling.
+
+I put together an Engineering Intelligence Report analyzing your infrastructure choices and potential platform engineering directions: https://www.xaviratechlabs.com/research/modal
+
+Would you be open to a 20-minute conversation to discuss these findings?
+
+Best,
+
+Vishnu Burri
+Director & Principal Architect, XAVIRA Technologies","Hi Erik,
+
+Just floating this to the top. I know managing gRPC streams and distributed state across a fleet of highly ephemeral GPU nodes brings unique infrastructure challenges. Our report touches on some scheduler optimization patterns that might be relevant. Let me know if you have 20 minutes next week.
+
+Best,
+Vishnu","Hi Erik,
+
+If scaling the custom runtime and compute infrastructure is a priority for your engineering leadership right now, I’d love to connect. If not, I'll close the loop here. Really impressed by what Modal is building.
+
+Best,
+Vishnu","Hi Erik, I’ve been studying Modal’s public engineering footprint, specifically your bespoke Rust container runtime and on-demand file system hydration. Put together some research I thought you'd find interesting. Would love to connect.","Thanks for connecting, Erik. Here is the link to the Engineering Intelligence report I mentioned: https://www.xaviratechlabs.com/research/modal. Let me know if you’d be open to a quick chat on infrastructure architecture."
+"Render","Anurag Goel","anurag@render.com","Render's Go-Based Control Plane & PaaS Architecture","Hi Anurag,
+
+I recently spent some time studying Render's public engineering footprint. Abstracting Kubernetes complexity while providing reliable, zero-downtime deploys through a robust Go-based control plane is a masterclass in developer experience.
+
+I put together an Engineering Intelligence Report analyzing your platform architecture and scalability signals: https://www.xaviratechlabs.com/research/render
+
+Would you be open to a brief 20-minute conversation to discuss these engineering insights?
+
+Best,
+
+Vishnu Burri
+Director & Principal Architect, XAVIRA Technologies","Hi Anurag,
+
+Just bringing this up. Balancing multi-tenant resource isolation on Kubernetes while maintaining perfect abstractions at the control plane level is an incredibly tough engineering problem. Our report touches on some advanced routing and orchestration patterns. Let me know if you have 20 minutes next week.
+
+Best,
+Vishnu","Hi Anurag,
+
+If optimizing platform architecture and exploring new infrastructure paradigms is on your engineering roadmap right now, I’d love to connect. Otherwise, I'll close the loop here. I'm a big fan of Render's UX.
+
+Best,
+Vishnu","Hi Anurag, I’ve been studying Render’s public engineering footprint, specifically how you built the Go-based control plane to abstract Kubernetes complexity. Put together some research I thought you'd find interesting. Would love to connect.","Thanks for connecting, Anurag. Here is the link to the Engineering Intelligence report I mentioned: https://www.xaviratechlabs.com/research/render. Let me know if you’d be open to a quick chat on platform architecture."
+"Convex","James Cowling","james@convex.dev","Convex's Architecture & Scaling Signals","Hi James,
+
+I recently spent some time studying Convex's public engineering footprint. Your architectural choice to build a custom transactional database in Rust, combined with the reactive execution model for pure function queries, is a fascinating approach to eliminating backend glue code. Given your work migrating Dropbox off S3, it’s clear why Convex prioritizes elegant abstractions backed by rigorous distributed systems safety. 
+
+I put together an Engineering Intelligence Report analyzing Convex’s stack and some observations on how high-performance infrastructure teams scale unified state management environments:
+https://www.xaviratechlabs.com/research/convex
+
+I’d welcome a 20-minute conversation to discuss these architectural patterns and explore if there are any mutual areas of engineering alignment. 
+
+Best,
+Vishnu Burri
+Director & Principal Architect, XAVIRA Technologies","Hi James,
+
+Just floating this to the top of your inbox...","Hi James,
+
+I'll keep this brief...","Hi James, I've been studying Convex's architecture...","Thanks for connecting, James..."
+"Baseten","Tuhin Srivastava","tuhin@baseten.co","Baseten's Architecture & Scaling Signals","Hi Tuhin,
+
+I recently spent some time studying Baseten's public engineering footprint. Your Multi-Cloud Capacity Management (MCM) control plane and the reliance on standard primitives like Knative and Kubernetes stand out as a highly resilient approach to active-active reliability for AI workloads. Building an elastic GPU layer across multiple providers while optimizing low-level kernels for inference throughput is a significant architectural achievement.
+
+I put together an Engineering Intelligence Report analyzing Baseten’s stack and exploring infrastructure patterns for scalable inference:
+https://www.xaviratechlabs.com/research/baseten
+
+I’d welcome a 20-minute conversation to discuss these architectural patterns and explore if there are any mutual areas of engineering alignment.
+
+Best,
+Vishnu Burri
+Director & Principal Architect, XAVIRA Technologies","Hi Tuhin,
+
+Just floating this to the top of your inbox...","Hi Tuhin,
+
+I'll keep this brief...","Hi Tuhin, I've been studying Baseten's architecture...","Thanks for connecting, Tuhin..."
+"Replicate","Ben Firshman","ben@replicate.com","Replicate's Architecture & Scaling Signals","Hi Ben,
+
+I recently spent some time studying Replicate's public engineering footprint. Your work creating Cog to act as a standardized packaging format for ML artifacts is a natural and powerful evolution from your experience building Docker Compose. Treating models as standard software dependencies and abstracting away the GPU orchestration through a serverless inference layer solves massive bottlenecks in the ""Software 2.0"" lifecycle.
+
+I put together an Engineering Intelligence Report analyzing Replicate’s architecture and examining edge-ready inference workflows:
+https://www.xaviratechlabs.com/research/replicate
+
+I’d welcome a 20-minute conversation to discuss these architectural patterns and explore if there are any mutual areas of engineering alignment.
+
+Best,
+Vishnu Burri
+Director & Principal Architect, XAVIRA Technologies","Hi Ben,
+
+Just floating this to the top of your inbox...","Hi Ben,
+
+I'll keep this brief...","Hi Ben, I've been studying Replicate's architecture...","Thanks for connecting, Ben..."
+"Fireworks AI","Lin Qiao","lin@fireworks.ai","Fireworks AI's Architecture & Scaling Signals","Hi Lin,
+
+I recently spent some time studying Fireworks AI's public engineering footprint. Your Virtual Cloud infrastructure and kernel-level optimizations across diverse GPU architectures reflect deep insights from your time leading PyTorch at Meta. Prioritizing speculative decoding and adaptive caching to serve agentic workflows at scale is a critical architectural decision for moving from standard API generation to a specialized inference runtime. 
+
+I put together an Engineering Intelligence Report analyzing Fireworks AI’s stack and observing patterns in production-grade LLM orchestration:
+https://www.xaviratechlabs.com/research/fireworks-ai
+
+I’d welcome a 20-minute conversation to discuss these architectural patterns and explore if there are any mutual areas of engineering alignment.
+
+Best,
+Vishnu Burri
+Director & Principal Architect, XAVIRA Technologies","Hi Lin,
+
+Just floating this to the top of your inbox...","Hi Lin,
+
+I'll keep this brief...","Hi Lin, I've been studying Fireworks AI's architecture...","Thanks for connecting, Lin..."
+"Railway","Jake Cooper","jake@railway.app","Railway's Architecture & Scaling Signals","Hi Jake,
+
+I recently spent some time studying Railway's public engineering footprint. Your strategic pivot to bare metal data centers and the development of Builder v3 on microVMs highlight a willingness to tackle hard infrastructure problems. Utilizing Nixpacks to bypass Dockerfile management and heavily adopting Rust for the CLI and GraphQL API layer clearly aligns with your vision of building a truly agent-native, zero-ops cloud.
+
+I put together an Engineering Intelligence Report analyzing Railway’s stack and observing patterns in highly elastic build infrastructure:
+https://www.xaviratechlabs.com/research/railway
+
+I’d welcome a 20-minute conversation to discuss these architectural patterns and explore if there are any mutual areas of engineering alignment.
+
+Best,
+Vishnu Burri
+Director & Principal Architect, XAVIRA Technologies","Hi Jake,
+
+Just floating this to the top of your inbox...","Hi Jake,
+
+I'll keep this brief...","Hi Jake, I've been studying Railway's architecture...","Thanks for connecting, Jake..."
+"Temporal","Samar Abbas","samar@temporal.io","Durable execution & XAVIRA research","Hi Samar,
+
+I recently spent some time studying Temporal's public engineering footprint. Your journey from co-creating Cadence at Uber to evolving it with gRPC and Protocol Buffers at Temporal is a masterclass in distributed system design. The way Temporal abstracts state management to enable durable execution completely changes how we think about long-running workflows.
+
+I’ve put together an Engineering Intelligence Report analyzing Temporal's architecture and potential scaling patterns. I thought you or the engineering leadership team might find it interesting.
+
+You can check it out here: https://www.xaviratechlabs.com/research/temporal
+
+Would you be open to a 20-minute conversation to discuss how XAVIRA Technologies can support your engineering goals?
+
+Best,
+Vishnu Burri
+Director & Principal Architect, XAVIRA Technologies","Hi Samar - just bubbling this up. I know you're busy scaling Temporal's Durable Execution platform, but I’d love to briefly share how our engineering consulting can align with your roadmap. Let me know if you have 20 minutes next week.","Hi Samar, I assume this isn't a priority right now. We'll keep watching Temporal's engineering updates. If you ever need specialized architectural support, feel free to reach out.","Hi Samar, I deeply admire the architectural leaps you've made from Cadence to Temporal. I recently published an Engineering Intelligence report on your platform's design. Let's connect!","Thanks for connecting, Samar! Here's the link to the research I mentioned: https://www.xaviratechlabs.com/research/temporal. Would love your thoughts on it when you have a moment."
+"Dagster Labs","Pete Hunt","pete@dagster.io","Software-defined assets & XAVIRA research","Hi Pete,
+
+I recently spent some time studying Dagster Labs' public engineering footprint. The shift from traditional DAGs to Software-Defined Assets is a brilliant architectural move. Decoupling execution from dependencies and building a highly composable, infrastructure-agnostic control plane sets a new standard for data orchestration platforms.
+
+I’ve put together an Engineering Intelligence Report analyzing Dagster's approach to platform engineering and SDAs. I thought you might find it interesting.
+
+You can check it out here: https://www.xaviratechlabs.com/research/dagster-labs
+
+Would you be open to a 20-minute conversation to discuss how XAVIRA Technologies can support your ongoing engineering scale?
+
+Best,
+Vishnu Burri
+Director & Principal Architect, XAVIRA Technologies","Hi Pete - just floating this to the top of your inbox. We help data-centric companies tackle complex engineering challenges. I’d love to explore if there’s a fit with Dagster's current roadmap.","Hi Pete, looks like timing isn't right. We'll continue following Dagster’s journey, especially with the Prefect acquisition news. Feel free to reach out when you need external engineering bandwidth.","Hi Pete, your focus on declarative data orchestration and SDAs at Dagster is incredibly impressive. We recently analyzed Dagster's architecture for an Engineering Intelligence report. Let's connect!","Thanks for connecting! Here's that report on Dagster's architecture: https://www.xaviratechlabs.com/research/dagster-labs. Open to hearing your perspective if you get a chance to skim it."
+"Astronomer","Julian LaNeve","julian@astronomer.io","Astro platform & XAVIRA research","Hi Julian,
+
+I recently spent some time studying Astronomer's public engineering footprint. Your work on Cosmos to bridge dbt Core with Airflow DAGs is fantastic. Furthermore, the Kubernetes-native architectural choices behind the Astro platform—leveraging CRDs for deployment—showcase a deep understanding of modern infrastructure and GitOps workflows.
+
+I’ve put together an Engineering Intelligence Report analyzing Astronomer's data observability and deployment architecture. I thought it might be of interest to you.
+
+You can check it out here: https://www.xaviratechlabs.com/research/astronomer
+
+Would you be open to a 20-minute conversation to discuss how XAVIRA Technologies can collaborate on your engineering initiatives?
+
+Best,
+Vishnu Burri
+Director & Principal Architect, XAVIRA Technologies","Hi Julian, following up on my previous note. With Astronomer aggressively expanding data observability capabilities, I'd love to share how XAVIRA acts as an extension to engineering teams navigating high-growth phases. Let me know if you have a moment to chat.","Hi Julian, I'll close the loop here since you're likely busy. We'll keep tabs on your progress with Astro and Cosmos. Let me know if you ever need extra technical firepower.","Hi Julian, I really enjoyed reading about the Kubernetes architecture behind the Astro platform and your work on Cosmos. I put together an Engineering Intelligence report on it and would love to connect.","Thanks for accepting, Julian. You can read the research report here: https://www.xaviratechlabs.com/research/astronomer. Let me know if you're ever open to a brief chat."
+"Airbyte","Michel Tricot","michel@airbyte.com","Modular data integration & XAVIRA research","Hi Michel,
+
+I recently spent some time studying Airbyte's public engineering footprint. The architectural decision to cleanly decouple the platform from the connector ecosystem using OAS3 and relying on Temporal for orchestration state management is highly robust. It clearly reflects your experience scaling massive data pipelines at LiveRamp.
+
+I’ve put together an Engineering Intelligence Report analyzing Airbyte's core backend architecture and connector ecosystem. I thought you might find it useful.
+
+You can check it out here: https://www.xaviratechlabs.com/research/airbyte
+
+Would you be open to a 20-minute conversation to see if XAVIRA Technologies can support your engineering vision?
+
+Best,
+Vishnu Burri
+Director & Principal Architect, XAVIRA Technologies","Hi Michel, checking in to see if you had a chance to read the report. We work with engineering leaders to accelerate platform development and would love to see if there's mutual synergy with Airbyte.","Hi Michel, I completely understand if now isn't a good time. We'll continue following Airbyte's pivot into the AI context layer. Best of luck with the upcoming quarters!","Hi Michel, I'm highly impressed by how you've abstracted the connector ecosystem at Airbyte using OAS3 and Temporal. We wrote an Engineering Intelligence report on your platform. Let's connect!","Thanks for connecting, Michel. The report on Airbyte's engineering stack is right here: https://www.xaviratechlabs.com/research/airbyte. Would love to hear your feedback if you have a minute."
+"dbt Labs","Tristan Handy","tristan@getdbt.com","The semantic layer & XAVIRA research","Hi Tristan,
+
+I recently spent some time studying dbt Labs' public engineering footprint. Treating data transformation with software engineering rigor has completely reshaped the industry. Your current architectural push toward a centralized Semantic Layer to ensure metric consistency across downstream BI and AI tools is a massive step forward for the modern data stack.
+
+I’ve put together an Engineering Intelligence Report exploring dbt's architectural evolution and semantic layer. I thought you'd find it interesting.
+
+You can check it out here: https://www.xaviratechlabs.com/research/dbt-labs
+
+Would you be open to a 20-minute conversation to discuss how XAVIRA Technologies can assist in your engineering endeavors?
+
+Best,
+Vishnu Burri
+Director & Principal Architect, XAVIRA Technologies","Hi Tristan, just bringing this to the top of your inbox. We partner with fast-growing engineering teams to tackle complex architectural challenges. Let me know if you have 20 minutes to chat next week.","Hi Tristan, I assume you're heads-down. I'll stop reaching out for now. We love what you're doing with the Medallion Architecture and Semantic Layer, and we'll keep watching dbt's evolution.","Hi Tristan, the way dbt Labs has brought software engineering practices into data transformation is inspiring. I put together an Engineering Intelligence report on your Semantic Layer architecture. Let's connect!","Thanks for connecting, Tristan! Here is the link to the engineering research report: https://www.xaviratechlabs.com/research/dbt-labs. Open to a quick chat if it resonates."
+"Prefect","Jeremiah Lowin","jeremiah@prefect.io","Prefect's hybrid execution model & state management","Hi Jeremiah,
+
+I recently spent some time studying Prefect's public engineering footprint. Your approach to decoupling the control plane from the data plane, especially with the dynamic execution model introduced in Orion, is an elegant solution to the friction data teams face with rigid DAGs. 
+
+Given your reliance on FastAPI and PostgreSQL for high-throughput state transitions, I imagine managing database load during massive concurrent workflow executions remains a critical engineering focus. At XAVIRA Technologies, we specialize in optimizing complex, data-intensive architectures and scaling stateful orchestration engines.
+
+I’ve compiled an Engineering Intelligence Report on Prefect’s architecture: https://www.xaviratechlabs.com/research/prefect
+
+I’d welcome a 20-minute conversation to discuss how we might help accelerate your platform engineering initiatives. 
+
+Best,
+Vishnu Burri
+Director & Principal Architect, XAVIRA Technologies","Hi Jeremiah,
+
+Following up on my previous note regarding Prefect's orchestration engine. If ensuring low-latency state updates at scale is a priority for your engineering team this quarter, I'd love to share some architectural patterns we've successfully deployed for similar data-intensive platforms. Let me know if you have 20 minutes to connect next week.
+
+Best,
+Vishnu","Hi Jeremiah,
+
+I understand you're busy leading Prefect's growth. I'll leave this here for now. If you ever want to discuss scaling async Python backends or optimizing PostgreSQL for high-concurrency state management, feel free to reach out. 
+
+Best,
+Vishnu","Hi Jeremiah, I've been studying Prefect's architecture...","Thanks for connecting, Jeremiah..."
+"ClickHouse","Alexey Milovidov","alexey@clickhouse.com","ClickHouse Cloud's storage decoupling & query vectorization","Hi Alexey,
+
+I recently spent some time studying ClickHouse's public engineering footprint. Your work on replacing ZooKeeper with ClickHouse Keeper and moving towards decoupled storage and compute in ClickHouse Cloud demonstrates a profound commitment to cloud-native performance without sacrificing your trademark vectorized execution speed.
+
+Given the complexities of maintaining sub-second analytical latencies over object storage, I imagine managing multi-tenant resource isolation and I/O overhead is a constant engineering focus. At XAVIRA Technologies, we specialize in low-level systems architecture and distributed database optimization. 
+
+I’ve compiled an Engineering Intelligence Report on ClickHouse’s architecture: https://www.xaviratechlabs.com/research/clickhouse
+
+I’d welcome a 20-minute conversation to discuss how we might assist with your core database engine or cloud infrastructure efforts.
+
+Best,
+Vishnu Burri
+Director & Principal Architect, XAVIRA Technologies","Hi Alexey,
+
+Following up on my note regarding ClickHouse Cloud. If optimizing object storage caching or tuning SIMD instructions for new CPU architectures is on your roadmap, I'd love to share some strategies we've implemented for high-performance OLAP systems. Let me know if you have 20 minutes to chat.
+
+Best,
+Vishnu","Hi Alexey,
+
+I know you're busy pushing the limits of analytical processing. I'll step back for now, but if you ever want to discuss C++ performance engineering or distributed storage architecture, please feel free to reach out.
+
+Best,
+Vishnu","Hi Alexey, I've been studying ClickHouse's architecture...","Thanks for connecting, Alexey..."
+"Grafana Labs","Tom Wilkie","tom@grafana.com","Mimir's block storage & high-cardinality metrics","Hi Tom,
+
+I recently spent some time studying Grafana Labs' public engineering footprint. Your architectural evolution from Cortex to Mimir, specifically the move to object storage and block-based persistence, is a brilliant approach to solving the high-cardinality problem in TSDBs at scale.
+
+Given the massive volume of telemetry data your cloud platform ingests, I imagine optimizing cross-tenant query performance and managing object storage API costs are ongoing engineering priorities. At XAVIRA Technologies, we specialize in scaling distributed systems in Go and optimizing cloud-native storage architectures.
+
+I’ve compiled an Engineering Intelligence Report on Grafana’s backend architecture: https://www.xaviratechlabs.com/research/grafana-labs
+
+I’d welcome a 20-minute conversation to discuss how our consulting engineering team could support your scalability initiatives.
+
+Best,
+Vishnu Burri
+Director & Principal Architect, XAVIRA Technologies","Hi Tom,
+
+Following up on my note regarding Mimir and Loki. If reducing query latency over historical block storage or optimizing your Go-based microservices is a priority this quarter, I'd love to share some architectural patterns we've deployed for scale-out telemetry systems. Let me know if you have 20 minutes to connect.
+
+Best,
+Vishnu","Hi Tom,
+
+I know you're busy building the future of observability. I'll leave this here for now. If you ever want to discuss scaling TSDBs, high-cardinality challenges, or Go performance engineering, feel free to reach out.
+
+Best,
+Vishnu","Hi Tom, I've been studying Grafana Labs's architecture...","Thanks for connecting, Tom..."
+"Kong","Marco Palladino","marco@konghq.com","Kong's DP/CP separation & Wasm plugin ecosystem","Hi Marco,
+
+I recently spent some time studying Kong's public engineering footprint. Your architectural strategy of decoupling the control plane from the OpenResty data plane, and the push towards a Wasm-based polyglot plugin ecosystem, are highly effective approaches for modern, multi-cloud API management.
+
+Given the critical nature of edge performance, I imagine minimizing latency overhead during complex proxy request phases remains a top engineering priority. At XAVIRA Technologies, we specialize in high-performance networking, Go-based control planes, and optimizing distributed edge infrastructure.
+
+I’ve compiled an Engineering Intelligence Report on Kong’s architecture: https://www.xaviratechlabs.com/research/kong
+
+I’d welcome a 20-minute conversation to discuss how we might help accelerate your core gateway or service mesh engineering efforts.
+
+Best,
+Vishnu Burri
+Director & Principal Architect, XAVIRA Technologies","Hi Marco,
+
+Following up on my previous note regarding Kong Gateway. If scaling the Kuma control plane or optimizing Rust/Wasm plugin execution is a priority for your team this quarter, I'd love to share some insights from our work on high-throughput proxy architectures. Let me know if you have 20 minutes to chat.
+
+Best,
+Vishnu","Hi Marco,
+
+I know you're busy leading Kong's technical vision. I'll leave this here for now. If you ever want to discuss service mesh architectures, OpenResty optimization, or control plane scaling, feel free to reach out.
+
+Best,
+Vishnu","Hi Marco, I've been studying Kong's architecture...","Thanks for connecting, Marco..."
+"HashiCorp","VP Engineering","leadership@hashicorp.com","Vault's consensus architecture & multi-region scaling","Hi Armon,
+
+I recently spent some time studying HashiCorp's public engineering footprint. Your foundational use of the Raft consensus algorithm and Gossip protocols across Vault and Consul remains one of the most robust architectural patterns in the cloud-native ecosystem.
+
+Given the enterprise reliance on Vault, I imagine managing cryptographic performance and ensuring split-brain resilience during multi-region state replication are persistent engineering challenges. At XAVIRA Technologies, we specialize in advanced distributed systems engineering, Go performance tuning, and highly available infrastructure design.
+
+I’ve compiled an Engineering Intelligence Report on HashiCorp’s core architecture: https://www.xaviratechlabs.com/research/hashicorp
+
+I’d welcome a 20-minute conversation to discuss how our consulting team could support your distributed engineering initiatives.
+
+Best,
+Vishnu Burri
+Director & Principal Architect, XAVIRA Technologies","Hi Armon,
+
+Following up on my note regarding HashiCorp's distributed architecture. If optimizing Raft state machines in Go or improving cross-WAN replication performance is a priority this quarter, I'd love to share some architectural patterns we've implemented for highly available systems. Let me know if you're open to a brief chat.
+
+Best,
+Vishnu","Hi Armon,
+
+I know you're incredibly busy driving the cloud operating model forward. I'll leave this here for now. If you ever want to discuss Go performance engineering or consensus algorithm optimizations, please feel free to reach out.
+
+Best,
+Vishnu","Hi VP, I've been studying HashiCorp's architecture...","Thanks for connecting, VP..."
+"Snyk","CTO","leadership@snyk.io","Snyk's Architecture & Scaling Signals","Hi CTO,
+
+I recently spent time studying Snyk's engineering footprint...","Hi CTO,
+
+Just floating this to the top of your inbox...","Hi CTO,
+
+I'll keep this brief...","Hi CTO, I've been studying Snyk's architecture...","Thanks for connecting, CTO..."
+"Lacework","CTO","leadership@lacework.com","Lacework's Architecture & Scaling Signals","Hi CTO,
+
+I recently spent time studying Lacework's engineering footprint...","Hi CTO,
+
+Just floating this to the top of your inbox...","Hi CTO,
+
+I'll keep this brief...","Hi CTO, I've been studying Lacework's architecture...","Thanks for connecting, CTO..."
+"Orca Security","CTO","leadership@orca.security","Orca Security's Architecture & Scaling Signals","Hi CTO,
+
+I recently spent time studying Orca Security's engineering footprint...","Hi CTO,
+
+Just floating this to the top of your inbox...","Hi CTO,
+
+I'll keep this brief...","Hi CTO, I've been studying Orca Security's architecture...","Thanks for connecting, CTO..."
+"Tailscale","Avery Pennarun","avery@tailscale.com","Tailscale's mesh overlay architecture","Hi Avery,
+
+I recently spent some time studying Tailscale's public engineering footprint. Your philosophy on avoiding hyperscale overengineering in favor of robust, simple mesh overlay architectures resonates deeply with me. Leveraging WireGuard and modern hardware capabilities to bypass traditional centralized VPNs is brilliant. 
+
+I've prepared an Engineering Intelligence Report on your stack: https://www.xaviratechlabs.com/research/tailscale. I'd love to invite you for a 20-minute conversation to discuss simple, scalable network architecture.
+
+Best,
+Vishnu Burri, Director & Principal Architect, XAVIRA Technologies","Hi Avery, just surfacing this note on Tailscale's architecture. Open to a brief chat next week?","Hi Avery, leaving the engineering report here for when you have time. Cheers.","Hi Avery, strongly agree with your writings on avoiding overengineering. Would love to connect and follow Tailscale's journey.","Thanks for the connection. I compiled an engineering report on Tailscale's stack: https://www.xaviratechlabs.com/research/tailscale. Let me know your thoughts!"
+"Coder","Rob Whiteley","rob@coder.com","Coder's AI-native developer stack","Hi Rob,
+
+I recently spent some time studying Coder's public engineering footprint. Your focus on building an AI-native developer stack by moving environments from local laptops to the cloud is highly strategic. Balancing developer velocity with enterprise governance and addressing the challenges of autonomous AI agents in development environments is no small feat. 
+
+I've prepared an Engineering Intelligence Report on your stack: https://www.xaviratechlabs.com/research/coder. I'd love to invite you for a 20-minute conversation to discuss platform engineering and architecture.
+
+Best,
+Vishnu Burri, Director & Principal Architect, XAVIRA Technologies","Hi Rob, checking in to see if you had a chance to review the architectural insights I shared.","Hi Rob, hope all is well. Leaving this engineering report with you. Let's connect when timing is right.","Hi Rob, admired your work at NGINX and now at Coder building the AI-native developer stack. Let's connect!","Thanks for connecting! I put together some architectural insights on Coder here: https://www.xaviratechlabs.com/research/coder."
+"Teleport","Ev Kontsevoy","ev@goteleport.com","Teleport's proxy-first architecture","Hi Ev,
+
+I recently spent some time studying Teleport's public engineering footprint. Your vision for a secretless, proxy-first architecture that eliminates static credentials using short-lived certificates is incredibly robust. Extending this unified access plane to cover agentic identity for AI systems is exactly where the industry needs to go. 
+
+I've prepared an Engineering Intelligence Report on your stack: https://www.xaviratechlabs.com/research/teleport. I'd love to invite you for a 20-minute conversation to discuss zero-trust infrastructure architecture.
+
+Best,
+Vishnu Burri, Director & Principal Architect, XAVIRA Technologies","Hi Ev, following up on the Teleport architecture report. Let me know if you have time for a quick chat next week.","Hi Ev, just bubbling this up one last time. Hope to connect in the future.","Hi Ev, fascinated by your approach to secretless architecture and agentic identity. Would love to connect.","Thanks for the connection! I compiled an engineering report on Teleport's stack: https://www.xaviratechlabs.com/research/teleport."
+"Oso","Sunil Pai","sunil@osohq.com","Oso's Rust-based authorization engine","Hi Sunil,
+
+I recently spent some time studying Oso's public engineering footprint. Building a centralized, policy-driven authorization engine using Rust and Polar is a massive upgrade over traditional role-based access. I really appreciate how you are extending these fine-grained access rules to secure AI agents and monitor agentic traffic. 
+
+I've prepared an Engineering Intelligence Report on your stack: https://www.xaviratechlabs.com/research/oso. I'd love to invite you for a 20-minute conversation to discuss authorization architecture.
+
+Best,
+Vishnu Burri, Director & Principal Architect, XAVIRA Technologies","Hi Sunil, just wanted to check if you saw the architecture report on Oso. Open to a brief chat next week?","Hi Sunil, leaving this engineering report here for you. Let's connect when the timing is right.","Hi Sunil, really impressed by Oso's policy-driven authorization engine. Would love to connect!","Thanks for connecting! I put together some architectural insights on Oso here: https://www.xaviratechlabs.com/research/oso. Let me know your thoughts!"
+"LangChain","Harrison Chase","harrison@langchain.com","LangChain's Architecture & Scaling Signals","Hi Harrison,
+
+I recently spent time studying LangChain's engineering footprint...","Hi Harrison,
+
+Just floating this to the top of your inbox...","Hi Harrison,
+
+I'll keep this brief...","Hi Harrison, I've been studying LangChain's architecture...","Thanks for connecting, Harrison..."
+"Langfuse","Clemens Mewald","clemens@langfuse.com","Langfuse's Architecture & Scaling Signals","Hi Clemens,
+
+I recently spent time studying Langfuse's engineering footprint...","Hi Clemens,
+
+Just floating this to the top of your inbox...","Hi Clemens,
+
+I'll keep this brief...","Hi Clemens, I've been studying Langfuse's architecture...","Thanks for connecting, Clemens..."
+"Pinecone","Edo Liberty","edo@pinecone.io","Pinecone's Architecture & Scaling Signals","Hi Edo,
+
+I recently spent time studying Pinecone's engineering footprint...","Hi Edo,
+
+Just floating this to the top of your inbox...","Hi Edo,
+
+I'll keep this brief...","Hi Edo, I've been studying Pinecone's architecture...","Thanks for connecting, Edo..."
+"Weaviate","Bob van Luijt","bob@weaviate.io","Weaviate's Architecture & Scaling Signals","Hi Bob,
+
+I recently spent time studying Weaviate's engineering footprint...","Hi Bob,
+
+Just floating this to the top of your inbox...","Hi Bob,
+
+I'll keep this brief...","Hi Bob, I've been studying Weaviate's architecture...","Thanks for connecting, Bob..."
+"Unstructured","Brian Raymond","brian@unstructured.io","Unstructured's Architecture & Scaling Signals","Hi Brian,
+
+I recently spent time studying Unstructured's engineering footprint...","Hi Brian,
+
+Just floating this to the top of your inbox...","Hi Brian,
+
+I'll keep this brief...","Hi Brian, I've been studying Unstructured's architecture...","Thanks for connecting, Brian..."
+"Vellum","CEO","leadership@vellum.ai","Vellum's Architecture & Scaling Signals","**Subject**: Vellum's prompt versioning & evaluation architecture
+
+Hi Akash,
+
+I recently spent some time studying Vellum's public engineering footprint, particularly your approach to prompt versioning and LLM orchestration. 
+
+Building a robust evaluation framework that scales across different model providers while maintaining low latency is a significant engineering challenge. We've seen similar architectural hurdles in multi-tenant environments where prompt caching and state management become critical bottlenecks. At XAVIRA, we specialize in optimizing these exact infrastructure layers for AI-native platforms.
+
+I've put together an Engineering Intelligence Report on Vellum's architecture:
+https://www.xaviratechlabs.com/research/vellum
+
+Would you be open to a 20-minute conversation next week to discuss how we could help scale Vellum's backend infrastructure?
+
+Best,
+Vishnu Burri
+Director & Principal Architect, XAVIRA Technologies","Hi CEO,
+
+Just floating this to the top of your inbox...","Hi CEO,
+
+I'll keep this brief...","Hi CEO, I've been studying Vellum's architecture...","Thanks for connecting, CEO..."
+"CrewAI","João Moura","joão@crewai.com","CrewAI's Architecture & Scaling Signals","**Subject**: Scaling CrewAI's multi-agent state management
+
+Hi João,
+
+I recently spent some time studying CrewAI's public engineering footprint, specifically your orchestration of hierarchical agent processes.
+
+Managing context and state across long-running, multi-agent workflows is incredibly complex, especially when dealing with token limits and inter-agent communication overhead. At XAVIRA, we've designed distributed state management systems that optimize context sharing and reduce latency in multi-agent architectures without sacrificing reliability.
+
+I've put together an Engineering Intelligence Report on CrewAI's architecture:
+https://www.xaviratechlabs.com/research/crewai
+
+Are you open to a 20-minute conversation to discuss scaling CrewAI's backend execution layer?
+
+Best,
+Vishnu Burri
+Director & Principal Architect, XAVIRA Technologies","Hi João,
+
+Just floating this to the top of your inbox...","Hi João,
+
+I'll keep this brief...","Hi João, I've been studying CrewAI's architecture...","Thanks for connecting, João..."
+"LlamaIndex","Jerry Liu","jerry@llamaindex.ai","LlamaIndex's Architecture & Scaling Signals","**Subject**: Optimizing LlamaIndex's distributed index construction
+
+Hi Jerry,
+
+I recently spent some time studying LlamaIndex's public engineering footprint, focusing on your advanced retrieval abstractions and data ingestion pipelines.
+
+As datasets grow, managing the distributed construction of hierarchical indexes and ensuring low-latency retrieval routing becomes a significant infrastructure challenge. We've worked on optimizing vector embedding pipelines and distributed graph processing that align closely with LlamaIndex's core architectural goals. 
+
+I've put together an Engineering Intelligence Report on LlamaIndex's backend scaling:
+https://www.xaviratechlabs.com/research/llamaindex
+
+Would you be open to a 20-minute conversation next week to discuss optimizing the ingestion layer?
+
+Best,
+Vishnu Burri
+Director & Principal Architect, XAVIRA Technologies","Hi Jerry,
+
+Just floating this to the top of your inbox...","Hi Jerry,
+
+I'll keep this brief...","Hi Jerry, I've been studying LlamaIndex's architecture...","Thanks for connecting, Jerry..."
+"Together AI","Ce Zhang","ce@together.ai","Together AI's Architecture & Scaling Signals","**Subject**: Optimizing distributed inference for Together AI
+
+Hi Ce,
+
+I recently spent some time studying Together AI's public engineering footprint, particularly your work on custom CUDA kernels and distributed inference architecture.
+
+Maximizing Model FLOPs Utilization (MFU) across decentralized and heterogeneous GPU clusters is an incredibly hard systems problem, especially when minimizing latency for MoE models. At XAVIRA, we specialize in low-level systems engineering and distributed cluster optimization, dealing with the exact network and memory bandwidth bottlenecks you tackle.
+
+I've put together an Engineering Intelligence Report on Together AI's infrastructure:
+https://www.xaviratechlabs.com/research/together-ai
+
+Would you be open to a 20-minute conversation to discuss optimizing your inference layer?
+
+Best,
+Vishnu Burri
+Director & Principal Architect, XAVIRA Technologies","Hi Ce,
+
+Just floating this to the top of your inbox...","Hi Ce,
+
+I'll keep this brief...","Hi Ce, I've been studying Together AI's architecture...","Thanks for connecting, Ce..."
+"Anyscale","Robert Nishihara","robert@anyscale.com","Anyscale's Architecture & Scaling Signals","**Subject**: Optimizing scheduling latency in Anyscale's control plane
+
+Hi Robert,
+
+I recently spent some time studying Anyscale's public engineering footprint, specifically your work scaling the Ray object store and optimizing the global control state.
+
+Handling fault tolerance while maintaining microsecond-level scheduling latency for actor models across thousands of nodes is a massive systems challenge. At XAVIRA, we focus on engineering robust distributed control planes and optimizing memory bandwidth in large-scale cluster environments—challenges closely aligned with Anyscale's core infrastructure.
+
+I've put together an Engineering Intelligence Report on Anyscale's compute architecture:
+https://www.xaviratechlabs.com/research/anyscale
+
+Are you open to a 20-minute conversation to discuss infrastructure optimization for distributed ML?
+
+Best,
+Vishnu Burri
+Director & Principal Architect, XAVIRA Technologies","Hi Robert,
+
+Just floating this to the top of your inbox...","Hi Robert,
+
+I'll keep this brief...","Hi Robert, I've been studying Anyscale's architecture...","Thanks for connecting, Robert..."
