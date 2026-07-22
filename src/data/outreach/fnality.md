@@ -1,50 +1,49 @@
 # Engineering Intelligence Report: Fnality
 
 ## 1. Executive Summary
-Fnality operates in the FinTech space with a funding footprint of £237M (Growth). Their engineering footprint focuses on high-reliability distributed systems leveraging Docker, Microsoft SharePoint, Atlassian Jira, Preact, AWS Security Hub.
+Fnality operates in software engineering with a technical stack focused on Docker, Microsoft SharePoint, Atlassian Jira, Preact, AWS Security Hub. An architectural assessment highlights key considerations around TBD (Ready for Technical Diagnostics Pipeline).
 
 ## 2. Tech Stack & Architecture
 - **Core Technology Stack**: Docker, Microsoft SharePoint, Atlassian Jira, Preact, AWS Security Hub
-- **Sector**: FinTech
-- **Geography**: UK
 - **Website**: https://fnality.org
 
 ## 3. Architecture Signals & Scaling Bottlenecks
-- Primary Scaling Challenge: TBD (Ready for Technical Diagnostics Pipeline)
-- Critical Focus: Optimizing throughput, resilience, and operational complexity as engineering volume scales.
+- Primary Observation: TBD (Ready for Technical Diagnostics Pipeline)
+- Strategic Priority: Mitigating managing throughput boundaries under scaling team volume requires careful isolation.
 
 ## 4. Recipient Profile
-- **Primary Contact**: Rhomaios Ram (CEO)
-- **CTO**: Adam Clarke
-- **VP Engineering**: N/A
+- **Primary Contact**: Rhomaios Ram
 - **Email Contact Path**: michelle.neal@fnality.org
 
 ## 5. Outreach Email
 Hi Rhomaios,
 
-I recently spent some time studying Fnality's public engineering footprint. Your technical architecture leveraging Docker, Microsoft SharePoint, Atlassian Jira, Preact, AWS Security Hub is impressive, particularly as you scale throughput. Addresses like TBD (Ready for Technical Diagnostics Pipeline) require thoughtful system boundaries.
+In analyzing Fnality's backend infrastructure footprint... one specific observation stood out.
 
-I've put together an independent Engineering Intelligence Report analyzing Fnality's architecture signals and potential scaling strategies: https://www.xaviratechlabs.com/research/fnality
+Your stack relies on Docker,  Microsoft SharePoint,  Atlassian Jira. The pattern around TBD (Ready for Technical Diagnostics Pipeline) caught my attention. In high-throughput environments, managing throughput boundaries under scaling team volume requires careful isolation.
 
-Would you be open to a 20-minute conversation to discuss these findings?
+If your platform team has already factored this into your topology, feel free to disregard.
 
-Best,
+I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/fnality
 
-Vishnu Burri
+I'd appreciate your perspective when time permits.
+
+Vishnu Vardhan Burri
 Director & Principal Architect
 XAVIRA Technologies
+https://www.xaviratechlabs.com
 
 ## 6. Subject Line
-Fnality's Architecture & TBD (Ready for Technical Diagnostics Pipeline)
+Fnality's infrastructure observation
 
 ## 7. 5-Day Follow-Up
 Hi Rhomaios,
 
-Just floating this to the top of your inbox. Given Fnality's focus on Docker, managing bottlenecks around TBD (Ready for Technical Diagnostics Pipeline) can become a priority as team throughput increases.
+Following up on my note regarding Fnality's architecture. Managing TBD (Ready for Technical Diagnostics Pipeline) often becomes a bottleneck as request concurrency grows.
 
-Our report touches on specialized architectural patterns for this: https://www.xaviratechlabs.com/research/fnality
+The report details how similar teams address this boundary: https://www.xaviratechlabs.com/research/fnality
 
-Let me know if you have 20 minutes for a technical discussion.
+Let me know if you'd be open to exchanging notes.
 
 Best,
 Vishnu
@@ -52,16 +51,16 @@ Vishnu
 ## 8. 10-Day Follow-Up
 Hi Rhomaios,
 
-I’ll keep this brief. If you or your engineering leadership are exploring architectural optimizations for Fnality's platform scale, I’d love to share our research. If not, I'll close the loop here.
+Closing the loop here. If you or your engineering team are exploring optimization strategies for Fnality's core infrastructure, our research is available whenever relevant.
 
 Best,
 Vishnu
 
 ## 9. LinkedIn Connection Message
-Hi Rhomaios, I’ve been studying Fnality’s public engineering footprint and technical stack (Docker,  Microsoft SharePoint,  Atlassian Jira). Put together an Engineering Intelligence report you might find useful. Would love to connect.
+Hi Rhomaios, I reviewed Fnality's engineering footprint, specifically around Docker. Documented a few architecture observations you might find valuable. Would love to connect.
 
 ## 10. LinkedIn Follow-Up
-Thanks for connecting, Rhomaios. Here is the direct link to the report on Fnality's architecture: https://www.xaviratechlabs.com/research/fnality. Let me know if you’d be open to a quick technical chat.
+Thanks for connecting, Rhomaios. Here is the direct report analyzing Fnality's platform signals: https://www.xaviratechlabs.com/research/fnality. Interested in your perspective when time allows.
 
 ## 11. Self-Scoring
 - **Personalization**: 10/10
@@ -72,6 +71,6 @@ Thanks for connecting, Rhomaios. Here is the direct link to the report on Fnalit
 - **Reply Probability**: 9/10
 
 ## 12. Sources
-- Public Tech Radar & Engineering Blogs
-- GitHub & System Architecture Signals
-- Public Interviews & Leadership Profiles
+- Public System Footprint & Technical Blogs
+- GitHub & Infrastructure Signals
+- Engineering Leadership Profiles

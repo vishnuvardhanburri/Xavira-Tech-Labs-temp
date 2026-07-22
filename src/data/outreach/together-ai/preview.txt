@@ -1,0 +1,1 @@
+A review of Together AI's distributed system signals highlighted... one specific observation stood out regarding FlashAttention kernel memory allocation and GPU cluster inter-node communication bandwidth bottlenecks.

@@ -1,0 +1,1 @@
+While reviewing OakNorth's public system footprint... one specific observation stood out regarding React Native performance, AWS infrastructure scaling.

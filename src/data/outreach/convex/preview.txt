@@ -1,0 +1,1 @@
+A review of Convex's distributed system signals highlighted... one specific observation stood out regarding deterministic TypeScript mutation engine transaction retries under heavy write contention.

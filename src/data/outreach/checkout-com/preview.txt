@@ -1,0 +1,1 @@
+Examining the platform deployment model at Checkout.com... one specific observation stood out regarding DynamoDB hot partitions, Node.js memory leaks.

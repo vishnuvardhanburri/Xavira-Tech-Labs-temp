@@ -1,0 +1,1 @@
+In examining dbt Labs's core backend configuration... one specific observation stood out regarding data warehouse DDL execution lock escalation and semantic layer query compilation overhead.

@@ -1,0 +1,1 @@
+Looking into Supabase's infrastructure topology... one specific observation stood out regarding PgBouncer connection pool limits and Realtime Elixir WebSocket broadcast memory allocation during peak tenant surges.

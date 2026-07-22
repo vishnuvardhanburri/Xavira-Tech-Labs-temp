@@ -1,0 +1,1 @@
+During an examination of Lacework's core engineering layer... one specific observation stood out regarding Polygraph anomaly engine telemetry ingestion queue backpressure and Snowflake analytical query cost escalation.

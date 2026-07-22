@@ -1,0 +1,1 @@
+In analyzing Kong's backend infrastructure footprint... one specific observation stood out regarding OpenResty Lua worker thread blocking and Redis rate-limiting plugin synchronization at the gateway tier.

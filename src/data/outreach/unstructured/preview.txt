@@ -1,0 +1,1 @@
+Looking into Unstructured's infrastructure topology... one specific observation stood out regarding Document partitioning OCR pipeline processing latency and PDF element extraction worker queue lag.

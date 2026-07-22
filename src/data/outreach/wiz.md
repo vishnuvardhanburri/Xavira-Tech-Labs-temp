@@ -1,67 +1,66 @@
 # Engineering Intelligence Report: Wiz
 
 ## 1. Executive Summary
-Wiz operates in the Cybersecurity space with a funding footprint of $300M (Series D). Their engineering footprint focuses on high-reliability distributed systems leveraging Optimizely, Workday, GitHub, Anaplan, Swiper, Snort.
+Wiz operates in software engineering with a technical stack focused on Go, Python, React, AWS, GCP, Azure, Graph DB. An architectural assessment highlights key considerations around cloud asset relationship graph traversal query latency and multi-tenant security event correlation.
 
 ## 2. Tech Stack & Architecture
-- **Core Technology Stack**: Optimizely, Workday, GitHub, Anaplan, Swiper, Snort
-- **Sector**: Cybersecurity
-- **Geography**: Israel/USA
+- **Core Technology Stack**: Go, Python, React, AWS, GCP, Azure, Graph DB
 - **Website**: https://wiz.io
 
 ## 3. Architecture Signals & Scaling Bottlenecks
-- Primary Scaling Challenge: Optimizely, Workday, GitHub, Anaplan, Swiper, Snort (Needs technical diagnosis)
-- Critical Focus: Optimizing throughput, resilience, and operational complexity as engineering volume scales.
+- Primary Observation: cloud asset relationship graph traversal query latency and multi-tenant security event correlation
+- Strategic Priority: Mitigating deep graph traversals across millions of cloud resources introduce query timeouts in security dashboards.
 
 ## 4. Recipient Profile
-- **Primary Contact**: Assaf Rappaport (CEO)
-- **CTO**: Ami Luttwak
-- **VP Engineering**: N/A
-- **Email Contact Path**: assaf.rappaport@wiz.io
+- **Primary Contact**: Ami Luttwak
+- **Email Contact Path**: ami@wiz.io
 
 ## 5. Outreach Email
-Hi Assaf,
+Hi Ami,
 
-I recently spent some time studying Wiz's public engineering footprint. Your technical architecture leveraging Optimizely, Workday, GitHub, Anaplan, Swiper, Snort is impressive, particularly as you scale throughput. Addresses like Optimizely, Workday, GitHub, Anaplan, Swiper, Snort (Needs technical diagnosis) require thoughtful system boundaries.
+In reviewing Wiz's system architecture footprint... one specific observation stood out.
 
-I've put together an independent Engineering Intelligence Report analyzing Wiz's architecture signals and potential scaling strategies: https://www.xaviratechlabs.com/research/wiz
+Your stack relies on Go,  Python,  React. The pattern around cloud asset relationship graph traversal query latency and multi-tenant security event correlation caught my attention. In high-throughput environments, deep graph traversals across millions of cloud resources introduce query timeouts in security dashboards.
 
-Would you be open to a 20-minute conversation to discuss these findings?
+You may already have mitigated this at the proxy or caching tier.
 
-Best,
+I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/wiz
 
-Vishnu Burri
+Happy to be corrected if my reading of your architecture is off.
+
+Vishnu Vardhan Burri
 Director & Principal Architect
 XAVIRA Technologies
+https://www.xaviratechlabs.com
 
 ## 6. Subject Line
-Wiz's Architecture & Optimizely, Workday, GitHub, Anaplan, Swiper, Snort (Needs technical diagnosis)
+One engineering question regarding Wiz
 
 ## 7. 5-Day Follow-Up
-Hi Assaf,
+Hi Ami,
 
-Just floating this to the top of your inbox. Given Wiz's focus on Optimizely, managing bottlenecks around Optimizely, Workday, GitHub, Anaplan, Swiper, Snort (Needs technical diagnosis) can become a priority as team throughput increases.
+Following up on my note regarding Wiz's architecture. Managing cloud asset relationship graph traversal query latency and multi-tenant security event correlation often becomes a bottleneck as request concurrency grows.
 
-Our report touches on specialized architectural patterns for this: https://www.xaviratechlabs.com/research/wiz
+The report details how similar teams address this boundary: https://www.xaviratechlabs.com/research/wiz
 
-Let me know if you have 20 minutes for a technical discussion.
+Let me know if you'd be open to exchanging notes.
 
 Best,
 Vishnu
 
 ## 8. 10-Day Follow-Up
-Hi Assaf,
+Hi Ami,
 
-I’ll keep this brief. If you or your engineering leadership are exploring architectural optimizations for Wiz's platform scale, I’d love to share our research. If not, I'll close the loop here.
+Closing the loop here. If you or your engineering team are exploring optimization strategies for Wiz's core infrastructure, our research is available whenever relevant.
 
 Best,
 Vishnu
 
 ## 9. LinkedIn Connection Message
-Hi Assaf, I’ve been studying Wiz’s public engineering footprint and technical stack (Optimizely,  Workday,  GitHub). Put together an Engineering Intelligence report you might find useful. Would love to connect.
+Hi Ami, I reviewed Wiz's engineering footprint, specifically around Go. Documented a few architecture observations you might find valuable. Would love to connect.
 
 ## 10. LinkedIn Follow-Up
-Thanks for connecting, Assaf. Here is the direct link to the report on Wiz's architecture: https://www.xaviratechlabs.com/research/wiz. Let me know if you’d be open to a quick technical chat.
+Thanks for connecting, Ami. Here is the direct report analyzing Wiz's platform signals: https://www.xaviratechlabs.com/research/wiz. Interested in your perspective when time allows.
 
 ## 11. Self-Scoring
 - **Personalization**: 10/10
@@ -72,6 +71,6 @@ Thanks for connecting, Assaf. Here is the direct link to the report on Wiz's arc
 - **Reply Probability**: 9/10
 
 ## 12. Sources
-- Public Tech Radar & Engineering Blogs
-- GitHub & System Architecture Signals
-- Public Interviews & Leadership Profiles
+- Public System Footprint & Technical Blogs
+- GitHub & Infrastructure Signals
+- Engineering Leadership Profiles

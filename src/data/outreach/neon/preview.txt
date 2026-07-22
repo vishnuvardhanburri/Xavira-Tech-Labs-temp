@@ -1,0 +1,1 @@
+While reviewing Neon's platform architecture... one specific observation stood out regarding compute-storage separation L2 page server cache misses and WAL streaming latency during cold branch initialization.

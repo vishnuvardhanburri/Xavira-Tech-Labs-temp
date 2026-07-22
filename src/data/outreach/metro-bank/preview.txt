@@ -1,0 +1,1 @@
+A technical assessment of Metro Bank's service topology indicates... one specific observation stood out regarding Temenos T24 legacy integration, NoSQL data consistency.

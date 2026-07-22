@@ -1,50 +1,49 @@
 # Engineering Intelligence Report: Doppel
 
 ## 1. Executive Summary
-Doppel operates in the Cybersecurity / AI space with a funding footprint of $129M (Series C). Their engineering footprint focuses on high-reliability distributed systems leveraging Python, Go, Node.js, React, AWS, GCP, PostgreSQL, Redis, Docker, Kubernetes, OpenAI (GPT-5/RFT).
+Doppel operates in software engineering with a technical stack focused on Python, Go, Node.js, React, AWS, GCP, PostgreSQL, Redis, Docker, Kubernetes, OpenAI (GPT-5/RFT). An architectural assessment highlights key considerations around Recursive context inflation.
 
 ## 2. Tech Stack & Architecture
 - **Core Technology Stack**: Python, Go, Node.js, React, AWS, GCP, PostgreSQL, Redis, Docker, Kubernetes, OpenAI (GPT-5/RFT)
-- **Sector**: Cybersecurity / AI
-- **Geography**: USA
 - **Website**: https://doppel.com
 
 ## 3. Architecture Signals & Scaling Bottlenecks
-- Primary Scaling Challenge: Recursive context inflation; RAG latency; Guardrail overhead latency
-- Critical Focus: Optimizing throughput, resilience, and operational complexity as engineering volume scales.
+- Primary Observation: Recursive context inflation
+- Strategic Priority: Mitigating managing throughput boundaries under scaling team volume requires careful isolation.
 
 ## 4. Recipient Profile
-- **Primary Contact**: Kevin Tian (CEO)
-- **CTO**: Rahul Madduluri
-- **VP Engineering**: Anish Shandilya
+- **Primary Contact**: Kevin Tian
 - **Email Contact Path**: kevin@doppel.com
 
 ## 5. Outreach Email
 Hi Kevin,
 
-I recently spent some time studying Doppel's public engineering footprint. Your technical architecture leveraging Python, Go, Node.js, React, AWS, GCP, PostgreSQL, Redis, Docker, Kubernetes, OpenAI (GPT-5/RFT) is impressive, particularly as you scale throughput. Addresses like Recursive context inflation require thoughtful system boundaries.
+While reviewing Doppel's platform architecture... one specific observation stood out.
 
-I've put together an independent Engineering Intelligence Report analyzing Doppel's architecture signals and potential scaling strategies: https://www.xaviratechlabs.com/research/doppel
+Your stack relies on Python,  Go,  Node.js. The pattern around Recursive context inflation caught my attention. In high-throughput environments, managing throughput boundaries under scaling team volume requires careful isolation.
 
-Would you be open to a 20-minute conversation to discuss these findings?
+This may already be an intentional architectural tradeoff to maintain system simplicity.
 
-Best,
+I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/doppel
 
-Vishnu Burri
+Curious whether I've interpreted this correctly.
+
+Vishnu Vardhan Burri
 Director & Principal Architect
 XAVIRA Technologies
+https://www.xaviratechlabs.com
 
 ## 6. Subject Line
-Doppel's Architecture & Recursive context inflation
+Architecture observation regarding Doppel
 
 ## 7. 5-Day Follow-Up
 Hi Kevin,
 
-Just floating this to the top of your inbox. Given Doppel's focus on Python, managing bottlenecks around Recursive context inflation can become a priority as team throughput increases.
+Following up on my note regarding Doppel's architecture. Managing Recursive context inflation often becomes a bottleneck as request concurrency grows.
 
-Our report touches on specialized architectural patterns for this: https://www.xaviratechlabs.com/research/doppel
+The report details how similar teams address this boundary: https://www.xaviratechlabs.com/research/doppel
 
-Let me know if you have 20 minutes for a technical discussion.
+Let me know if you'd be open to exchanging notes.
 
 Best,
 Vishnu
@@ -52,16 +51,16 @@ Vishnu
 ## 8. 10-Day Follow-Up
 Hi Kevin,
 
-I’ll keep this brief. If you or your engineering leadership are exploring architectural optimizations for Doppel's platform scale, I’d love to share our research. If not, I'll close the loop here.
+Closing the loop here. If you or your engineering team are exploring optimization strategies for Doppel's core infrastructure, our research is available whenever relevant.
 
 Best,
 Vishnu
 
 ## 9. LinkedIn Connection Message
-Hi Kevin, I’ve been studying Doppel’s public engineering footprint and technical stack (Python,  Go,  Node.js). Put together an Engineering Intelligence report you might find useful. Would love to connect.
+Hi Kevin, I reviewed Doppel's engineering footprint, specifically around Python. Documented a few architecture observations you might find valuable. Would love to connect.
 
 ## 10. LinkedIn Follow-Up
-Thanks for connecting, Kevin. Here is the direct link to the report on Doppel's architecture: https://www.xaviratechlabs.com/research/doppel. Let me know if you’d be open to a quick technical chat.
+Thanks for connecting, Kevin. Here is the direct report analyzing Doppel's platform signals: https://www.xaviratechlabs.com/research/doppel. Interested in your perspective when time allows.
 
 ## 11. Self-Scoring
 - **Personalization**: 10/10
@@ -72,6 +71,6 @@ Thanks for connecting, Kevin. Here is the direct link to the report on Doppel's 
 - **Reply Probability**: 9/10
 
 ## 12. Sources
-- Public Tech Radar & Engineering Blogs
-- GitHub & System Architecture Signals
-- Public Interviews & Leadership Profiles
+- Public System Footprint & Technical Blogs
+- GitHub & Infrastructure Signals
+- Engineering Leadership Profiles

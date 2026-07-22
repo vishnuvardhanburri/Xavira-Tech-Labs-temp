@@ -1,0 +1,1 @@
+Looking into the technical stack at LlamaIndex... one specific observation stood out regarding Document chunking tree index construction memory pressure and RAG node retriever ranking overhead.

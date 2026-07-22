@@ -1,0 +1,1 @@
+While reviewing Langfuse's public system footprint... one specific observation stood out regarding LLM observability trace ingestion queue backpressure and ClickHouse log aggregation batch flushes.

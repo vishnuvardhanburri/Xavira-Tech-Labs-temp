@@ -1,0 +1,1 @@
+In reviewing Coder's system architecture footprint... one specific observation stood out regarding Workspace provisioning agent WebSocket connection heartbeat timeouts and SSH proxy multiplexing overhead.

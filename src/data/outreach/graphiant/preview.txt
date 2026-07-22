@@ -1,0 +1,1 @@
+In examining Graphiant's core backend configuration... one specific observation stood out regarding HashiCorp Consul, Amazon CloudFront, Angular, jQuery, Go (Needs technical diagnosis).

@@ -1,0 +1,1 @@
+Evaluating Modulr's platform architecture signals... one specific observation stood out regarding TBD (Ready for Technical Diagnostics Pipeline).

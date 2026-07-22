@@ -1,0 +1,1 @@
+Analyzing the service boundaries across Teleport's stack... one specific observation stood out regarding Audit session recording stream disk I/O serialization and certificate authority key rotation overhead.

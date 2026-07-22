@@ -1,0 +1,1 @@
+In reviewing Wiz's system architecture footprint... one specific observation stood out regarding cloud asset relationship graph traversal query latency and multi-tenant security event correlation.

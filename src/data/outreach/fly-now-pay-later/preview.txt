@@ -1,0 +1,1 @@
+During an examination of Fly Now Pay Later's core engineering layer... one specific observation stood out regarding TBD (Ready for Technical Diagnostics Pipeline).

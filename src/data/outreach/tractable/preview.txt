@@ -1,0 +1,1 @@
+Looking into Tractable's infrastructure topology... one specific observation stood out regarding TBD (Ready for Technical Diagnostics Pipeline).

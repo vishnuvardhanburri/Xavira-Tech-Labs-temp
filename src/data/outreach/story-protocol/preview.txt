@@ -1,0 +1,1 @@
+Looking into the technical stack at Story Protocol... one specific observation stood out regarding Cross-chain messaging latency, EVM state bloat.

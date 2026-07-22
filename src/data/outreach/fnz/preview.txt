@@ -1,0 +1,1 @@
+A review of FNZ's distributed system signals highlighted... one specific observation stood out regarding Legacy .NET/SOAP integration issues, deployment bottlenecks.

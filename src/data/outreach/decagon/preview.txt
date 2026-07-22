@@ -1,0 +1,1 @@
+While reviewing Decagon's platform architecture... one specific observation stood out regarding Conversational AI, Salesforce, Zendesk (Needs technical diagnosis).

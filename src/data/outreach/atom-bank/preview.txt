@@ -1,0 +1,1 @@
+Analyzing the service boundaries across Atom Bank's stack... one specific observation stood out regarding Middleware integration, GCP scaling, Kotlin backend.

@@ -1,0 +1,1 @@
+While reviewing Thought Machine's platform architecture... one specific observation stood out regarding Kubernetes cluster management, Python backend scaling.

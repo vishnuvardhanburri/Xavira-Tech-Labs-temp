@@ -1,0 +1,1 @@
+While reviewing Grafana Labs's platform architecture... one specific observation stood out regarding Mimir chunk storage compaction memory pressure and Loki log stream index cardinality explosion.

@@ -1,0 +1,1 @@
+Analyzing the service boundaries across Temporal's stack... one specific observation stood out regarding workflow execution history event payload accumulation and persistence layer write amplification.

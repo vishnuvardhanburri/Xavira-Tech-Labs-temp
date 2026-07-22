@@ -1,0 +1,1 @@
+Examining the platform deployment model at Corelight... one specific observation stood out regarding Vue.js, Kotlin, Laravel, Goober, Oracle Cloud, Red Hat (Needs technical diagnosis).

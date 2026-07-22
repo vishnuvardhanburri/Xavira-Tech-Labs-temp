@@ -1,0 +1,1 @@
+A review of Snyk's distributed system signals highlighted... one specific observation stood out regarding Vulnerability AST parsing memory overhead and real-time dependency graph traversal across enterprise monorepos.

@@ -1,0 +1,1 @@
+Looking into the technical stack at HashiCorp... one specific observation stood out regarding Consul Raft consensus log compaction latency and Vault storage engine lock acquisition under high secret read rates.

@@ -1,0 +1,1 @@
+A technical assessment of Astronomer's service topology indicates... one specific observation stood out regarding Airflow DAG file parsing overhead and Celery executor Redis queue contention across large DAG sets.

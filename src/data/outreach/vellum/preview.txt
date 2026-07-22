@@ -1,0 +1,1 @@
+While reviewing Vellum's platform architecture... one specific observation stood out regarding Prompt workflow execution DAG resolution latency and multi-model provider failover routing delays.

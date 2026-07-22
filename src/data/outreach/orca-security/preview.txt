@@ -1,0 +1,1 @@
+Examining the platform deployment model at Orca Security... one specific observation stood out regarding Side-Scanning snapshot volume mount serialization and out-of-band disk image parsing throughput.

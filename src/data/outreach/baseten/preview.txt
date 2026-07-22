@@ -1,0 +1,1 @@
+During an examination of Baseten's core engineering layer... one specific observation stood out regarding vLLM dynamic request batching and KV cache memory allocation during multi-model GPU inference bursts.

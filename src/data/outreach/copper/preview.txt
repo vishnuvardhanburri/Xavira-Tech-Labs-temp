@@ -1,0 +1,1 @@
+While reviewing Copper's platform architecture... one specific observation stood out regarding TBD (Ready for Technical Diagnostics Pipeline).

@@ -1,0 +1,1 @@
+Examining the platform deployment model at Lendable... one specific observation stood out regarding TBD (Ready for Technical Diagnostics Pipeline).

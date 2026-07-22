@@ -1,0 +1,1 @@
+While reviewing Funding Circle's public system footprint... one specific observation stood out regarding TBD (Ready for Technical Diagnostics Pipeline).

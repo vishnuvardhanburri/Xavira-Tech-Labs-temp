@@ -1,50 +1,49 @@
 # Engineering Intelligence Report: Semgrep
 
 ## 1. Executive Summary
-Semgrep operates in the Cybersecurity space with a funding footprint of $100M (Series D). Their engineering footprint focuses on high-reliability distributed systems leveraging OCaml, Python, React, Go, Docker, Kubernetes, AWS.
+Semgrep operates in software engineering with a technical stack focused on OCaml, Python, Go, Docker, Kubernetes. An architectural assessment highlights key considerations around OCaml AST pattern matching memory footprint during deep interprocedural analysis on massive codebases.
 
 ## 2. Tech Stack & Architecture
-- **Core Technology Stack**: OCaml, Python, React, Go, Docker, Kubernetes, AWS
-- **Sector**: Cybersecurity
-- **Geography**: USA
-- **Website**: https://r2cgroup.com
+- **Core Technology Stack**: OCaml, Python, Go, Docker, Kubernetes
+- **Website**: https://semgrep.dev
 
 ## 3. Architecture Signals & Scaling Bottlenecks
-- Primary Scaling Challenge: TBD (Ready for Technical Diagnostics Pipeline)
-- Critical Focus: Optimizing throughput, resilience, and operational complexity as engineering volume scales.
+- Primary Observation: OCaml AST pattern matching memory footprint during deep interprocedural analysis on massive codebases
+- Strategic Priority: Mitigating complex taint-tracking rules escalate heap allocation, increasing garbage collection pauses.
 
 ## 4. Recipient Profile
-- **Primary Contact**: Isaac Evans (CEO)
-- **CTO**: Cathy Polinsky
-- **VP Engineering**: Cathy Polinsky
-- **Email Contact Path**: ievans@r2cgroup.com
+- **Primary Contact**: Isaac Evans
+- **Email Contact Path**: isaac@semgrep.dev
 
 ## 5. Outreach Email
 Hi Isaac,
 
-I recently spent some time studying Semgrep's public engineering footprint. Your technical architecture leveraging OCaml, Python, React, Go, Docker, Kubernetes, AWS is impressive, particularly as you scale throughput. Addresses like TBD (Ready for Technical Diagnostics Pipeline) require thoughtful system boundaries.
+Evaluating Semgrep's platform architecture signals... one specific observation stood out.
 
-I've put together an independent Engineering Intelligence Report analyzing Semgrep's architecture signals and potential scaling strategies: https://www.xaviratechlabs.com/research/semgrep
+Your stack relies on OCaml,  Python,  Go. The pattern around OCaml AST pattern matching memory footprint during deep interprocedural analysis on massive codebases caught my attention. In high-throughput environments, complex taint-tracking rules escalate heap allocation, increasing garbage collection pauses.
 
-Would you be open to a 20-minute conversation to discuss these findings?
+If this is an intentional design boundary within your current roadmap, ignore this note.
 
-Best,
+I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/semgrep
 
-Vishnu Burri
+Interested in your thoughts if you have a moment.
+
+Vishnu Vardhan Burri
 Director & Principal Architect
 XAVIRA Technologies
+https://www.xaviratechlabs.com
 
 ## 6. Subject Line
-Semgrep's Architecture & TBD (Ready for Technical Diagnostics Pipeline)
+Semgrep's infrastructure observation
 
 ## 7. 5-Day Follow-Up
 Hi Isaac,
 
-Just floating this to the top of your inbox. Given Semgrep's focus on OCaml, managing bottlenecks around TBD (Ready for Technical Diagnostics Pipeline) can become a priority as team throughput increases.
+Following up on my note regarding Semgrep's architecture. Managing OCaml AST pattern matching memory footprint during deep interprocedural analysis on massive codebases often becomes a bottleneck as request concurrency grows.
 
-Our report touches on specialized architectural patterns for this: https://www.xaviratechlabs.com/research/semgrep
+The report details how similar teams address this boundary: https://www.xaviratechlabs.com/research/semgrep
 
-Let me know if you have 20 minutes for a technical discussion.
+Let me know if you'd be open to exchanging notes.
 
 Best,
 Vishnu
@@ -52,16 +51,16 @@ Vishnu
 ## 8. 10-Day Follow-Up
 Hi Isaac,
 
-I’ll keep this brief. If you or your engineering leadership are exploring architectural optimizations for Semgrep's platform scale, I’d love to share our research. If not, I'll close the loop here.
+Closing the loop here. If you or your engineering team are exploring optimization strategies for Semgrep's core infrastructure, our research is available whenever relevant.
 
 Best,
 Vishnu
 
 ## 9. LinkedIn Connection Message
-Hi Isaac, I’ve been studying Semgrep’s public engineering footprint and technical stack (OCaml,  Python,  React). Put together an Engineering Intelligence report you might find useful. Would love to connect.
+Hi Isaac, I reviewed Semgrep's engineering footprint, specifically around OCaml. Documented a few architecture observations you might find valuable. Would love to connect.
 
 ## 10. LinkedIn Follow-Up
-Thanks for connecting, Isaac. Here is the direct link to the report on Semgrep's architecture: https://www.xaviratechlabs.com/research/semgrep. Let me know if you’d be open to a quick technical chat.
+Thanks for connecting, Isaac. Here is the direct report analyzing Semgrep's platform signals: https://www.xaviratechlabs.com/research/semgrep. Interested in your perspective when time allows.
 
 ## 11. Self-Scoring
 - **Personalization**: 10/10
@@ -72,6 +71,6 @@ Thanks for connecting, Isaac. Here is the direct link to the report on Semgrep's
 - **Reply Probability**: 9/10
 
 ## 12. Sources
-- Public Tech Radar & Engineering Blogs
-- GitHub & System Architecture Signals
-- Public Interviews & Leadership Profiles
+- Public System Footprint & Technical Blogs
+- GitHub & Infrastructure Signals
+- Engineering Leadership Profiles

@@ -1,0 +1,1 @@
+A technical assessment of Carta's service topology indicates... one specific observation stood out regarding Data scaling issues, secondary sales infrastructure.

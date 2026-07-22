@@ -1,0 +1,1 @@
+In reviewing Railway's system architecture footprint... one specific observation stood out regarding internal mesh proxy memory footprint and dynamic container build isolation orchestration.

@@ -1,0 +1,1 @@
+In reviewing SumUp's system architecture footprint... one specific observation stood out regarding Kafka stream processing, Kubernetes pod scaling.

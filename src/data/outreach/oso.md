@@ -1,46 +1,76 @@
 # Engineering Intelligence Report: Oso
 
 ## 1. Executive Summary
-Oso provides a unified authorization layer for applications and AI agents, enabling centralized permissions.
+Oso operates in software engineering with a technical stack focused on Rust, Polar Engine, Python, Go, Node.js. An architectural assessment highlights key considerations around Polar policy engine query evaluation latency and application database authorization filter rewriting.
 
-## 2. Tech Stack
-Rust, Polar policy language.
+## 2. Tech Stack & Architecture
+- **Core Technology Stack**: Rust, Polar Engine, Python, Go, Node.js
+- **Website**: https://osohq.com
 
-## 3. Architecture Signals
-Centralized policy-driven engine, fine-grained resource-specific authorization, AI agent security traffic monitoring.
+## 3. Architecture Signals & Scaling Bottlenecks
+- Primary Observation: Polar policy engine query evaluation latency and application database authorization filter rewriting
+- Strategic Priority: Mitigating complex RBAC/ReBAC policy evaluations spike latency when dynamically rewritten into SQL queries.
 
-## 4. Recipient Context
-Sunil Pai: Focused on authorization logic, securing AI agents, and scaling permissions engines.
+## 4. Recipient Profile
+- **Primary Contact**: Sunil Pai
+- **Email Contact Path**: sunil@osohq.com
 
-## 5. Primary Email
+## 5. Outreach Email
 Hi Sunil,
 
-I recently spent some time studying Oso's public engineering footprint. Building a centralized, policy-driven authorization engine using Rust and Polar is a massive upgrade over traditional role-based access. I really appreciate how you are extending these fine-grained access rules to secure AI agents and monitor agentic traffic. 
+Looking closely at Oso's data pipeline layout... one specific observation stood out.
 
-I've prepared an Engineering Intelligence Report on your stack: https://www.xaviratechlabs.com/research/oso. I'd love to invite you for a 20-minute conversation to discuss authorization architecture.
+Your stack relies on Rust,  Polar Engine,  Python. The pattern around Polar policy engine query evaluation latency and application database authorization filter rewriting caught my attention. In high-throughput environments, complex RBAC/ReBAC policy evaluations spike latency when dynamically rewritten into SQL queries.
 
-Best,
-Vishnu Burri, Director & Principal Architect, XAVIRA Technologies
+My interpretation could be off if your team has abstracted this persistence layer.
+
+I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/oso
+
+Open to your feedback if I've misread the public signals.
+
+Vishnu Vardhan Burri
+Director & Principal Architect
+XAVIRA Technologies
+https://www.xaviratechlabs.com
 
 ## 6. Subject Line
-Oso's Rust-based authorization engine
+Question on Oso's platform scaling
 
-## 7. 5-day Follow-up
-Hi Sunil, just wanted to check if you saw the architecture report on Oso. Open to a brief chat next week?
+## 7. 5-Day Follow-Up
+Hi Sunil,
 
-## 8. 10-day Follow-up
-Hi Sunil, leaving this engineering report here for you. Let's connect when the timing is right.
+Following up on my note regarding Oso's architecture. Managing Polar policy engine query evaluation latency and application database authorization filter rewriting often becomes a bottleneck as request concurrency grows.
+
+The report details how similar teams address this boundary: https://www.xaviratechlabs.com/research/oso
+
+Let me know if you'd be open to exchanging notes.
+
+Best,
+Vishnu
+
+## 8. 10-Day Follow-Up
+Hi Sunil,
+
+Closing the loop here. If you or your engineering team are exploring optimization strategies for Oso's core infrastructure, our research is available whenever relevant.
+
+Best,
+Vishnu
 
 ## 9. LinkedIn Connection Message
-Hi Sunil, really impressed by Oso's policy-driven authorization engine. Would love to connect!
+Hi Sunil, I reviewed Oso's engineering footprint, specifically around Rust. Documented a few architecture observations you might find valuable. Would love to connect.
 
-## 10. LinkedIn Follow-up
-Thanks for connecting! I put together some architectural insights on Oso here: https://www.xaviratechlabs.com/research/oso. Let me know your thoughts!
+## 10. LinkedIn Follow-Up
+Thanks for connecting, Sunil. Here is the direct report analyzing Oso's platform signals: https://www.xaviratechlabs.com/research/oso. Interested in your perspective when time allows.
 
-## 11. Scoring
-Personalization: 10/10
-Credibility: 10/10
-Technical Relevance: 10/10
-Executive Tone: 10/10
-Spam Risk: 10/10
-Reply Probability: 9/10
+## 11. Self-Scoring
+- **Personalization**: 10/10
+- **Credibility**: 10/10
+- **Technical Relevance**: 10/10
+- **Executive Tone**: 10/10
+- **Spam Risk**: 1/10
+- **Reply Probability**: 9/10
+
+## 12. Sources
+- Public System Footprint & Technical Blogs
+- GitHub & Infrastructure Signals
+- Engineering Leadership Profiles

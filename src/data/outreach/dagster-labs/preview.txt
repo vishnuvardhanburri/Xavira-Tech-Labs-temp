@@ -1,0 +1,1 @@
+Looking closely at Dagster Labs's data pipeline layout... one specific observation stood out regarding out-of-process asset computation serialization overhead and GraphQL metadata event bus backpressure.

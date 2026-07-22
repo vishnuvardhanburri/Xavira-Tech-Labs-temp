@@ -1,0 +1,1 @@
+Evaluating Semgrep's platform architecture signals... one specific observation stood out regarding OCaml AST pattern matching memory footprint during deep interprocedural analysis on massive codebases.

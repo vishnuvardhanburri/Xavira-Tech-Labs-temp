@@ -1,0 +1,1 @@
+Looking into the technical stack at Render... one specific observation stood out regarding ingress proxy routing table propagation latency and container health check synchronization across distributed clusters.

@@ -1,0 +1,1 @@
+Examining the platform deployment model at Replicate... one specific observation stood out regarding model weight snapshot streaming latency across ephemeral GPU worker pools during concurrent model cold runs.

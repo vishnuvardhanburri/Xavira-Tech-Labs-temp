@@ -1,0 +1,1 @@
+Looking into the technical stack at Nutmeg... one specific observation stood out regarding TBD (Ready for Technical Diagnostics Pipeline).

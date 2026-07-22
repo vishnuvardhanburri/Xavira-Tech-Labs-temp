@@ -1,50 +1,49 @@
 # Engineering Intelligence Report: Omnea
 
 ## 1. Executive Summary
-Omnea operates in the AI SaaS / Procurement space with a funding footprint of $75M (Series B). Their engineering footprint focuses on high-reliability distributed systems leveraging TypeScript, React, Postgres, AWS (Lambda, DynamoDB, EventBridge, Aurora), Pulumi, Datadog.
+Omnea operates in software engineering with a technical stack focused on TypeScript, React, Postgres, AWS (Lambda, DynamoDB, EventBridge, Aurora), Pulumi, Datadog. An architectural assessment highlights key considerations around Aurora connection pool exhaustion.
 
 ## 2. Tech Stack & Architecture
 - **Core Technology Stack**: TypeScript, React, Postgres, AWS (Lambda, DynamoDB, EventBridge, Aurora), Pulumi, Datadog
-- **Sector**: AI SaaS / Procurement
-- **Geography**: UK
 - **Website**: https://omnea.co
 
 ## 3. Architecture Signals & Scaling Bottlenecks
-- Primary Scaling Challenge: Aurora connection pool exhaustion; EventBridge queue bottlenecks; Lambda cold starts
-- Critical Focus: Optimizing throughput, resilience, and operational complexity as engineering volume scales.
+- Primary Observation: Aurora connection pool exhaustion
+- Strategic Priority: Mitigating managing throughput boundaries under scaling team volume requires careful isolation.
 
 ## 4. Recipient Profile
-- **Primary Contact**: Ben Freeman (CEO)
-- **CTO**: Henry Chong
-- **VP Engineering**: Ed Bishop
+- **Primary Contact**: Ben Freeman
 - **Email Contact Path**: ben.freeman@omnea.co
 
 ## 5. Outreach Email
 Hi Ben,
 
-I recently spent some time studying Omnea's public engineering footprint. Your technical architecture leveraging TypeScript, React, Postgres, AWS (Lambda, DynamoDB, EventBridge, Aurora), Pulumi, Datadog is impressive, particularly as you scale throughput. Addresses like Aurora connection pool exhaustion require thoughtful system boundaries.
+A review of Omnea's distributed system signals highlighted... one specific observation stood out.
 
-I've put together an independent Engineering Intelligence Report analyzing Omnea's architecture signals and potential scaling strategies: https://www.xaviratechlabs.com/research/omnea
+Your stack relies on TypeScript,  React,  Postgres. The pattern around Aurora connection pool exhaustion caught my attention. In high-throughput environments, managing throughput boundaries under scaling team volume requires careful isolation.
 
-Would you be open to a 20-minute conversation to discuss these findings?
+If this is an intentional design boundary within your current roadmap, ignore this note.
 
-Best,
+I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/omnea
 
-Vishnu Burri
+Interested in your thoughts if you have a moment.
+
+Vishnu Vardhan Burri
 Director & Principal Architect
 XAVIRA Technologies
+https://www.xaviratechlabs.com
 
 ## 6. Subject Line
-Omnea's Architecture & Aurora connection pool exhaustion
+Omnea engineering review note
 
 ## 7. 5-Day Follow-Up
 Hi Ben,
 
-Just floating this to the top of your inbox. Given Omnea's focus on TypeScript, managing bottlenecks around Aurora connection pool exhaustion can become a priority as team throughput increases.
+Following up on my note regarding Omnea's architecture. Managing Aurora connection pool exhaustion often becomes a bottleneck as request concurrency grows.
 
-Our report touches on specialized architectural patterns for this: https://www.xaviratechlabs.com/research/omnea
+The report details how similar teams address this boundary: https://www.xaviratechlabs.com/research/omnea
 
-Let me know if you have 20 minutes for a technical discussion.
+Let me know if you'd be open to exchanging notes.
 
 Best,
 Vishnu
@@ -52,16 +51,16 @@ Vishnu
 ## 8. 10-Day Follow-Up
 Hi Ben,
 
-I’ll keep this brief. If you or your engineering leadership are exploring architectural optimizations for Omnea's platform scale, I’d love to share our research. If not, I'll close the loop here.
+Closing the loop here. If you or your engineering team are exploring optimization strategies for Omnea's core infrastructure, our research is available whenever relevant.
 
 Best,
 Vishnu
 
 ## 9. LinkedIn Connection Message
-Hi Ben, I’ve been studying Omnea’s public engineering footprint and technical stack (TypeScript,  React,  Postgres). Put together an Engineering Intelligence report you might find useful. Would love to connect.
+Hi Ben, I reviewed Omnea's engineering footprint, specifically around TypeScript. Documented a few architecture observations you might find valuable. Would love to connect.
 
 ## 10. LinkedIn Follow-Up
-Thanks for connecting, Ben. Here is the direct link to the report on Omnea's architecture: https://www.xaviratechlabs.com/research/omnea. Let me know if you’d be open to a quick technical chat.
+Thanks for connecting, Ben. Here is the direct report analyzing Omnea's platform signals: https://www.xaviratechlabs.com/research/omnea. Interested in your perspective when time allows.
 
 ## 11. Self-Scoring
 - **Personalization**: 10/10
@@ -72,6 +71,6 @@ Thanks for connecting, Ben. Here is the direct link to the report on Omnea's arc
 - **Reply Probability**: 9/10
 
 ## 12. Sources
-- Public Tech Radar & Engineering Blogs
-- GitHub & System Architecture Signals
-- Public Interviews & Leadership Profiles
+- Public System Footprint & Technical Blogs
+- GitHub & Infrastructure Signals
+- Engineering Leadership Profiles

@@ -1,0 +1,1 @@
+Weaviate's infrastructure observation

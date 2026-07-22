@@ -1,0 +1,1 @@
+In reviewing Opal Security's system architecture footprint... one specific observation stood out regarding TBD (Ready for Technical Diagnostics Pipeline).
