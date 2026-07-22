@@ -4,685 +4,685 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://www.xaviratechlabs.com/</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/about</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/services</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/packages</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/industries</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research-insights</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/faq</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/contact</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/book</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/cases</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/doppel</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/adaptive-security</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/camber-health</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/omnea</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/clay</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/physicsx</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/graphite</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/opal-security</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/vanta</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/xbow</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/chainguard</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/island</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/aura</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/semgrep</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/eclypsium</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/cyera</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/socket</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/huntress</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/alkira</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/axonius</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/corelight</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/dust-identity</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/wiz</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/harmonic</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/newlimit</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/base-power</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/sprinter-health</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/graphiant</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/bounce</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/nooks</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/decagon</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/atlys</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/story-protocol</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/fnz</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/monzo</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/checkout-com</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/revolut</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/sumup</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/atom-bank</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/starling-bank</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/metro-bank</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/oaknorth</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/allica-bank</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/blockchain-com</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/dojo</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/thought-machine</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/gocardless</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/marex</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/tandem</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/teya</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/smart</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/clearbank</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/behavox</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/stream</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/oxbury</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/10x-banking</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/funding-circle</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/paddle</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/curve</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/tide</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/copper</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/fnality</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/cloudpay</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/form3</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/tradingview</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/lendable</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/clearcourse</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/genesis</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/9fin</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/fresha</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/paysend</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/kriya</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/the-bank-of-london</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/soldo</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/monese</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/monument-bank</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/prodigy-finance</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/clearscore</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/elliptic</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/moneyfarm</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/capital-on-tap</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/thincats</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/terrapay</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/sonovate</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/cleo</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/pollinate</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/paymentology</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/storfund</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/modulr</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/tractable</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/dext</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/primer</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/nutmeg</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/currencycloud</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/fly-now-pay-later</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/kroo</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/freetrade</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/redcloud</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/codat</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/finbourne</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/carta</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/dave</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.xaviratechlabs.com/research/intercom</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

@@ -9204,3 +9204,13 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     }
   }
 ];
+
+// Fast O(1) Indexing for Ultra-Fast SPA Route Performance across 140+ Companies
+export const COMPANY_MAP: Map<string, CompanyIntelligence> = new Map(
+  COMPANIES_DATA.map(comp => [comp.slug, comp])
+);
+
+export const getCompanyBySlug = (slug: string): CompanyIntelligence | undefined => {
+  return COMPANY_MAP.get(slug) || COMPANIES_DATA.find(c => c.id === slug || c.slug === slug);
+};
+
