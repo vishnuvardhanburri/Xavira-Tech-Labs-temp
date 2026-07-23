@@ -1,1 +1,0 @@
-Reviewing Allica Bank's system deployment architecture highlighted an unmitigated operational risk. Specifically, Azure Spring Cloud scaling, Kotlin/Spring Boot performance presents a significant risk under load.

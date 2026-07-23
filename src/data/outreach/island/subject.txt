@@ -1,1 +1,0 @@
-Urgency around Island's concurrency architecture

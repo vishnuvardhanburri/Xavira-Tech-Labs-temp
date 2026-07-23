@@ -1,1 +1,0 @@
-An architectural review of Modal's platform stack surfaced a key operational bottleneck under load. Specifically, serverless Python micro-VM container image layer caching and GPU CUDA stream initialization overhead presents a significant risk under load.

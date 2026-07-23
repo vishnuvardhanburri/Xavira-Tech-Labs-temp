@@ -1,1 +1,0 @@
-Urgency around Genesis's concurrency architecture

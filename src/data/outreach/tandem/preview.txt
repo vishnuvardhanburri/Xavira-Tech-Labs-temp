@@ -1,1 +1,0 @@
-A deep dive into Tandem's service topology exposed an architectural vulnerability under peak concurrency. Specifically, TBD (Ready for Technical Diagnostics Pipeline) presents a significant risk under load.

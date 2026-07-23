@@ -1,1 +1,0 @@
-A deep dive into Prefect's service topology exposed an architectural vulnerability under peak concurrency. Specifically, orchestration engine flow run state lock contention and worker heartbeat polling thresholds presents a significant risk under load.

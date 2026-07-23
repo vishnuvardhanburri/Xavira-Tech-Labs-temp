@@ -1,1 +1,0 @@
-An architectural review of Graphite's platform stack surfaced a key operational bottleneck under load. Specifically, TypeScript, React, Next.js, Python, AWS (Needs technical diagnosis) presents a significant risk under load.

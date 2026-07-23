@@ -1,1 +1,0 @@
-Reviewing HashiCorp's system deployment architecture highlighted an unmitigated operational risk. Specifically, Consul Raft consensus log compaction latency and Vault storage engine lock acquisition under high secret read rates presents a significant risk under load.

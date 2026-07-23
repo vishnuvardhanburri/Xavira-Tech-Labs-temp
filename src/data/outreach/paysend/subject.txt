@@ -1,1 +1,0 @@
-Operational risk in PaySend's data topology

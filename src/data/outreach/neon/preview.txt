@@ -1,1 +1,0 @@
-Looking closely at Neon's data pipeline topology, a clear system stability risk emerged. Specifically, compute-storage separation L2 page server cache misses and WAL streaming latency during cold branch initialization presents a significant risk under load.

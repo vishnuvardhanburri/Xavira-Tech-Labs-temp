@@ -1,1 +1,0 @@
-Examining Decagon's core infrastructure topology revealed an urgent scaling bottleneck. Specifically, Conversational AI, Salesforce, Zendesk (Needs technical diagnosis) presents a significant risk under load.

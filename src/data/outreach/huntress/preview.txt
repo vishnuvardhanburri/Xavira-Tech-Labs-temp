@@ -1,1 +1,0 @@
-Evaluating Huntress's backend services identified a critical throughput constraint in your current architecture. Specifically, Microsoft Defender, EDR, SIEM (Needs technical diagnosis) presents a significant risk under load.

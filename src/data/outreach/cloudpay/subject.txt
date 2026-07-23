@@ -1,1 +1,0 @@
-Operational risk in CloudPay's data topology

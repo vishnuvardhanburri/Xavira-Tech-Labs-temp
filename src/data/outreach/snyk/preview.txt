@@ -1,1 +1,0 @@
-A technical evaluation of Snyk's distributed system footprint surfaced a severe concurrency vulnerability. Specifically, Vulnerability AST parsing memory overhead and real-time dependency graph traversal across enterprise monorepos presents a significant risk under load.

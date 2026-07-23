@@ -1,1 +1,0 @@
-Urgency around Snyk's concurrency architecture

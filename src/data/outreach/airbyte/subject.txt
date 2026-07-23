@@ -1,1 +1,0 @@
-Airbyte's infrastructure risk & throughput degradation

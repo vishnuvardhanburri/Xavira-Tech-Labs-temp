@@ -1,1 +1,0 @@
-System failure mode identified in Together AI's runtime stack

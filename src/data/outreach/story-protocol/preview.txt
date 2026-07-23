@@ -1,1 +1,0 @@
-Reviewing Story Protocol's system deployment architecture highlighted an unmitigated operational risk. Specifically, Cross-chain messaging latency, EVM state bloat presents a significant risk under load.

@@ -1,1 +1,0 @@
-Critical scaling bottleneck in Teya's platform infrastructure

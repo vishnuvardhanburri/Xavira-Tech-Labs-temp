@@ -1,1 +1,0 @@
-Architectural vulnerability in The Bank of London's backend engine

@@ -1,1 +1,0 @@
-Evaluating Opal Security's backend services identified a critical throughput constraint in your current architecture. Specifically, TBD (Ready for Technical Diagnostics Pipeline) presents a significant risk under load.

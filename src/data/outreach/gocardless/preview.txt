@@ -1,1 +1,0 @@
-An architectural review of GoCardless's platform stack surfaced a key operational bottleneck under load. Specifically, Ruby on Rails monolithic scaling, PostgreSQL database locks presents a significant risk under load.

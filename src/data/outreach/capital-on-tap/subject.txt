@@ -1,1 +1,0 @@
-Architectural vulnerability in Capital on Tap's backend engine

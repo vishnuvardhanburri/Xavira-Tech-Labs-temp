@@ -1,1 +1,0 @@
-Analyzing Nooks's infrastructure signals highlighted a high-stakes bottleneck in your execution engine. Specifically, AI cold email generator, Virtual sales floor, AI sequencing (Needs technical diagnosis) presents a significant risk under load.

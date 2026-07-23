@@ -1,1 +1,0 @@
-Dojo's infrastructure risk & throughput degradation

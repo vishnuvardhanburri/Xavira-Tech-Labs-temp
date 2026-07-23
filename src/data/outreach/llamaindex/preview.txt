@@ -1,1 +1,0 @@
-Evaluating LlamaIndex's backend services identified a critical throughput constraint in your current architecture. Specifically, Document chunking tree index construction memory pressure and RAG node retriever ranking overhead presents a significant risk under load.

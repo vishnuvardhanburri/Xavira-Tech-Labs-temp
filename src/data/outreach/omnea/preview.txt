@@ -1,1 +1,0 @@
-A technical evaluation of Omnea's distributed system footprint surfaced a severe concurrency vulnerability. Specifically, Aurora connection pool exhaustion presents a significant risk under load.

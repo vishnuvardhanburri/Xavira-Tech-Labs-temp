@@ -1,1 +1,0 @@
-Architectural vulnerability in Story Protocol's backend engine

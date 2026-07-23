@@ -1,1 +1,0 @@
-Examining Grafana Labs's core infrastructure topology revealed an urgent scaling bottleneck. Specifically, Mimir chunk storage compaction memory pressure and Loki log stream index cardinality explosion presents a significant risk under load.

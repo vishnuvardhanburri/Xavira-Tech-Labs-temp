@@ -1,1 +1,0 @@
-Urgency around Checkout.com's concurrency architecture

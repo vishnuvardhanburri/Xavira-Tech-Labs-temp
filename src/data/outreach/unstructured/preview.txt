@@ -1,1 +1,0 @@
-Inspecting Unstructured's runtime infrastructure revealed a performance degradation boundary that requires immediate attention. Specifically, Document partitioning OCR pipeline processing latency and PDF element extraction worker queue lag presents a significant risk under load.

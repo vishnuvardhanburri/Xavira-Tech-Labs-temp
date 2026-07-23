@@ -1,1 +1,0 @@
-Examining Doppel's core infrastructure topology revealed an urgent scaling bottleneck. Specifically, Recursive context inflation presents a significant risk under load.

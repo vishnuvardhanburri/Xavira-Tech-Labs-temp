@@ -1,1 +1,0 @@
-Critical scaling bottleneck in Neon's platform infrastructure

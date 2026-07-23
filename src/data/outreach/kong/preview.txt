@@ -1,1 +1,0 @@
-While analyzing Kong's backend service boundaries, a critical failure mode stood out. Specifically, OpenResty Lua worker thread blocking and Redis rate-limiting plugin synchronization at the gateway tier presents a significant risk under load.

@@ -1,1 +1,0 @@
-While analyzing Adaptive Security's backend service boundaries, a critical failure mode stood out. Specifically, GPU allocation bottlenecks presents a significant risk under load.

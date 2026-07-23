@@ -1,1 +1,0 @@
-A technical evaluation of Semgrep's distributed system footprint surfaced a severe concurrency vulnerability. Specifically, OCaml AST pattern matching memory footprint during deep interprocedural analysis on massive codebases presents a significant risk under load.

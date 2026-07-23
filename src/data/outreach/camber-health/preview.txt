@@ -1,1 +1,0 @@
-Reviewing Camber Health's system deployment architecture highlighted an unmitigated operational risk. Specifically, PostgreSQL query overloads presents a significant risk under load.

@@ -1,1 +1,0 @@
-Analyzing Axonius's infrastructure signals highlighted a high-stakes bottleneck in your execution engine. Specifically, AWS EC2, OpenStack, Threat Stack (Needs technical diagnosis) presents a significant risk under load.

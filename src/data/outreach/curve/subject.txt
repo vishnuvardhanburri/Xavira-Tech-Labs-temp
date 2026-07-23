@@ -1,1 +1,0 @@
-System failure mode identified in Curve's runtime stack

@@ -1,1 +1,0 @@
-Evaluating dbt Labs's backend services identified a critical throughput constraint in your current architecture. Specifically, data warehouse DDL execution lock escalation and semantic layer query compilation overhead presents a significant risk under load.

@@ -1,1 +1,0 @@
-Lacework's infrastructure risk & throughput degradation

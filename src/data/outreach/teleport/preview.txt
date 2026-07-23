@@ -1,1 +1,0 @@
-A deep dive into Teleport's service topology exposed an architectural vulnerability under peak concurrency. Specifically, Audit session recording stream disk I/O serialization and certificate authority key rotation overhead presents a significant risk under load.

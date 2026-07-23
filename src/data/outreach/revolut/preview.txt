@@ -1,1 +1,0 @@
-An architectural review of Revolut's platform stack surfaced a key operational bottleneck under load. Specifically, PostgreSQL scaling, GCP Kubernetes management presents a significant risk under load.

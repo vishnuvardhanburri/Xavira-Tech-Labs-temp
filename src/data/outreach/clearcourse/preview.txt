@@ -1,1 +1,0 @@
-An architectural review of ClearCourse's platform stack surfaced a key operational bottleneck under load. Specifically, TBD (Ready for Technical Diagnostics Pipeline) presents a significant risk under load.

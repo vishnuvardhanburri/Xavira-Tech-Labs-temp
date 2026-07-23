@@ -1,1 +1,0 @@
-Inspecting Dagster Labs's runtime infrastructure revealed a performance degradation boundary that requires immediate attention. Specifically, out-of-process asset computation serialization overhead and GraphQL metadata event bus backpressure presents a significant risk under load.

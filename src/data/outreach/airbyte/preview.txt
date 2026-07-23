@@ -1,1 +1,0 @@
-An architectural review of Airbyte's platform stack surfaced a key operational bottleneck under load. Specifically, connector Java/Python CDK serialization overhead and Temporal state persistence during long-tail ELT syncs presents a significant risk under load.
