@@ -1,1 +1,1 @@
-Question on OakNorth's platform scaling
+Critical scaling bottleneck in OakNorth's platform infrastructure

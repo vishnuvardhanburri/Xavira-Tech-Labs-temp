@@ -1,1 +1,1 @@
-Platform observation for Opal Security
+Performance bottleneck analysis for Opal Security

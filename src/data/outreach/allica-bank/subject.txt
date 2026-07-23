@@ -1,1 +1,1 @@
-Observation on Allica Bank's backend layout
+System failure mode identified in Allica Bank's runtime stack

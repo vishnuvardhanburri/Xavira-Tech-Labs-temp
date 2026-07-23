@@ -1,1 +1,1 @@
-Architecture observation regarding Socket
+Architectural vulnerability in Socket's backend engine

@@ -1,1 +1,1 @@
-Platform observation for Starling Bank
+Performance bottleneck analysis for Starling Bank

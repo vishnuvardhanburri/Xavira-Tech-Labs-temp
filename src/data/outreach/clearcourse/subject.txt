@@ -1,1 +1,1 @@
-Observation on ClearCourse's backend layout
+System failure mode identified in ClearCourse's runtime stack

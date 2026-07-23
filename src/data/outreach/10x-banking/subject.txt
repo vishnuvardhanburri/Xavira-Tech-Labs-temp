@@ -1,1 +1,1 @@
-Platform observation for 10x Banking
+Performance bottleneck analysis for 10x Banking

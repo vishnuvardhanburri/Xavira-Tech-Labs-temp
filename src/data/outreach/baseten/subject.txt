@@ -1,1 +1,1 @@
-Baseten's infrastructure observation
+High-stakes scaling bottleneck at Baseten

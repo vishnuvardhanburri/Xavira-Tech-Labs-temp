@@ -1,14 +1,14 @@
 Hi Jerry,
 
-Looking into the technical stack at LlamaIndex... one specific observation stood out.
+Evaluating LlamaIndex's backend services identified a critical throughput constraint in your current architecture.
 
-Your stack relies on Python,  TypeScript,  Vector DBs. The pattern around Document chunking tree index construction memory pressure and RAG node retriever ranking overhead caught my attention. In high-throughput environments, hierarchical index construction consumes significant memory during large document ingestion runs.
+Your stack relies on Python,  TypeScript,  Vector DBs. Specifically, the pattern surrounding Document chunking tree index construction memory pressure and RAG node retriever ranking overhead presents a significant risk under load. Hierarchical index construction exhausts worker memory during large-scale document ingestion runs.
 
-You may already have mitigated this at the proxy or caching tier.
+Without proper boundary isolation, this bottleneck degrades overall cluster throughput and inflates cloud infrastructure costs.
 
-I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/llamaindex
+I documented the exact failure mechanism and our recommended persistence isolation strategies in an independent Engineering Intelligence report: https://www.xaviratechlabs.com/research/llamaindex
 
-Happy to be corrected if my reading of your architecture is off.
+Are you available for a 15-minute briefing to go over these findings with your platform team?
 
 Vishnu Vardhan Burri
 Director & Principal Architect

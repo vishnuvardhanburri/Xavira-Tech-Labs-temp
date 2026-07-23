@@ -1,14 +1,14 @@
 Hi CTO,
 
-Examining the platform deployment model at Orca Security... one specific observation stood out.
+Looking closely at Orca Security's data pipeline topology, a clear system stability risk emerged.
 
-Your stack relies on Python,  Go,  Cloud Side-Scanning. The pattern around Side-Scanning snapshot volume mount serialization and out-of-band disk image parsing throughput caught my attention. In high-throughput environments, concurrent cloud snapshot parsing delays vulnerability detection SLA reporting.
+Your stack relies on Python,  Go,  Cloud Side-Scanning. Specifically, the pattern surrounding Side-Scanning snapshot volume mount serialization and out-of-band disk image parsing throughput presents a significant risk under load. Concurrent cloud snapshot volume mounts stall processing pipelines, delaying vulnerability SLA compliance.
 
-This may already be an intentional architectural tradeoff to maintain system simplicity.
+Left unaddressed as tenant volume expands, this pattern creates recurring tail-latency anomalies and system instability.
 
-I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/orca-security
+I documented the exact failure mechanism and our recommended persistence isolation strategies in an independent Engineering Intelligence report: https://www.xaviratechlabs.com/research/orca-security
 
-Curious whether I've interpreted this correctly.
+Are you open to reviewing our technical mitigations this week before this impacts production workloads?
 
 Vishnu Vardhan Burri
 Director & Principal Architect

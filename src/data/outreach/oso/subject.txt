@@ -1,1 +1,1 @@
-Question on Oso's platform scaling
+Critical scaling bottleneck in Oso's platform infrastructure

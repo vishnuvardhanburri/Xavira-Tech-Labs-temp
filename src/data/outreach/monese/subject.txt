@@ -1,1 +1,1 @@
-Observation on Monese's backend layout
+System failure mode identified in Monese's runtime stack

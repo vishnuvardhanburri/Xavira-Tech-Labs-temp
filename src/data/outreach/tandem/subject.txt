@@ -1,1 +1,1 @@
-Architecture observation regarding Tandem
+Architectural vulnerability in Tandem's backend engine

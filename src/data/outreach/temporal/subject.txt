@@ -1,1 +1,1 @@
-Question on Temporal's platform scaling
+Critical scaling bottleneck in Temporal's platform infrastructure

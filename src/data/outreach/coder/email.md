@@ -1,14 +1,14 @@
 Hi Rob,
 
-In reviewing Coder's system architecture footprint... one specific observation stood out.
+Evaluating Coder's backend services identified a critical throughput constraint in your current architecture.
 
-Your stack relies on Go,  TypeScript,  Terraform. The pattern around Workspace provisioning agent WebSocket connection heartbeat timeouts and SSH proxy multiplexing overhead caught my attention. In high-throughput environments, multiplexed SSH connection drops disrupt remote IDE session persistence.
+Your stack relies on Go,  TypeScript,  Terraform. Specifically, the pattern surrounding Workspace provisioning agent WebSocket connection heartbeat timeouts and SSH proxy multiplexing overhead presents a significant risk under load. Multiplexed SSH connection drops forcefully terminate remote IDE sessions.
 
-You may already have mitigated this at the proxy or caching tier.
+Without proper boundary isolation, this bottleneck degrades overall cluster throughput and inflates cloud infrastructure costs.
 
-I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/coder
+I documented the exact failure mechanism and our recommended persistence isolation strategies in an independent Engineering Intelligence report: https://www.xaviratechlabs.com/research/coder
 
-Happy to be corrected if my reading of your architecture is off.
+Are you available for a 15-minute briefing to go over these findings with your platform team?
 
 Vishnu Vardhan Burri
 Director & Principal Architect

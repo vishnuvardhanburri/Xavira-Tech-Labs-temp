@@ -1,1 +1,1 @@
-Question on FNZ's platform scaling
+Critical scaling bottleneck in FNZ's platform infrastructure

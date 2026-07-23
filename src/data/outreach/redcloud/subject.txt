@@ -1,1 +1,1 @@
-Question on RedCloud's platform scaling
+Critical scaling bottleneck in RedCloud's platform infrastructure

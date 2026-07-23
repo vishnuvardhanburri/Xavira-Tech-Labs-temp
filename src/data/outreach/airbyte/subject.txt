@@ -1,1 +1,1 @@
-Something worth validating at Airbyte
+Airbyte's infrastructure risk & throughput degradation

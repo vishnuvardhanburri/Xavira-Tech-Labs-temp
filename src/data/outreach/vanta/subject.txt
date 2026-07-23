@@ -1,1 +1,1 @@
-Architecture observation regarding Vanta
+Architectural vulnerability in Vanta's backend engine

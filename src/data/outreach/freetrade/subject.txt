@@ -1,1 +1,1 @@
-Architecture observation regarding Freetrade
+Architectural vulnerability in Freetrade's backend engine

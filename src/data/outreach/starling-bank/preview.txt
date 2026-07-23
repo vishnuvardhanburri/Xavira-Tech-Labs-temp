@@ -1,1 +1,1 @@
-Looking closely at Starling Bank's data pipeline layout... one specific observation stood out regarding AWS cloud scaling, PostgreSQL database tuning.
+Analyzing Starling Bank's infrastructure signals highlighted a high-stakes bottleneck in your execution engine. Specifically, AWS cloud scaling, PostgreSQL database tuning presents a significant risk under load.

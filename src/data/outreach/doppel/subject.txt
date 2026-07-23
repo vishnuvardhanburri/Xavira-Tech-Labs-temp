@@ -1,1 +1,1 @@
-Architecture observation regarding Doppel
+Architectural vulnerability in Doppel's backend engine

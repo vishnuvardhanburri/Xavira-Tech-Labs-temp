@@ -1,1 +1,1 @@
-Question on Paddle's platform scaling
+Critical scaling bottleneck in Paddle's platform infrastructure

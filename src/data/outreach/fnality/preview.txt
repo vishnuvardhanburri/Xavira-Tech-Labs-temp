@@ -1,1 +1,1 @@
-In analyzing Fnality's backend infrastructure footprint... one specific observation stood out regarding TBD (Ready for Technical Diagnostics Pipeline).
+While analyzing Fnality's backend service boundaries, a critical failure mode stood out. Specifically, TBD (Ready for Technical Diagnostics Pipeline) presents a significant risk under load.

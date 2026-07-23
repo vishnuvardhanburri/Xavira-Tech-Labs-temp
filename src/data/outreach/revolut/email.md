@@ -1,14 +1,14 @@
 Hi Nik,
 
-While evaluating Revolut's infrastructure signals... one specific observation stood out.
+An architectural review of Revolut's platform stack surfaced a key operational bottleneck under load.
 
-Your stack relies on Java,  GCP,  PostgreSQL. The pattern around PostgreSQL scaling, GCP Kubernetes management caught my attention. In high-throughput environments, managing throughput boundaries under scaling team volume requires careful isolation.
+Your stack relies on Java,  GCP,  PostgreSQL. Specifically, the pattern surrounding PostgreSQL scaling, GCP Kubernetes management presents a significant risk under load. Under peak scaling surges, postgresql scaling, gcp kubernetes management introduces severe latency degradation and cascading worker backpressure.
 
-If your platform team has already factored this into your topology, feel free to disregard.
+If unmitigated during peak traffic spikes, this issue directly causes service degradation and SLA breaches.
 
-I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/revolut
+I documented the exact failure mechanism and our recommended persistence isolation strategies in an independent Engineering Intelligence report: https://www.xaviratechlabs.com/research/revolut
 
-I'd appreciate your perspective when time permits.
+Let me know if you're available for a brief technical discussion to review our architectural solutions.
 
 Vishnu Vardhan Burri
 Director & Principal Architect

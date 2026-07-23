@@ -1,1 +1,1 @@
-In analyzing GoCardless's backend infrastructure footprint... one specific observation stood out regarding Ruby on Rails monolithic scaling, PostgreSQL database locks.
+An architectural review of GoCardless's platform stack surfaced a key operational bottleneck under load. Specifically, Ruby on Rails monolithic scaling, PostgreSQL database locks presents a significant risk under load.

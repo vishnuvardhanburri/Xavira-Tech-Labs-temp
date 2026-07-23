@@ -1,1 +1,1 @@
-Observation on Sprinter Health's backend layout
+System failure mode identified in Sprinter Health's runtime stack

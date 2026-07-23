@@ -1,1 +1,1 @@
-Observation on Codat's backend layout
+System failure mode identified in Codat's runtime stack

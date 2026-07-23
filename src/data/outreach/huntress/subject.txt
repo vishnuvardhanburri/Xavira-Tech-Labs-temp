@@ -1,1 +1,1 @@
-Question on Huntress's platform scaling
+Critical scaling bottleneck in Huntress's platform infrastructure

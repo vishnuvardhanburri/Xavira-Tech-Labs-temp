@@ -1,1 +1,1 @@
-Question on Kong's platform scaling
+Critical scaling bottleneck in Kong's platform infrastructure

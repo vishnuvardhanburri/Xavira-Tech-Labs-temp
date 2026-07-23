@@ -1,1 +1,1 @@
-Observation on Monzo's backend layout
+System failure mode identified in Monzo's runtime stack

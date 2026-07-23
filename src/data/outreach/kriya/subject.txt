@@ -1,1 +1,1 @@
-Platform observation for Kriya
+Performance bottleneck analysis for Kriya

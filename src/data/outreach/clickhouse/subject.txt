@@ -1,1 +1,1 @@
-Platform observation for ClickHouse
+Performance bottleneck analysis for ClickHouse

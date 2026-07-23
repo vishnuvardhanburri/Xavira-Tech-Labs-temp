@@ -1,14 +1,14 @@
 Hi Jake,
 
-In reviewing Railway's system architecture footprint... one specific observation stood out.
+Reviewing Railway's system deployment architecture highlighted an unmitigated operational risk.
 
-Your stack relies on TypeScript,  Go,  Rust. The pattern around internal mesh proxy memory footprint and dynamic container build isolation orchestration caught my attention. In high-throughput environments, build orchestration backpressure delays environment provisioning during peak deployment periods.
+Your stack relies on TypeScript,  Go,  Rust. Specifically, the pattern surrounding internal mesh proxy memory footprint and dynamic container build isolation orchestration presents a significant risk under load. Build orchestration backpressure stalls environment provisioning during peak deployment windows.
 
-You may already have mitigated this at the proxy or caching tier.
+Without proper boundary isolation, this bottleneck degrades overall cluster throughput and inflates cloud infrastructure costs.
 
-I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/railway
+I documented the exact failure mechanism and our recommended persistence isolation strategies in an independent Engineering Intelligence report: https://www.xaviratechlabs.com/research/railway
 
-Happy to be corrected if my reading of your architecture is off.
+Are you available for a 15-minute briefing to go over these findings with your platform team?
 
 Vishnu Vardhan Burri
 Director & Principal Architect

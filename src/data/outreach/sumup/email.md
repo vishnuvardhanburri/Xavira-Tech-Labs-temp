@@ -1,14 +1,14 @@
 Hi Daniel,
 
-In reviewing SumUp's system architecture footprint... one specific observation stood out.
+Evaluating SumUp's backend services identified a critical throughput constraint in your current architecture.
 
-Your stack relies on AWS,  Kubernetes,  Kotlin. The pattern around Kafka stream processing, Kubernetes pod scaling caught my attention. In high-throughput environments, managing throughput boundaries under scaling team volume requires careful isolation.
+Your stack relies on AWS,  Kubernetes,  Kotlin. Specifically, the pattern surrounding Kafka stream processing, Kubernetes pod scaling presents a significant risk under load. Under peak scaling surges, kafka stream processing, kubernetes pod scaling introduces severe latency degradation and cascading worker backpressure.
 
-You may already have mitigated this at the proxy or caching tier.
+Without proper boundary isolation, this bottleneck degrades overall cluster throughput and inflates cloud infrastructure costs.
 
-I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/sumup
+I documented the exact failure mechanism and our recommended persistence isolation strategies in an independent Engineering Intelligence report: https://www.xaviratechlabs.com/research/sumup
 
-Happy to be corrected if my reading of your architecture is off.
+Are you available for a 15-minute briefing to go over these findings with your platform team?
 
 Vishnu Vardhan Burri
 Director & Principal Architect

@@ -1,1 +1,1 @@
-Question on Teya's platform scaling
+Critical scaling bottleneck in Teya's platform infrastructure

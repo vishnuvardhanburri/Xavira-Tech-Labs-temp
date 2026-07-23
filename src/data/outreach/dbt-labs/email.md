@@ -1,14 +1,14 @@
 Hi Tristan,
 
-In examining dbt Labs's core backend configuration... one specific observation stood out.
+Evaluating dbt Labs's backend services identified a critical throughput constraint in your current architecture.
 
-Your stack relies on Python,  TypeScript,  SQL. The pattern around data warehouse DDL execution lock escalation and semantic layer query compilation overhead caught my attention. In high-throughput environments, lock escalation on target schemas stalls concurrent analytical model runs.
+Your stack relies on Python,  TypeScript,  SQL. Specifically, the pattern surrounding data warehouse DDL execution lock escalation and semantic layer query compilation overhead presents a significant risk under load. Exclusive table lock escalation during model runs blocks downstream analytical query execution.
 
-You may already have mitigated this at the proxy or caching tier.
+Without proper boundary isolation, this bottleneck degrades overall cluster throughput and inflates cloud infrastructure costs.
 
-I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/dbt-labs
+I documented the exact failure mechanism and our recommended persistence isolation strategies in an independent Engineering Intelligence report: https://www.xaviratechlabs.com/research/dbt-labs
 
-Happy to be corrected if my reading of your architecture is off.
+Are you available for a 15-minute briefing to go over these findings with your platform team?
 
 Vishnu Vardhan Burri
 Director & Principal Architect

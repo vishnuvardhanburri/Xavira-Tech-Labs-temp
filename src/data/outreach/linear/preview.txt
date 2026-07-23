@@ -1,1 +1,1 @@
-Evaluating Linear's platform architecture signals... one specific observation stood out regarding local-first Sync Engine state synchronization and IndexedDB transaction lock contention during offline delta reconciliation.
+A technical evaluation of Linear's distributed system footprint surfaced a severe concurrency vulnerability. Specifically, local-first Sync Engine state synchronization and IndexedDB transaction lock contention during offline delta reconciliation presents a significant risk under load.

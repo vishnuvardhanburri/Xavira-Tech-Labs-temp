@@ -1,1 +1,1 @@
-Observation on Dext's backend layout
+System failure mode identified in Dext's runtime stack

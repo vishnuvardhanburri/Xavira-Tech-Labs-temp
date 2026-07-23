@@ -1,1 +1,1 @@
-In reviewing Railway's system architecture footprint... one specific observation stood out regarding internal mesh proxy memory footprint and dynamic container build isolation orchestration.
+Reviewing Railway's system deployment architecture highlighted an unmitigated operational risk. Specifically, internal mesh proxy memory footprint and dynamic container build isolation orchestration presents a significant risk under load.

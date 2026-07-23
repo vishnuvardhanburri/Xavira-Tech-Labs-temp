@@ -1,1 +1,1 @@
-Platform observation for Fireworks AI
+Performance bottleneck analysis for Fireworks AI

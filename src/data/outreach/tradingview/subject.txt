@@ -1,1 +1,1 @@
-Architecture observation regarding TradingView
+Architectural vulnerability in TradingView's backend engine

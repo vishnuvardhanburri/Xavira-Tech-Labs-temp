@@ -1,14 +1,14 @@
 Hi Julian,
 
-A technical assessment of Astronomer's service topology indicates... one specific observation stood out.
+Looking closely at Astronomer's data pipeline topology, a clear system stability risk emerged.
 
-Your stack relies on Python,  Airflow,  Kubernetes. The pattern around Airflow DAG file parsing overhead and Celery executor Redis queue contention across large DAG sets caught my attention. In high-throughput environments, frequent DAG re-parsing consumes scheduler CPU, leading to execution slot starvation.
+Your stack relies on Python,  Airflow,  Kubernetes. Specifically, the pattern surrounding Airflow DAG file parsing overhead and Celery executor Redis queue contention across large DAG sets presents a significant risk under load. Continuous DAG re-parsing saturates scheduler CPU, resulting in execution slot starvation.
 
-This may already be an intentional architectural tradeoff to maintain system simplicity.
+Left unaddressed as tenant volume expands, this pattern creates recurring tail-latency anomalies and system instability.
 
-I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/astronomer
+I documented the exact failure mechanism and our recommended persistence isolation strategies in an independent Engineering Intelligence report: https://www.xaviratechlabs.com/research/astronomer
 
-Curious whether I've interpreted this correctly.
+Are you open to reviewing our technical mitigations this week before this impacts production workloads?
 
 Vishnu Vardhan Burri
 Director & Principal Architect

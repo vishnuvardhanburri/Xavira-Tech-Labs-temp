@@ -1,1 +1,1 @@
-Observation on Modal's backend layout
+System failure mode identified in Modal's runtime stack

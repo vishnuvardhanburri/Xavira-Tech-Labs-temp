@@ -1,1 +1,1 @@
-Question on Tractable's platform scaling
+Critical scaling bottleneck in Tractable's platform infrastructure

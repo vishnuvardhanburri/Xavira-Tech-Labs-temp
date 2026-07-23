@@ -1,14 +1,14 @@
 Hi Robert,
 
-During an examination of Anyscale's core engineering layer... one specific observation stood out.
+Analyzing Anyscale's infrastructure signals highlighted a high-stakes bottleneck in your execution engine.
 
-Your stack relies on Python,  C++,  Ray Core. The pattern around Ray actor state object store memory spill latency and multi-node worker task scheduling overhead caught my attention. In high-throughput environments, Object store memory spilling to disk degrades distributed task execution speed.
+Your stack relies on Python,  C++,  Ray Core. Specifically, the pattern surrounding Ray actor state object store memory spill latency and multi-node worker task scheduling overhead presents a significant risk under load. Object store memory spilling to disk degrades distributed task execution speed.
 
-My interpretation could be off if your team has abstracted this persistence layer.
+Unmitigated at your current growth trajectory, this constraint will force emergency architectural refactoring.
 
-I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/anyscale
+I documented the exact failure mechanism and our recommended persistence isolation strategies in an independent Engineering Intelligence report: https://www.xaviratechlabs.com/research/anyscale
 
-Open to your feedback if I've misread the public signals.
+Are you open to a brief technical review to discuss how leading teams resolve this specific failure mode?
 
 Vishnu Vardhan Burri
 Director & Principal Architect

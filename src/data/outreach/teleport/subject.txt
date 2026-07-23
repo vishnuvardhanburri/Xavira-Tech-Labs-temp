@@ -1,1 +1,1 @@
-Architecture observation regarding Teleport
+Architectural vulnerability in Teleport's backend engine

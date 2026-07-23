@@ -1,14 +1,14 @@
 Hi Tom,
 
-While reviewing Grafana Labs's platform architecture... one specific observation stood out.
+Examining Grafana Labs's core infrastructure topology revealed an urgent scaling bottleneck.
 
-Your stack relies on Go,  TypeScript,  React. The pattern around Mimir chunk storage compaction memory pressure and Loki log stream index cardinality explosion caught my attention. In high-throughput environments, high-cardinality log labels degrade query response times and increase chunk flush latency.
+Your stack relies on Go,  TypeScript,  React. Specifically, the pattern surrounding Mimir chunk storage compaction memory pressure and Loki log stream index cardinality explosion presents a significant risk under load. High-cardinality label indexing degrades query latency and triggers chunk flush backpressure.
 
-This may already be an intentional architectural tradeoff to maintain system simplicity.
+Left unaddressed as tenant volume expands, this pattern creates recurring tail-latency anomalies and system instability.
 
-I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/grafana-labs
+I documented the exact failure mechanism and our recommended persistence isolation strategies in an independent Engineering Intelligence report: https://www.xaviratechlabs.com/research/grafana-labs
 
-Curious whether I've interpreted this correctly.
+Are you open to reviewing our technical mitigations this week before this impacts production workloads?
 
 Vishnu Vardhan Burri
 Director & Principal Architect

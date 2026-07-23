@@ -1,1 +1,1 @@
-Architecture observation regarding Metro Bank
+Architectural vulnerability in Metro Bank's backend engine

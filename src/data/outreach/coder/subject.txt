@@ -1,1 +1,1 @@
-Platform observation for Coder
+Performance bottleneck analysis for Coder

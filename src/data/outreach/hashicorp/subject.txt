@@ -1,1 +1,1 @@
-Observation on HashiCorp's backend layout
+System failure mode identified in HashiCorp's runtime stack

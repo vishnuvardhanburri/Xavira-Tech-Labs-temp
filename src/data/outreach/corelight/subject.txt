@@ -1,1 +1,1 @@
-Something worth validating at Corelight
+Corelight's infrastructure risk & throughput degradation

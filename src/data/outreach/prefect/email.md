@@ -1,14 +1,14 @@
 Hi Jeremiah,
 
-Evaluating Prefect's platform architecture signals... one specific observation stood out.
+A deep dive into Prefect's service topology exposed an architectural vulnerability under peak concurrency.
 
-Your stack relies on Python,  FastAPI,  Vue.js. The pattern around orchestration engine flow run state lock contention and worker heartbeat polling thresholds caught my attention. In high-throughput environments, state lock bottlenecks during high-frequency micro-batches trigger false-positive worker timeout alerts.
+Your stack relies on Python,  FastAPI,  Vue.js. Specifically, the pattern surrounding orchestration engine flow run state lock contention and worker heartbeat polling thresholds presents a significant risk under load. State lock bottlenecks during high-frequency micro-batches trigger false-positive worker timeout alerts.
 
-If this is an intentional design boundary within your current roadmap, ignore this note.
+As query concurrency scales, this design flaw escalates into cascading worker failures and unpredictable latency spikes.
 
-I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/prefect
+I documented the exact failure mechanism and our recommended persistence isolation strategies in an independent Engineering Intelligence report: https://www.xaviratechlabs.com/research/prefect
 
-Interested in your thoughts if you have a moment.
+Would you be open to evaluating our architectural recommendations before this bottleneck hits your enterprise clients?
 
 Vishnu Vardhan Burri
 Director & Principal Architect

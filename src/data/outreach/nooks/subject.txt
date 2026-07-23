@@ -1,1 +1,1 @@
-Nooks's infrastructure observation
+High-stakes scaling bottleneck at Nooks

@@ -1,14 +1,14 @@
 Hi CTO,
 
-A review of Snyk's distributed system signals highlighted... one specific observation stood out.
+A technical evaluation of Snyk's distributed system footprint surfaced a severe concurrency vulnerability.
 
-Your stack relies on TypeScript,  Go,  Java. The pattern around Vulnerability AST parsing memory overhead and real-time dependency graph traversal across enterprise monorepos caught my attention. In high-throughput environments, deep dependency graph resolution consumes high memory during concurrent CI pipeline checks.
+Your stack relies on TypeScript,  Go,  Java. Specifically, the pattern surrounding Vulnerability AST parsing memory overhead and real-time dependency graph traversal across enterprise monorepos presents a significant risk under load. Deep dependency graph resolution exhausts container memory during concurrent CI pipeline security checks.
 
-If this is an intentional design boundary within your current roadmap, ignore this note.
+As query concurrency scales, this design flaw escalates into cascading worker failures and unpredictable latency spikes.
 
-I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/snyk
+I documented the exact failure mechanism and our recommended persistence isolation strategies in an independent Engineering Intelligence report: https://www.xaviratechlabs.com/research/snyk
 
-Interested in your thoughts if you have a moment.
+Would you be open to evaluating our architectural recommendations before this bottleneck hits your enterprise clients?
 
 Vishnu Vardhan Burri
 Director & Principal Architect

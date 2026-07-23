@@ -1,1 +1,1 @@
-Looking into Supabase's infrastructure topology... one specific observation stood out regarding PgBouncer connection pool limits and Realtime Elixir WebSocket broadcast memory allocation during peak tenant surges.
+Inspecting Supabase's runtime infrastructure revealed a performance degradation boundary that requires immediate attention. Specifically, PgBouncer connection pool limits and Realtime Elixir WebSocket broadcast memory allocation during peak tenant surges presents a significant risk under load.

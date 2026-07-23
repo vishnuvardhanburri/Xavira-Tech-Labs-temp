@@ -1,1 +1,1 @@
-Omnea engineering review note
+Urgency around Omnea's concurrency architecture

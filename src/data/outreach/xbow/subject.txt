@@ -1,1 +1,1 @@
-Question on XBOW's platform scaling
+Critical scaling bottleneck in XBOW's platform infrastructure

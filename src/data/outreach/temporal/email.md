@@ -1,14 +1,14 @@
 Hi Samar,
 
-Analyzing the service boundaries across Temporal's stack... one specific observation stood out.
+A technical evaluation of Temporal's distributed system footprint surfaced a severe concurrency vulnerability.
 
-Your stack relies on Go,  Java,  TypeScript. The pattern around workflow execution history event payload accumulation and persistence layer write amplification caught my attention. In high-throughput environments, bloated event histories spike workflow cache eviction rates and increase persistence latency.
+Your stack relies on Go,  Java,  TypeScript. Specifically, the pattern surrounding workflow execution history event payload accumulation and persistence layer write amplification presents a significant risk under load. Bloated history payloads cause aggressive workflow cache evictions and degrade state persistence throughput.
 
-If this is an intentional design boundary within your current roadmap, ignore this note.
+As query concurrency scales, this design flaw escalates into cascading worker failures and unpredictable latency spikes.
 
-I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/temporal
+I documented the exact failure mechanism and our recommended persistence isolation strategies in an independent Engineering Intelligence report: https://www.xaviratechlabs.com/research/temporal
 
-Interested in your thoughts if you have a moment.
+Would you be open to evaluating our architectural recommendations before this bottleneck hits your enterprise clients?
 
 Vishnu Vardhan Burri
 Director & Principal Architect

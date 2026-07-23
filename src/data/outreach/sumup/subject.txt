@@ -1,1 +1,1 @@
-SumUp's infrastructure observation
+High-stakes scaling bottleneck at SumUp

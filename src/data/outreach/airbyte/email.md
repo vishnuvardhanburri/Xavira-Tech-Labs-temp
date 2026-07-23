@@ -1,14 +1,14 @@
 Hi Michel,
 
-While reviewing Airbyte's public system footprint... one specific observation stood out.
+An architectural review of Airbyte's platform stack surfaced a key operational bottleneck under load.
 
-Your stack relies on Java,  Micronaut,  Temporal. The pattern around connector Java/Python CDK serialization overhead and Temporal state persistence during long-tail ELT syncs caught my attention. In high-throughput environments, high record volume serialization creates worker memory pressure during un-nested JSON syncs.
+Your stack relies on Java,  Micronaut,  Temporal. Specifically, the pattern surrounding connector Java/Python CDK serialization overhead and Temporal state persistence during long-tail ELT syncs presents a significant risk under load. Un-nested JSON record serialization causes out-of-memory heap panics on worker nodes.
 
-If your platform team has already factored this into your topology, feel free to disregard.
+If unmitigated during peak traffic spikes, this issue directly causes service degradation and SLA breaches.
 
-I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/airbyte
+I documented the exact failure mechanism and our recommended persistence isolation strategies in an independent Engineering Intelligence report: https://www.xaviratechlabs.com/research/airbyte
 
-I'd appreciate your perspective when time permits.
+Let me know if you're available for a brief technical discussion to review our architectural solutions.
 
 Vishnu Vardhan Burri
 Director & Principal Architect

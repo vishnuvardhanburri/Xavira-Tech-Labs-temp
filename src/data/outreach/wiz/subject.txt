@@ -1,1 +1,1 @@
-One engineering question regarding Wiz
+Operational risk in Wiz's data topology

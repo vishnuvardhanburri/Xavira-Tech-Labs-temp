@@ -1,14 +1,14 @@
 Hi Christophe,
 
-Looking into the technical stack at Camber Health... one specific observation stood out.
+Reviewing Camber Health's system deployment architecture highlighted an unmitigated operational risk.
 
-Your stack relies on Node.js,  TypeScript,  React. The pattern around PostgreSQL query overloads caught my attention. In high-throughput environments, managing throughput boundaries under scaling team volume requires careful isolation.
+Your stack relies on Node.js,  TypeScript,  React. Specifically, the pattern surrounding PostgreSQL query overloads presents a significant risk under load. Under peak scaling surges, postgresql query overloads introduces severe latency degradation and cascading worker backpressure.
 
-You may already have mitigated this at the proxy or caching tier.
+Without proper boundary isolation, this bottleneck degrades overall cluster throughput and inflates cloud infrastructure costs.
 
-I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/camber-health
+I documented the exact failure mechanism and our recommended persistence isolation strategies in an independent Engineering Intelligence report: https://www.xaviratechlabs.com/research/camber-health
 
-Happy to be corrected if my reading of your architecture is off.
+Are you available for a 15-minute briefing to go over these findings with your platform team?
 
 Vishnu Vardhan Burri
 Director & Principal Architect

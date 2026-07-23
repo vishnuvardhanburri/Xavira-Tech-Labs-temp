@@ -1,1 +1,1 @@
-Question on Neon's platform scaling
+Critical scaling bottleneck in Neon's platform infrastructure

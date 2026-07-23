@@ -1,1 +1,1 @@
-One engineering question regarding Fly Now Pay Later
+Operational risk in Fly Now Pay Later's data topology

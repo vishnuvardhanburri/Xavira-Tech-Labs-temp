@@ -1,1 +1,1 @@
-A technical assessment of Carta's service topology indicates... one specific observation stood out regarding Data scaling issues, secondary sales infrastructure.
+Examining Carta's core infrastructure topology revealed an urgent scaling bottleneck. Specifically, Data scaling issues, secondary sales infrastructure presents a significant risk under load.

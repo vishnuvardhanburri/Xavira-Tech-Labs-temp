@@ -1,1 +1,1 @@
-Something worth validating at Cleo
+Cleo's infrastructure risk & throughput degradation

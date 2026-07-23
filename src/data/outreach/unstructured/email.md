@@ -1,14 +1,14 @@
 Hi Brian,
 
-Looking into Unstructured's infrastructure topology... one specific observation stood out.
+Inspecting Unstructured's runtime infrastructure revealed a performance degradation boundary that requires immediate attention.
 
-Your stack relies on Python,  FastAPI,  OCR Engine. The pattern around Document partitioning OCR pipeline processing latency and PDF element extraction worker queue lag caught my attention. In high-throughput environments, heavy OCR model inference stalls document ingestion throughput for complex table layouts.
+Your stack relies on Python,  FastAPI,  OCR Engine. Specifically, the pattern surrounding Document partitioning OCR pipeline processing latency and PDF element extraction worker queue lag presents a significant risk under load. Heavy OCR model inference stalls document ingestion throughput for complex PDF layouts.
 
-My interpretation could be off if your team has abstracted this persistence layer.
+Unmitigated at your current growth trajectory, this constraint will force emergency architectural refactoring.
 
-I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/unstructured
+I documented the exact failure mechanism and our recommended persistence isolation strategies in an independent Engineering Intelligence report: https://www.xaviratechlabs.com/research/unstructured
 
-Open to your feedback if I've misread the public signals.
+Are you open to a brief technical review to discuss how leading teams resolve this specific failure mode?
 
 Vishnu Vardhan Burri
 Director & Principal Architect

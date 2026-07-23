@@ -1,1 +1,1 @@
-Observation on Chainguard's backend layout
+System failure mode identified in Chainguard's runtime stack

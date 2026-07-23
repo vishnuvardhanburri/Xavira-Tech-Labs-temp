@@ -1,1 +1,1 @@
-Genesis engineering review note
+Urgency around Genesis's concurrency architecture

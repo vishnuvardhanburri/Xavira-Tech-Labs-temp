@@ -1,14 +1,14 @@
 Hi CEO,
 
-While reviewing Vellum's platform architecture... one specific observation stood out.
+Looking closely at Vellum's data pipeline topology, a clear system stability risk emerged.
 
-Your stack relies on Python,  TypeScript,  React. The pattern around Prompt workflow execution DAG resolution latency and multi-model provider failover routing delays caught my attention. In high-throughput environments, provider rate-limit retry logic introduces latency cascading in multi-step prompt chains.
+Your stack relies on Python,  TypeScript,  React. Specifically, the pattern surrounding Prompt workflow execution DAG resolution latency and multi-model provider failover routing delays presents a significant risk under load. Provider rate-limit retry loops introduce cascading latency spikes across multi-step prompt chains.
 
-This may already be an intentional architectural tradeoff to maintain system simplicity.
+Left unaddressed as tenant volume expands, this pattern creates recurring tail-latency anomalies and system instability.
 
-I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/vellum
+I documented the exact failure mechanism and our recommended persistence isolation strategies in an independent Engineering Intelligence report: https://www.xaviratechlabs.com/research/vellum
 
-Curious whether I've interpreted this correctly.
+Are you open to reviewing our technical mitigations this week before this impacts production workloads?
 
 Vishnu Vardhan Burri
 Director & Principal Architect

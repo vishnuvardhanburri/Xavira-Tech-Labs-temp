@@ -1,1 +1,1 @@
-Question on Soldo's platform scaling
+Critical scaling bottleneck in Soldo's platform infrastructure

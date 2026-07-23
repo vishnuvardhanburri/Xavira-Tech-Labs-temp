@@ -1,1 +1,1 @@
-dbt Labs's infrastructure observation
+High-stakes scaling bottleneck at dbt Labs

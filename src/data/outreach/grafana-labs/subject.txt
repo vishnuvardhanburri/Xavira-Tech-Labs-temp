@@ -1,1 +1,1 @@
-Architecture observation regarding Grafana Labs
+Architectural vulnerability in Grafana Labs's backend engine

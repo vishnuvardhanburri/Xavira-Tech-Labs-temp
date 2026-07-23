@@ -1,1 +1,1 @@
-Looking into Dojo's infrastructure topology... one specific observation stood out regarding ASP.NET legacy modernization, IIS performance.
+Inspecting Dojo's runtime infrastructure revealed a performance degradation boundary that requires immediate attention. Specifically, ASP.NET legacy modernization, IIS performance presents a significant risk under load.

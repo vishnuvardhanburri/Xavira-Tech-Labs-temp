@@ -1,14 +1,14 @@
 Hi Marco,
 
-In analyzing Kong's backend infrastructure footprint... one specific observation stood out.
+While analyzing Kong's backend service boundaries, a critical failure mode stood out.
 
-Your stack relies on Lua,  OpenResty,  Nginx. The pattern around OpenResty Lua worker thread blocking and Redis rate-limiting plugin synchronization at the gateway tier caught my attention. In high-throughput environments, blocking Lua scripts in the request pipeline increase tail latency across upstream microservices.
+Your stack relies on Lua,  OpenResty,  Nginx. Specifically, the pattern surrounding OpenResty Lua worker thread blocking and Redis rate-limiting plugin synchronization at the gateway tier presents a significant risk under load. Blocking Lua scripts in the request execution pipeline introduce severe tail latency across upstream microservices.
 
-If your platform team has already factored this into your topology, feel free to disregard.
+If unmitigated during peak traffic spikes, this issue directly causes service degradation and SLA breaches.
 
-I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/kong
+I documented the exact failure mechanism and our recommended persistence isolation strategies in an independent Engineering Intelligence report: https://www.xaviratechlabs.com/research/kong
 
-I'd appreciate your perspective when time permits.
+Let me know if you're available for a brief technical discussion to review our architectural solutions.
 
 Vishnu Vardhan Burri
 Director & Principal Architect

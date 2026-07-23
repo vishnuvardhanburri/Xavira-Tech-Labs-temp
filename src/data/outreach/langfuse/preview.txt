@@ -1,1 +1,1 @@
-While reviewing Langfuse's public system footprint... one specific observation stood out regarding LLM observability trace ingestion queue backpressure and ClickHouse log aggregation batch flushes.
+While analyzing Langfuse's backend service boundaries, a critical failure mode stood out. Specifically, LLM observability trace ingestion queue backpressure and ClickHouse log aggregation batch flushes presents a significant risk under load.

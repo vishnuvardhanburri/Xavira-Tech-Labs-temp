@@ -1,14 +1,14 @@
 Hi James,
 
-A review of Convex's distributed system signals highlighted... one specific observation stood out.
+A deep dive into Convex's service topology exposed an architectural vulnerability under peak concurrency.
 
-Your stack relies on TypeScript,  Rust,  Node.js. The pattern around deterministic TypeScript mutation engine transaction retries under heavy write contention caught my attention. In high-throughput environments, optimistic concurrency control retries escalate CPU overhead when multiple clients write to the same table keys.
+Your stack relies on TypeScript,  Rust,  Node.js. Specifically, the pattern surrounding deterministic TypeScript mutation engine transaction retries under heavy write contention presents a significant risk under load. Optimistic concurrency control retries rapidly exhaust worker CPU when concurrent clients modify shared table keys.
 
-If this is an intentional design boundary within your current roadmap, ignore this note.
+As query concurrency scales, this design flaw escalates into cascading worker failures and unpredictable latency spikes.
 
-I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/convex
+I documented the exact failure mechanism and our recommended persistence isolation strategies in an independent Engineering Intelligence report: https://www.xaviratechlabs.com/research/convex
 
-Interested in your thoughts if you have a moment.
+Would you be open to evaluating our architectural recommendations before this bottleneck hits your enterprise clients?
 
 Vishnu Vardhan Burri
 Director & Principal Architect

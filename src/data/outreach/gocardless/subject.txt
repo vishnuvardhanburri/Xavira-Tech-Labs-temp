@@ -1,1 +1,1 @@
-One engineering question regarding GoCardless
+Operational risk in GoCardless's data topology

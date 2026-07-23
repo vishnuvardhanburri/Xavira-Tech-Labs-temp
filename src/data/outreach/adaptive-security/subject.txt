@@ -1,1 +1,1 @@
-Question on Adaptive Security's platform scaling
+Critical scaling bottleneck in Adaptive Security's platform infrastructure

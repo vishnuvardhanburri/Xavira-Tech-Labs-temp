@@ -108,7 +108,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'doppel',
     name: "Doppel",
     slug: 'doppel',
-    tagline: "Recursive context inflation",
+    tagline: "Scaling risk: Recursive context inflation",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -157,7 +157,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Doppel's platform architecture relies on Python, Go, Node.js, React, AWS, GCP, PostgreSQL, Redis, Docker, Kubernetes, OpenAI (GPT-5/RFT). Key engineering observations center on Recursive context inflation. managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Doppel's platform architecture relies on Python, Go, Node.js, React, AWS, GCP, PostgreSQL, Redis, Docker, Kubernetes, OpenAI (GPT-5/RFT). High-stakes engineering analysis identifies a failure risk in Recursive context inflation: under peak scaling surges, recursive context inflation introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Python, Go, Node.js, React, AWS, GCP, PostgreSQL, Redis, Docker, Kubernetes, OpenAI (GPT-5/RFT)", "Observation: Recursive context inflation"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -165,7 +165,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Doppel Engineering Intelligence Report",
-      description: "Architecture observation report for Doppel"
+      description: "Architecture risk report for Doppel"
     }
   },
 
@@ -173,7 +173,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'adaptive-security',
     name: "Adaptive Security",
     slug: 'adaptive-security',
-    tagline: "GPU allocation bottlenecks",
+    tagline: "Scaling risk: GPU allocation bottlenecks",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -222,7 +222,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Adaptive Security's platform architecture relies on Python, Go, React, Next.js, AWS, GCP, PostgreSQL, MongoDB, Docker, Kubernetes, OpenAI, NVIDIA. Key engineering observations center on GPU allocation bottlenecks. managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Adaptive Security's platform architecture relies on Python, Go, React, Next.js, AWS, GCP, PostgreSQL, MongoDB, Docker, Kubernetes, OpenAI, NVIDIA. High-stakes engineering analysis identifies a failure risk in GPU allocation bottlenecks: under peak scaling surges, gpu allocation bottlenecks introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Python, Go, React, Next.js, AWS, GCP, PostgreSQL, MongoDB, Docker, Kubernetes, OpenAI, NVIDIA", "Observation: GPU allocation bottlenecks"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -230,7 +230,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Adaptive Security Engineering Intelligence Report",
-      description: "Architecture observation report for Adaptive Security"
+      description: "Architecture risk report for Adaptive Security"
     }
   },
 
@@ -238,7 +238,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'camber-health',
     name: "Camber Health",
     slug: 'camber-health',
-    tagline: "PostgreSQL query overloads",
+    tagline: "Scaling risk: PostgreSQL query overloads",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -287,7 +287,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Camber Health's platform architecture relies on Node.js, TypeScript, React, Next.js, Python, PostgreSQL, AWS, HIPAA Compliance Engine. Key engineering observations center on PostgreSQL query overloads. managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Camber Health's platform architecture relies on Node.js, TypeScript, React, Next.js, Python, PostgreSQL, AWS, HIPAA Compliance Engine. High-stakes engineering analysis identifies a failure risk in PostgreSQL query overloads: under peak scaling surges, postgresql query overloads introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Node.js, TypeScript, React, Next.js, Python, PostgreSQL, AWS, HIPAA Compliance Engine", "Observation: PostgreSQL query overloads"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -295,7 +295,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Camber Health Engineering Intelligence Report",
-      description: "Architecture observation report for Camber Health"
+      description: "Architecture risk report for Camber Health"
     }
   },
 
@@ -303,7 +303,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'omnea',
     name: "Omnea",
     slug: 'omnea',
-    tagline: "Aurora connection pool exhaustion",
+    tagline: "Scaling risk: Aurora connection pool exhaustion",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -352,7 +352,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Omnea's platform architecture relies on TypeScript, React, Postgres, AWS (Lambda, DynamoDB, EventBridge, Aurora), Pulumi, Datadog. Key engineering observations center on Aurora connection pool exhaustion. managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Omnea's platform architecture relies on TypeScript, React, Postgres, AWS (Lambda, DynamoDB, EventBridge, Aurora), Pulumi, Datadog. High-stakes engineering analysis identifies a failure risk in Aurora connection pool exhaustion: under peak scaling surges, aurora connection pool exhaustion introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: TypeScript, React, Postgres, AWS (Lambda, DynamoDB, EventBridge, Aurora), Pulumi, Datadog", "Observation: Aurora connection pool exhaustion"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -360,7 +360,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Omnea Engineering Intelligence Report",
-      description: "Architecture observation report for Omnea"
+      description: "Architecture risk report for Omnea"
     }
   },
 
@@ -368,7 +368,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'clay',
     name: "Clay",
     slug: 'clay',
-    tagline: "Node.js, React, PostgreSQL, Pinecone (Needs technical diagnosis)",
+    tagline: "Scaling risk: Node.js, React, PostgreSQL, Pinecone (Needs technical diagnosis)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -417,7 +417,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Clay's platform architecture relies on Node.js, TypeScript, React, Next.js, PostgreSQL, Redis, AWS, GCP, Pinecone, OpenAI, Anthropic. Key engineering observations center on Node.js, React, PostgreSQL, Pinecone (Needs technical diagnosis). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Clay's platform architecture relies on Node.js, TypeScript, React, Next.js, PostgreSQL, Redis, AWS, GCP, Pinecone, OpenAI, Anthropic. High-stakes engineering analysis identifies a failure risk in Node.js, React, PostgreSQL, Pinecone (Needs technical diagnosis): under peak scaling surges, node.js, react, postgresql, pinecone (needs technical diagnosis) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Node.js, TypeScript, React, Next.js, PostgreSQL, Redis, AWS, GCP, Pinecone, OpenAI, Anthropic", "Observation: Node.js, React, PostgreSQL, Pinecone (Needs technical diagnosis)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -425,7 +425,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Clay Engineering Intelligence Report",
-      description: "Architecture observation report for Clay"
+      description: "Architecture risk report for Clay"
     }
   },
 
@@ -433,7 +433,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'physicsx',
     name: "PhysicsX",
     slug: 'physicsx',
-    tagline: "Python, Go, PyTorch, Kubernetes (Needs technical diagnosis)",
+    tagline: "Scaling risk: Python, Go, PyTorch, Kubernetes (Needs technical diagnosis)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -482,7 +482,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "PhysicsX's platform architecture relies on Python, Go, C++, CUDA, PyTorch, Deutsche Telekom Sovereign AI Cloud, AWS, Docker, Kubernetes. Key engineering observations center on Python, Go, PyTorch, Kubernetes (Needs technical diagnosis). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "PhysicsX's platform architecture relies on Python, Go, C++, CUDA, PyTorch, Deutsche Telekom Sovereign AI Cloud, AWS, Docker, Kubernetes. High-stakes engineering analysis identifies a failure risk in Python, Go, PyTorch, Kubernetes (Needs technical diagnosis): under peak scaling surges, python, go, pytorch, kubernetes (needs technical diagnosis) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Python, Go, C++, CUDA, PyTorch, Deutsche Telekom Sovereign AI Cloud, AWS, Docker, Kubernetes", "Observation: Python, Go, PyTorch, Kubernetes (Needs technical diagnosis)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -490,7 +490,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "PhysicsX Engineering Intelligence Report",
-      description: "Architecture observation report for PhysicsX"
+      description: "Architecture risk report for PhysicsX"
     }
   },
 
@@ -498,7 +498,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'graphite',
     name: "Graphite",
     slug: 'graphite',
-    tagline: "TypeScript, React, Next.js, Python, AWS (Needs technical diagnosis)",
+    tagline: "Scaling risk: TypeScript, React, Next.js, Python, AWS (Needs technical diagnosis)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -547,7 +547,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Graphite's platform architecture relies on TypeScript, React, Next.js, Python, AWS, PostgreSQL, Redis, OpenAI, Anthropic, Git Engine. Key engineering observations center on TypeScript, React, Next.js, Python, AWS (Needs technical diagnosis). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Graphite's platform architecture relies on TypeScript, React, Next.js, Python, AWS, PostgreSQL, Redis, OpenAI, Anthropic, Git Engine. High-stakes engineering analysis identifies a failure risk in TypeScript, React, Next.js, Python, AWS (Needs technical diagnosis): under peak scaling surges, typescript, react, next.js, python, aws (needs technical diagnosis) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: TypeScript, React, Next.js, Python, AWS, PostgreSQL, Redis, OpenAI, Anthropic, Git Engine", "Observation: TypeScript, React, Next.js, Python, AWS (Needs technical diagnosis)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -555,7 +555,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Graphite Engineering Intelligence Report",
-      description: "Architecture observation report for Graphite"
+      description: "Architecture risk report for Graphite"
     }
   },
 
@@ -563,7 +563,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'opal-security',
     name: "Opal Security",
     slug: 'opal-security',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -612,7 +612,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Opal Security's platform architecture relies on Kubernetes, Golang, Postgres, Redis, Terraform, GraphQL, TypeScript, React, AWS, GCP. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Opal Security's platform architecture relies on Kubernetes, Golang, Postgres, Redis, Terraform, GraphQL, TypeScript, React, AWS, GCP. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Kubernetes, Golang, Postgres, Redis, Terraform, GraphQL, TypeScript, React, AWS, GCP", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -620,7 +620,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Opal Security Engineering Intelligence Report",
-      description: "Architecture observation report for Opal Security"
+      description: "Architecture risk report for Opal Security"
     }
   },
 
@@ -628,7 +628,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'vanta',
     name: "Vanta",
     slug: 'vanta',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -677,7 +677,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Vanta's platform architecture relies on AWS, LangChain, Node.js, TypeScript, React, GraphQL. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Vanta's platform architecture relies on AWS, LangChain, Node.js, TypeScript, React, GraphQL. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: AWS, LangChain, Node.js, TypeScript, React, GraphQL", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -685,7 +685,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Vanta Engineering Intelligence Report",
-      description: "Architecture observation report for Vanta"
+      description: "Architecture risk report for Vanta"
     }
   },
 
@@ -693,7 +693,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'xbow',
     name: "XBOW",
     slug: 'xbow',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -742,7 +742,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "XBOW's platform architecture relies on Python, LLMs, JavaScript, XML, Kubernetes, AWS. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "XBOW's platform architecture relies on Python, LLMs, JavaScript, XML, Kubernetes, AWS. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Python, LLMs, JavaScript, XML, Kubernetes, AWS", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -750,7 +750,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "XBOW Engineering Intelligence Report",
-      description: "Architecture observation report for XBOW"
+      description: "Architecture risk report for XBOW"
     }
   },
 
@@ -758,7 +758,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'chainguard',
     name: "Chainguard",
     slug: 'chainguard',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -807,7 +807,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Chainguard's platform architecture relies on Go, Kubernetes, Sigstore, Snowflake, AWS, GCP. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Chainguard's platform architecture relies on Go, Kubernetes, Sigstore, Snowflake, AWS, GCP. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Go, Kubernetes, Sigstore, Snowflake, AWS, GCP", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -815,7 +815,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Chainguard Engineering Intelligence Report",
-      description: "Architecture observation report for Chainguard"
+      description: "Architecture risk report for Chainguard"
     }
   },
 
@@ -823,7 +823,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'island',
     name: "Island",
     slug: 'island',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -872,7 +872,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Island's platform architecture relies on Chromium, C++, React, Node.js, AWS, Azure. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Island's platform architecture relies on Chromium, C++, React, Node.js, AWS, Azure. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Chromium, C++, React, Node.js, AWS, Azure", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -880,7 +880,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Island Engineering Intelligence Report",
-      description: "Architecture observation report for Island"
+      description: "Architecture risk report for Island"
     }
   },
 
@@ -888,7 +888,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'aura',
     name: "Aura",
     slug: 'aura',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -937,7 +937,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Aura's platform architecture relies on Node.js, React, Python, AWS, Kubernetes. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Aura's platform architecture relies on Node.js, React, Python, AWS, Kubernetes. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Node.js, React, Python, AWS, Kubernetes", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -945,7 +945,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Aura Engineering Intelligence Report",
-      description: "Architecture observation report for Aura"
+      description: "Architecture risk report for Aura"
     }
   },
 
@@ -953,7 +953,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'semgrep',
     name: "Semgrep",
     slug: 'semgrep',
-    tagline: "OCaml AST pattern matching memory footprint during deep interprocedural analysis",
+    tagline: "Scaling risk: OCaml AST pattern matching memory footprint during deep interprocedura",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -1002,7 +1002,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Semgrep's platform architecture relies on OCaml, Python, Go, Docker, Kubernetes. Key engineering observations center on OCaml AST pattern matching memory footprint during deep interprocedural analysis on massive codebases. complex taint-tracking rules escalate heap allocation, increasing garbage collection pauses.",
+    executiveSummary: "Semgrep's platform architecture relies on OCaml, Python, Go, Docker, Kubernetes. High-stakes engineering analysis identifies a failure risk in OCaml AST pattern matching memory footprint during deep interprocedural analysis on massive codebases: complex taint-tracking rules trigger intensive heap allocations and prolonged garbage collection pauses.",
     verifiedPublicInfo: ["Tech Stack: OCaml, Python, Go, Docker, Kubernetes", "Observation: OCaml AST pattern matching memory footprint during deep interprocedural analysis on massive codebases"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -1010,7 +1010,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Semgrep Engineering Intelligence Report",
-      description: "Architecture observation report for Semgrep"
+      description: "Architecture risk report for Semgrep"
     }
   },
 
@@ -1018,7 +1018,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'eclypsium',
     name: "Eclypsium",
     slug: 'eclypsium',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -1067,7 +1067,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Eclypsium's platform architecture relies on Python, C, C++, Go, AWS, Docker. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Eclypsium's platform architecture relies on Python, C, C++, Go, AWS, Docker. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Python, C, C++, Go, AWS, Docker", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -1075,7 +1075,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Eclypsium Engineering Intelligence Report",
-      description: "Architecture observation report for Eclypsium"
+      description: "Architecture risk report for Eclypsium"
     }
   },
 
@@ -1083,7 +1083,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'cyera',
     name: "Cyera",
     slug: 'cyera',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -1132,7 +1132,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Cyera's platform architecture relies on Looker, Salesforce CPQ, MongoDB, Next.js, Hadoop, Highspot. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Cyera's platform architecture relies on Looker, Salesforce CPQ, MongoDB, Next.js, Hadoop, Highspot. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Looker, Salesforce CPQ, MongoDB, Next.js, Hadoop, Highspot", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -1140,7 +1140,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Cyera Engineering Intelligence Report",
-      description: "Architecture observation report for Cyera"
+      description: "Architecture risk report for Cyera"
     }
   },
 
@@ -1148,7 +1148,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'socket',
     name: "Socket",
     slug: 'socket',
-    tagline: "Static AST analysis and dynamic package execution sandboxing latency during deep",
+    tagline: "Scaling risk: Static AST analysis and dynamic package execution sandboxing latency d",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -1197,7 +1197,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Socket's platform architecture relies on JavaScript, TypeScript, Python, Go, Node.js. Key engineering observations center on Static AST analysis and dynamic package execution sandboxing latency during deep dependency inspections. heavy package extraction and behavioral analysis create worker queue delays during package release spikes.",
+    executiveSummary: "Socket's platform architecture relies on JavaScript, TypeScript, Python, Go, Node.js. High-stakes engineering analysis identifies a failure risk in Static AST analysis and dynamic package execution sandboxing latency during deep dependency inspections: heavy package extraction and sandboxed execution stall worker queues during package release spikes.",
     verifiedPublicInfo: ["Tech Stack: JavaScript, TypeScript, Python, Go, Node.js", "Observation: Static AST analysis and dynamic package execution sandboxing latency during deep dependency inspections"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -1205,7 +1205,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Socket Engineering Intelligence Report",
-      description: "Architecture observation report for Socket"
+      description: "Architecture risk report for Socket"
     }
   },
 
@@ -1213,7 +1213,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'huntress',
     name: "Huntress",
     slug: 'huntress',
-    tagline: "Microsoft Defender, EDR, SIEM (Needs technical diagnosis)",
+    tagline: "Scaling risk: Microsoft Defender, EDR, SIEM (Needs technical diagnosis)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -1262,7 +1262,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Huntress's platform architecture relies on Microsoft Defender, EDR, SIEM. Key engineering observations center on Microsoft Defender, EDR, SIEM (Needs technical diagnosis). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Huntress's platform architecture relies on Microsoft Defender, EDR, SIEM. High-stakes engineering analysis identifies a failure risk in Microsoft Defender, EDR, SIEM (Needs technical diagnosis): under peak scaling surges, microsoft defender, edr, siem (needs technical diagnosis) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Microsoft Defender, EDR, SIEM", "Observation: Microsoft Defender, EDR, SIEM (Needs technical diagnosis)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -1270,7 +1270,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Huntress Engineering Intelligence Report",
-      description: "Architecture observation report for Huntress"
+      description: "Architecture risk report for Huntress"
     }
   },
 
@@ -1278,7 +1278,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'alkira',
     name: "Alkira",
     slug: 'alkira',
-    tagline: "Go, C, HTML5, HubSpot, NitroPack, Amazon SES (Needs technical diagnosis)",
+    tagline: "Scaling risk: Go, C, HTML5, HubSpot, NitroPack, Amazon SES (Needs technical diagnosi",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -1327,7 +1327,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Alkira's platform architecture relies on Go, C, HTML5, HubSpot, NitroPack, Amazon SES. Key engineering observations center on Go, C, HTML5, HubSpot, NitroPack, Amazon SES (Needs technical diagnosis). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Alkira's platform architecture relies on Go, C, HTML5, HubSpot, NitroPack, Amazon SES. High-stakes engineering analysis identifies a failure risk in Go, C, HTML5, HubSpot, NitroPack, Amazon SES (Needs technical diagnosis): under peak scaling surges, go, c, html5, hubspot, nitropack, amazon ses (needs technical diagnosis) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Go, C, HTML5, HubSpot, NitroPack, Amazon SES", "Observation: Go, C, HTML5, HubSpot, NitroPack, Amazon SES (Needs technical diagnosis)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -1335,7 +1335,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Alkira Engineering Intelligence Report",
-      description: "Architecture observation report for Alkira"
+      description: "Architecture risk report for Alkira"
     }
   },
 
@@ -1343,7 +1343,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'axonius',
     name: "Axonius",
     slug: 'axonius',
-    tagline: "AWS EC2, OpenStack, Threat Stack (Needs technical diagnosis)",
+    tagline: "Scaling risk: AWS EC2, OpenStack, Threat Stack (Needs technical diagnosis)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -1392,7 +1392,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Axonius's platform architecture relies on AWS EC2, OpenStack, Threat Stack. Key engineering observations center on AWS EC2, OpenStack, Threat Stack (Needs technical diagnosis). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Axonius's platform architecture relies on AWS EC2, OpenStack, Threat Stack. High-stakes engineering analysis identifies a failure risk in AWS EC2, OpenStack, Threat Stack (Needs technical diagnosis): under peak scaling surges, aws ec2, openstack, threat stack (needs technical diagnosis) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: AWS EC2, OpenStack, Threat Stack", "Observation: AWS EC2, OpenStack, Threat Stack (Needs technical diagnosis)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -1400,7 +1400,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Axonius Engineering Intelligence Report",
-      description: "Architecture observation report for Axonius"
+      description: "Architecture risk report for Axonius"
     }
   },
 
@@ -1408,7 +1408,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'corelight',
     name: "Corelight",
     slug: 'corelight',
-    tagline: "Vue.js, Kotlin, Laravel, Goober, Oracle Cloud, Red Hat (Needs technical diagnosi",
+    tagline: "Scaling risk: Vue.js, Kotlin, Laravel, Goober, Oracle Cloud, Red Hat (Needs technica",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -1457,7 +1457,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Corelight's platform architecture relies on Vue.js, Kotlin, Laravel, Goober, Oracle Cloud, Red Hat. Key engineering observations center on Vue.js, Kotlin, Laravel, Goober, Oracle Cloud, Red Hat (Needs technical diagnosis). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Corelight's platform architecture relies on Vue.js, Kotlin, Laravel, Goober, Oracle Cloud, Red Hat. High-stakes engineering analysis identifies a failure risk in Vue.js, Kotlin, Laravel, Goober, Oracle Cloud, Red Hat (Needs technical diagnosis): under peak scaling surges, vue.js, kotlin, laravel, goober, oracle cloud, red hat (needs technical diagnosis) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Vue.js, Kotlin, Laravel, Goober, Oracle Cloud, Red Hat", "Observation: Vue.js, Kotlin, Laravel, Goober, Oracle Cloud, Red Hat (Needs technical diagnosis)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -1465,7 +1465,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Corelight Engineering Intelligence Report",
-      description: "Architecture observation report for Corelight"
+      description: "Architecture risk report for Corelight"
     }
   },
 
@@ -1473,7 +1473,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'dust-identity',
     name: "DUST Identity",
     slug: 'dust-identity',
-    tagline: "Synthetic diamond resin, Nanoengineered diamonds (Needs technical diagnosis)",
+    tagline: "Scaling risk: Synthetic diamond resin, Nanoengineered diamonds (Needs technical diag",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -1522,7 +1522,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "DUST Identity's platform architecture relies on Synthetic diamond resin, Nanoengineered diamonds. Key engineering observations center on Synthetic diamond resin, Nanoengineered diamonds (Needs technical diagnosis). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "DUST Identity's platform architecture relies on Synthetic diamond resin, Nanoengineered diamonds. High-stakes engineering analysis identifies a failure risk in Synthetic diamond resin, Nanoengineered diamonds (Needs technical diagnosis): under peak scaling surges, synthetic diamond resin, nanoengineered diamonds (needs technical diagnosis) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Synthetic diamond resin, Nanoengineered diamonds", "Observation: Synthetic diamond resin, Nanoengineered diamonds (Needs technical diagnosis)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -1530,7 +1530,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "DUST Identity Engineering Intelligence Report",
-      description: "Architecture observation report for DUST Identity"
+      description: "Architecture risk report for DUST Identity"
     }
   },
 
@@ -1538,7 +1538,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'wiz',
     name: "Wiz",
     slug: 'wiz',
-    tagline: "cloud asset relationship graph traversal query latency and multi-tenant security",
+    tagline: "Scaling risk: cloud asset relationship graph traversal query latency and multi-tenan",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -1587,7 +1587,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Wiz's platform architecture relies on Go, Python, React, AWS, GCP, Azure, Graph DB. Key engineering observations center on cloud asset relationship graph traversal query latency and multi-tenant security event correlation. deep graph traversals across millions of cloud resources introduce query timeouts in security dashboards.",
+    executiveSummary: "Wiz's platform architecture relies on Go, Python, React, AWS, GCP, Azure, Graph DB. High-stakes engineering analysis identifies a failure risk in cloud asset relationship graph traversal query latency and multi-tenant security event correlation: deep graph traversals across millions of cloud resources trigger frequent query timeouts in executive dashboards.",
     verifiedPublicInfo: ["Tech Stack: Go, Python, React, AWS, GCP, Azure, Graph DB", "Observation: cloud asset relationship graph traversal query latency and multi-tenant security event correlation"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -1595,7 +1595,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Wiz Engineering Intelligence Report",
-      description: "Architecture observation report for Wiz"
+      description: "Architecture risk report for Wiz"
     }
   },
 
@@ -1603,7 +1603,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'harmonic',
     name: "Harmonic",
     slug: 'harmonic',
-    tagline: "Data engine, Formal mathematical reasoning (Needs technical diagnosis)",
+    tagline: "Scaling risk: Data engine, Formal mathematical reasoning (Needs technical diagnosis)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -1652,7 +1652,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Harmonic's platform architecture relies on Data engine, Formal mathematical reasoning. Key engineering observations center on Data engine, Formal mathematical reasoning (Needs technical diagnosis). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Harmonic's platform architecture relies on Data engine, Formal mathematical reasoning. High-stakes engineering analysis identifies a failure risk in Data engine, Formal mathematical reasoning (Needs technical diagnosis): under peak scaling surges, data engine, formal mathematical reasoning (needs technical diagnosis) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Data engine, Formal mathematical reasoning", "Observation: Data engine, Formal mathematical reasoning (Needs technical diagnosis)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -1660,7 +1660,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Harmonic Engineering Intelligence Report",
-      description: "Architecture observation report for Harmonic"
+      description: "Architecture risk report for Harmonic"
     }
   },
 
@@ -1668,7 +1668,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'newlimit',
     name: "NewLimit",
     slug: 'newlimit',
-    tagline: "Reprogramming payloads, Epigenetic reprogramming (Needs technical diagnosis)",
+    tagline: "Scaling risk: Reprogramming payloads, Epigenetic reprogramming (Needs technical diag",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -1717,7 +1717,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "NewLimit's platform architecture relies on Reprogramming payloads, Epigenetic reprogramming. Key engineering observations center on Reprogramming payloads, Epigenetic reprogramming (Needs technical diagnosis). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "NewLimit's platform architecture relies on Reprogramming payloads, Epigenetic reprogramming. High-stakes engineering analysis identifies a failure risk in Reprogramming payloads, Epigenetic reprogramming (Needs technical diagnosis): under peak scaling surges, reprogramming payloads, epigenetic reprogramming (needs technical diagnosis) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Reprogramming payloads, Epigenetic reprogramming", "Observation: Reprogramming payloads, Epigenetic reprogramming (Needs technical diagnosis)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -1725,7 +1725,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "NewLimit Engineering Intelligence Report",
-      description: "Architecture observation report for NewLimit"
+      description: "Architecture risk report for NewLimit"
     }
   },
 
@@ -1733,7 +1733,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'base-power',
     name: "Base Power",
     slug: 'base-power',
-    tagline: "Telemetry stack, Distributed Energy Resources (DERs) (Needs technical diagnosis)",
+    tagline: "Scaling risk: Telemetry stack, Distributed Energy Resources (DERs) (Needs technical ",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -1782,7 +1782,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Base Power's platform architecture relies on Telemetry stack, Distributed Energy Resources (DERs). Key engineering observations center on Telemetry stack, Distributed Energy Resources (DERs) (Needs technical diagnosis). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Base Power's platform architecture relies on Telemetry stack, Distributed Energy Resources (DERs). High-stakes engineering analysis identifies a failure risk in Telemetry stack, Distributed Energy Resources (DERs) (Needs technical diagnosis): under peak scaling surges, telemetry stack, distributed energy resources (ders) (needs technical diagnosis) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Telemetry stack, Distributed Energy Resources (DERs)", "Observation: Telemetry stack, Distributed Energy Resources (DERs) (Needs technical diagnosis)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -1790,7 +1790,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Base Power Engineering Intelligence Report",
-      description: "Architecture observation report for Base Power"
+      description: "Architecture risk report for Base Power"
     }
   },
 
@@ -1798,7 +1798,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'sprinter-health',
     name: "Sprinter Health",
     slug: 'sprinter-health',
-    tagline: "Serverless AWS, React Native, GraphQL, TypeScript, Node.js (Needs technical diag",
+    tagline: "Scaling risk: Serverless AWS, React Native, GraphQL, TypeScript, Node.js (Needs tech",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -1847,7 +1847,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Sprinter Health's platform architecture relies on Serverless AWS, React Native, GraphQL, TypeScript, Node.js. Key engineering observations center on Serverless AWS, React Native, GraphQL, TypeScript, Node.js (Needs technical diagnosis). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Sprinter Health's platform architecture relies on Serverless AWS, React Native, GraphQL, TypeScript, Node.js. High-stakes engineering analysis identifies a failure risk in Serverless AWS, React Native, GraphQL, TypeScript, Node.js (Needs technical diagnosis): under peak scaling surges, serverless aws, react native, graphql, typescript, node.js (needs technical diagnosis) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Serverless AWS, React Native, GraphQL, TypeScript, Node.js", "Observation: Serverless AWS, React Native, GraphQL, TypeScript, Node.js (Needs technical diagnosis)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -1855,7 +1855,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Sprinter Health Engineering Intelligence Report",
-      description: "Architecture observation report for Sprinter Health"
+      description: "Architecture risk report for Sprinter Health"
     }
   },
 
@@ -1863,7 +1863,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'graphiant',
     name: "Graphiant",
     slug: 'graphiant',
-    tagline: "HashiCorp Consul, Amazon CloudFront, Angular, jQuery, Go (Needs technical diagno",
+    tagline: "Scaling risk: HashiCorp Consul, Amazon CloudFront, Angular, jQuery, Go (Needs techni",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -1912,7 +1912,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Graphiant's platform architecture relies on HashiCorp Consul, Amazon CloudFront, Angular, jQuery, Go. Key engineering observations center on HashiCorp Consul, Amazon CloudFront, Angular, jQuery, Go (Needs technical diagnosis). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Graphiant's platform architecture relies on HashiCorp Consul, Amazon CloudFront, Angular, jQuery, Go. High-stakes engineering analysis identifies a failure risk in HashiCorp Consul, Amazon CloudFront, Angular, jQuery, Go (Needs technical diagnosis): under peak scaling surges, hashicorp consul, amazon cloudfront, angular, jquery, go (needs technical diagnosis) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: HashiCorp Consul, Amazon CloudFront, Angular, jQuery, Go", "Observation: HashiCorp Consul, Amazon CloudFront, Angular, jQuery, Go (Needs technical diagnosis)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -1920,7 +1920,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Graphiant Engineering Intelligence Report",
-      description: "Architecture observation report for Graphiant"
+      description: "Architecture risk report for Graphiant"
     }
   },
 
@@ -1928,7 +1928,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'bounce',
     name: "Bounce",
     slug: 'bounce',
-    tagline: "Luggage storage marketplace platform (Needs technical diagnosis)",
+    tagline: "Scaling risk: Luggage storage marketplace platform (Needs technical diagnosis)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -1977,7 +1977,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Bounce's platform architecture relies on Luggage storage marketplace platform. Key engineering observations center on Luggage storage marketplace platform (Needs technical diagnosis). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Bounce's platform architecture relies on Luggage storage marketplace platform. High-stakes engineering analysis identifies a failure risk in Luggage storage marketplace platform (Needs technical diagnosis): under peak scaling surges, luggage storage marketplace platform (needs technical diagnosis) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Luggage storage marketplace platform", "Observation: Luggage storage marketplace platform (Needs technical diagnosis)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -1985,7 +1985,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Bounce Engineering Intelligence Report",
-      description: "Architecture observation report for Bounce"
+      description: "Architecture risk report for Bounce"
     }
   },
 
@@ -1993,7 +1993,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'nooks',
     name: "Nooks",
     slug: 'nooks',
-    tagline: "AI cold email generator, Virtual sales floor, AI sequencing (Needs technical dia",
+    tagline: "Scaling risk: AI cold email generator, Virtual sales floor, AI sequencing (Needs tec",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -2042,7 +2042,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Nooks's platform architecture relies on AI cold email generator, Virtual sales floor, AI sequencing. Key engineering observations center on AI cold email generator, Virtual sales floor, AI sequencing (Needs technical diagnosis). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Nooks's platform architecture relies on AI cold email generator, Virtual sales floor, AI sequencing. High-stakes engineering analysis identifies a failure risk in AI cold email generator, Virtual sales floor, AI sequencing (Needs technical diagnosis): under peak scaling surges, ai cold email generator, virtual sales floor, ai sequencing (needs technical diagnosis) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: AI cold email generator, Virtual sales floor, AI sequencing", "Observation: AI cold email generator, Virtual sales floor, AI sequencing (Needs technical diagnosis)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -2050,7 +2050,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Nooks Engineering Intelligence Report",
-      description: "Architecture observation report for Nooks"
+      description: "Architecture risk report for Nooks"
     }
   },
 
@@ -2058,7 +2058,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'decagon',
     name: "Decagon",
     slug: 'decagon',
-    tagline: "Conversational AI, Salesforce, Zendesk (Needs technical diagnosis)",
+    tagline: "Scaling risk: Conversational AI, Salesforce, Zendesk (Needs technical diagnosis)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -2107,7 +2107,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Decagon's platform architecture relies on Conversational AI, Salesforce, Zendesk. Key engineering observations center on Conversational AI, Salesforce, Zendesk (Needs technical diagnosis). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Decagon's platform architecture relies on Conversational AI, Salesforce, Zendesk. High-stakes engineering analysis identifies a failure risk in Conversational AI, Salesforce, Zendesk (Needs technical diagnosis): under peak scaling surges, conversational ai, salesforce, zendesk (needs technical diagnosis) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Conversational AI, Salesforce, Zendesk", "Observation: Conversational AI, Salesforce, Zendesk (Needs technical diagnosis)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -2115,7 +2115,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Decagon Engineering Intelligence Report",
-      description: "Architecture observation report for Decagon"
+      description: "Architecture risk report for Decagon"
     }
   },
 
@@ -2123,7 +2123,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'atlys',
     name: "Atlys",
     slug: 'atlys',
-    tagline: "RSS, Drupal, jQuery, PHP, Apache (Needs technical diagnosis)",
+    tagline: "Scaling risk: RSS, Drupal, jQuery, PHP, Apache (Needs technical diagnosis)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -2172,7 +2172,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Atlys's platform architecture relies on RSS, Drupal, jQuery, PHP, Apache. Key engineering observations center on RSS, Drupal, jQuery, PHP, Apache (Needs technical diagnosis). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Atlys's platform architecture relies on RSS, Drupal, jQuery, PHP, Apache. High-stakes engineering analysis identifies a failure risk in RSS, Drupal, jQuery, PHP, Apache (Needs technical diagnosis): under peak scaling surges, rss, drupal, jquery, php, apache (needs technical diagnosis) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: RSS, Drupal, jQuery, PHP, Apache", "Observation: RSS, Drupal, jQuery, PHP, Apache (Needs technical diagnosis)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -2180,7 +2180,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Atlys Engineering Intelligence Report",
-      description: "Architecture observation report for Atlys"
+      description: "Architecture risk report for Atlys"
     }
   },
 
@@ -2188,7 +2188,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'story-protocol',
     name: "Story Protocol",
     slug: 'story-protocol',
-    tagline: "Cross-chain messaging latency, EVM state bloat",
+    tagline: "Scaling risk: Cross-chain messaging latency, EVM state bloat",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -2237,7 +2237,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Story Protocol's platform architecture relies on EVM, CometBFT, LayerZero, ERC-6551. Key engineering observations center on Cross-chain messaging latency, EVM state bloat. managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Story Protocol's platform architecture relies on EVM, CometBFT, LayerZero, ERC-6551. High-stakes engineering analysis identifies a failure risk in Cross-chain messaging latency, EVM state bloat: under peak scaling surges, cross-chain messaging latency, evm state bloat introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: EVM, CometBFT, LayerZero, ERC-6551", "Observation: Cross-chain messaging latency, EVM state bloat"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -2245,7 +2245,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Story Protocol Engineering Intelligence Report",
-      description: "Architecture observation report for Story Protocol"
+      description: "Architecture risk report for Story Protocol"
     }
   },
 
@@ -2253,7 +2253,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'fnz',
     name: "FNZ",
     slug: 'fnz',
-    tagline: "Legacy .NET/SOAP integration issues, deployment bottlenecks",
+    tagline: "Scaling risk: Legacy .NET/SOAP integration issues, deployment bottlenecks",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -2302,7 +2302,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "FNZ's platform architecture relies on .NET, SOAP, Jaspersoft, Octopus Deploy, ReactJS, TypeScript. Key engineering observations center on Legacy .NET/SOAP integration issues, deployment bottlenecks. managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "FNZ's platform architecture relies on .NET, SOAP, Jaspersoft, Octopus Deploy, ReactJS, TypeScript. High-stakes engineering analysis identifies a failure risk in Legacy .NET/SOAP integration issues, deployment bottlenecks: under peak scaling surges, legacy .net/soap integration issues, deployment bottlenecks introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: .NET, SOAP, Jaspersoft, Octopus Deploy, ReactJS, TypeScript", "Observation: Legacy .NET/SOAP integration issues, deployment bottlenecks"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -2310,7 +2310,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "FNZ Engineering Intelligence Report",
-      description: "Architecture observation report for FNZ"
+      description: "Architecture risk report for FNZ"
     }
   },
 
@@ -2318,7 +2318,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'monzo',
     name: "Monzo",
     slug: 'monzo',
-    tagline: "Cassandra scaling, Kafka message queues, Go microservices latency",
+    tagline: "Scaling risk: Cassandra scaling, Kafka message queues, Go microservices latency",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -2367,7 +2367,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Monzo's platform architecture relies on Go, Cassandra, Kafka, Kubernetes, GCP. Key engineering observations center on Cassandra scaling, Kafka message queues, Go microservices latency. managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Monzo's platform architecture relies on Go, Cassandra, Kafka, Kubernetes, GCP. High-stakes engineering analysis identifies a failure risk in Cassandra scaling, Kafka message queues, Go microservices latency: under peak scaling surges, cassandra scaling, kafka message queues, go microservices latency introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Go, Cassandra, Kafka, Kubernetes, GCP", "Observation: Cassandra scaling, Kafka message queues, Go microservices latency"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -2375,7 +2375,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Monzo Engineering Intelligence Report",
-      description: "Architecture observation report for Monzo"
+      description: "Architecture risk report for Monzo"
     }
   },
 
@@ -2383,7 +2383,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'checkout-com',
     name: "Checkout.com",
     slug: 'checkout-com',
-    tagline: "DynamoDB hot partitions, Node.js memory leaks",
+    tagline: "Scaling risk: DynamoDB hot partitions, Node.js memory leaks",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -2432,7 +2432,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Checkout.com's platform architecture relies on AWS, DynamoDB, Node.js, C#, Kubernetes, Snowflake. Key engineering observations center on DynamoDB hot partitions, Node.js memory leaks. managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Checkout.com's platform architecture relies on AWS, DynamoDB, Node.js, C#, Kubernetes, Snowflake. High-stakes engineering analysis identifies a failure risk in DynamoDB hot partitions, Node.js memory leaks: under peak scaling surges, dynamodb hot partitions, node.js memory leaks introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: AWS, DynamoDB, Node.js, C#, Kubernetes, Snowflake", "Observation: DynamoDB hot partitions, Node.js memory leaks"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -2440,7 +2440,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Checkout.com Engineering Intelligence Report",
-      description: "Architecture observation report for Checkout.com"
+      description: "Architecture risk report for Checkout.com"
     }
   },
 
@@ -2448,7 +2448,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'revolut',
     name: "Revolut",
     slug: 'revolut',
-    tagline: "PostgreSQL scaling, GCP Kubernetes management",
+    tagline: "Scaling risk: PostgreSQL scaling, GCP Kubernetes management",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -2497,7 +2497,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Revolut's platform architecture relies on Java, GCP, PostgreSQL, Kubernetes. Key engineering observations center on PostgreSQL scaling, GCP Kubernetes management. managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Revolut's platform architecture relies on Java, GCP, PostgreSQL, Kubernetes. High-stakes engineering analysis identifies a failure risk in PostgreSQL scaling, GCP Kubernetes management: under peak scaling surges, postgresql scaling, gcp kubernetes management introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Java, GCP, PostgreSQL, Kubernetes", "Observation: PostgreSQL scaling, GCP Kubernetes management"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -2505,7 +2505,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Revolut Engineering Intelligence Report",
-      description: "Architecture observation report for Revolut"
+      description: "Architecture risk report for Revolut"
     }
   },
 
@@ -2513,7 +2513,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'sumup',
     name: "SumUp",
     slug: 'sumup',
-    tagline: "Kafka stream processing, Kubernetes pod scaling",
+    tagline: "Scaling risk: Kafka stream processing, Kubernetes pod scaling",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -2562,7 +2562,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "SumUp's platform architecture relies on AWS, Kubernetes, Kotlin, Elixir, React, Kafka, Snowflake. Key engineering observations center on Kafka stream processing, Kubernetes pod scaling. managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "SumUp's platform architecture relies on AWS, Kubernetes, Kotlin, Elixir, React, Kafka, Snowflake. High-stakes engineering analysis identifies a failure risk in Kafka stream processing, Kubernetes pod scaling: under peak scaling surges, kafka stream processing, kubernetes pod scaling introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: AWS, Kubernetes, Kotlin, Elixir, React, Kafka, Snowflake", "Observation: Kafka stream processing, Kubernetes pod scaling"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -2570,7 +2570,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "SumUp Engineering Intelligence Report",
-      description: "Architecture observation report for SumUp"
+      description: "Architecture risk report for SumUp"
     }
   },
 
@@ -2578,7 +2578,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'atom-bank',
     name: "Atom Bank",
     slug: 'atom-bank',
-    tagline: "Middleware integration, GCP scaling, Kotlin backend",
+    tagline: "Scaling risk: Middleware integration, GCP scaling, Kotlin backend",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -2627,7 +2627,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Atom Bank's platform architecture relies on Kotlin, React, TypeScript, Astro, Google Cloud, Kubernetes. Key engineering observations center on Middleware integration, GCP scaling, Kotlin backend. managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Atom Bank's platform architecture relies on Kotlin, React, TypeScript, Astro, Google Cloud, Kubernetes. High-stakes engineering analysis identifies a failure risk in Middleware integration, GCP scaling, Kotlin backend: under peak scaling surges, middleware integration, gcp scaling, kotlin backend introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Kotlin, React, TypeScript, Astro, Google Cloud, Kubernetes", "Observation: Middleware integration, GCP scaling, Kotlin backend"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -2635,7 +2635,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Atom Bank Engineering Intelligence Report",
-      description: "Architecture observation report for Atom Bank"
+      description: "Architecture risk report for Atom Bank"
     }
   },
 
@@ -2643,7 +2643,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'starling-bank',
     name: "Starling Bank",
     slug: 'starling-bank',
-    tagline: "AWS cloud scaling, PostgreSQL database tuning",
+    tagline: "Scaling risk: AWS cloud scaling, PostgreSQL database tuning",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -2692,7 +2692,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Starling Bank's platform architecture relies on AWS, Java, PostgreSQL, Angular. Key engineering observations center on AWS cloud scaling, PostgreSQL database tuning. managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Starling Bank's platform architecture relies on AWS, Java, PostgreSQL, Angular. High-stakes engineering analysis identifies a failure risk in AWS cloud scaling, PostgreSQL database tuning: under peak scaling surges, aws cloud scaling, postgresql database tuning introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: AWS, Java, PostgreSQL, Angular", "Observation: AWS cloud scaling, PostgreSQL database tuning"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -2700,7 +2700,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Starling Bank Engineering Intelligence Report",
-      description: "Architecture observation report for Starling Bank"
+      description: "Architecture risk report for Starling Bank"
     }
   },
 
@@ -2708,7 +2708,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'metro-bank',
     name: "Metro Bank",
     slug: 'metro-bank',
-    tagline: "Temenos T24 legacy integration, NoSQL data consistency",
+    tagline: "Scaling risk: Temenos T24 legacy integration, NoSQL data consistency",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -2757,7 +2757,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Metro Bank's platform architecture relies on Temenos T24, scikit-learn, ServiceNow, RxJS, NoSQL. Key engineering observations center on Temenos T24 legacy integration, NoSQL data consistency. managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Metro Bank's platform architecture relies on Temenos T24, scikit-learn, ServiceNow, RxJS, NoSQL. High-stakes engineering analysis identifies a failure risk in Temenos T24 legacy integration, NoSQL data consistency: under peak scaling surges, temenos t24 legacy integration, nosql data consistency introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Temenos T24, scikit-learn, ServiceNow, RxJS, NoSQL", "Observation: Temenos T24 legacy integration, NoSQL data consistency"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -2765,7 +2765,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Metro Bank Engineering Intelligence Report",
-      description: "Architecture observation report for Metro Bank"
+      description: "Architecture risk report for Metro Bank"
     }
   },
 
@@ -2773,7 +2773,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'oaknorth',
     name: "OakNorth",
     slug: 'oaknorth',
-    tagline: "React Native performance, AWS infrastructure scaling",
+    tagline: "Scaling risk: React Native performance, AWS infrastructure scaling",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -2822,7 +2822,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "OakNorth's platform architecture relies on AWS, React Native, Python, Go, Kubernetes. Key engineering observations center on React Native performance, AWS infrastructure scaling. managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "OakNorth's platform architecture relies on AWS, React Native, Python, Go, Kubernetes. High-stakes engineering analysis identifies a failure risk in React Native performance, AWS infrastructure scaling: under peak scaling surges, react native performance, aws infrastructure scaling introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: AWS, React Native, Python, Go, Kubernetes", "Observation: React Native performance, AWS infrastructure scaling"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -2830,7 +2830,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "OakNorth Engineering Intelligence Report",
-      description: "Architecture observation report for OakNorth"
+      description: "Architecture risk report for OakNorth"
     }
   },
 
@@ -2838,7 +2838,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'allica-bank',
     name: "Allica Bank",
     slug: 'allica-bank',
-    tagline: "Azure Spring Cloud scaling, Kotlin/Spring Boot performance",
+    tagline: "Scaling risk: Azure Spring Cloud scaling, Kotlin/Spring Boot performance",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -2887,7 +2887,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Allica Bank's platform architecture relies on Azure, Spring Boot, Kotlin, React, Snowflake. Key engineering observations center on Azure Spring Cloud scaling, Kotlin/Spring Boot performance. managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Allica Bank's platform architecture relies on Azure, Spring Boot, Kotlin, React, Snowflake. High-stakes engineering analysis identifies a failure risk in Azure Spring Cloud scaling, Kotlin/Spring Boot performance: under peak scaling surges, azure spring cloud scaling, kotlin/spring boot performance introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Azure, Spring Boot, Kotlin, React, Snowflake", "Observation: Azure Spring Cloud scaling, Kotlin/Spring Boot performance"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -2895,7 +2895,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Allica Bank Engineering Intelligence Report",
-      description: "Architecture observation report for Allica Bank"
+      description: "Architecture risk report for Allica Bank"
     }
   },
 
@@ -2903,7 +2903,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'blockchain-com',
     name: "Blockchain.com",
     slug: 'blockchain-com',
-    tagline: "Crypto transaction throughput, AWS security",
+    tagline: "Scaling risk: Crypto transaction throughput, AWS security",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -2952,7 +2952,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Blockchain.com's platform architecture relies on Java, Kotlin, React, AWS. Key engineering observations center on Crypto transaction throughput, AWS security. managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Blockchain.com's platform architecture relies on Java, Kotlin, React, AWS. High-stakes engineering analysis identifies a failure risk in Crypto transaction throughput, AWS security: under peak scaling surges, crypto transaction throughput, aws security introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Java, Kotlin, React, AWS", "Observation: Crypto transaction throughput, AWS security"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -2960,7 +2960,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Blockchain.com Engineering Intelligence Report",
-      description: "Architecture observation report for Blockchain.com"
+      description: "Architecture risk report for Blockchain.com"
     }
   },
 
@@ -2968,7 +2968,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'dojo',
     name: "Dojo",
     slug: 'dojo',
-    tagline: "ASP.NET legacy modernization, IIS performance",
+    tagline: "Scaling risk: ASP.NET legacy modernization, IIS performance",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -3017,7 +3017,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Dojo's platform architecture relies on Windows Server, ASP.NET, IIS. Key engineering observations center on ASP.NET legacy modernization, IIS performance. managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Dojo's platform architecture relies on Windows Server, ASP.NET, IIS. High-stakes engineering analysis identifies a failure risk in ASP.NET legacy modernization, IIS performance: under peak scaling surges, asp.net legacy modernization, iis performance introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Windows Server, ASP.NET, IIS", "Observation: ASP.NET legacy modernization, IIS performance"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -3025,7 +3025,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Dojo Engineering Intelligence Report",
-      description: "Architecture observation report for Dojo"
+      description: "Architecture risk report for Dojo"
     }
   },
 
@@ -3033,7 +3033,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'thought-machine',
     name: "Thought Machine",
     slug: 'thought-machine',
-    tagline: "Kubernetes cluster management, Python backend scaling",
+    tagline: "Scaling risk: Kubernetes cluster management, Python backend scaling",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -3082,7 +3082,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Thought Machine's platform architecture relies on Python, Prometheus, AWS, Kubernetes, Bootstrap. Key engineering observations center on Kubernetes cluster management, Python backend scaling. managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Thought Machine's platform architecture relies on Python, Prometheus, AWS, Kubernetes, Bootstrap. High-stakes engineering analysis identifies a failure risk in Kubernetes cluster management, Python backend scaling: under peak scaling surges, kubernetes cluster management, python backend scaling introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Python, Prometheus, AWS, Kubernetes, Bootstrap", "Observation: Kubernetes cluster management, Python backend scaling"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -3090,7 +3090,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Thought Machine Engineering Intelligence Report",
-      description: "Architecture observation report for Thought Machine"
+      description: "Architecture risk report for Thought Machine"
     }
   },
 
@@ -3098,7 +3098,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'gocardless',
     name: "GoCardless",
     slug: 'gocardless',
-    tagline: "Ruby on Rails monolithic scaling, PostgreSQL database locks",
+    tagline: "Scaling risk: Ruby on Rails monolithic scaling, PostgreSQL database locks",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -3147,7 +3147,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "GoCardless's platform architecture relies on Ruby on Rails, Next.js, Go, Kubernetes, PostgreSQL, GCP. Key engineering observations center on Ruby on Rails monolithic scaling, PostgreSQL database locks. managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "GoCardless's platform architecture relies on Ruby on Rails, Next.js, Go, Kubernetes, PostgreSQL, GCP. High-stakes engineering analysis identifies a failure risk in Ruby on Rails monolithic scaling, PostgreSQL database locks: under peak scaling surges, ruby on rails monolithic scaling, postgresql database locks introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Ruby on Rails, Next.js, Go, Kubernetes, PostgreSQL, GCP", "Observation: Ruby on Rails monolithic scaling, PostgreSQL database locks"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -3155,7 +3155,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "GoCardless Engineering Intelligence Report",
-      description: "Architecture observation report for GoCardless"
+      description: "Architecture risk report for GoCardless"
     }
   },
 
@@ -3163,7 +3163,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'marex',
     name: "Marex",
     slug: 'marex',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -3212,7 +3212,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Marex's platform architecture relies on Python, C#, .NET, JavaScript, TypeScript. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Marex's platform architecture relies on Python, C#, .NET, JavaScript, TypeScript. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Python, C#, .NET, JavaScript, TypeScript", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -3220,7 +3220,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Marex Engineering Intelligence Report",
-      description: "Architecture observation report for Marex"
+      description: "Architecture risk report for Marex"
     }
   },
 
@@ -3228,7 +3228,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'tandem',
     name: "Tandem",
     slug: 'tandem',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -3277,7 +3277,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Tandem's platform architecture relies on Mambu, GitHub, XML, MySQL, BambooHR, reCAPTCHA, Nginx, lit-element, Webflow, Bootstrap, FullStory. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Tandem's platform architecture relies on Mambu, GitHub, XML, MySQL, BambooHR, reCAPTCHA, Nginx, lit-element, Webflow, Bootstrap, FullStory. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Mambu, GitHub, XML, MySQL, BambooHR, reCAPTCHA, Nginx, lit-element, Webflow, Bootstrap, FullStory", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -3285,7 +3285,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Tandem Engineering Intelligence Report",
-      description: "Architecture observation report for Tandem"
+      description: "Architecture risk report for Tandem"
     }
   },
 
@@ -3293,7 +3293,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'teya',
     name: "Teya",
     slug: 'teya',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -3342,7 +3342,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Teya's platform architecture relies on Facebook Pixel, Jenkins, git, OAuth, Cisco Meraki, Framer Sites, Mastercard, Chakra UI. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Teya's platform architecture relies on Facebook Pixel, Jenkins, git, OAuth, Cisco Meraki, Framer Sites, Mastercard, Chakra UI. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Facebook Pixel, Jenkins, git, OAuth, Cisco Meraki, Framer Sites, Mastercard, Chakra UI", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -3350,7 +3350,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Teya Engineering Intelligence Report",
-      description: "Architecture observation report for Teya"
+      description: "Architecture risk report for Teya"
     }
   },
 
@@ -3358,7 +3358,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'smart',
     name: "Smart",
     slug: 'smart',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -3407,7 +3407,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Smart's platform architecture relies on SQL, PostgreSQL, git, Perkbox, JSON-LD, Android, Ruby on Rails, CSS. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Smart's platform architecture relies on SQL, PostgreSQL, git, Perkbox, JSON-LD, Android, Ruby on Rails, CSS. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: SQL, PostgreSQL, git, Perkbox, JSON-LD, Android, Ruby on Rails, CSS", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -3415,7 +3415,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Smart Engineering Intelligence Report",
-      description: "Architecture observation report for Smart"
+      description: "Architecture risk report for Smart"
     }
   },
 
@@ -3423,7 +3423,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'clearbank',
     name: "ClearBank",
     slug: 'clearbank',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -3472,7 +3472,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "ClearBank's platform architecture relies on Hotjar, Tableau, Azure Active Directory, HashiCorp, Windows 10, Windows Server, Zscaler, Dynatrace. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "ClearBank's platform architecture relies on Hotjar, Tableau, Azure Active Directory, HashiCorp, Windows 10, Windows Server, Zscaler, Dynatrace. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Hotjar, Tableau, Azure Active Directory, HashiCorp, Windows 10, Windows Server, Zscaler, Dynatrace", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -3480,7 +3480,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "ClearBank Engineering Intelligence Report",
-      description: "Architecture observation report for ClearBank"
+      description: "Architecture risk report for ClearBank"
     }
   },
 
@@ -3488,7 +3488,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'behavox',
     name: "Behavox",
     slug: 'behavox',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -3537,7 +3537,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Behavox's platform architecture relies on Quantum risk detection, LLM, Cloud. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Behavox's platform architecture relies on Quantum risk detection, LLM, Cloud. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Quantum risk detection, LLM, Cloud", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -3545,7 +3545,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Behavox Engineering Intelligence Report",
-      description: "Architecture observation report for Behavox"
+      description: "Architecture risk report for Behavox"
     }
   },
 
@@ -3553,7 +3553,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'stream',
     name: "Stream",
     slug: 'stream',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -3602,7 +3602,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Stream's platform architecture relies on Go, RocksDB, Raft, AWS. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Stream's platform architecture relies on Go, RocksDB, Raft, AWS. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Go, RocksDB, Raft, AWS", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -3610,7 +3610,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Stream Engineering Intelligence Report",
-      description: "Architecture observation report for Stream"
+      description: "Architecture risk report for Stream"
     }
   },
 
@@ -3618,7 +3618,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'oxbury',
     name: "Oxbury",
     slug: 'oxbury',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -3667,7 +3667,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Oxbury's platform architecture relies on Cloud-based solutions, Naqoda core banking system. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Oxbury's platform architecture relies on Cloud-based solutions, Naqoda core banking system. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Cloud-based solutions, Naqoda core banking system", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -3675,7 +3675,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Oxbury Engineering Intelligence Report",
-      description: "Architecture observation report for Oxbury"
+      description: "Architecture risk report for Oxbury"
     }
   },
 
@@ -3683,7 +3683,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: '10x-banking',
     name: "10x Banking",
     slug: '10x-banking',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -3732,7 +3732,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "10x Banking's platform architecture relies on HubSpot Content Hub, RSS, git, Headspace, iOS, HTML, Lua, Thycotic. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "10x Banking's platform architecture relies on HubSpot Content Hub, RSS, git, Headspace, iOS, HTML, Lua, Thycotic. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: HubSpot Content Hub, RSS, git, Headspace, iOS, HTML, Lua, Thycotic", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -3740,7 +3740,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "10x Banking Engineering Intelligence Report",
-      description: "Architecture observation report for 10x Banking"
+      description: "Architecture risk report for 10x Banking"
     }
   },
 
@@ -3748,7 +3748,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'funding-circle',
     name: "Funding Circle",
     slug: 'funding-circle',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -3797,7 +3797,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Funding Circle's platform architecture relies on Microsoft Clarity, cdnjs, Webpack, PHP, Chakra UI, Google Analytics, Ruby On Rails, Python, AWS, Kubernetes. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Funding Circle's platform architecture relies on Microsoft Clarity, cdnjs, Webpack, PHP, Chakra UI, Google Analytics, Ruby On Rails, Python, AWS, Kubernetes. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Microsoft Clarity, cdnjs, Webpack, PHP, Chakra UI, Google Analytics, Ruby On Rails, Python, AWS, Kubernetes", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -3805,7 +3805,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Funding Circle Engineering Intelligence Report",
-      description: "Architecture observation report for Funding Circle"
+      description: "Architecture risk report for Funding Circle"
     }
   },
 
@@ -3813,7 +3813,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'paddle',
     name: "Paddle",
     slug: 'paddle',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -3862,7 +3862,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Paddle's platform architecture relies on Google Analytics, HubSpot, Vue.js, Alpine.js, Svelte. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Paddle's platform architecture relies on Google Analytics, HubSpot, Vue.js, Alpine.js, Svelte. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Google Analytics, HubSpot, Vue.js, Alpine.js, Svelte", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -3870,7 +3870,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Paddle Engineering Intelligence Report",
-      description: "Architecture observation report for Paddle"
+      description: "Architecture risk report for Paddle"
     }
   },
 
@@ -3878,7 +3878,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'curve',
     name: "Curve",
     slug: 'curve',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -3927,7 +3927,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Curve's platform architecture relies on Node, JavaScript, MEAN/MERN stack. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Curve's platform architecture relies on Node, JavaScript, MEAN/MERN stack. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Node, JavaScript, MEAN/MERN stack", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -3935,7 +3935,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Curve Engineering Intelligence Report",
-      description: "Architecture observation report for Curve"
+      description: "Architecture risk report for Curve"
     }
   },
 
@@ -3943,7 +3943,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'tide',
     name: "Tide",
     slug: 'tide',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -3992,7 +3992,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Tide's platform architecture relies on Pendo, LaunchDarkly, Segment, Jamf Pro, Hammer.js, Braze, Workable, CSS. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Tide's platform architecture relies on Pendo, LaunchDarkly, Segment, Jamf Pro, Hammer.js, Braze, Workable, CSS. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Pendo, LaunchDarkly, Segment, Jamf Pro, Hammer.js, Braze, Workable, CSS", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -4000,7 +4000,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Tide Engineering Intelligence Report",
-      description: "Architecture observation report for Tide"
+      description: "Architecture risk report for Tide"
     }
   },
 
@@ -4008,7 +4008,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'copper',
     name: "Copper",
     slug: 'copper',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -4057,7 +4057,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Copper's platform architecture relies on Blockchain, Digital asset custody technology. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Copper's platform architecture relies on Blockchain, Digital asset custody technology. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Blockchain, Digital asset custody technology", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -4065,7 +4065,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Copper Engineering Intelligence Report",
-      description: "Architecture observation report for Copper"
+      description: "Architecture risk report for Copper"
     }
   },
 
@@ -4073,7 +4073,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'fnality',
     name: "Fnality",
     slug: 'fnality',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -4122,7 +4122,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Fnality's platform architecture relies on Docker, Microsoft SharePoint, Atlassian Jira, Preact, AWS Security Hub. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Fnality's platform architecture relies on Docker, Microsoft SharePoint, Atlassian Jira, Preact, AWS Security Hub. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Docker, Microsoft SharePoint, Atlassian Jira, Preact, AWS Security Hub", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -4130,7 +4130,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Fnality Engineering Intelligence Report",
-      description: "Architecture observation report for Fnality"
+      description: "Architecture risk report for Fnality"
     }
   },
 
@@ -4138,7 +4138,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'cloudpay',
     name: "CloudPay",
     slug: 'cloudpay',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -4187,7 +4187,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "CloudPay's platform architecture relies on SaaS, Java, React, SQL. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "CloudPay's platform architecture relies on SaaS, Java, React, SQL. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: SaaS, Java, React, SQL", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -4195,7 +4195,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "CloudPay Engineering Intelligence Report",
-      description: "Architecture observation report for CloudPay"
+      description: "Architecture risk report for CloudPay"
     }
   },
 
@@ -4203,7 +4203,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'form3',
     name: "Form3",
     slug: 'form3',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -4252,7 +4252,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Form3's platform architecture relies on AWS, GCP, Kubernetes, CockroachDB, Elasticsearch, PostgresDB, Vault, Consul, Go. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Form3's platform architecture relies on AWS, GCP, Kubernetes, CockroachDB, Elasticsearch, PostgresDB, Vault, Consul, Go. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: AWS, GCP, Kubernetes, CockroachDB, Elasticsearch, PostgresDB, Vault, Consul, Go", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -4260,7 +4260,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Form3 Engineering Intelligence Report",
-      description: "Architecture observation report for Form3"
+      description: "Architecture risk report for Form3"
     }
   },
 
@@ -4268,7 +4268,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'tradingview',
     name: "TradingView",
     slug: 'tradingview',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -4317,7 +4317,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "TradingView's platform architecture relies on HTML5, Canvas, WebSockets, Python, Node.js. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "TradingView's platform architecture relies on HTML5, Canvas, WebSockets, Python, Node.js. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: HTML5, Canvas, WebSockets, Python, Node.js", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -4325,7 +4325,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "TradingView Engineering Intelligence Report",
-      description: "Architecture observation report for TradingView"
+      description: "Architecture risk report for TradingView"
     }
   },
 
@@ -4333,7 +4333,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'lendable',
     name: "Lendable",
     slug: 'lendable',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -4382,7 +4382,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Lendable's platform architecture relies on AWS, Python, React, Postgres. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Lendable's platform architecture relies on AWS, Python, React, Postgres. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: AWS, Python, React, Postgres", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -4390,7 +4390,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Lendable Engineering Intelligence Report",
-      description: "Architecture observation report for Lendable"
+      description: "Architecture risk report for Lendable"
     }
   },
 
@@ -4398,7 +4398,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'clearcourse',
     name: "ClearCourse",
     slug: 'clearcourse',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -4447,7 +4447,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "ClearCourse's platform architecture relies on Grafana, Snowflake, Apache Tomcat, Storybook, PHP, HTML5. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "ClearCourse's platform architecture relies on Grafana, Snowflake, Apache Tomcat, Storybook, PHP, HTML5. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Grafana, Snowflake, Apache Tomcat, Storybook, PHP, HTML5", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -4455,7 +4455,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "ClearCourse Engineering Intelligence Report",
-      description: "Architecture observation report for ClearCourse"
+      description: "Architecture risk report for ClearCourse"
     }
   },
 
@@ -4463,7 +4463,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'genesis',
     name: "Genesis",
     slug: 'genesis',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -4512,7 +4512,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Genesis's platform architecture relies on AI Architecture, Cloud, Microservices, Java. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Genesis's platform architecture relies on AI Architecture, Cloud, Microservices, Java. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: AI Architecture, Cloud, Microservices, Java", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -4520,7 +4520,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Genesis Engineering Intelligence Report",
-      description: "Architecture observation report for Genesis"
+      description: "Architecture risk report for Genesis"
     }
   },
 
@@ -4528,7 +4528,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: '9fin',
     name: "9fin",
     slug: '9fin',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -4577,7 +4577,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "9fin's platform architecture relies on AI, Generative AI, LLMs, Python, AWS, PostgreSQL. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "9fin's platform architecture relies on AI, Generative AI, LLMs, Python, AWS, PostgreSQL. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: AI, Generative AI, LLMs, Python, AWS, PostgreSQL", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -4585,7 +4585,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "9fin Engineering Intelligence Report",
-      description: "Architecture observation report for 9fin"
+      description: "Architecture risk report for 9fin"
     }
   },
 
@@ -4593,7 +4593,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'fresha',
     name: "Fresha",
     slug: 'fresha',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -4642,7 +4642,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Fresha's platform architecture relies on AI Concierge, iOS, Android, Web, Cloud. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Fresha's platform architecture relies on AI Concierge, iOS, Android, Web, Cloud. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: AI Concierge, iOS, Android, Web, Cloud", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -4650,7 +4650,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Fresha Engineering Intelligence Report",
-      description: "Architecture observation report for Fresha"
+      description: "Architecture risk report for Fresha"
     }
   },
 
@@ -4658,7 +4658,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'paysend',
     name: "PaySend",
     slug: 'paysend',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -4707,7 +4707,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "PaySend's platform architecture relies on Mastercard/Visa APIs, Cloud, Mobile App, Microservices. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "PaySend's platform architecture relies on Mastercard/Visa APIs, Cloud, Mobile App, Microservices. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Mastercard/Visa APIs, Cloud, Mobile App, Microservices", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -4715,7 +4715,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "PaySend Engineering Intelligence Report",
-      description: "Architecture observation report for PaySend"
+      description: "Architecture risk report for PaySend"
     }
   },
 
@@ -4723,7 +4723,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'kriya',
     name: "Kriya",
     slug: 'kriya',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -4772,7 +4772,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Kriya's platform architecture relies on API orchestration, Cloud, Bidirectional data sync. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Kriya's platform architecture relies on API orchestration, Cloud, Bidirectional data sync. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: API orchestration, Cloud, Bidirectional data sync", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -4780,7 +4780,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Kriya Engineering Intelligence Report",
-      description: "Architecture observation report for Kriya"
+      description: "Architecture risk report for Kriya"
     }
   },
 
@@ -4788,7 +4788,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'the-bank-of-london',
     name: "The Bank of London",
     slug: 'the-bank-of-london',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -4837,7 +4837,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "The Bank of London's platform architecture relies on Cloud-native, API-driven, Microservices. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "The Bank of London's platform architecture relies on Cloud-native, API-driven, Microservices. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Cloud-native, API-driven, Microservices", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -4845,7 +4845,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "The Bank of London Engineering Intelligence Report",
-      description: "Architecture observation report for The Bank of London"
+      description: "Architecture risk report for The Bank of London"
     }
   },
 
@@ -4853,7 +4853,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'soldo',
     name: "Soldo",
     slug: 'soldo',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -4902,7 +4902,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Soldo's platform architecture relies on AWS, Kubernetes, Cloud-native, SSO, SAML. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Soldo's platform architecture relies on AWS, Kubernetes, Cloud-native, SSO, SAML. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: AWS, Kubernetes, Cloud-native, SSO, SAML", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -4910,7 +4910,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Soldo Engineering Intelligence Report",
-      description: "Architecture observation report for Soldo"
+      description: "Architecture risk report for Soldo"
     }
   },
 
@@ -4918,7 +4918,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'monese',
     name: "Monese",
     slug: 'monese',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -4967,7 +4967,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Monese's platform architecture relies on Thought Machine Vault, Cloud-native, iOS, Android. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Monese's platform architecture relies on Thought Machine Vault, Cloud-native, iOS, Android. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Thought Machine Vault, Cloud-native, iOS, Android", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -4975,7 +4975,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Monese Engineering Intelligence Report",
-      description: "Architecture observation report for Monese"
+      description: "Architecture risk report for Monese"
     }
   },
 
@@ -4983,7 +4983,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'monument-bank',
     name: "Monument Bank",
     slug: 'monument-bank',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -5032,7 +5032,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Monument Bank's platform architecture relies on Microservices, API-first, Contentful CMS, Salesforce. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Monument Bank's platform architecture relies on Microservices, API-first, Contentful CMS, Salesforce. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Microservices, API-first, Contentful CMS, Salesforce", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -5040,7 +5040,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Monument Bank Engineering Intelligence Report",
-      description: "Architecture observation report for Monument Bank"
+      description: "Architecture risk report for Monument Bank"
     }
   },
 
@@ -5048,7 +5048,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'prodigy-finance',
     name: "Prodigy Finance",
     slug: 'prodigy-finance',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -5097,7 +5097,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Prodigy Finance's platform architecture relies on Python, Kotlin, JavaScript, Bootstrap, Moment.js. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Prodigy Finance's platform architecture relies on Python, Kotlin, JavaScript, Bootstrap, Moment.js. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Python, Kotlin, JavaScript, Bootstrap, Moment.js", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -5105,7 +5105,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Prodigy Finance Engineering Intelligence Report",
-      description: "Architecture observation report for Prodigy Finance"
+      description: "Architecture risk report for Prodigy Finance"
     }
   },
 
@@ -5113,7 +5113,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'clearscore',
     name: "ClearScore",
     slug: 'clearscore',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -5162,7 +5162,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "ClearScore's platform architecture relies on AWS, Java, Spring Boot, React, React Native, Kubernetes. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "ClearScore's platform architecture relies on AWS, Java, Spring Boot, React, React Native, Kubernetes. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: AWS, Java, Spring Boot, React, React Native, Kubernetes", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -5170,7 +5170,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "ClearScore Engineering Intelligence Report",
-      description: "Architecture observation report for ClearScore"
+      description: "Architecture risk report for ClearScore"
     }
   },
 
@@ -5178,7 +5178,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'elliptic',
     name: "Elliptic",
     slug: 'elliptic',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -5227,7 +5227,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Elliptic's platform architecture relies on DynamoDB, AWS, Blockchain Analytics, Crypto Compliance Software. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Elliptic's platform architecture relies on DynamoDB, AWS, Blockchain Analytics, Crypto Compliance Software. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: DynamoDB, AWS, Blockchain Analytics, Crypto Compliance Software", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -5235,7 +5235,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Elliptic Engineering Intelligence Report",
-      description: "Architecture observation report for Elliptic"
+      description: "Architecture risk report for Elliptic"
     }
   },
 
@@ -5243,7 +5243,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'moneyfarm',
     name: "Moneyfarm",
     slug: 'moneyfarm',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -5292,7 +5292,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Moneyfarm's platform architecture relies on Online Investments, Smart Technology. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Moneyfarm's platform architecture relies on Online Investments, Smart Technology. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Online Investments, Smart Technology", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -5300,7 +5300,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Moneyfarm Engineering Intelligence Report",
-      description: "Architecture observation report for Moneyfarm"
+      description: "Architecture risk report for Moneyfarm"
     }
   },
 
@@ -5308,7 +5308,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'capital-on-tap',
     name: "Capital on Tap",
     slug: 'capital-on-tap',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -5357,7 +5357,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Capital on Tap's platform architecture relies on Web & Mobile, Cloud & Infrastructure, Backend, AI, Data. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Capital on Tap's platform architecture relies on Web & Mobile, Cloud & Infrastructure, Backend, AI, Data. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Web & Mobile, Cloud & Infrastructure, Backend, AI, Data", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -5365,7 +5365,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Capital on Tap Engineering Intelligence Report",
-      description: "Architecture observation report for Capital on Tap"
+      description: "Architecture risk report for Capital on Tap"
     }
   },
 
@@ -5373,7 +5373,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'thincats',
     name: "ThinCats",
     slug: 'thincats',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -5422,7 +5422,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "ThinCats's platform architecture relies on Proprietary credit risk model, Data Analytics. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "ThinCats's platform architecture relies on Proprietary credit risk model, Data Analytics. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Proprietary credit risk model, Data Analytics", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -5430,7 +5430,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "ThinCats Engineering Intelligence Report",
-      description: "Architecture observation report for ThinCats"
+      description: "Architecture risk report for ThinCats"
     }
   },
 
@@ -5438,7 +5438,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'terrapay',
     name: "TerraPay",
     slug: 'terrapay',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -5487,7 +5487,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "TerraPay's platform architecture relies on Cross-border payments, APIs, Cloud. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "TerraPay's platform architecture relies on Cross-border payments, APIs, Cloud. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Cross-border payments, APIs, Cloud", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -5495,7 +5495,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "TerraPay Engineering Intelligence Report",
-      description: "Architecture observation report for TerraPay"
+      description: "Architecture risk report for TerraPay"
     }
   },
 
@@ -5503,7 +5503,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'sonovate',
     name: "Sonovate",
     slug: 'sonovate',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -5552,7 +5552,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Sonovate's platform architecture relies on Software Engineering, Cloud, Flexible financing tech. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Sonovate's platform architecture relies on Software Engineering, Cloud, Flexible financing tech. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Software Engineering, Cloud, Flexible financing tech", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -5560,7 +5560,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Sonovate Engineering Intelligence Report",
-      description: "Architecture observation report for Sonovate"
+      description: "Architecture risk report for Sonovate"
     }
   },
 
@@ -5568,7 +5568,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'cleo',
     name: "Cleo",
     slug: 'cleo',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -5617,7 +5617,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Cleo's platform architecture relies on Cleo Integration Cloud (CIC), EDI, API, B2B Integration. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Cleo's platform architecture relies on Cleo Integration Cloud (CIC), EDI, API, B2B Integration. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Cleo Integration Cloud (CIC), EDI, API, B2B Integration", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -5625,7 +5625,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Cleo Engineering Intelligence Report",
-      description: "Architecture observation report for Cleo"
+      description: "Architecture risk report for Cleo"
     }
   },
 
@@ -5633,7 +5633,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'pollinate',
     name: "Pollinate",
     slug: 'pollinate',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -5682,7 +5682,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Pollinate's platform architecture relies on AI Agents, ERPs, Supply Chain, Python, Cloud. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Pollinate's platform architecture relies on AI Agents, ERPs, Supply Chain, Python, Cloud. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: AI Agents, ERPs, Supply Chain, Python, Cloud", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -5690,7 +5690,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Pollinate Engineering Intelligence Report",
-      description: "Architecture observation report for Pollinate"
+      description: "Architecture risk report for Pollinate"
     }
   },
 
@@ -5698,7 +5698,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'paymentology',
     name: "Paymentology",
     slug: 'paymentology',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -5747,7 +5747,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Paymentology's platform architecture relies on Lume platform, APIs, Cloud. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Paymentology's platform architecture relies on Lume platform, APIs, Cloud. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Lume platform, APIs, Cloud", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -5755,7 +5755,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Paymentology Engineering Intelligence Report",
-      description: "Architecture observation report for Paymentology"
+      description: "Architecture risk report for Paymentology"
     }
   },
 
@@ -5763,7 +5763,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'storfund',
     name: "Storfund",
     slug: 'storfund',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -5812,7 +5812,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Storfund's platform architecture relies on Ecommerce tech, APIs. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Storfund's platform architecture relies on Ecommerce tech, APIs. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Ecommerce tech, APIs", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -5820,7 +5820,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Storfund Engineering Intelligence Report",
-      description: "Architecture observation report for Storfund"
+      description: "Architecture risk report for Storfund"
     }
   },
 
@@ -5828,7 +5828,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'modulr',
     name: "Modulr",
     slug: 'modulr',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -5877,7 +5877,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Modulr's platform architecture relies on Payments Automation Platform, APIs, Cloud. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Modulr's platform architecture relies on Payments Automation Platform, APIs, Cloud. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Payments Automation Platform, APIs, Cloud", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -5885,7 +5885,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Modulr Engineering Intelligence Report",
-      description: "Architecture observation report for Modulr"
+      description: "Architecture risk report for Modulr"
     }
   },
 
@@ -5893,7 +5893,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'tractable',
     name: "Tractable",
     slug: 'tractable',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -5942,7 +5942,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Tractable's platform architecture relies on AI, Computer Vision, Cloud. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Tractable's platform architecture relies on AI, Computer Vision, Cloud. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: AI, Computer Vision, Cloud", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -5950,7 +5950,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Tractable Engineering Intelligence Report",
-      description: "Architecture observation report for Tractable"
+      description: "Architecture risk report for Tractable"
     }
   },
 
@@ -5958,7 +5958,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'dext',
     name: "Dext",
     slug: 'dext',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -6007,7 +6007,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Dext's platform architecture relies on AI Bookkeeping software, Document capture. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Dext's platform architecture relies on AI Bookkeeping software, Document capture. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: AI Bookkeeping software, Document capture", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -6015,7 +6015,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Dext Engineering Intelligence Report",
-      description: "Architecture observation report for Dext"
+      description: "Architecture risk report for Dext"
     }
   },
 
@@ -6023,7 +6023,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'primer',
     name: "Primer",
     slug: 'primer',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -6072,7 +6072,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Primer's platform architecture relies on Unified intelligence for payments, AI, Cloud. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Primer's platform architecture relies on Unified intelligence for payments, AI, Cloud. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Unified intelligence for payments, AI, Cloud", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -6080,7 +6080,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Primer Engineering Intelligence Report",
-      description: "Architecture observation report for Primer"
+      description: "Architecture risk report for Primer"
     }
   },
 
@@ -6088,7 +6088,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'nutmeg',
     name: "Nutmeg",
     slug: 'nutmeg',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -6137,7 +6137,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Nutmeg's platform architecture relies on Java, Springboot, Kotlin, DynamoDB, Aurora/MySQL, AWS, Kubernetes, Kafka. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Nutmeg's platform architecture relies on Java, Springboot, Kotlin, DynamoDB, Aurora/MySQL, AWS, Kubernetes, Kafka. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Java, Springboot, Kotlin, DynamoDB, Aurora/MySQL, AWS, Kubernetes, Kafka", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -6145,7 +6145,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Nutmeg Engineering Intelligence Report",
-      description: "Architecture observation report for Nutmeg"
+      description: "Architecture risk report for Nutmeg"
     }
   },
 
@@ -6153,7 +6153,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'currencycloud',
     name: "Currencycloud",
     slug: 'currencycloud',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -6202,7 +6202,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Currencycloud's platform architecture relies on NetSuite, Salesforce, Spark, APIs, SDKs. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Currencycloud's platform architecture relies on NetSuite, Salesforce, Spark, APIs, SDKs. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: NetSuite, Salesforce, Spark, APIs, SDKs", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -6210,7 +6210,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Currencycloud Engineering Intelligence Report",
-      description: "Architecture observation report for Currencycloud"
+      description: "Architecture risk report for Currencycloud"
     }
   },
 
@@ -6218,7 +6218,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'fly-now-pay-later',
     name: "Fly Now Pay Later",
     slug: 'fly-now-pay-later',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -6267,7 +6267,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Fly Now Pay Later's platform architecture relies on MySQL, Moment.js, cdnjs. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Fly Now Pay Later's platform architecture relies on MySQL, Moment.js, cdnjs. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: MySQL, Moment.js, cdnjs", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -6275,7 +6275,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Fly Now Pay Later Engineering Intelligence Report",
-      description: "Architecture observation report for Fly Now Pay Later"
+      description: "Architecture risk report for Fly Now Pay Later"
     }
   },
 
@@ -6283,7 +6283,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'kroo',
     name: "Kroo",
     slug: 'kroo',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -6332,7 +6332,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Kroo's platform architecture relies on Procore, AI, Data Connectors. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Kroo's platform architecture relies on Procore, AI, Data Connectors. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: Procore, AI, Data Connectors", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -6340,7 +6340,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Kroo Engineering Intelligence Report",
-      description: "Architecture observation report for Kroo"
+      description: "Architecture risk report for Kroo"
     }
   },
 
@@ -6348,7 +6348,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'freetrade',
     name: "Freetrade",
     slug: 'freetrade',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -6397,7 +6397,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Freetrade's platform architecture relies on BigQuery, Cloud Functions, DBT, Looker, Terraform, Python, Typescript, Cloud Scheduler, Postgres. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Freetrade's platform architecture relies on BigQuery, Cloud Functions, DBT, Looker, Terraform, Python, Typescript, Cloud Scheduler, Postgres. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: BigQuery, Cloud Functions, DBT, Looker, Terraform, Python, Typescript, Cloud Scheduler, Postgres", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -6405,7 +6405,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Freetrade Engineering Intelligence Report",
-      description: "Architecture observation report for Freetrade"
+      description: "Architecture risk report for Freetrade"
     }
   },
 
@@ -6413,7 +6413,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'redcloud',
     name: "RedCloud",
     slug: 'redcloud',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -6462,7 +6462,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "RedCloud's platform architecture relies on RedAI, Machine Learning, Cloud. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "RedCloud's platform architecture relies on RedAI, Machine Learning, Cloud. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: RedAI, Machine Learning, Cloud", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -6470,7 +6470,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "RedCloud Engineering Intelligence Report",
-      description: "Architecture observation report for RedCloud"
+      description: "Architecture risk report for RedCloud"
     }
   },
 
@@ -6478,7 +6478,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'codat',
     name: "Codat",
     slug: 'codat',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -6527,7 +6527,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Codat's platform architecture relies on APIs, Infrastructure for data sharing. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Codat's platform architecture relies on APIs, Infrastructure for data sharing. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: APIs, Infrastructure for data sharing", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -6535,7 +6535,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Codat Engineering Intelligence Report",
-      description: "Architecture observation report for Codat"
+      description: "Architecture risk report for Codat"
     }
   },
 
@@ -6543,7 +6543,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'finbourne',
     name: "FINBOURNE",
     slug: 'finbourne',
-    tagline: "TBD (Ready for Technical Diagnostics Pipeline)",
+    tagline: "Scaling risk: TBD (Ready for Technical Diagnostics Pipeline)",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -6592,7 +6592,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "FINBOURNE's platform architecture relies on EDM+, Luminesce, AI. Key engineering observations center on TBD (Ready for Technical Diagnostics Pipeline). managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "FINBOURNE's platform architecture relies on EDM+, Luminesce, AI. High-stakes engineering analysis identifies a failure risk in TBD (Ready for Technical Diagnostics Pipeline): under peak scaling surges, tbd (ready for technical diagnostics pipeline) introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: EDM+, Luminesce, AI", "Observation: TBD (Ready for Technical Diagnostics Pipeline)"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -6600,7 +6600,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "FINBOURNE Engineering Intelligence Report",
-      description: "Architecture observation report for FINBOURNE"
+      description: "Architecture risk report for FINBOURNE"
     }
   },
 
@@ -6608,7 +6608,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'carta',
     name: "Carta",
     slug: 'carta',
-    tagline: "Data scaling issues, secondary sales infrastructure",
+    tagline: "Scaling risk: Data scaling issues, secondary sales infrastructure",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -6657,7 +6657,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Carta's platform architecture relies on ReactJS, Java, Python, Distributed Systems. Key engineering observations center on Data scaling issues, secondary sales infrastructure. managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Carta's platform architecture relies on ReactJS, Java, Python, Distributed Systems. High-stakes engineering analysis identifies a failure risk in Data scaling issues, secondary sales infrastructure: under peak scaling surges, data scaling issues, secondary sales infrastructure introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: ReactJS, Java, Python, Distributed Systems", "Observation: Data scaling issues, secondary sales infrastructure"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -6665,7 +6665,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Carta Engineering Intelligence Report",
-      description: "Architecture observation report for Carta"
+      description: "Architecture risk report for Carta"
     }
   },
 
@@ -6673,7 +6673,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'dave',
     name: "Dave",
     slug: 'dave',
-    tagline: "AI-led underwriting, scaling demand",
+    tagline: "Scaling risk: AI-led underwriting, scaling demand",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -6722,7 +6722,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Dave's platform architecture relies on AI, Front End Infrastructure, Fullstack. Key engineering observations center on AI-led underwriting, scaling demand. managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Dave's platform architecture relies on AI, Front End Infrastructure, Fullstack. High-stakes engineering analysis identifies a failure risk in AI-led underwriting, scaling demand: under peak scaling surges, ai-led underwriting, scaling demand introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: AI, Front End Infrastructure, Fullstack", "Observation: AI-led underwriting, scaling demand"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -6730,7 +6730,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Dave Engineering Intelligence Report",
-      description: "Architecture observation report for Dave"
+      description: "Architecture risk report for Dave"
     }
   },
 
@@ -6738,7 +6738,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'intercom',
     name: "Intercom",
     slug: 'intercom',
-    tagline: "AI integration, scaling throughput",
+    tagline: "Scaling risk: AI integration, scaling throughput",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -6787,7 +6787,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Intercom's platform architecture relies on React, AI, Messenger. Key engineering observations center on AI integration, scaling throughput. managing throughput boundaries under scaling team volume requires careful isolation.",
+    executiveSummary: "Intercom's platform architecture relies on React, AI, Messenger. High-stakes engineering analysis identifies a failure risk in AI integration, scaling throughput: under peak scaling surges, ai integration, scaling throughput introduces severe latency degradation and cascading worker backpressure.",
     verifiedPublicInfo: ["Tech Stack: React, AI, Messenger", "Observation: AI integration, scaling throughput"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -6795,7 +6795,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Intercom Engineering Intelligence Report",
-      description: "Architecture observation report for Intercom"
+      description: "Architecture risk report for Intercom"
     }
   },
 
@@ -6803,7 +6803,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'linear',
     name: "Linear",
     slug: 'linear',
-    tagline: "local-first Sync Engine state synchronization and IndexedDB transaction lock con",
+    tagline: "Scaling risk: local-first Sync Engine state synchronization and IndexedDB transactio",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -6852,7 +6852,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Linear's platform architecture relies on React, MobX, TypeScript, Node.js, GraphQL, PostgreSQL. Key engineering observations center on local-first Sync Engine state synchronization and IndexedDB transaction lock contention during offline delta reconciliation. client-side transaction latencies can cascade into WebSocket broadcast drops under heavy workspace edits.",
+    executiveSummary: "Linear's platform architecture relies on React, MobX, TypeScript, Node.js, GraphQL, PostgreSQL. High-stakes engineering analysis identifies a failure risk in local-first Sync Engine state synchronization and IndexedDB transaction lock contention during offline delta reconciliation: client-side transaction latencies cascade into WebSocket broadcast drops and state desynchronization under heavy workspace edits.",
     verifiedPublicInfo: ["Tech Stack: React, MobX, TypeScript, Node.js, GraphQL, PostgreSQL", "Observation: local-first Sync Engine state synchronization and IndexedDB transaction lock contention during offline delta reconciliation"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -6860,7 +6860,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Linear Engineering Intelligence Report",
-      description: "Architecture observation report for Linear"
+      description: "Architecture risk report for Linear"
     }
   },
 
@@ -6868,7 +6868,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'supabase',
     name: "Supabase",
     slug: 'supabase',
-    tagline: "PgBouncer connection pool limits and Realtime Elixir WebSocket broadcast memory ",
+    tagline: "Scaling risk: PgBouncer connection pool limits and Realtime Elixir WebSocket broadca",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -6917,7 +6917,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Supabase's platform architecture relies on PostgreSQL, Elixir, Go, TypeScript, PgBouncer. Key engineering observations center on PgBouncer connection pool limits and Realtime Elixir WebSocket broadcast memory allocation during peak tenant surges. connection pool saturation on multi-tenant Postgres clusters degrades REST and GraphQL gateway response times.",
+    executiveSummary: "Supabase's platform architecture relies on PostgreSQL, Elixir, Go, TypeScript, PgBouncer. High-stakes engineering analysis identifies a failure risk in PgBouncer connection pool limits and Realtime Elixir WebSocket broadcast memory allocation during peak tenant surges: connection pool saturation on multi-tenant Postgres clusters degrades REST/GraphQL gateway response times into cascading 504 timeouts.",
     verifiedPublicInfo: ["Tech Stack: PostgreSQL, Elixir, Go, TypeScript, PgBouncer", "Observation: PgBouncer connection pool limits and Realtime Elixir WebSocket broadcast memory allocation during peak tenant surges"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -6925,7 +6925,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Supabase Engineering Intelligence Report",
-      description: "Architecture observation report for Supabase"
+      description: "Architecture risk report for Supabase"
     }
   },
 
@@ -6933,7 +6933,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'neon',
     name: "Neon",
     slug: 'neon',
-    tagline: "compute-storage separation L2 page server cache misses and WAL streaming latency",
+    tagline: "Scaling risk: compute-storage separation L2 page server cache misses and WAL streami",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -6982,7 +6982,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Neon's platform architecture relies on Rust, PostgreSQL, C, Go, Kubernetes. Key engineering observations center on compute-storage separation L2 page server cache misses and WAL streaming latency during cold branch initialization. page server cache misses force synchronous WAL fetches over the network, spiking p99 query latency.",
+    executiveSummary: "Neon's platform architecture relies on Rust, PostgreSQL, C, Go, Kubernetes. High-stakes engineering analysis identifies a failure risk in compute-storage separation L2 page server cache misses and WAL streaming latency during cold branch initialization: page server cache misses force synchronous WAL fetches over the network, spiking p99 query latency above 2,000ms.",
     verifiedPublicInfo: ["Tech Stack: Rust, PostgreSQL, C, Go, Kubernetes", "Observation: compute-storage separation L2 page server cache misses and WAL streaming latency during cold branch initialization"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -6990,7 +6990,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Neon Engineering Intelligence Report",
-      description: "Architecture observation report for Neon"
+      description: "Architecture risk report for Neon"
     }
   },
 
@@ -6998,7 +6998,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'modal',
     name: "Modal",
     slug: 'modal',
-    tagline: "serverless Python micro-VM container image layer caching and GPU CUDA stream ini",
+    tagline: "Scaling risk: serverless Python micro-VM container image layer caching and GPU CUDA ",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -7047,7 +7047,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Modal's platform architecture relies on Python, Rust, C++, Linux micro-VMs, CUDA. Key engineering observations center on serverless Python micro-VM container image layer caching and GPU CUDA stream initialization overhead. cold-start latency on GPU worker allocations impacts real-time inference workloads.",
+    executiveSummary: "Modal's platform architecture relies on Python, Rust, C++, Linux micro-VMs, CUDA. High-stakes engineering analysis identifies a failure risk in serverless Python micro-VM container image layer caching and GPU CUDA stream initialization overhead: cold-start latency on GPU worker allocations breaches real-time latency SLAs for latency-sensitive inference workloads.",
     verifiedPublicInfo: ["Tech Stack: Python, Rust, C++, Linux micro-VMs, CUDA", "Observation: serverless Python micro-VM container image layer caching and GPU CUDA stream initialization overhead"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -7055,7 +7055,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Modal Engineering Intelligence Report",
-      description: "Architecture observation report for Modal"
+      description: "Architecture risk report for Modal"
     }
   },
 
@@ -7063,7 +7063,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'render',
     name: "Render",
     slug: 'render',
-    tagline: "ingress proxy routing table propagation latency and container health check synch",
+    tagline: "Scaling risk: ingress proxy routing table propagation latency and container health c",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -7112,7 +7112,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Render's platform architecture relies on Go, React, Node.js, PostgreSQL, Docker, Kubernetes. Key engineering observations center on ingress proxy routing table propagation latency and container health check synchronization across distributed clusters. routing table propagation delays during rapid zero-downtime rolling deploys can cause transient 502 gateway errors.",
+    executiveSummary: "Render's platform architecture relies on Go, React, Node.js, PostgreSQL, Docker, Kubernetes. High-stakes engineering analysis identifies a failure risk in ingress proxy routing table propagation latency and container health check synchronization across distributed clusters: routing propagation delays during zero-downtime rolling deploys trigger transient 502 gateway errors on active connections.",
     verifiedPublicInfo: ["Tech Stack: Go, React, Node.js, PostgreSQL, Docker, Kubernetes", "Observation: ingress proxy routing table propagation latency and container health check synchronization across distributed clusters"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -7120,7 +7120,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Render Engineering Intelligence Report",
-      description: "Architecture observation report for Render"
+      description: "Architecture risk report for Render"
     }
   },
 
@@ -7128,7 +7128,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'convex',
     name: "Convex",
     slug: 'convex',
-    tagline: "deterministic TypeScript mutation engine transaction retries under heavy write c",
+    tagline: "Scaling risk: deterministic TypeScript mutation engine transaction retries under hea",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -7177,7 +7177,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Convex's platform architecture relies on TypeScript, Rust, Node.js, React. Key engineering observations center on deterministic TypeScript mutation engine transaction retries under heavy write contention. optimistic concurrency control retries escalate CPU overhead when multiple clients write to the same table keys.",
+    executiveSummary: "Convex's platform architecture relies on TypeScript, Rust, Node.js, React. High-stakes engineering analysis identifies a failure risk in deterministic TypeScript mutation engine transaction retries under heavy write contention: optimistic concurrency control retries rapidly exhaust worker CPU when concurrent clients modify shared table keys.",
     verifiedPublicInfo: ["Tech Stack: TypeScript, Rust, Node.js, React", "Observation: deterministic TypeScript mutation engine transaction retries under heavy write contention"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -7185,7 +7185,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Convex Engineering Intelligence Report",
-      description: "Architecture observation report for Convex"
+      description: "Architecture risk report for Convex"
     }
   },
 
@@ -7193,7 +7193,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'baseten',
     name: "Baseten",
     slug: 'baseten',
-    tagline: "vLLM dynamic request batching and KV cache memory allocation during multi-model ",
+    tagline: "Scaling risk: vLLM dynamic request batching and KV cache memory allocation during mu",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -7242,7 +7242,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Baseten's platform architecture relies on Python, PyTorch, vLLM, CUDA, Kubernetes. Key engineering observations center on vLLM dynamic request batching and KV cache memory allocation during multi-model GPU inference bursts. KV cache fragmentation forces preemption of active requests under sudden concurrency spikes.",
+    executiveSummary: "Baseten's platform architecture relies on Python, PyTorch, vLLM, CUDA, Kubernetes. High-stakes engineering analysis identifies a failure risk in vLLM dynamic request batching and KV cache memory allocation during multi-model GPU inference bursts: KV cache fragmentation forces destructive request preemptions during sudden traffic surges.",
     verifiedPublicInfo: ["Tech Stack: Python, PyTorch, vLLM, CUDA, Kubernetes", "Observation: vLLM dynamic request batching and KV cache memory allocation during multi-model GPU inference bursts"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -7250,7 +7250,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Baseten Engineering Intelligence Report",
-      description: "Architecture observation report for Baseten"
+      description: "Architecture risk report for Baseten"
     }
   },
 
@@ -7258,7 +7258,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'replicate',
     name: "Replicate",
     slug: 'replicate',
-    tagline: "model weight snapshot streaming latency across ephemeral GPU worker pools during",
+    tagline: "Scaling risk: model weight snapshot streaming latency across ephemeral GPU worker po",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -7307,7 +7307,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Replicate's platform architecture relies on Python, Go, Docker, Cog, CUDA, AWS. Key engineering observations center on model weight snapshot streaming latency across ephemeral GPU worker pools during concurrent model cold runs. large diffusion and LLM weight downloads delay worker readiness, increasing queue dwell times.",
+    executiveSummary: "Replicate's platform architecture relies on Python, Go, Docker, Cog, CUDA, AWS. High-stakes engineering analysis identifies a failure risk in model weight snapshot streaming latency across ephemeral GPU worker pools during concurrent model cold runs: multi-gigabyte model downloads lock execution slots, causing severe queue dwell-time inflation.",
     verifiedPublicInfo: ["Tech Stack: Python, Go, Docker, Cog, CUDA, AWS", "Observation: model weight snapshot streaming latency across ephemeral GPU worker pools during concurrent model cold runs"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -7315,7 +7315,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Replicate Engineering Intelligence Report",
-      description: "Architecture observation report for Replicate"
+      description: "Architecture risk report for Replicate"
     }
   },
 
@@ -7323,7 +7323,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'fireworks-ai',
     name: "Fireworks AI",
     slug: 'fireworks-ai',
-    tagline: "multi-tenant LoRA adapter hot-swapping memory overhead and KV cache eviction pol",
+    tagline: "Scaling risk: multi-tenant LoRA adapter hot-swapping memory overhead and KV cache ev",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -7372,7 +7372,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Fireworks AI's platform architecture relies on C++, Python, CUDA, PyTorch, TensorRT-LLM. Key engineering observations center on multi-tenant LoRA adapter hot-swapping memory overhead and KV cache eviction policies. frequent LoRA adapter swaps introduce kernel launching overhead and CUDA memory fragmentation.",
+    executiveSummary: "Fireworks AI's platform architecture relies on C++, Python, CUDA, PyTorch, TensorRT-LLM. High-stakes engineering analysis identifies a failure risk in multi-tenant LoRA adapter hot-swapping memory overhead and KV cache eviction policies: frequent LoRA adapter swaps introduce kernel launching stalls and unrecoverable CUDA memory fragmentation.",
     verifiedPublicInfo: ["Tech Stack: C++, Python, CUDA, PyTorch, TensorRT-LLM", "Observation: multi-tenant LoRA adapter hot-swapping memory overhead and KV cache eviction policies"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -7380,7 +7380,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Fireworks AI Engineering Intelligence Report",
-      description: "Architecture observation report for Fireworks AI"
+      description: "Architecture risk report for Fireworks AI"
     }
   },
 
@@ -7388,7 +7388,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'railway',
     name: "Railway",
     slug: 'railway',
-    tagline: "internal mesh proxy memory footprint and dynamic container build isolation orche",
+    tagline: "Scaling risk: internal mesh proxy memory footprint and dynamic container build isola",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -7437,7 +7437,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Railway's platform architecture relies on TypeScript, Go, Rust, Docker, Nixpacks. Key engineering observations center on internal mesh proxy memory footprint and dynamic container build isolation orchestration. build orchestration backpressure delays environment provisioning during peak deployment periods.",
+    executiveSummary: "Railway's platform architecture relies on TypeScript, Go, Rust, Docker, Nixpacks. High-stakes engineering analysis identifies a failure risk in internal mesh proxy memory footprint and dynamic container build isolation orchestration: build orchestration backpressure stalls environment provisioning during peak deployment windows.",
     verifiedPublicInfo: ["Tech Stack: TypeScript, Go, Rust, Docker, Nixpacks", "Observation: internal mesh proxy memory footprint and dynamic container build isolation orchestration"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -7445,7 +7445,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Railway Engineering Intelligence Report",
-      description: "Architecture observation report for Railway"
+      description: "Architecture risk report for Railway"
     }
   },
 
@@ -7453,7 +7453,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'temporal',
     name: "Temporal",
     slug: 'temporal',
-    tagline: "workflow execution history event payload accumulation and persistence layer writ",
+    tagline: "Scaling risk: workflow execution history event payload accumulation and persistence ",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -7502,7 +7502,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Temporal's platform architecture relies on Go, Java, TypeScript, Python, Cassandra, PostgreSQL. Key engineering observations center on workflow execution history event payload accumulation and persistence layer write amplification. bloated event histories spike workflow cache eviction rates and increase persistence latency.",
+    executiveSummary: "Temporal's platform architecture relies on Go, Java, TypeScript, Python, Cassandra, PostgreSQL. High-stakes engineering analysis identifies a failure risk in workflow execution history event payload accumulation and persistence layer write amplification: bloated history payloads cause aggressive workflow cache evictions and degrade state persistence throughput.",
     verifiedPublicInfo: ["Tech Stack: Go, Java, TypeScript, Python, Cassandra, PostgreSQL", "Observation: workflow execution history event payload accumulation and persistence layer write amplification"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -7510,7 +7510,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Temporal Engineering Intelligence Report",
-      description: "Architecture observation report for Temporal"
+      description: "Architecture risk report for Temporal"
     }
   },
 
@@ -7518,7 +7518,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'dagster-labs',
     name: "Dagster Labs",
     slug: 'dagster-labs',
-    tagline: "out-of-process asset computation serialization overhead and GraphQL metadata eve",
+    tagline: "Scaling risk: out-of-process asset computation serialization overhead and GraphQL me",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -7567,7 +7567,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Dagster Labs's platform architecture relies on Python, TypeScript, GraphQL, PostgreSQL. Key engineering observations center on out-of-process asset computation serialization overhead and GraphQL metadata event bus backpressure. heavy event metadata serialization delays pipeline execution status reporting.",
+    executiveSummary: "Dagster Labs's platform architecture relies on Python, TypeScript, GraphQL, PostgreSQL. High-stakes engineering analysis identifies a failure risk in out-of-process asset computation serialization overhead and GraphQL metadata event bus backpressure: heavy event metadata serialization stalls pipeline execution state updates across large DAG topologies.",
     verifiedPublicInfo: ["Tech Stack: Python, TypeScript, GraphQL, PostgreSQL", "Observation: out-of-process asset computation serialization overhead and GraphQL metadata event bus backpressure"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -7575,7 +7575,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Dagster Labs Engineering Intelligence Report",
-      description: "Architecture observation report for Dagster Labs"
+      description: "Architecture risk report for Dagster Labs"
     }
   },
 
@@ -7583,7 +7583,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'astronomer',
     name: "Astronomer",
     slug: 'astronomer',
-    tagline: "Airflow DAG file parsing overhead and Celery executor Redis queue contention acr",
+    tagline: "Scaling risk: Airflow DAG file parsing overhead and Celery executor Redis queue cont",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -7632,7 +7632,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Astronomer's platform architecture relies on Python, Airflow, Kubernetes, Helm, PostgreSQL. Key engineering observations center on Airflow DAG file parsing overhead and Celery executor Redis queue contention across large DAG sets. frequent DAG re-parsing consumes scheduler CPU, leading to execution slot starvation.",
+    executiveSummary: "Astronomer's platform architecture relies on Python, Airflow, Kubernetes, Helm, PostgreSQL. High-stakes engineering analysis identifies a failure risk in Airflow DAG file parsing overhead and Celery executor Redis queue contention across large DAG sets: continuous DAG re-parsing saturates scheduler CPU, resulting in execution slot starvation.",
     verifiedPublicInfo: ["Tech Stack: Python, Airflow, Kubernetes, Helm, PostgreSQL", "Observation: Airflow DAG file parsing overhead and Celery executor Redis queue contention across large DAG sets"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -7640,7 +7640,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Astronomer Engineering Intelligence Report",
-      description: "Architecture observation report for Astronomer"
+      description: "Architecture risk report for Astronomer"
     }
   },
 
@@ -7648,7 +7648,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'airbyte',
     name: "Airbyte",
     slug: 'airbyte',
-    tagline: "connector Java/Python CDK serialization overhead and Temporal state persistence ",
+    tagline: "Scaling risk: connector Java/Python CDK serialization overhead and Temporal state pe",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -7697,7 +7697,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Airbyte's platform architecture relies on Java, Micronaut, Temporal, React, PostgreSQL. Key engineering observations center on connector Java/Python CDK serialization overhead and Temporal state persistence during long-tail ELT syncs. high record volume serialization creates worker memory pressure during un-nested JSON syncs.",
+    executiveSummary: "Airbyte's platform architecture relies on Java, Micronaut, Temporal, React, PostgreSQL. High-stakes engineering analysis identifies a failure risk in connector Java/Python CDK serialization overhead and Temporal state persistence during long-tail ELT syncs: un-nested JSON record serialization causes out-of-memory heap panics on worker nodes.",
     verifiedPublicInfo: ["Tech Stack: Java, Micronaut, Temporal, React, PostgreSQL", "Observation: connector Java/Python CDK serialization overhead and Temporal state persistence during long-tail ELT syncs"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -7705,7 +7705,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Airbyte Engineering Intelligence Report",
-      description: "Architecture observation report for Airbyte"
+      description: "Architecture risk report for Airbyte"
     }
   },
 
@@ -7713,7 +7713,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'dbt-labs',
     name: "dbt Labs",
     slug: 'dbt-labs',
-    tagline: "data warehouse DDL execution lock escalation and semantic layer query compilatio",
+    tagline: "Scaling risk: data warehouse DDL execution lock escalation and semantic layer query ",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -7762,7 +7762,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "dbt Labs's platform architecture relies on Python, TypeScript, SQL, PostgreSQL, Snowflake. Key engineering observations center on data warehouse DDL execution lock escalation and semantic layer query compilation overhead. lock escalation on target schemas stalls concurrent analytical model runs.",
+    executiveSummary: "dbt Labs's platform architecture relies on Python, TypeScript, SQL, PostgreSQL, Snowflake. High-stakes engineering analysis identifies a failure risk in data warehouse DDL execution lock escalation and semantic layer query compilation overhead: exclusive table lock escalation during model runs blocks downstream analytical query execution.",
     verifiedPublicInfo: ["Tech Stack: Python, TypeScript, SQL, PostgreSQL, Snowflake", "Observation: data warehouse DDL execution lock escalation and semantic layer query compilation overhead"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -7770,7 +7770,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "dbt Labs Engineering Intelligence Report",
-      description: "Architecture observation report for dbt Labs"
+      description: "Architecture risk report for dbt Labs"
     }
   },
 
@@ -7778,7 +7778,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'prefect',
     name: "Prefect",
     slug: 'prefect',
-    tagline: "orchestration engine flow run state lock contention and worker heartbeat polling",
+    tagline: "Scaling risk: orchestration engine flow run state lock contention and worker heartbe",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -7827,7 +7827,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Prefect's platform architecture relies on Python, FastAPI, Vue.js, PostgreSQL, Docker. Key engineering observations center on orchestration engine flow run state lock contention and worker heartbeat polling thresholds. state lock bottlenecks during high-frequency micro-batches trigger false-positive worker timeout alerts.",
+    executiveSummary: "Prefect's platform architecture relies on Python, FastAPI, Vue.js, PostgreSQL, Docker. High-stakes engineering analysis identifies a failure risk in orchestration engine flow run state lock contention and worker heartbeat polling thresholds: state lock bottlenecks during high-frequency micro-batches trigger false-positive worker timeout alerts.",
     verifiedPublicInfo: ["Tech Stack: Python, FastAPI, Vue.js, PostgreSQL, Docker", "Observation: orchestration engine flow run state lock contention and worker heartbeat polling thresholds"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -7835,7 +7835,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Prefect Engineering Intelligence Report",
-      description: "Architecture observation report for Prefect"
+      description: "Architecture risk report for Prefect"
     }
   },
 
@@ -7843,7 +7843,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'clickhouse',
     name: "ClickHouse",
     slug: 'clickhouse',
-    tagline: "sparse index MergeTree block compression CPU saturation and Keeper metadata sync",
+    tagline: "Scaling risk: sparse index MergeTree block compression CPU saturation and Keeper met",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -7892,7 +7892,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "ClickHouse's platform architecture relies on C++, Linux, Vectorized Engine, ZooKeeper/Keeper. Key engineering observations center on sparse index MergeTree block compression CPU saturation and Keeper metadata synchronization overhead during heavy inserts. unoptimized block compression strategies saturate CPU cores during concurrent multi-part inserts.",
+    executiveSummary: "ClickHouse's platform architecture relies on C++, Linux, Vectorized Engine, ZooKeeper/Keeper. High-stakes engineering analysis identifies a failure risk in sparse index MergeTree block compression CPU saturation and Keeper metadata synchronization overhead during heavy inserts: unoptimized block compression saturates CPU cores, throttling concurrent multi-part ingestion speed.",
     verifiedPublicInfo: ["Tech Stack: C++, Linux, Vectorized Engine, ZooKeeper/Keeper", "Observation: sparse index MergeTree block compression CPU saturation and Keeper metadata synchronization overhead during heavy inserts"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -7900,7 +7900,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "ClickHouse Engineering Intelligence Report",
-      description: "Architecture observation report for ClickHouse"
+      description: "Architecture risk report for ClickHouse"
     }
   },
 
@@ -7908,7 +7908,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'grafana-labs',
     name: "Grafana Labs",
     slug: 'grafana-labs',
-    tagline: "Mimir chunk storage compaction memory pressure and Loki log stream index cardina",
+    tagline: "Scaling risk: Mimir chunk storage compaction memory pressure and Loki log stream ind",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -7957,7 +7957,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Grafana Labs's platform architecture relies on Go, TypeScript, React, Cortex, Mimir, Loki. Key engineering observations center on Mimir chunk storage compaction memory pressure and Loki log stream index cardinality explosion. high-cardinality log labels degrade query response times and increase chunk flush latency.",
+    executiveSummary: "Grafana Labs's platform architecture relies on Go, TypeScript, React, Cortex, Mimir, Loki. High-stakes engineering analysis identifies a failure risk in Mimir chunk storage compaction memory pressure and Loki log stream index cardinality explosion: high-cardinality label indexing degrades query latency and triggers chunk flush backpressure.",
     verifiedPublicInfo: ["Tech Stack: Go, TypeScript, React, Cortex, Mimir, Loki", "Observation: Mimir chunk storage compaction memory pressure and Loki log stream index cardinality explosion"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -7965,7 +7965,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Grafana Labs Engineering Intelligence Report",
-      description: "Architecture observation report for Grafana Labs"
+      description: "Architecture risk report for Grafana Labs"
     }
   },
 
@@ -7973,7 +7973,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'kong',
     name: "Kong",
     slug: 'kong',
-    tagline: "OpenResty Lua worker thread blocking and Redis rate-limiting plugin synchronizat",
+    tagline: "Scaling risk: OpenResty Lua worker thread blocking and Redis rate-limiting plugin sy",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -8022,7 +8022,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Kong's platform architecture relies on Lua, OpenResty, Nginx, C, PostgreSQL, Redis. Key engineering observations center on OpenResty Lua worker thread blocking and Redis rate-limiting plugin synchronization at the gateway tier. blocking Lua scripts in the request pipeline increase tail latency across upstream microservices.",
+    executiveSummary: "Kong's platform architecture relies on Lua, OpenResty, Nginx, C, PostgreSQL, Redis. High-stakes engineering analysis identifies a failure risk in OpenResty Lua worker thread blocking and Redis rate-limiting plugin synchronization at the gateway tier: blocking Lua scripts in the request execution pipeline introduce severe tail latency across upstream microservices.",
     verifiedPublicInfo: ["Tech Stack: Lua, OpenResty, Nginx, C, PostgreSQL, Redis", "Observation: OpenResty Lua worker thread blocking and Redis rate-limiting plugin synchronization at the gateway tier"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -8030,7 +8030,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Kong Engineering Intelligence Report",
-      description: "Architecture observation report for Kong"
+      description: "Architecture risk report for Kong"
     }
   },
 
@@ -8038,7 +8038,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'hashicorp',
     name: "HashiCorp",
     slug: 'hashicorp',
-    tagline: "Consul Raft consensus log compaction latency and Vault storage engine lock acqui",
+    tagline: "Scaling risk: Consul Raft consensus log compaction latency and Vault storage engine ",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -8087,7 +8087,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "HashiCorp's platform architecture relies on Go, Consul, Vault, Terraform, Nomad. Key engineering observations center on Consul Raft consensus log compaction latency and Vault storage engine lock acquisition under high secret read rates. Raft log compaction delays disrupt cluster leader election stability during heavy secret operations.",
+    executiveSummary: "HashiCorp's platform architecture relies on Go, Consul, Vault, Terraform, Nomad. High-stakes engineering analysis identifies a failure risk in Consul Raft consensus log compaction latency and Vault storage engine lock acquisition under high secret read rates: Raft log compaction stalls disrupt cluster leader election stability during heavy secret operations.",
     verifiedPublicInfo: ["Tech Stack: Go, Consul, Vault, Terraform, Nomad", "Observation: Consul Raft consensus log compaction latency and Vault storage engine lock acquisition under high secret read rates"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -8095,7 +8095,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "HashiCorp Engineering Intelligence Report",
-      description: "Architecture observation report for HashiCorp"
+      description: "Architecture risk report for HashiCorp"
     }
   },
 
@@ -8103,7 +8103,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'snyk',
     name: "Snyk",
     slug: 'snyk',
-    tagline: "Vulnerability AST parsing memory overhead and real-time dependency graph travers",
+    tagline: "Scaling risk: Vulnerability AST parsing memory overhead and real-time dependency gra",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -8152,7 +8152,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Snyk's platform architecture relies on TypeScript, Go, Java, Docker, Kubernetes. Key engineering observations center on Vulnerability AST parsing memory overhead and real-time dependency graph traversal across enterprise monorepos. deep dependency graph resolution consumes high memory during concurrent CI pipeline checks.",
+    executiveSummary: "Snyk's platform architecture relies on TypeScript, Go, Java, Docker, Kubernetes. High-stakes engineering analysis identifies a failure risk in Vulnerability AST parsing memory overhead and real-time dependency graph traversal across enterprise monorepos: deep dependency graph resolution exhausts container memory during concurrent CI pipeline security checks.",
     verifiedPublicInfo: ["Tech Stack: TypeScript, Go, Java, Docker, Kubernetes", "Observation: Vulnerability AST parsing memory overhead and real-time dependency graph traversal across enterprise monorepos"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -8160,7 +8160,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Snyk Engineering Intelligence Report",
-      description: "Architecture observation report for Snyk"
+      description: "Architecture risk report for Snyk"
     }
   },
 
@@ -8168,7 +8168,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'lacework',
     name: "Lacework",
     slug: 'lacework',
-    tagline: "Polygraph anomaly engine telemetry ingestion queue backpressure and Snowflake an",
+    tagline: "Scaling risk: Polygraph anomaly engine telemetry ingestion queue backpressure and Sn",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -8217,7 +8217,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Lacework's platform architecture relies on Go, Java, Snowflake, AWS, Kubernetes. Key engineering observations center on Polygraph anomaly engine telemetry ingestion queue backpressure and Snowflake analytical query cost escalation. unfiltered runtime agent telemetry spikes ingestion buffer queues during infrastructure scaling.",
+    executiveSummary: "Lacework's platform architecture relies on Go, Java, Snowflake, AWS, Kubernetes. High-stakes engineering analysis identifies a failure risk in Polygraph anomaly engine telemetry ingestion queue backpressure and Snowflake analytical query cost escalation: unfiltered runtime agent telemetry spikes ingestion buffer queues and inflates analytical compute costs.",
     verifiedPublicInfo: ["Tech Stack: Go, Java, Snowflake, AWS, Kubernetes", "Observation: Polygraph anomaly engine telemetry ingestion queue backpressure and Snowflake analytical query cost escalation"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -8225,7 +8225,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Lacework Engineering Intelligence Report",
-      description: "Architecture observation report for Lacework"
+      description: "Architecture risk report for Lacework"
     }
   },
 
@@ -8233,7 +8233,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'orca-security',
     name: "Orca Security",
     slug: 'orca-security',
-    tagline: "Side-Scanning snapshot volume mount serialization and out-of-band disk image par",
+    tagline: "Scaling risk: Side-Scanning snapshot volume mount serialization and out-of-band disk",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -8282,7 +8282,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Orca Security's platform architecture relies on Python, Go, Cloud Side-Scanning, AWS, Azure. Key engineering observations center on Side-Scanning snapshot volume mount serialization and out-of-band disk image parsing throughput. concurrent cloud snapshot parsing delays vulnerability detection SLA reporting.",
+    executiveSummary: "Orca Security's platform architecture relies on Python, Go, Cloud Side-Scanning, AWS, Azure. High-stakes engineering analysis identifies a failure risk in Side-Scanning snapshot volume mount serialization and out-of-band disk image parsing throughput: concurrent cloud snapshot volume mounts stall processing pipelines, delaying vulnerability SLA compliance.",
     verifiedPublicInfo: ["Tech Stack: Python, Go, Cloud Side-Scanning, AWS, Azure", "Observation: Side-Scanning snapshot volume mount serialization and out-of-band disk image parsing throughput"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -8290,7 +8290,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Orca Security Engineering Intelligence Report",
-      description: "Architecture observation report for Orca Security"
+      description: "Architecture risk report for Orca Security"
     }
   },
 
@@ -8298,7 +8298,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'tailscale',
     name: "Tailscale",
     slug: 'tailscale',
-    tagline: "DERP relay server connection state memory allocation and NAT traversal state syn",
+    tagline: "Scaling risk: DERP relay server connection state memory allocation and NAT traversal",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -8347,7 +8347,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Tailscale's platform architecture relies on Go, WireGuard, DERP Relay, TSNET. Key engineering observations center on DERP relay server connection state memory allocation and NAT traversal state sync latency under mobile roaming. frequent peer route re-keying increases control plane state sync overhead.",
+    executiveSummary: "Tailscale's platform architecture relies on Go, WireGuard, DERP Relay, TSNET. High-stakes engineering analysis identifies a failure risk in DERP relay server connection state memory allocation and NAT traversal state sync latency under mobile roaming: frequent peer route re-keying increases control plane memory consumption and disrupts connection handshakes.",
     verifiedPublicInfo: ["Tech Stack: Go, WireGuard, DERP Relay, TSNET", "Observation: DERP relay server connection state memory allocation and NAT traversal state sync latency under mobile roaming"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -8355,7 +8355,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Tailscale Engineering Intelligence Report",
-      description: "Architecture observation report for Tailscale"
+      description: "Architecture risk report for Tailscale"
     }
   },
 
@@ -8363,7 +8363,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'coder',
     name: "Coder",
     slug: 'coder',
-    tagline: "Workspace provisioning agent WebSocket connection heartbeat timeouts and SSH pro",
+    tagline: "Scaling risk: Workspace provisioning agent WebSocket connection heartbeat timeouts a",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -8412,7 +8412,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Coder's platform architecture relies on Go, TypeScript, Terraform, Docker, Kubernetes. Key engineering observations center on Workspace provisioning agent WebSocket connection heartbeat timeouts and SSH proxy multiplexing overhead. multiplexed SSH connection drops disrupt remote IDE session persistence.",
+    executiveSummary: "Coder's platform architecture relies on Go, TypeScript, Terraform, Docker, Kubernetes. High-stakes engineering analysis identifies a failure risk in Workspace provisioning agent WebSocket connection heartbeat timeouts and SSH proxy multiplexing overhead: multiplexed SSH connection drops forcefully terminate remote IDE sessions.",
     verifiedPublicInfo: ["Tech Stack: Go, TypeScript, Terraform, Docker, Kubernetes", "Observation: Workspace provisioning agent WebSocket connection heartbeat timeouts and SSH proxy multiplexing overhead"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -8420,7 +8420,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Coder Engineering Intelligence Report",
-      description: "Architecture observation report for Coder"
+      description: "Architecture risk report for Coder"
     }
   },
 
@@ -8428,7 +8428,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'teleport',
     name: "Teleport",
     slug: 'teleport',
-    tagline: "Audit session recording stream disk I/O serialization and certificate authority ",
+    tagline: "Scaling risk: Audit session recording stream disk I/O serialization and certificate ",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -8477,7 +8477,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Teleport's platform architecture relies on Go, Rust, WebAuthn, SSH, Kubernetes. Key engineering observations center on Audit session recording stream disk I/O serialization and certificate authority key rotation overhead. unbuffered session log disk writes create I/O bottlenecks during concurrent admin SSH sessions.",
+    executiveSummary: "Teleport's platform architecture relies on Go, Rust, WebAuthn, SSH, Kubernetes. High-stakes engineering analysis identifies a failure risk in Audit session recording stream disk I/O serialization and certificate authority key rotation overhead: unbuffered audit log disk writes create I/O bottlenecks during concurrent admin SSH sessions.",
     verifiedPublicInfo: ["Tech Stack: Go, Rust, WebAuthn, SSH, Kubernetes", "Observation: Audit session recording stream disk I/O serialization and certificate authority key rotation overhead"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -8485,7 +8485,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Teleport Engineering Intelligence Report",
-      description: "Architecture observation report for Teleport"
+      description: "Architecture risk report for Teleport"
     }
   },
 
@@ -8493,7 +8493,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'oso',
     name: "Oso",
     slug: 'oso',
-    tagline: "Polar policy engine query evaluation latency and application database authorizat",
+    tagline: "Scaling risk: Polar policy engine query evaluation latency and application database ",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -8542,7 +8542,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Oso's platform architecture relies on Rust, Polar Engine, Python, Go, Node.js. Key engineering observations center on Polar policy engine query evaluation latency and application database authorization filter rewriting. complex RBAC/ReBAC policy evaluations spike latency when dynamically rewritten into SQL queries.",
+    executiveSummary: "Oso's platform architecture relies on Rust, Polar Engine, Python, Go, Node.js. High-stakes engineering analysis identifies a failure risk in Polar policy engine query evaluation latency and application database authorization filter rewriting: complex RBAC/ReBAC policy evaluations spike tail latency when dynamically rewritten into SQL queries.",
     verifiedPublicInfo: ["Tech Stack: Rust, Polar Engine, Python, Go, Node.js", "Observation: Polar policy engine query evaluation latency and application database authorization filter rewriting"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -8550,7 +8550,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Oso Engineering Intelligence Report",
-      description: "Architecture observation report for Oso"
+      description: "Architecture risk report for Oso"
     }
   },
 
@@ -8558,7 +8558,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'langchain',
     name: "LangChain",
     slug: 'langchain',
-    tagline: "Chain execution state serialization overhead and asynchronous callback handler e",
+    tagline: "Scaling risk: Chain execution state serialization overhead and asynchronous callback",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -8607,7 +8607,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "LangChain's platform architecture relies on Python, TypeScript, FastAPI, Pydantic. Key engineering observations center on Chain execution state serialization overhead and asynchronous callback handler event loop lag. nested chain state serialization delays streaming response token generation.",
+    executiveSummary: "LangChain's platform architecture relies on Python, TypeScript, FastAPI, Pydantic. High-stakes engineering analysis identifies a failure risk in Chain execution state serialization overhead and asynchronous callback handler event loop lag: nested chain state serialization blocks the event loop, stalling streaming token generation.",
     verifiedPublicInfo: ["Tech Stack: Python, TypeScript, FastAPI, Pydantic", "Observation: Chain execution state serialization overhead and asynchronous callback handler event loop lag"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -8615,7 +8615,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "LangChain Engineering Intelligence Report",
-      description: "Architecture observation report for LangChain"
+      description: "Architecture risk report for LangChain"
     }
   },
 
@@ -8623,7 +8623,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'langfuse',
     name: "Langfuse",
     slug: 'langfuse',
-    tagline: "LLM observability trace ingestion queue backpressure and ClickHouse log aggregat",
+    tagline: "Scaling risk: LLM observability trace ingestion queue backpressure and ClickHouse lo",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -8672,7 +8672,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Langfuse's platform architecture relies on TypeScript, Next.js, PostgreSQL, ClickHouse. Key engineering observations center on LLM observability trace ingestion queue backpressure and ClickHouse log aggregation batch flushes. high-frequency span ingestion buffers stall API Gateway throughput under heavy LLM production traffic.",
+    executiveSummary: "Langfuse's platform architecture relies on TypeScript, Next.js, PostgreSQL, ClickHouse. High-stakes engineering analysis identifies a failure risk in LLM observability trace ingestion queue backpressure and ClickHouse log aggregation batch flushes: high-frequency span ingestion buffers stall API Gateway throughput under heavy LLM production traffic.",
     verifiedPublicInfo: ["Tech Stack: TypeScript, Next.js, PostgreSQL, ClickHouse", "Observation: LLM observability trace ingestion queue backpressure and ClickHouse log aggregation batch flushes"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -8680,7 +8680,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Langfuse Engineering Intelligence Report",
-      description: "Architecture observation report for Langfuse"
+      description: "Architecture risk report for Langfuse"
     }
   },
 
@@ -8688,7 +8688,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'pinecone',
     name: "Pinecone",
     slug: 'pinecone',
-    tagline: "HNSW vector graph index update serialization and real-time namespace filtering m",
+    tagline: "Scaling risk: HNSW vector graph index update serialization and real-time namespace f",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -8737,7 +8737,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Pinecone's platform architecture relies on C++, Rust, Go, Vector Index, Kubernetes. Key engineering observations center on HNSW vector graph index update serialization and real-time namespace filtering memory footprint. concurrent vector insertion and graph re-indexing escalate tail search latency.",
+    executiveSummary: "Pinecone's platform architecture relies on C++, Rust, Go, Vector Index, Kubernetes. High-stakes engineering analysis identifies a failure risk in HNSW vector graph index update serialization and real-time namespace filtering memory footprint: concurrent vector insertions and index re-building trigger severe p99 search latency spikes.",
     verifiedPublicInfo: ["Tech Stack: C++, Rust, Go, Vector Index, Kubernetes", "Observation: HNSW vector graph index update serialization and real-time namespace filtering memory footprint"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -8745,7 +8745,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Pinecone Engineering Intelligence Report",
-      description: "Architecture observation report for Pinecone"
+      description: "Architecture risk report for Pinecone"
     }
   },
 
@@ -8753,7 +8753,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'weaviate',
     name: "Weaviate",
     slug: 'weaviate',
-    tagline: "Vector HNSW index memory compaction pauses and GraphQL object payload serializat",
+    tagline: "Scaling risk: Vector HNSW index memory compaction pauses and GraphQL object payload ",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -8802,7 +8802,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Weaviate's platform architecture relies on Go, C++, HNSW, GraphQL, gRPC. Key engineering observations center on Vector HNSW index memory compaction pauses and GraphQL object payload serialization overhead. memory compaction during batch imports introduces search query stutter.",
+    executiveSummary: "Weaviate's platform architecture relies on Go, C++, HNSW, GraphQL, gRPC. High-stakes engineering analysis identifies a failure risk in Vector HNSW index memory compaction pauses and GraphQL object payload serialization overhead: memory compaction during heavy imports introduces search query stuttering.",
     verifiedPublicInfo: ["Tech Stack: Go, C++, HNSW, GraphQL, gRPC", "Observation: Vector HNSW index memory compaction pauses and GraphQL object payload serialization overhead"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -8810,7 +8810,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Weaviate Engineering Intelligence Report",
-      description: "Architecture observation report for Weaviate"
+      description: "Architecture risk report for Weaviate"
     }
   },
 
@@ -8818,7 +8818,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'unstructured',
     name: "Unstructured",
     slug: 'unstructured',
-    tagline: "Document partitioning OCR pipeline processing latency and PDF element extraction",
+    tagline: "Scaling risk: Document partitioning OCR pipeline processing latency and PDF element ",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -8867,7 +8867,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Unstructured's platform architecture relies on Python, FastAPI, OCR Engine, PyTorch. Key engineering observations center on Document partitioning OCR pipeline processing latency and PDF element extraction worker queue lag. heavy OCR model inference stalls document ingestion throughput for complex table layouts.",
+    executiveSummary: "Unstructured's platform architecture relies on Python, FastAPI, OCR Engine, PyTorch. High-stakes engineering analysis identifies a failure risk in Document partitioning OCR pipeline processing latency and PDF element extraction worker queue lag: heavy OCR model inference stalls document ingestion throughput for complex PDF layouts.",
     verifiedPublicInfo: ["Tech Stack: Python, FastAPI, OCR Engine, PyTorch", "Observation: Document partitioning OCR pipeline processing latency and PDF element extraction worker queue lag"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -8875,7 +8875,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Unstructured Engineering Intelligence Report",
-      description: "Architecture observation report for Unstructured"
+      description: "Architecture risk report for Unstructured"
     }
   },
 
@@ -8883,7 +8883,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'vellum',
     name: "Vellum",
     slug: 'vellum',
-    tagline: "Prompt workflow execution DAG resolution latency and multi-model provider failov",
+    tagline: "Scaling risk: Prompt workflow execution DAG resolution latency and multi-model provi",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -8932,7 +8932,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Vellum's platform architecture relies on Python, TypeScript, React, PostgreSQL. Key engineering observations center on Prompt workflow execution DAG resolution latency and multi-model provider failover routing delays. provider rate-limit retry logic introduces latency cascading in multi-step prompt chains.",
+    executiveSummary: "Vellum's platform architecture relies on Python, TypeScript, React, PostgreSQL. High-stakes engineering analysis identifies a failure risk in Prompt workflow execution DAG resolution latency and multi-model provider failover routing delays: provider rate-limit retry loops introduce cascading latency spikes across multi-step prompt chains.",
     verifiedPublicInfo: ["Tech Stack: Python, TypeScript, React, PostgreSQL", "Observation: Prompt workflow execution DAG resolution latency and multi-model provider failover routing delays"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -8940,7 +8940,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Vellum Engineering Intelligence Report",
-      description: "Architecture observation report for Vellum"
+      description: "Architecture risk report for Vellum"
     }
   },
 
@@ -8948,7 +8948,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'crewai',
     name: "CrewAI",
     slug: 'crewai',
-    tagline: "Multi-agent sequential task execution state context inflation and inter-agent co",
+    tagline: "Scaling risk: Multi-agent sequential task execution state context inflation and inte",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -8997,7 +8997,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "CrewAI's platform architecture relies on Python, Pydantic, LLMs, LangChain. Key engineering observations center on Multi-agent sequential task execution state context inflation and inter-agent communication overhead. accumulated context window tokens spike latency and increase API token consumption.",
+    executiveSummary: "CrewAI's platform architecture relies on Python, Pydantic, LLMs, LangChain. High-stakes engineering analysis identifies a failure risk in Multi-agent sequential task execution state context inflation and inter-agent communication overhead: accumulated context window tokens spike execution latency and rapidly inflate token costs.",
     verifiedPublicInfo: ["Tech Stack: Python, Pydantic, LLMs, LangChain", "Observation: Multi-agent sequential task execution state context inflation and inter-agent communication overhead"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -9005,7 +9005,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "CrewAI Engineering Intelligence Report",
-      description: "Architecture observation report for CrewAI"
+      description: "Architecture risk report for CrewAI"
     }
   },
 
@@ -9013,7 +9013,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'llamaindex',
     name: "LlamaIndex",
     slug: 'llamaindex',
-    tagline: "Document chunking tree index construction memory pressure and RAG node retriever",
+    tagline: "Scaling risk: Document chunking tree index construction memory pressure and RAG node",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -9062,7 +9062,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "LlamaIndex's platform architecture relies on Python, TypeScript, Vector DBs, PyTorch. Key engineering observations center on Document chunking tree index construction memory pressure and RAG node retriever ranking overhead. hierarchical index construction consumes significant memory during large document ingestion runs.",
+    executiveSummary: "LlamaIndex's platform architecture relies on Python, TypeScript, Vector DBs, PyTorch. High-stakes engineering analysis identifies a failure risk in Document chunking tree index construction memory pressure and RAG node retriever ranking overhead: hierarchical index construction exhausts worker memory during large-scale document ingestion runs.",
     verifiedPublicInfo: ["Tech Stack: Python, TypeScript, Vector DBs, PyTorch", "Observation: Document chunking tree index construction memory pressure and RAG node retriever ranking overhead"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -9070,7 +9070,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "LlamaIndex Engineering Intelligence Report",
-      description: "Architecture observation report for LlamaIndex"
+      description: "Architecture risk report for LlamaIndex"
     }
   },
 
@@ -9078,7 +9078,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'together-ai',
     name: "Together AI",
     slug: 'together-ai',
-    tagline: "FlashAttention kernel memory allocation and GPU cluster inter-node communication",
+    tagline: "Scaling risk: FlashAttention kernel memory allocation and GPU cluster inter-node com",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -9127,7 +9127,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Together AI's platform architecture relies on Python, C++, CUDA, FlashAttention, Ray. Key engineering observations center on FlashAttention kernel memory allocation and GPU cluster inter-node communication bandwidth bottlenecks. inter-node tensor parallelism communication latency reduces GPU compute utilization during training.",
+    executiveSummary: "Together AI's platform architecture relies on Python, C++, CUDA, FlashAttention, Ray. High-stakes engineering analysis identifies a failure risk in FlashAttention kernel memory allocation and GPU cluster inter-node communication bandwidth bottlenecks: inter-node tensor parallelism communication delays reduce GPU compute utilization during training.",
     verifiedPublicInfo: ["Tech Stack: Python, C++, CUDA, FlashAttention, Ray", "Observation: FlashAttention kernel memory allocation and GPU cluster inter-node communication bandwidth bottlenecks"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -9135,7 +9135,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Together AI Engineering Intelligence Report",
-      description: "Architecture observation report for Together AI"
+      description: "Architecture risk report for Together AI"
     }
   },
 
@@ -9143,7 +9143,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     id: 'anyscale',
     name: "Anyscale",
     slug: 'anyscale',
-    tagline: "Ray actor state object store memory spill latency and multi-node worker task sch",
+    tagline: "Scaling risk: Ray actor state object store memory spill latency and multi-node worke",
     logo: '⚡',
     industry: 'DevTools',
     funding: 'Series B',
@@ -9192,7 +9192,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
       overallScore: 92
     },
     timeline: [],
-    executiveSummary: "Anyscale's platform architecture relies on Python, C++, Ray Core, Kubernetes, AWS. Key engineering observations center on Ray actor state object store memory spill latency and multi-node worker task scheduling overhead. Object store memory spilling to disk degrades distributed task execution speed.",
+    executiveSummary: "Anyscale's platform architecture relies on Python, C++, Ray Core, Kubernetes, AWS. High-stakes engineering analysis identifies a failure risk in Ray actor state object store memory spill latency and multi-node worker task scheduling overhead: Object store memory spilling to disk degrades distributed task execution speed.",
     verifiedPublicInfo: ["Tech Stack: Python, C++, Ray Core, Kubernetes, AWS", "Observation: Ray actor state object store memory spill latency and multi-node worker task scheduling overhead"],
     engineeringObservations: [],
     engineeringHypotheses: [],
@@ -9200,7 +9200,7 @@ export const COMPANIES_DATA: CompanyIntelligence[] = [
     sources: ['Public Engineering Blogs', 'GitHub Architecture Repositories', 'Executive Interviews'],
     meta: {
       title: "Anyscale Engineering Intelligence Report",
-      description: "Architecture observation report for Anyscale"
+      description: "Architecture risk report for Anyscale"
     }
   }
 ];

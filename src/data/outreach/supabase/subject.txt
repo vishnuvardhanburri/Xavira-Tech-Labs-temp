@@ -1,1 +1,1 @@
-Architecture observation regarding Supabase
+Architectural vulnerability in Supabase's backend engine

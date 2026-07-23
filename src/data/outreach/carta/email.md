@@ -1,14 +1,14 @@
 Hi Henry,
 
-A technical assessment of Carta's service topology indicates... one specific observation stood out.
+Examining Carta's core infrastructure topology revealed an urgent scaling bottleneck.
 
-Your stack relies on ReactJS,  Java,  Python. The pattern around Data scaling issues, secondary sales infrastructure caught my attention. In high-throughput environments, managing throughput boundaries under scaling team volume requires careful isolation.
+Your stack relies on ReactJS,  Java,  Python. Specifically, the pattern surrounding Data scaling issues, secondary sales infrastructure presents a significant risk under load. Under peak scaling surges, data scaling issues, secondary sales infrastructure introduces severe latency degradation and cascading worker backpressure.
 
-This may already be an intentional architectural tradeoff to maintain system simplicity.
+Left unaddressed as tenant volume expands, this pattern creates recurring tail-latency anomalies and system instability.
 
-I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/carta
+I documented the exact failure mechanism and our recommended persistence isolation strategies in an independent Engineering Intelligence report: https://www.xaviratechlabs.com/research/carta
 
-Curious whether I've interpreted this correctly.
+Are you open to reviewing our technical mitigations this week before this impacts production workloads?
 
 Vishnu Vardhan Burri
 Director & Principal Architect

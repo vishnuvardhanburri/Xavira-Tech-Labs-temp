@@ -1,1 +1,1 @@
-Architecture observation regarding Funding Circle
+Architectural vulnerability in Funding Circle's backend engine

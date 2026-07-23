@@ -1,1 +1,1 @@
-Something worth validating at Nutmeg
+Nutmeg's infrastructure risk & throughput degradation

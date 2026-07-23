@@ -1,1 +1,1 @@
-Question on LlamaIndex's platform scaling
+Critical scaling bottleneck in LlamaIndex's platform infrastructure

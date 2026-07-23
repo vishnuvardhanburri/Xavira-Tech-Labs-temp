@@ -1,14 +1,14 @@
 Hi Clemens,
 
-While reviewing Langfuse's public system footprint... one specific observation stood out.
+While analyzing Langfuse's backend service boundaries, a critical failure mode stood out.
 
-Your stack relies on TypeScript,  Next.js,  PostgreSQL. The pattern around LLM observability trace ingestion queue backpressure and ClickHouse log aggregation batch flushes caught my attention. In high-throughput environments, high-frequency span ingestion buffers stall API Gateway throughput under heavy LLM production traffic.
+Your stack relies on TypeScript,  Next.js,  PostgreSQL. Specifically, the pattern surrounding LLM observability trace ingestion queue backpressure and ClickHouse log aggregation batch flushes presents a significant risk under load. High-frequency span ingestion buffers stall API Gateway throughput under heavy LLM production traffic.
 
-If your platform team has already factored this into your topology, feel free to disregard.
+If unmitigated during peak traffic spikes, this issue directly causes service degradation and SLA breaches.
 
-I documented the reasoning and potential scaling mitigations in an independent report here: https://www.xaviratechlabs.com/research/langfuse
+I documented the exact failure mechanism and our recommended persistence isolation strategies in an independent Engineering Intelligence report: https://www.xaviratechlabs.com/research/langfuse
 
-I'd appreciate your perspective when time permits.
+Let me know if you're available for a brief technical discussion to review our architectural solutions.
 
 Vishnu Vardhan Burri
 Director & Principal Architect
